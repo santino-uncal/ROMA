@@ -227,6 +227,7 @@
     gap: 4px;
     flex-shrink: 0;
   }
+  .portrait-mini-group.hidden{ display:none; }
   .portrait-mini-group .portrait-circle{
     width: 48px;
     height: 48px;
