@@ -35,3 +35,9 @@ git log --oneline        # ver la historia
 git add -A && git commit -m "descripción del cambio"
 git restore .            # descartar cambios no guardados
 ```
+
+## Fases
+
+Cada sesión de trabajo se cierra con un archivo `fases/fase_N.md` que resume qué se hizo,
+en qué estado quedó y qué queda pendiente. Para saber en qué fase vamos, mirá el último
+archivo de `fases/`.
