@@ -233,6 +233,11 @@
     height: 48px;
     font-size: 15px;
   }
+  .portrait-mini-group .portrait-circle .portrait-abbr{
+    font-size: 13px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+  }
   .portrait-mini-caption{
     font-size: 13px;
     font-family: 'Cinzel', Georgia, serif;

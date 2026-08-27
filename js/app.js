@@ -106,6 +106,31 @@
     for(let i=0;i<str.length;i++){ h = str.charCodeAt(i) + ((h<<5)-h); }
     return AVATAR_COLORS[Math.abs(h) % AVATAR_COLORS.length];
   }
+  function fillMiniGroup(group, img, caption, data){
+    if(!data){ group.classList.add('hidden'); return; }
+    group.classList.remove('hidden');
+    caption.textContent = data.label || '';
+    const circle = img.parentElement;
+    let abbr = circle.querySelector('.portrait-abbr');
+    if(data.imagen){
+      circle.style.background = '';
+      if(abbr) abbr.remove();
+      img.style.display = '';
+      img.src = data.imagen;
+      img.style.opacity = 1;
+    } else {
+      img.style.display = 'none';
+      img.removeAttribute('src');
+      circle.style.background = hashColor(data.label || '?');
+      if(!abbr){
+        abbr = document.createElement('span');
+        abbr.className = 'portrait-abbr';
+        circle.appendChild(abbr);
+      }
+      abbr.textContent = data.abbr || getInitials(data.label);
+    }
+  }
+
   function renderPortrait(era, item){
     const box = document.getElementById('cardPortrait');
     const titleEl = document.getElementById('cardTitulo');
@@ -116,28 +141,10 @@
       box.classList.add('hidden');
       titleEl.textContent = getTitle(era, item);
 
-      const left = item.imagenes[0];
-      const right = item.imagenes[1];
-
-      if(left){
-        leftGroup.classList.remove('hidden');
-        const limg = document.getElementById('cardPortraitLeftImg');
-        limg.src = left.imagen;
-        limg.style.opacity = 1;
-        document.getElementById('cardPortraitLeftCaption').textContent = left.label;
-      } else {
-        leftGroup.classList.add('hidden');
-      }
-
-      if(right){
-        rightGroup.classList.remove('hidden');
-        const rimg = document.getElementById('cardPortraitRightImg');
-        rimg.src = right.imagen;
-        rimg.style.opacity = 1;
-        document.getElementById('cardPortraitRightCaption').textContent = right.label;
-      } else {
-        rightGroup.classList.add('hidden');
-      }
+      fillMiniGroup(leftGroup, document.getElementById('cardPortraitLeftImg'),
+        document.getElementById('cardPortraitLeftCaption'), item.imagenes[0]);
+      fillMiniGroup(rightGroup, document.getElementById('cardPortraitRightImg'),
+        document.getElementById('cardPortraitRightCaption'), item.imagenes[1]);
       return;
     }
 
