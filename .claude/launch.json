@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "roma",
+      "runtimeExecutable": "C:\\Users\\munca\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+      "runtimeArgs": ["-m", "http.server", "8777"],
+      "port": 8777
+    }
+  ]
+}

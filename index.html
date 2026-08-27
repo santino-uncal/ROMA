@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SPQR â€” Historia de Roma</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="subtitle">Línea de tiempo interactiva — de Rómulo a la caída de Constantinopla</p>
+    <p class="eyebrow">Ab urbe condita</p>
+    <div class="title-row">
+      <button class="top-btn spqr" id="spqrBtn">
+        <img src="assets/img/spqr-aguila.png" alt="Águila de Júpiter, símbolo de Roma">
+        <span class="top-btn-label">SPQR</span>
+      </button>
+      <span class="title-divider"></span>
+      <button class="top-btn occ" data-era="occidente">
+        <img src="assets/img/estandarte-occidente.jpg" alt="Estandarte del Imperio Romano de Occidente">
+        <span class="top-btn-label">Imperio de Occidente</span>
+      </button>
+      <span class="title-divider"></span>
+      <button class="top-btn byz" data-era="bizantino">
+        <img src="assets/img/aguila-bicefala.png" alt="Águila bicéfala, símbolo del Imperio Bizantino">
+        <span class="top-btn-label">Imperio Bizantino</span>
+      </button>
+    </div>
+  </header>
+
+  <details class="conflicts-box" id="conflictsBox">
+    <summary>⚔ Conflictos bélicos de Roma (753 a.C. – 395 d.C.)</summary>
+    <div class="conflicts-inner">
+      <h4>Monarquía (753–509 a.C.)</h4>
+      <table class="conflicts-table">
+        <tr><th>Conflicto</th><th>Inicio</th><th>Fin</th><th>Ganancia territorial</th></tr>
+        <tr><td>Guerra contra los sabinos (rapto de las sabinas)</td><td class="years">750 a.C.</td><td class="years">750 a.C.</td><td>Fusión de comunidades; sin anexión formal</td></tr>
+        <tr><td>Guerra contra Alba Longa (Horacios y Curiacios)</td><td class="years">673 a.C.</td><td class="years">673 a.C.</td><td>Destrucción de Alba Longa; su población trasladada a Roma</td></tr>
+        <tr><td>Guerras contra los pueblos latinos (Anco Marcio)</td><td class="years">642 a.C.</td><td class="years">617 a.C.</td><td>Territorio hasta la desembocadura del Tíber; fundación de Ostia</td></tr>
+        <tr><td>Guerras contra etruscos y sabinos (últimos reyes)</td><td class="years">616 a.C.</td><td class="years">509 a.C.</td><td>Consolidación del Lacio bajo dominio romano</td></tr>
+      </table>
+
+      <h4>República (509–27 a.C.)</h4>
+      <table class="conflicts-table">
+        <tr><th>Conflicto</th><th>Inicio</th><th>Fin</th><th>Ganancia territorial</th></tr>
+        <tr><td>Guerra contra Clusium (Lars Porsena)</td><td class="years">508 a.C.</td><td class="years">507 a.C.</td><td>Ninguna; Roma mantiene su independencia</td></tr>
+        <tr><td>Guerra Latina (primera) — batalla del Lago Regilo</td><td class="years">499 a.C.</td><td class="years">493 a.C.</td><td>Foedus Cassianum: alianza con la Liga Latina</td></tr>
+        <tr><td>Guerra contra Veyes (primera fase)</td><td class="years">483 a.C.</td><td class="years">474 a.C.</td><td>Tregua sin cambios territoriales</td></tr>
+        <tr><td>Guerra contra Veyes (conquista final)</td><td class="years">406 a.C.</td><td class="years">396 a.C.</td><td>Anexión de Veyes y su territorio en Etruria meridional</td></tr>
+        <tr><td>Invasión gala (saqueo de Roma)</td><td class="years">390 a.C.</td><td class="years">390 a.C.</td><td>Pérdida temporal de la ciudad; sin cambio territorial neto</td></tr>
+        <tr><td>Primera Guerra Samnita</td><td class="years">343 a.C.</td><td class="years">341 a.C.</td><td>Alianza con Capua; influencia en Campania</td></tr>
+        <tr><td>Guerra Latina (segunda, disolución de la Liga)</td><td class="years">340 a.C.</td><td class="years">338 a.C.</td><td>Anexión directa del Lacio; fin de la Liga Latina</td></tr>
+        <tr><td>Segunda Guerra Samnita</td><td class="years">327 a.C.</td><td class="years">304 a.C.</td><td>Dominio sobre Samnio y el centro de Italia</td></tr>
+        <tr><td>Tercera Guerra Samnita</td><td class="years">298 a.C.</td><td class="years">290 a.C.</td><td>Sometimiento definitivo de samnitas, etruscos, umbros y galos senones</td></tr>
+        <tr><td>Guerra Pírrica</td><td class="years">280 a.C.</td><td class="years">275 a.C.</td><td>Conquista de la Magna Grecia (sur de Italia, incluida Tarento)</td></tr>
+        <tr><td>Primera Guerra Púnica</td><td class="years">264 a.C.</td><td class="years">241 a.C.</td><td>Sicilia (primera provincia); luego Cerdeña y Córcega (238 a.C.)</td></tr>
+        <tr><td>Primera Guerra Ilírica</td><td class="years">229 a.C.</td><td class="years">228 a.C.</td><td>Protectorado sobre la costa dálmata</td></tr>
+        <tr><td>Guerra de los galos cisalpinos</td><td class="years">225 a.C.</td><td class="years">222 a.C.</td><td>Conquista de la Galia Cisalpina (norte de Italia)</td></tr>
+        <tr><td>Segunda Guerra Púnica</td><td class="years">218 a.C.</td><td class="years">201 a.C.</td><td>Hispania (arrebatada a Cartago); Cartago pierde su flota y su imperio</td></tr>
+        <tr><td>Segunda Guerra Macedónica</td><td class="years">200 a.C.</td><td class="years">197 a.C.</td><td>"Libertad" de Grecia bajo tutela romana; sin anexión directa aún</td></tr>
+        <tr><td>Guerra Siríaca (contra Antíoco III)</td><td class="years">192 a.C.</td><td class="years">188 a.C.</td><td>Paz de Apamea: Antíoco cede Asia Menor (repartida entre Roma, Pérgamo y Rodas)</td></tr>
+        <tr><td>Tercera Guerra Macedónica</td><td class="years">171 a.C.</td><td class="years">168 a.C.</td><td>Fin del reino de Macedonia (dividido en cuatro repúblicas clientes)</td></tr>
+        <tr><td>Guerras celtibéricas y lusitanas (Viriato, Numancia)</td><td class="years">154 a.C.</td><td class="years">133 a.C.</td><td>Conquista efectiva de gran parte de Hispania</td></tr>
+        <tr><td>Cuarta Guerra Macedónica</td><td class="years">150 a.C.</td><td class="years">148 a.C.</td><td>Macedonia anexada como provincia romana</td></tr>
+        <tr><td>Tercera Guerra Púnica</td><td class="years">149 a.C.</td><td class="years">146 a.C.</td><td>Destrucción de Cartago; provincia de África</td></tr>
+        <tr><td>Guerra Aquea (destrucción de Corinto)</td><td class="years">146 a.C.</td><td class="years">146 a.C.</td><td>Provincia de Acaya (Grecia)</td></tr>
+        <tr><td>Guerra de Numancia</td><td class="years">143 a.C.</td><td class="years">133 a.C.</td><td>Consolidación del dominio sobre la Meseta hispana</td></tr>
+        <tr><td>Guerra de Aristónico (Pérgamo)</td><td class="years">133 a.C.</td><td class="years">129 a.C.</td><td>Provincia de Asia (antiguo reino de Pérgamo)</td></tr>
+        <tr><td>Guerra de Yugurta</td><td class="years">112 a.C.</td><td class="years">105 a.C.</td><td>Numidia dividida; influencia romana reforzada en el norte de África</td></tr>
+        <tr><td>Guerra de los Cimbrios y Teutones</td><td class="years">113 a.C.</td><td class="years">101 a.C.</td><td>Ninguna anexión directa; defensa de Italia y la Galia Narbonense</td></tr>
+        <tr><td>Guerra Social (itálica)</td><td class="years">91 a.C.</td><td class="years">88 a.C.</td><td>Sin ganancia territorial; ciudadanía romana extendida a los itálicos</td></tr>
+        <tr><td>Primera Guerra Mitridática</td><td class="years">89 a.C.</td><td class="years">85 a.C.</td><td>Recuperación de Asia Menor y Grecia</td></tr>
+        <tr><td>Guerra contra Sertorio (Hispania)</td><td class="years">80 a.C.</td><td class="years">72 a.C.</td><td>Consolidación del control sobre Hispania</td></tr>
+        <tr><td>Tercera Guerra Servil (Espartaco)</td><td class="years">73 a.C.</td><td class="years">71 a.C.</td><td>Ninguna; revuelta de esclavos sofocada en Italia</td></tr>
+        <tr><td>Guerra contra los piratas (Pompeyo)</td><td class="years">67 a.C.</td><td class="years">67 a.C.</td><td>Control romano del Mediterráneo</td></tr>
+        <tr><td>Tercera Guerra Mitridática</td><td class="years">73 a.C.</td><td class="years">63 a.C.</td><td>Ponto y Bitinia anexados; Siria convertida en provincia (fin del reino seléucida)</td></tr>
+        <tr><td>Guerra de las Galias (César)</td><td class="years">58 a.C.</td><td class="years">50 a.C.</td><td>Toda la Galia (Francia, Bélgica actuales) anexada al Imperio</td></tr>
+        <tr><td>Guerra Civil de César contra Pompeyo</td><td class="years">49 a.C.</td><td class="years">45 a.C.</td><td>Ninguna; guerra interna por el poder</td></tr>
+        <tr><td>Guerra de Alejandría</td><td class="years">48 a.C.</td><td class="years">47 a.C.</td><td>Egipto como reino cliente bajo Cleopatra</td></tr>
+        <tr><td>Guerra Civil (Segundo Triunvirato vs. cesaricidas)</td><td class="years">44 a.C.</td><td class="years">42 a.C.</td><td>Ninguna; guerra interna (batalla de Filipos)</td></tr>
+        <tr><td>Guerra de Perusia</td><td class="years">41 a.C.</td><td class="years">40 a.C.</td><td>Ninguna; conflicto interno entre triunviros</td></tr>
+        <tr><td>Guerra contra Sexto Pompeyo</td><td class="years">42 a.C.</td><td class="years">36 a.C.</td><td>Sicilia recuperada por Octavio</td></tr>
+        <tr><td>Guerra final (Octavio vs. Marco Antonio y Cleopatra)</td><td class="years">32 a.C.</td><td class="years">30 a.C.</td><td>Egipto anexado como provincia; fin de la República</td></tr>
+      </table>
+
+      <h4>Imperio (27 a.C. – 395 d.C.)</h4>
+      <table class="conflicts-table">
+        <tr><th>Conflicto</th><th>Inicio</th><th>Fin</th><th>Ganancia territorial</th></tr>
+        <tr><td>Guerras cántabras (Hispania)</td><td class="years">29 a.C.</td><td class="years">19 a.C.</td><td>Pacificación total de Hispania</td></tr>
+        <tr><td>Conquista de los Alpes y Recia</td><td class="years">25 a.C.</td><td class="years">14 a.C.</td><td>Provincias de Recia y los Alpes</td></tr>
+        <tr><td>Campañas en Germania (hasta el Elba)</td><td class="years">12 a.C.</td><td class="years">9 d.C.</td><td>Territorio hasta el Elba, perdido tras Teutoburgo</td></tr>
+        <tr><td>Desastre de Teutoburgo</td><td class="years">9 d.C.</td><td class="years">9 d.C.</td><td>Pérdida de Germania más allá del Rin</td></tr>
+        <tr><td>Conquista de Britania</td><td class="years">43 d.C.</td><td class="years">84 d.C.</td><td>Britania (Inglaterra y Gales) como provincia</td></tr>
+        <tr><td>Revuelta judía (primera, destrucción del Templo)</td><td class="years">66 d.C.</td><td class="years">73 d.C.</td><td>Judea consolidada como provincia</td></tr>
+        <tr><td>Guerras dácicas de Trajano</td><td class="years">101 d.C.</td><td class="years">106 d.C.</td><td>Provincia de Dacia (actual Rumania)</td></tr>
+        <tr><td>Campaña pártica de Trajano</td><td class="years">114 d.C.</td><td class="years">117 d.C.</td><td>Armenia, Mesopotamia y Asiria (abandonadas por Adriano poco después)</td></tr>
+        <tr><td>Segunda revuelta judía (Bar Kojba)</td><td class="years">132 d.C.</td><td class="years">136 d.C.</td><td>Judea reorganizada como Siria Palestina; expulsión judía de Jerusalén</td></tr>
+        <tr><td>Guerras marcomanas</td><td class="years">166 d.C.</td><td class="years">180 d.C.</td><td>Sin anexión permanente; defensa del Danubio</td></tr>
+        <tr><td>Guerra civil (Año de los Cinco Emperadores)</td><td class="years">193 d.C.</td><td class="years">197 d.C.</td><td>Ninguna; conflicto interno</td></tr>
+        <tr><td>Campañas párticas de Septimio Severo</td><td class="years">197 d.C.</td><td class="years">198 d.C.</td><td>Mesopotamia septentrional anexada</td></tr>
+        <tr><td>Crisis del Siglo III (invasiones y guerras civiles)</td><td class="years">235 d.C.</td><td class="years">284 d.C.</td><td>Pérdidas temporales (Dacia, parte de Germania) y fragmentación (Imperio Galo, Imperio de Palmira), reunificados por Aureliano</td></tr>
+        <tr><td>Guerra contra Palmira (Zenobia)</td><td class="years">272 d.C.</td><td class="years">273 d.C.</td><td>Recuperación de Siria, Egipto y Asia Menor</td></tr>
+        <tr><td>Guerras de Diocleciano y la Tetrarquía</td><td class="years">296 d.C.</td><td class="years">298 d.C.</td><td>Recuperación de Egipto y frontera persa reforzada</td></tr>
+        <tr><td>Guerra civil de Constantino (Puente Milvio)</td><td class="years">312 d.C.</td><td class="years">312 d.C.</td><td>Ninguna; unificación bajo Constantino</td></tr>
+        <tr><td>Guerra civil de Constantino contra Licinio</td><td class="years">316 d.C.</td><td class="years">324 d.C.</td><td>Ninguna; reunificación del Imperio bajo un solo emperador</td></tr>
+        <tr><td>Batalla de Adrianópolis (contra los godos)</td><td class="years">378 d.C.</td><td class="years">378 d.C.</td><td>Pérdida de control sobre los godos, asentados como foederati en los Balcanes</td></tr>
+      </table>
+    </div>
+  </details>
+
+  <details class="conflicts-box" id="conflictsBoxOccidente" style="display:none;">
+    <summary>⚔ Conflictos bélicos del Imperio de Occidente (395–476 d.C.)</summary>
+    <div class="conflicts-inner">
+      <h4>Imperio de Occidente (395–476 d.C.)</h4>
+      <table class="conflicts-table">
+        <tr><th>Conflicto</th><th>Inicio</th><th>Fin</th><th>Ganancia territorial</th></tr>
+        <tr><td>Saqueo de Roma por Alarico (visigodos)</td><td class="years">408 d.C.</td><td class="years">410 d.C.</td><td>Pérdida de prestigio; visigodos se asientan luego en Aquitania (418 d.C.)</td></tr>
+        <tr><td>Invasión de vándalos, alanos y suevos en Hispania</td><td class="years">409 d.C.</td><td class="years">411 d.C.</td><td>Pérdida de control directo sobre gran parte de Hispania</td></tr>
+        <tr><td>Conquista vándala del norte de África</td><td class="years">429 d.C.</td><td class="years">439 d.C.</td><td>Pérdida definitiva de África (incluida Cartago)</td></tr>
+        <tr><td>Invasión de Atila y los hunos en la Galia</td><td class="years">451 d.C.</td><td class="years">451 d.C.</td><td>Ninguna pérdida territorial (victoria en los Campos Cataláunicos)</td></tr>
+        <tr><td>Saqueo de Roma por Genserico (vándalos)</td><td class="years">455 d.C.</td><td class="years">455 d.C.</td><td>Ninguna anexión; segundo saqueo de la ciudad</td></tr>
+        <tr><td>Expedición fallida contra los vándalos</td><td class="years">468 d.C.</td><td class="years">468 d.C.</td><td>Fracaso; pérdida definitiva de esperanzas de recuperar África</td></tr>
+        <tr><td>Caída del Imperio de Occidente (Odoacro depone a Rómulo Augústulo)</td><td class="years">476 d.C.</td><td class="years">476 d.C.</td><td>Italia pasa a manos de Odoacro; fin del Imperio de Occidente</td></tr>
+      </table>
+    </div>
+  </details>
+
+  <details class="conflicts-box" id="conflictsBoxBizantino" style="display:none;">
+    <summary>⚔ Conflictos bélicos del Imperio Bizantino (395–1453 d.C.)</summary>
+    <div class="conflicts-inner">
+      <h4>Imperio Bizantino (395–1453 d.C.)</h4>
+      <table class="conflicts-table">
+        <tr><th>Conflicto</th><th>Inicio</th><th>Fin</th><th>Ganancia territorial</th></tr>
+        <tr><td>Guerra contra los hunos de Atila (tributos)</td><td class="years">441 d.C.</td><td class="years">447 d.C.</td><td>Ninguna; pago de tributos para evitar invasión</td></tr>
+        <tr><td>Guerra vándala (reconquista del norte de África)</td><td class="years">533 d.C.</td><td class="years">534 d.C.</td><td>Norte de África (antiguo reino vándalo) recuperado</td></tr>
+        <tr><td>Guerra gótica (reconquista de Italia)</td><td class="years">535 d.C.</td><td class="years">554 d.C.</td><td>Italia y Sicilia recuperadas (devastadas por la guerra)</td></tr>
+        <tr><td>Guerra contra los visigodos (sur de Hispania)</td><td class="years">552 d.C.</td><td class="years">555 d.C.</td><td>Franja costera del sur de Hispania (Spania)</td></tr>
+        <tr><td>Guerras contra los lombardos en Italia</td><td class="years">568 d.C.</td><td class="years">605 d.C.</td><td>Pérdida progresiva del norte y centro de Italia</td></tr>
+        <tr><td>Guerra romano-sasánida (Focas/Heraclio)</td><td class="years">602 d.C.</td><td class="years">628 d.C.</td><td>Recuperación de Siria, Egipto y Palestina (perdidos y reconquistados)</td></tr>
+        <tr><td>Conquistas árabes (Siria, Egipto, Palestina)</td><td class="years">634 d.C.</td><td class="years">642 d.C.</td><td>Pérdida definitiva de Siria, Palestina y Egipto</td></tr>
+        <tr><td>Primer asedio árabe de Constantinopla</td><td class="years">674 d.C.</td><td class="years">678 d.C.</td><td>Ninguna pérdida; ciudad defendida con fuego griego</td></tr>
+        <tr><td>Segundo asedio árabe de Constantinopla</td><td class="years">717 d.C.</td><td class="years">718 d.C.</td><td>Ninguna pérdida; asedio rechazado</td></tr>
+        <tr><td>Guerras búlgaro-bizantinas (Krum)</td><td class="years">811 d.C.</td><td class="years">814 d.C.</td><td>Pérdidas territoriales en los Balcanes; muerte de Nicéforo I</td></tr>
+        <tr><td>Conquista árabe de Sicilia</td><td class="years">827 d.C.</td><td class="years">902 d.C.</td><td>Pérdida definitiva de Sicilia</td></tr>
+        <tr><td>Guerras búlgaro-bizantinas (Basilio II)</td><td class="years">986 d.C.</td><td class="years">1018 d.C.</td><td>Anexión completa de Bulgaria</td></tr>
+        <tr><td>Guerra contra los normandos en Italia</td><td class="years">1041 d.C.</td><td class="years">1071 d.C.</td><td>Pérdida definitiva del sur de Italia (Bari, última plaza)</td></tr>
+        <tr><td>Batalla de Manzikert (contra los selyúcidas)</td><td class="years">1071 d.C.</td><td class="years">1071 d.C.</td><td>Pérdida de la mayor parte de Anatolia central</td></tr>
+        <tr><td>Primera Cruzada (apoyo bizantino)</td><td class="years">1096 d.C.</td><td class="years">1099 d.C.</td><td>Recuperación de la costa occidental de Anatolia</td></tr>
+        <tr><td>Guerras contra los normandos (Manuel I)</td><td class="years">1147 d.C.</td><td class="years">1158 d.C.</td><td>Sin ganancias permanentes; intentos fallidos en el sur de Italia</td></tr>
+        <tr><td>Cuarta Cruzada (saqueo de Constantinopla)</td><td class="years">1203 d.C.</td><td class="years">1204 d.C.</td><td>Pérdida de Constantinopla; fragmentación en Nicea, Epiro y Trebisonda, más el Imperio Latino</td></tr>
+        <tr><td>Reconquista de Constantinopla (Nicea)</td><td class="years">1259 d.C.</td><td class="years">1261 d.C.</td><td>Restauración del Imperio Bizantino con capital en Constantinopla</td></tr>
+        <tr><td>Guerras civiles paleólogas</td><td class="years">1321 d.C.</td><td class="years">1357 d.C.</td><td>Pérdidas territoriales; entrada de mercenarios otomanos en Europa (1354)</td></tr>
+        <tr><td>Conquista otomana de los Balcanes bizantinos</td><td class="years">1354 d.C.</td><td class="years">1430 d.C.</td><td>Pérdida progresiva de Tracia, Macedonia y Tesalónica</td></tr>
+        <tr><td>Caída de Constantinopla</td><td class="years">1453 d.C.</td><td class="years">1453 d.C.</td><td>Fin definitivo del Imperio Romano/Bizantino; Constantinopla pasa a manos otomanas</td></tr>
+      </table>
+    </div>
+  </details>
+
+  <div class="eras" id="eras">
+    <button class="era-btn" data-era="monarquia">Monarquía<span class="era-sub">753–509 a.C.</span></button>
+    <button class="era-btn" data-era="republica">República<span class="era-sub">509–27 a.C.</span></button>
+    <button class="era-btn" data-era="imperio">Imperio<span class="era-sub">27 a.C.–395 d.C.</span></button>
+  </div>
+
+  <div class="jumpbar" id="jumpbar" style="display:none;">
+    <p class="jump-range">509–27 a.C.</p>
+    <div class="jumpbar-row">
+      <label for="jumpYear">Ir al año:</label>
+      <input type="number" id="jumpYear" placeholder="ej: 218" min="27" max="509">
+      <span class="jumpbar-era">a.C.</span>
+      <button id="jumpBtn">Buscar</button>
+    </div>
+  </div>
+
+  <div class="rail-container">
+    <div class="rail-scroll" id="railScroll">
+      <div class="rail" id="rail"></div>
+    </div>
+  </div>
+  <p class="hint">Hacé click en cualquier punto de la línea para ver el detalle</p>
+
+  <div class="card" id="card">
+    <span class="periodo" id="cardPeriodo"></span>
+    <div class="titulo-row">
+      <div class="portrait-circle" id="cardPortrait"></div>
+      <div class="portrait-mini-group hidden" id="cardPortraitLeftGroup">
+        <span class="portrait-circle"><img id="cardPortraitLeftImg" alt=""></span>
+        <span class="portrait-mini-caption" id="cardPortraitLeftCaption"></span>
+      </div>
+      <h2 id="cardTitulo"></h2>
+      <div class="portrait-mini-group hidden" id="cardPortraitRightGroup" style="margin-left:auto;">
+        <span class="portrait-circle"><img id="cardPortraitRightImg" alt=""></span>
+        <span class="portrait-mini-caption" id="cardPortraitRightCaption"></span>
+      </div>
+    </div>
+    <div class="map-box" id="mapBox" style="display:none;">
+      <img id="cardMapa" alt="Mapa del territorio romano">
+      <p class="map-caption" id="cardMapaCaption"></p>
+    </div>
+    <p id="cardTexto"></p>
+    <div class="navbtns">
+      <button class="navbtn" id="prevBtn">&larr; Anterior</button>
+      <button class="navbtn" id="nextBtn">Siguiente &rarr;</button>
+    </div>
+  </div>
+</div>
+<script src="js/datos.js"></script>
+<script src="js/mapas.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
