@@ -84,7 +84,16 @@
       dot.className='dot';
       const label = document.createElement('div');
       label.className='label';
-      label.textContent = wide ? (getTitle(currentEra,item) + '\\n' + getLabel(currentEra,item)) : getLabel(currentEra,item);
+      if(wide){
+        const nombre = document.createElement('span');
+        nombre.textContent = getTitle(currentEra,item);
+        const fecha = document.createElement('span');
+        fecha.className = 'label-fecha';
+        fecha.textContent = getLabel(currentEra,item);
+        label.append(nombre, document.createElement('br'), fecha);
+      } else {
+        label.textContent = getLabel(currentEra,item);
+      }
       t.appendChild(dot);
       t.appendChild(label);
       t.addEventListener('click', ()=>{ selectIndex(idx, true); });
