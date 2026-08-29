@@ -584,7 +584,17 @@ window.ROMA_DATA = {
     {
       "anio": -473,
       "titulo": "Lucio Emilio Mamerco y Vopisco Julio Julo",
-      "texto": "El tribuno Cneo Genucio, que citó a juicio a dos excónsules por desobedecer la ley agraria de Casio, apareció muerto la víspera del proceso, en un probable asesinato de origen patricio."
+      "texto": "El tribuno Cneo Genucio, que citó a juicio a dos excónsules por desobedecer la ley agraria de Casio, apareció muerto la víspera del proceso, en un probable asesinato de origen patricio.",
+      "imagenes": [
+        {
+          "label": "L. E. Mamerco",
+          "abbr": "L. E. M."
+        },
+        {
+          "label": "V. Julio Julo",
+          "abbr": "V. J. J."
+        }
+      ]
     },
     {
       "anio": -472,
