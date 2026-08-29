@@ -704,7 +704,17 @@ window.ROMA_DATA = {
     {
       "anio": -465,
       "titulo": "Quinto Fabio Vibulano (2°) y Tito Quincio Capitolino Barbato (3°)",
-      "texto": "Campaña conjunta contra los ecuos: batalla cerca del Monte Álgido favorable a Roma, tomando el campamento enemigo."
+      "texto": "Campaña conjunta contra los ecuos: batalla cerca del Monte Álgido favorable a Roma, tomando el campamento enemigo.",
+      "imagenes": [
+        {
+          "label": "Q. F. Vibulano",
+          "abbr": "Q. F. V."
+        },
+        {
+          "label": "T. Q. C. Barbato",
+          "abbr": "T. Q. C. B."
+        }
+      ]
     },
     {
       "anio": -464,
