@@ -389,7 +389,17 @@ window.ROMA_DATA = {
     {
       "anio": -486,
       "titulo": "Espurio Casio (3°) y Próculo Verginio Tricosto Rútilo",
-      "texto": "Casio pactó con los hérnicos y propuso la primera ley agraria de Roma, para repartir tierras entre latinos y plebeyos. Generó fuerte oposición del Senado."
+      "texto": "Casio pactó con los hérnicos y propuso la primera ley agraria de Roma, para repartir tierras entre latinos y plebeyos. Generó fuerte oposición del Senado.",
+      "imagenes": [
+        {
+          "label": "E. C. Vecelino",
+          "abbr": "E. C. V."
+        },
+        {
+          "label": "P. V. T. Rútilo",
+          "abbr": "P. V. T. R."
+        }
+      ]
     },
     {
       "anio": -485,
