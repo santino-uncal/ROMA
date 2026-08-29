@@ -509,7 +509,17 @@ window.ROMA_DATA = {
     {
       "anio": -478,
       "titulo": "Cayo Servilio Estructo Ahala y Ópiter Verginio Tricosto Esquilino",
-      "texto": "Continuó la guerra contra Veyes mientras los Fabios permanecían atrincherados en Crémera."
+      "texto": "Continuó la guerra contra Veyes mientras los Fabios permanecían atrincherados en Crémera.",
+      "imagenes": [
+        {
+          "label": "C. S. E. Ahala",
+          "abbr": "C. S. E. A."
+        },
+        {
+          "label": "Ó. V. T. Esquilino",
+          "abbr": "Ó. V. T. E."
+        }
+      ]
     },
     {
       "anio": -477,
