@@ -494,7 +494,17 @@ window.ROMA_DATA = {
     {
       "anio": -479,
       "titulo": "Cesón Fabio Vibulano (3°) y Tito Verginio Tricosto Rútilo",
-      "texto": "Ante el estancamiento de la guerra contra Veyes, la gens Fabia se ofreció a asumirla por su cuenta, estableciéndose con sus clientes junto al río Crémera."
+      "texto": "Ante el estancamiento de la guerra contra Veyes, la gens Fabia se ofreció a asumirla por su cuenta, estableciéndose con sus clientes junto al río Crémera.",
+      "imagenes": [
+        {
+          "label": "C. F. Vibulano",
+          "abbr": "C. F. V."
+        },
+        {
+          "label": "T. V. T. Rútilo",
+          "abbr": "T. V. T. R."
+        }
+      ]
     },
     {
       "anio": -478,
