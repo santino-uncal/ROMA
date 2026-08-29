@@ -524,7 +524,17 @@ window.ROMA_DATA = {
     {
       "anio": -477,
       "titulo": "Cayo Horacio Pulvilo y Tito Menenio Lanato",
-      "texto": "Batalla del Crémera: los veyentes atrajeron a los Fabios a una emboscada y los aniquilaron casi por completo (unos 306 hombres); solo sobrevivió un joven de la familia."
+      "texto": "Batalla del Crémera: los veyentes atrajeron a los Fabios a una emboscada y los aniquilaron casi por completo (unos 306 hombres); solo sobrevivió un joven de la familia.",
+      "imagenes": [
+        {
+          "label": "C. H. Pulvilo",
+          "abbr": "C. H. P."
+        },
+        {
+          "label": "T. M. Lanato",
+          "abbr": "T. M. L."
+        }
+      ]
     },
     {
       "anio": -476,
