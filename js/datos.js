@@ -374,7 +374,17 @@ window.ROMA_DATA = {
     {
       "anio": -487,
       "titulo": "Cayo Aquilio Tusco y Tito Sicinio Sabino",
-      "texto": "Campaña contra los volscos, derrotándolos, y también contra los hérnicos, a quienes vencieron."
+      "texto": "Campaña contra los volscos, derrotándolos, y también contra los hérnicos, a quienes vencieron.",
+      "imagenes": [
+        {
+          "label": "C. A. Tusco",
+          "abbr": "C. A. T."
+        },
+        {
+          "label": "T. S. Sabino",
+          "abbr": "T. S. S."
+        }
+      ]
     },
     {
       "anio": -486,
