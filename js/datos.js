@@ -824,7 +824,17 @@ window.ROMA_DATA = {
     {
       "anio": -457,
       "titulo": "Cayo Horacio Pulvilo (2°) y Quinto Minucio Esquilino Augurino",
-      "texto": "Ante la invasión de sabinos y ecuos, se acordó elevar el número de tribunos de la plebe de cinco a diez. Minucio enfrentó a los sabinos; Horacio venció a los ecuos cerca del Monte Álgido."
+      "texto": "Ante la invasión de sabinos y ecuos, se acordó elevar el número de tribunos de la plebe de cinco a diez. Minucio enfrentó a los sabinos; Horacio venció a los ecuos cerca del Monte Álgido.",
+      "imagenes": [
+        {
+          "label": "C. H. Pulvilo",
+          "abbr": "C. H. P."
+        },
+        {
+          "label": "Q. M. E. Augurino",
+          "abbr": "Q. M. E. A."
+        }
+      ]
     },
     {
       "anio": -456,
