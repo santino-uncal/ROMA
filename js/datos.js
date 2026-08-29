@@ -914,7 +914,17 @@ window.ROMA_DATA = {
     {
       "anio": -451,
       "titulo": "Apio Claudio Craso y Tito Genucio Augurino",
-      "texto": "Cedieron su cargo para dar paso al primer decenvirato legislativo: diez magistrados patricios, presididos por Apio Claudio, redactaron las primeras diez tablas de las Doce Tablas."
+      "texto": "Cedieron su cargo para dar paso al primer decenvirato legislativo: diez magistrados patricios, presididos por Apio Claudio, redactaron las primeras diez tablas de las Doce Tablas.",
+      "imagenes": [
+        {
+          "label": "A. C. Craso",
+          "abbr": "A. C. C."
+        },
+        {
+          "label": "T. G. Augurino",
+          "abbr": "T. G. A."
+        }
+      ]
     },
     {
       "anio": -450,
