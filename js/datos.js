@@ -344,7 +344,17 @@ window.ROMA_DATA = {
     {
       "anio": -489,
       "titulo": "Cayo Julio Julo y Publio Pinario Mamercino Rufo",
-      "texto": "Año de la rebelión de Coriolano: al mando de un ejército volsco, marchó contra Roma tomando varias ciudades latinas."
+      "texto": "Año de la rebelión de Coriolano: al mando de un ejército volsco, marchó contra Roma tomando varias ciudades latinas.",
+      "imagenes": [
+        {
+          "label": "C. Julio Julo",
+          "abbr": "C. J. J."
+        },
+        {
+          "label": "P. P. M. Rufo",
+          "abbr": "P. P. M. R."
+        }
+      ]
     },
     {
       "anio": -488,
