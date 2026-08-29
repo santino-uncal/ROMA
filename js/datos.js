@@ -434,7 +434,17 @@ window.ROMA_DATA = {
     {
       "anio": -483,
       "titulo": "Marco Fabio Vibulano y Lucio Valerio Potito",
-      "texto": "Fabio bloqueó los intentos de aplicar la ley agraria de Casio, forzando el alistamiento militar. Guerra sin resultado decisivo contra los volscos."
+      "texto": "Fabio bloqueó los intentos de aplicar la ley agraria de Casio, forzando el alistamiento militar. Guerra sin resultado decisivo contra los volscos.",
+      "imagenes": [
+        {
+          "label": "M. F. Vibulano",
+          "abbr": "M. F. V."
+        },
+        {
+          "label": "L. V. Potito",
+          "abbr": "L. V. P."
+        }
+      ]
     },
     {
       "anio": -482,
