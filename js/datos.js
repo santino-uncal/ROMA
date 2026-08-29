@@ -569,7 +569,17 @@ window.ROMA_DATA = {
     {
       "anio": -474,
       "titulo": "Lucio Furio Medulino y Cayo Manlio Vulsón",
-      "texto": "Se firmó una tregua de cuarenta años con Veyes, pausando el prolongado conflicto. Sin otros hechos militares relevantes."
+      "texto": "Se firmó una tregua de cuarenta años con Veyes, pausando el prolongado conflicto. Sin otros hechos militares relevantes.",
+      "imagenes": [
+        {
+          "label": "L. F. Medulino",
+          "abbr": "L. F. M."
+        },
+        {
+          "label": "C. M. Vulsón",
+          "abbr": "C. M. V."
+        }
+      ]
     },
     {
       "anio": -473,
