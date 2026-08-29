@@ -899,7 +899,17 @@ window.ROMA_DATA = {
     {
       "anio": -452,
       "titulo": "Publio Sestio Capitolino Vaticano y Tito Menenio Lanato",
-      "texto": "Regresó de Grecia la comisión enviada a estudiar las leyes de Solón. Los tribunos reclamaron poner por escrito las leyes de Roma; Sestio apoyó, Menenio dudó y enfermó."
+      "texto": "Regresó de Grecia la comisión enviada a estudiar las leyes de Solón. Los tribunos reclamaron poner por escrito las leyes de Roma; Sestio apoyó, Menenio dudó y enfermó.",
+      "imagenes": [
+        {
+          "label": "P. S. C. Vaticano",
+          "abbr": "P. S. C. V."
+        },
+        {
+          "label": "T. M. Lanato",
+          "abbr": "T. M. L."
+        }
+      ]
     },
     {
       "anio": -451,
