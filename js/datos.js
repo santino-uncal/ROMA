@@ -599,7 +599,17 @@ window.ROMA_DATA = {
     {
       "anio": -472,
       "titulo": "Lucio Pinario Mamercino Rufo y Publio Furio Medulino Fuso",
-      "texto": "El tribuno Volerón Publilio propuso que los tribunos de la plebe fueran elegidos por los comicios por tribus y no por los curiados, dominados por los patricios."
+      "texto": "El tribuno Volerón Publilio propuso que los tribunos de la plebe fueran elegidos por los comicios por tribus y no por los curiados, dominados por los patricios.",
+      "imagenes": [
+        {
+          "label": "L. P. M. Rufo",
+          "abbr": "L. P. M. R."
+        },
+        {
+          "label": "P. F. M. Fuso",
+          "abbr": "P. F. M. F."
+        }
+      ]
     },
     {
       "anio": -471,
