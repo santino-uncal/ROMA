@@ -284,7 +284,17 @@ window.ROMA_DATA = {
     {
       "anio": -493,
       "titulo": "Espurio Casio (2°) y Póstumo Cominio Aurunco",
-      "texto": "Casio negoció el Foedus Cassianum, primer tratado de Roma, sellando alianza con la Liga Latina. Dedicó el templo de Ceres, Líber y Líbera. Cominio conquistó Lóngula, Polusca y Corioli (con ayuda de Cayo Marcio, futuro Coriolano). Culminó la primera secesión de la plebe."
+      "texto": "Casio negoció el Foedus Cassianum, primer tratado de Roma, sellando alianza con la Liga Latina. Dedicó el templo de Ceres, Líber y Líbera. Cominio conquistó Lóngula, Polusca y Corioli (con ayuda de Cayo Marcio, futuro Coriolano). Culminó la primera secesión de la plebe.",
+      "imagenes": [
+        {
+          "label": "E. C. Vecelino",
+          "abbr": "E. C. V."
+        },
+        {
+          "label": "P. C. Aurunco",
+          "abbr": "P. C. A."
+        }
+      ]
     },
     {
       "anio": -492,
