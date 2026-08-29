@@ -254,7 +254,17 @@ window.ROMA_DATA = {
     {
       "anio": -495,
       "titulo": "Apio Claudio Sabino y Publio Servilio Prisco Estructo",
-      "texto": "Campaña conjunta contra los volscos, tomando Suesa Pomecia; Prisco venció también a sabinos y auruncos. Murió Tarquinio el Soberbio en Cumas. El conflicto por las deudas entre patricios y plebeyos se agravó, anticipando la primera secesión."
+      "texto": "Campaña conjunta contra los volscos, tomando Suesa Pomecia; Prisco venció también a sabinos y auruncos. Murió Tarquinio el Soberbio en Cumas. El conflicto por las deudas entre patricios y plebeyos se agravó, anticipando la primera secesión.",
+      "imagenes": [
+        {
+          "label": "A. C. Sabino",
+          "abbr": "A. C. S."
+        },
+        {
+          "label": "P. S. P. Estructo",
+          "abbr": "P. S. P. E."
+        }
+      ]
     },
     {
       "anio": -494,
