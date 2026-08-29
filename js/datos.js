@@ -449,7 +449,17 @@ window.ROMA_DATA = {
     {
       "anio": -482,
       "titulo": "Quinto Fabio Vibulano (2°) y Cayo Julio Julo (2°)",
-      "texto": "Continuaron los conflictos con volscos y ecuos, en el marco del dominio consular de los Fabios."
+      "texto": "Continuaron los conflictos con volscos y ecuos, en el marco del dominio consular de los Fabios.",
+      "imagenes": [
+        {
+          "label": "Q. F. Vibulano",
+          "abbr": "Q. F. V."
+        },
+        {
+          "label": "C. Julio Julo",
+          "abbr": "C. J. J."
+        }
+      ]
     },
     {
       "anio": -481,
