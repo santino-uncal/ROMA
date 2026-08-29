@@ -239,7 +239,17 @@ window.ROMA_DATA = {
     {
       "anio": -496,
       "titulo": "Aulo Postumio Albo y Tito Virginio Tricosto",
-      "texto": "Se libró la batalla del Lago Regilo contra la Liga Latina, victoria decisiva de Roma. Postumio Albo asumió la dictadura, con Tito Ebucio Helva como magister equitum; murió el líder latino Octavio Mamilio. Postumio votó un templo a Cástor y Pólux y luego renunció voluntariamente a la dictadura."
+      "texto": "Se libró la batalla del Lago Regilo contra la Liga Latina, victoria decisiva de Roma. Postumio Albo asumió la dictadura, con Tito Ebucio Helva como magister equitum; murió el líder latino Octavio Mamilio. Postumio votó un templo a Cástor y Pólux y luego renunció voluntariamente a la dictadura.",
+      "imagenes": [
+        {
+          "label": "A. P. Albo",
+          "abbr": "A. P. A."
+        },
+        {
+          "label": "T. V. Tricosto",
+          "abbr": "T. V. T."
+        }
+      ]
     },
     {
       "anio": -495,
