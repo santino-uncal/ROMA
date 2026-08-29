@@ -659,7 +659,17 @@ window.ROMA_DATA = {
     {
       "anio": -468,
       "titulo": "Tito Quincio Capitolino Barbato (2°) y Quinto Servilio Prisco Estructo",
-      "texto": "Cónsules elegidos solo por patricios. Servilio hizo una campaña de represalia contra los sabinos; Barbato hizo una campaña contra los volscos y tomó Antium, recibiendo el triunfo."
+      "texto": "Cónsules elegidos solo por patricios. Servilio hizo una campaña de represalia contra los sabinos; Barbato hizo una campaña contra los volscos y tomó Antium, recibiendo el triunfo.",
+      "imagenes": [
+        {
+          "label": "T. Q. C. Barbato",
+          "abbr": "T. Q. C. B."
+        },
+        {
+          "label": "Q. S. P. Estructo",
+          "abbr": "Q. S. P. E."
+        }
+      ]
     },
     {
       "anio": -467,
