@@ -554,7 +554,17 @@ window.ROMA_DATA = {
     {
       "anio": -475,
       "titulo": "Publio Valerio Publícola y Cayo Naucio Rútilo",
-      "texto": "Publícola (hijo del cónsul homónimo) derrotó a un ejército coaligado de veyentes y sabinos cerca de Veyes, obteniendo el triunfo."
+      "texto": "Publícola (hijo del cónsul homónimo) derrotó a un ejército coaligado de veyentes y sabinos cerca de Veyes, obteniendo el triunfo.",
+      "imagenes": [
+        {
+          "label": "P. V. Publícola",
+          "abbr": "P. V. P."
+        },
+        {
+          "label": "C. N. Rútilo",
+          "abbr": "C. N. R."
+        }
+      ]
     },
     {
       "anio": -474,
