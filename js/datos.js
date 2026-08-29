@@ -224,7 +224,17 @@ window.ROMA_DATA = {
     {
       "anio": -497,
       "titulo": "Aulo Sempronio Atratino y Marco Minucio Augurino",
-      "texto": "Atratino consagró el templo de Saturno en el Foro, vinculado al establecimiento de las Saturnalia. No se registran campañas militares destacadas."
+      "texto": "Atratino consagró el templo de Saturno en el Foro, vinculado al establecimiento de las Saturnalia. No se registran campañas militares destacadas.",
+      "imagenes": [
+        {
+          "label": "A. S. Atratino",
+          "abbr": "A. S. A."
+        },
+        {
+          "label": "M. M. Augurino",
+          "abbr": "M. M. A."
+        }
+      ]
     },
     {
       "anio": -496,
