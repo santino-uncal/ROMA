@@ -614,7 +614,17 @@ window.ROMA_DATA = {
     {
       "anio": -471,
       "titulo": "Apio Claudio Sabino y Tito Quincio Capitolino Barbato",
-      "texto": "Se aprobó la Lex Publilia Voleronis: transfirió la elección de tribunos de la plebe a los comicios tribunicios y elevó su número de dos a cinco."
+      "texto": "Se aprobó la Lex Publilia Voleronis: transfirió la elección de tribunos de la plebe a los comicios tribunicios y elevó su número de dos a cinco.",
+      "imagenes": [
+        {
+          "label": "A. C. Sabino",
+          "abbr": "A. C. S."
+        },
+        {
+          "label": "T. Q. C. Barbato",
+          "abbr": "T. Q. C. B."
+        }
+      ]
     },
     {
       "anio": -470,
