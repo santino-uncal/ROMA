@@ -464,7 +464,17 @@ window.ROMA_DATA = {
     {
       "anio": -481,
       "titulo": "Cesón Fabio Vibulano (2°) y Espurio Furio Medulino Fuso",
-      "texto": "Prosiguieron las hostilidades contra volscos y ecuos sin ventaja decisiva."
+      "texto": "Prosiguieron las hostilidades contra volscos y ecuos sin ventaja decisiva.",
+      "imagenes": [
+        {
+          "label": "C. F. Vibulano",
+          "abbr": "C. F. V."
+        },
+        {
+          "label": "E. F. M. Fuso",
+          "abbr": "E. F. M. F."
+        }
+      ]
     },
     {
       "anio": -480,
