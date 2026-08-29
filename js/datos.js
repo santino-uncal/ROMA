@@ -269,7 +269,17 @@ window.ROMA_DATA = {
     {
       "anio": -494,
       "titulo": "Aulo Verginio Tricosto Celiomontano y Tito Veturio Gémino Cicurino",
-      "texto": "Primera secessio plebis: la plebe se retiró al Monte Sacro por las deudas y el reclutamiento. El dictador Manio Valerio Máximo no logró un acuerdo y renunció. Agripa Menenio Lanato, con la fábula del estómago y los miembros, logró el regreso de la plebe a cambio de crear los tribunos de la plebe."
+      "texto": "Primera secessio plebis: la plebe se retiró al Monte Sacro por las deudas y el reclutamiento. El dictador Manio Valerio Máximo no logró un acuerdo y renunció. Agripa Menenio Lanato, con la fábula del estómago y los miembros, logró el regreso de la plebe a cambio de crear los tribunos de la plebe.",
+      "imagenes": [
+        {
+          "label": "A. V. T. Celiomontano",
+          "abbr": "A. V. T. C."
+        },
+        {
+          "label": "T. V. G. Cicurino",
+          "abbr": "T. V. G. C."
+        }
+      ]
     },
     {
       "anio": -493,
