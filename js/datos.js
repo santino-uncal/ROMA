@@ -299,7 +299,17 @@ window.ROMA_DATA = {
     {
       "anio": -492,
       "titulo": "Tito Geganio Macerino y Publio Minucio Augurino",
-      "texto": "Roma sufrió una fuerte hambruna por falta de siembra durante la secesión anterior. Ambos cónsules organizaron la importación de grano desde Etruria y Sicilia."
+      "texto": "Roma sufrió una fuerte hambruna por falta de siembra durante la secesión anterior. Ambos cónsules organizaron la importación de grano desde Etruria y Sicilia.",
+      "imagenes": [
+        {
+          "label": "T. G. Macerino",
+          "abbr": "T. G. M."
+        },
+        {
+          "label": "P. M. Augurino",
+          "abbr": "P. M. A."
+        }
+      ]
     },
     {
       "anio": -491,
