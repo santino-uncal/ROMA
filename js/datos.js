@@ -839,7 +839,17 @@ window.ROMA_DATA = {
     {
       "anio": -456,
       "titulo": "Marco Valerio Máximo Lactuca y Espurio Verginio Tricosto Celiomontano",
-      "texto": "Se aprobó la Lex Icilia de Aventino publicando, que destinó el Aventino para uso y urbanización de la plebe."
+      "texto": "Se aprobó la Lex Icilia de Aventino publicando, que destinó el Aventino para uso y urbanización de la plebe.",
+      "imagenes": [
+        {
+          "label": "M. V. M. Lactuca",
+          "abbr": "M. V. M. L."
+        },
+        {
+          "label": "E. V. T. Celiomontano",
+          "abbr": "E. V. T. C."
+        }
+      ]
     },
     {
       "anio": -455,
