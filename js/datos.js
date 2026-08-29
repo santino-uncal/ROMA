@@ -809,7 +809,17 @@ window.ROMA_DATA = {
     {
       "anio": -458,
       "titulo": "Lucio Minucio Esquilino Augurino y Cayo Naucio Rútilo",
-      "texto": "El ejército de Minucio quedó cercado por los ecuos en el Monte Álgido. Se nombró dictador a Lucio Quincio Cincinato, quien —dejando su arado— derrotó a los ecuos en 16 días y renunció voluntariamente, símbolo de la virtud cívica romana."
+      "texto": "El ejército de Minucio quedó cercado por los ecuos en el Monte Álgido. Se nombró dictador a Lucio Quincio Cincinato, quien —dejando su arado— derrotó a los ecuos en 16 días y renunció voluntariamente, símbolo de la virtud cívica romana.",
+      "imagenes": [
+        {
+          "label": "L. M. E. Augurino",
+          "abbr": "L. M. E. A."
+        },
+        {
+          "label": "C. N. Rútilo",
+          "abbr": "C. N. R."
+        }
+      ]
     },
     {
       "anio": -457,
