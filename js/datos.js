@@ -404,7 +404,17 @@ window.ROMA_DATA = {
     {
       "anio": -485,
       "titulo": "Servio Cornelio Maluginense y Quinto Fabio Vibulano",
-      "texto": "Espurio Casio fue acusado de aspirar a la tiranía por su ley agraria, juzgado y ejecutado, arrojado desde la Roca Tarpeya."
+      "texto": "Espurio Casio fue acusado de aspirar a la tiranía por su ley agraria, juzgado y ejecutado, arrojado desde la Roca Tarpeya.",
+      "imagenes": [
+        {
+          "label": "S. C. Maluginense",
+          "abbr": "S. C. M."
+        },
+        {
+          "label": "Q. F. Vibulano",
+          "abbr": "Q. F. V."
+        }
+      ]
     },
     {
       "anio": -484,
