@@ -629,7 +629,17 @@ window.ROMA_DATA = {
     {
       "anio": -470,
       "titulo": "Lucio Valerio Potito y Tiberio Emilio Mamerco",
-      "texto": "Fuerte agitación por el juicio a Apio Claudio Craso, impulsor de una ley agraria. Potito hizo una campaña contra los ecuos; Mamerco contra los sabinos, sin resultados de importancia."
+      "texto": "Fuerte agitación por el juicio a Apio Claudio Craso, impulsor de una ley agraria. Potito hizo una campaña contra los ecuos; Mamerco contra los sabinos, sin resultados de importancia.",
+      "imagenes": [
+        {
+          "label": "L. V. Potito",
+          "abbr": "L. V. P."
+        },
+        {
+          "label": "T. E. Mamerco",
+          "abbr": "T. E. M."
+        }
+      ]
     },
     {
       "anio": -469,
