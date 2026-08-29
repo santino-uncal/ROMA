@@ -734,7 +734,17 @@ window.ROMA_DATA = {
     {
       "anio": -463,
       "titulo": "Publio Servilio Prisco Estructo y Lucio Ebucio Helva",
-      "texto": "Una grave epidemia (posiblemente tifus) asoló Roma; ambos cónsules murieron por la peste. Roma no pudo auxiliar a los hérnicos, asediados por ecuos y volscos."
+      "texto": "Una grave epidemia (posiblemente tifus) asoló Roma; ambos cónsules murieron por la peste. Roma no pudo auxiliar a los hérnicos, asediados por ecuos y volscos.",
+      "imagenes": [
+        {
+          "label": "P. S. P. Estructo",
+          "abbr": "P. S. P. E."
+        },
+        {
+          "label": "L. E. Helva",
+          "abbr": "L. E. H."
+        }
+      ]
     },
     {
       "anio": -462,
