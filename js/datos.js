@@ -689,7 +689,17 @@ window.ROMA_DATA = {
     {
       "anio": -466,
       "titulo": "Quinto Servilio Prisco Estructo (2°) y Espurio Postumio Albo Regilense",
-      "texto": "Año de continuidad en los conflictos con ecuos y volscos, sin grandes hitos adicionales registrados."
+      "texto": "Año de continuidad en los conflictos con ecuos y volscos, sin grandes hitos adicionales registrados.",
+      "imagenes": [
+        {
+          "label": "Q. S. P. Estructo",
+          "abbr": "Q. S. P. E."
+        },
+        {
+          "label": "E. P. A. Regilense",
+          "abbr": "E. P. A. R."
+        }
+      ]
     },
     {
       "anio": -465,
