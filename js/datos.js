@@ -644,7 +644,17 @@ window.ROMA_DATA = {
     {
       "anio": -469,
       "titulo": "Tito Numicio Prisco y Aulo Verginio Tricosto Celiomontano",
-      "texto": "Numicio marchó contra Antium (Volscos), destruyó su puerto y tomó botín; Tricosto enfrentó con dificultad a los ecuos. Luego ambos saquearon territorio sabino en represalia."
+      "texto": "Numicio marchó contra Antium (Volscos), destruyó su puerto y tomó botín; Tricosto enfrentó con dificultad a los ecuos. Luego ambos saquearon territorio sabino en represalia.",
+      "imagenes": [
+        {
+          "label": "T. N. Prisco",
+          "abbr": "T. N. P."
+        },
+        {
+          "label": "A. V. T. Celiomontano",
+          "abbr": "A. V. T. C."
+        }
+      ]
     },
     {
       "anio": -468,
