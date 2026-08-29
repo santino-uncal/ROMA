@@ -314,7 +314,17 @@ window.ROMA_DATA = {
     {
       "anio": -491,
       "titulo": "Aulo Sempronio Atratino (2°) y Marco Minucio Augurino (2°)",
-      "texto": "La hambruna continuó. Juicio y condena al exilio de Cayo Marcio Coriolano, acusado de querer castigar a la plebe negándole el grano importado."
+      "texto": "La hambruna continuó. Juicio y condena al exilio de Cayo Marcio Coriolano, acusado de querer castigar a la plebe negándole el grano importado.",
+      "imagenes": [
+        {
+          "label": "A. S. Atratino",
+          "abbr": "A. S. A."
+        },
+        {
+          "label": "M. M. Augurino",
+          "abbr": "M. M. A."
+        }
+      ]
     },
     {
       "anio": -490,
