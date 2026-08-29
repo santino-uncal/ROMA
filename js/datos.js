@@ -869,7 +869,17 @@ window.ROMA_DATA = {
     {
       "anio": -454,
       "titulo": "Espurio Tarpeyo Montano Capitolino y Aulo Aternio Varo",
-      "texto": "Los cónsules del año anterior fueron multados. Se aprobó la Lex Aternia Tarpeia, que reguló las multas y su conversión en dinero."
+      "texto": "Los cónsules del año anterior fueron multados. Se aprobó la Lex Aternia Tarpeia, que reguló las multas y su conversión en dinero.",
+      "imagenes": [
+        {
+          "label": "E. T. M. Capitolino",
+          "abbr": "E. T. M. C."
+        },
+        {
+          "label": "A. A. Varo",
+          "abbr": "A. A. V."
+        }
+      ]
     },
     {
       "anio": -453,
