@@ -539,7 +539,17 @@ window.ROMA_DATA = {
     {
       "anio": -476,
       "titulo": "Espurio Servilio Estructo y Aulo Verginio Tricosto",
-      "texto": "Los veyentes habían ocupado el Janículo tras Crémera. Batalla del Janículo: los romanos los expulsaron de la posición."
+      "texto": "Los veyentes habían ocupado el Janículo tras Crémera. Batalla del Janículo: los romanos los expulsaron de la posición.",
+      "imagenes": [
+        {
+          "label": "E. S. Estructo",
+          "abbr": "E. S. E."
+        },
+        {
+          "label": "A. V. Tricosto",
+          "abbr": "A. V. T."
+        }
+      ]
     },
     {
       "anio": -475,
