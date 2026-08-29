@@ -719,7 +719,17 @@ window.ROMA_DATA = {
     {
       "anio": -464,
       "titulo": "Aulo Postumio Albo Regilense y Espurio Furio Medulino Fuso",
-      "texto": "Furio Fuso quedó sitiado contra los ecuos con refuerzos volscos; murió su hijo Publio. Tito Quincio Capitolino Barbato acudió en auxilio, rompió el asedio y salvó también a Postumio Albo."
+      "texto": "Furio Fuso quedó sitiado contra los ecuos con refuerzos volscos; murió su hijo Publio. Tito Quincio Capitolino Barbato acudió en auxilio, rompió el asedio y salvó también a Postumio Albo.",
+      "imagenes": [
+        {
+          "label": "A. P. A. Regilense",
+          "abbr": "A. P. A. R."
+        },
+        {
+          "label": "E. F. M. Fuso",
+          "abbr": "E. F. M. F."
+        }
+      ]
     },
     {
       "anio": -463,
