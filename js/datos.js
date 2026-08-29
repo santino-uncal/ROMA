@@ -674,7 +674,17 @@ window.ROMA_DATA = {
     {
       "anio": -467,
       "titulo": "Quinto Fabio Vibulano y Tiberio Emilio Mamerco (2°)",
-      "texto": "Fabio propuso repartir tierras conquistadas a los volscos, fundando una colonia en Antium. Hizo además una campaña contra los ecuos, quienes evitaron el combate, permitiéndole pactar la paz."
+      "texto": "Fabio propuso repartir tierras conquistadas a los volscos, fundando una colonia en Antium. Hizo además una campaña contra los ecuos, quienes evitaron el combate, permitiéndole pactar la paz.",
+      "imagenes": [
+        {
+          "label": "Q. F. Vibulano",
+          "abbr": "Q. F. V."
+        },
+        {
+          "label": "T. E. Mamerco",
+          "abbr": "T. E. M."
+        }
+      ]
     },
     {
       "anio": -466,
