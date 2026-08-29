@@ -854,7 +854,17 @@ window.ROMA_DATA = {
     {
       "anio": -455,
       "titulo": "Tito Romilio Roco Vaticano y Cayo Veturio Cicurino",
-      "texto": "Campaña conjunta contra los ecuos en el Monte Álgido, con botín considerable vendido para el erario en lugar de repartirlo; al año siguiente fueron multados por ello."
+      "texto": "Campaña conjunta contra los ecuos en el Monte Álgido, con botín considerable vendido para el erario en lugar de repartirlo; al año siguiente fueron multados por ello.",
+      "imagenes": [
+        {
+          "label": "T. R. R. Vaticano",
+          "abbr": "T. R. R. V."
+        },
+        {
+          "label": "C. V. Cicurino",
+          "abbr": "C. V. C."
+        }
+      ]
     },
     {
       "anio": -454,
