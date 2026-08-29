@@ -329,7 +329,17 @@ window.ROMA_DATA = {
     {
       "anio": -490,
       "titulo": "Espurio Larcio (2°) y Quinto Sulpicio Camerino Cornuto",
-      "texto": "Año sin campañas destacadas. Coriolano, exiliado, se refugió entre los volscos y ganó la confianza de su líder Atio Tulio."
+      "texto": "Año sin campañas destacadas. Coriolano, exiliado, se refugió entre los volscos y ganó la confianza de su líder Atio Tulio.",
+      "imagenes": [
+        {
+          "label": "E. Larcio",
+          "abbr": "E. L."
+        },
+        {
+          "label": "Q. S. C. Cornuto",
+          "abbr": "Q. S. C. C."
+        }
+      ]
     },
     {
       "anio": -489,
