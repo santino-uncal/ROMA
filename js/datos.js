@@ -794,7 +794,17 @@ window.ROMA_DATA = {
     {
       "anio": -459,
       "titulo": "Quinto Fabio Vibulano y Lucio Cornelio Maluginense Uritino",
-      "texto": "Año sin grandes hitos registrados, en medio de la tensión constante entre patricios y plebeyos por la cuestión agraria."
+      "texto": "Año sin grandes hitos registrados, en medio de la tensión constante entre patricios y plebeyos por la cuestión agraria.",
+      "imagenes": [
+        {
+          "label": "Q. F. Vibulano",
+          "abbr": "Q. F. V."
+        },
+        {
+          "label": "L. C. M. Uritino",
+          "abbr": "L. C. M. U."
+        }
+      ]
     },
     {
       "anio": -458,
