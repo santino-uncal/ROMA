@@ -419,7 +419,17 @@ window.ROMA_DATA = {
     {
       "anio": -484,
       "titulo": "Cesón Fabio Vibulano y Lucio Emilio Mamerco",
-      "texto": "Comenzó el período de dominio consular de la gens Fabia (484–479 a.C.). Continuaron las tensiones con la plebe por el resentimiento hacia los Fabios."
+      "texto": "Comenzó el período de dominio consular de la gens Fabia (484–479 a.C.). Continuaron las tensiones con la plebe por el resentimiento hacia los Fabios.",
+      "imagenes": [
+        {
+          "label": "C. F. Vibulano",
+          "abbr": "C. F. V."
+        },
+        {
+          "label": "L. E. Mamerco",
+          "abbr": "L. E. M."
+        }
+      ]
     },
     {
       "anio": -483,
