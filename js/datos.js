@@ -749,7 +749,17 @@ window.ROMA_DATA = {
     {
       "anio": -462,
       "titulo": "Lucio Lucrecio Tricipitino y Tito Veturio Gémino Cicurino",
-      "texto": "El tribuno Cayo Terentilio Arsa presentó la Rogatio Terentilia para regular por escrito el poder consular. La votación se postergó varias veces, marcando el conflicto político de la década siguiente."
+      "texto": "El tribuno Cayo Terentilio Arsa presentó la Rogatio Terentilia para regular por escrito el poder consular. La votación se postergó varias veces, marcando el conflicto político de la década siguiente.",
+      "imagenes": [
+        {
+          "label": "L. L. Tricipitino",
+          "abbr": "L. L. T."
+        },
+        {
+          "label": "T. V. G. Cicurino",
+          "abbr": "T. V. G. C."
+        }
+      ]
     },
     {
       "anio": -461,
