@@ -479,7 +479,17 @@ window.ROMA_DATA = {
     {
       "anio": -480,
       "titulo": "Marco Fabio Vibulano (2°) y Cneo Manlio Cincinato",
-      "texto": "Batalla de Veyes contra veyentes y aliados etruscos: victoria muy reñida; murió en combate el cónsul Cneo Manlio Cincinato."
+      "texto": "Batalla de Veyes contra veyentes y aliados etruscos: victoria muy reñida; murió en combate el cónsul Cneo Manlio Cincinato.",
+      "imagenes": [
+        {
+          "label": "M. F. Vibulano",
+          "abbr": "M. F. V."
+        },
+        {
+          "label": "C. M. Cincinato",
+          "abbr": "C. M. C."
+        }
+      ]
     },
     {
       "anio": -479,
