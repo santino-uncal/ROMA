@@ -209,7 +209,17 @@ window.ROMA_DATA = {
     {
       "anio": -498,
       "titulo": "Quinto Clelio Sículo y Tito Larcio",
-      "texto": "Clelio renunció y proclamó dictador a su colega Larcio (2ª dictadura), en un año sin conflictos bélicos relevantes. Se inauguró el templo de Saturno en el Foro."
+      "texto": "Clelio renunció y proclamó dictador a su colega Larcio (2ª dictadura), en un año sin conflictos bélicos relevantes. Se inauguró el templo de Saturno en el Foro.",
+      "imagenes": [
+        {
+          "label": "Q. C. Sículo",
+          "abbr": "Q. C. S."
+        },
+        {
+          "label": "T. Larcio",
+          "abbr": "T. L."
+        }
+      ]
     },
     {
       "anio": -497,
