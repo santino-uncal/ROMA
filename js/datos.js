@@ -884,7 +884,17 @@ window.ROMA_DATA = {
     {
       "anio": -453,
       "titulo": "Sexto Quintilio Varo y Publio Curiacio Fisto Trigémino",
-      "texto": "Una nueva peste azotó Roma, cobrándose a Quintilio Varo; fue reemplazado por el cónsul sufecto Espurio Furio Medulino Fuso."
+      "texto": "Una nueva peste azotó Roma, cobrándose a Quintilio Varo; fue reemplazado por el cónsul sufecto Espurio Furio Medulino Fuso.",
+      "imagenes": [
+        {
+          "label": "S. Q. Varo",
+          "abbr": "S. Q. V."
+        },
+        {
+          "label": "P. C. F. Trigémino",
+          "abbr": "P. C. F. T."
+        }
+      ]
     },
     {
       "anio": -452,
