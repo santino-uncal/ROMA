@@ -779,7 +779,17 @@ window.ROMA_DATA = {
     {
       "anio": -460,
       "titulo": "Publio Valerio Publícola (2°) y Cayo Claudio Sabino",
-      "texto": "El sabino Apio Herdonio tomó por sorpresa el Capitolio. Valerio prometió aplicar la Ley Terentilia a cambio de ayuda; recuperó la fortaleza con auxilio tusculano pero murió en el combate. Cónsul sufecto Lucio Quincio Cincinato apaciguó los disturbios y derogó la ley."
+      "texto": "El sabino Apio Herdonio tomó por sorpresa el Capitolio. Valerio prometió aplicar la Ley Terentilia a cambio de ayuda; recuperó la fortaleza con auxilio tusculano pero murió en el combate. Cónsul sufecto Lucio Quincio Cincinato apaciguó los disturbios y derogó la ley.",
+      "imagenes": [
+        {
+          "label": "P. V. Publícola",
+          "abbr": "P. V. P."
+        },
+        {
+          "label": "C. C. Sabino",
+          "abbr": "C. C. S."
+        }
+      ]
     },
     {
       "anio": -459,
