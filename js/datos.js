@@ -359,7 +359,17 @@ window.ROMA_DATA = {
     {
       "anio": -488,
       "titulo": "Espurio Naucio Rútilo y Sexto Furio Medulino",
-      "texto": "Coriolano y los volscos sitiaron Roma. Una embajada de excónsules no logró disuadirlo; finalmente su madre Veturia y su esposa Volumnia lo convencieron de retirarse."
+      "texto": "Coriolano y los volscos sitiaron Roma. Una embajada de excónsules no logró disuadirlo; finalmente su madre Veturia y su esposa Volumnia lo convencieron de retirarse.",
+      "imagenes": [
+        {
+          "label": "E. N. Rútilo",
+          "abbr": "E. N. R."
+        },
+        {
+          "label": "S. F. Medulino",
+          "abbr": "S. F. M."
+        }
+      ]
     },
     {
       "anio": -487,
