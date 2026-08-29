@@ -764,7 +764,17 @@ window.ROMA_DATA = {
     {
       "anio": -461,
       "titulo": "Servio Sulpicio Camerino Cornuto y Publio Volumnio Amintino Galo",
-      "texto": "Tensión entre tribunos (que insistían con la Ley Terentilia) y cónsules. Los tribunos vetaron la leva; la actividad política quedó casi paralizada."
+      "texto": "Tensión entre tribunos (que insistían con la Ley Terentilia) y cónsules. Los tribunos vetaron la leva; la actividad política quedó casi paralizada.",
+      "imagenes": [
+        {
+          "label": "S. S. C. Cornuto",
+          "abbr": "S. S. C. C."
+        },
+        {
+          "label": "P. V. A. Galo",
+          "abbr": "P. V. A. G."
+        }
+      ]
     },
     {
       "anio": -460,
