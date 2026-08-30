@@ -955,7 +955,17 @@ window.ROMA_DATA = {
     {
       "anio": -448,
       "titulo": "Lars Herminio Coritinesano y Tito Verginio Tricosto Celiomontano",
-      "texto": "Continuó la guerra contra ecuos, volscos y sabinos, heredada del año anterior, sin otros hitos legislativos destacados."
+      "texto": "Continuó la guerra contra ecuos, volscos y sabinos, heredada del año anterior, sin otros hitos legislativos destacados.",
+      "imagenes": [
+        {
+          "label": "Lars H. Coritinesano",
+          "abbr": "Lars H. C."
+        },
+        {
+          "label": "T. V. T. Celiomontano",
+          "abbr": "T. V. T. C."
+        }
+      ]
     },
     {
       "anio": -447,
