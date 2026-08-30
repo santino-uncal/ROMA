@@ -1210,7 +1210,17 @@ window.ROMA_DATA = {
     {
       "anio": -431,
       "titulo": "Cayo Furio Pacilo Fuso y Manio Papirio Craso",
-      "texto": "El dictador Aulo Postumio Tuberto derrotó decisivamente a ecuos y volscos coaligados, con Cincinato como legado."
+      "texto": "El dictador Aulo Postumio Tuberto derrotó decisivamente a ecuos y volscos coaligados, con Cincinato como legado.",
+      "imagenes": [
+        {
+          "label": "C. F. P. Fuso",
+          "abbr": "C. F. P. F."
+        },
+        {
+          "label": "M. P. Craso",
+          "abbr": "M. P. C."
+        }
+      ]
     },
     {
       "anio": -430,
