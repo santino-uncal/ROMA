@@ -1225,7 +1225,17 @@ window.ROMA_DATA = {
     {
       "anio": -430,
       "titulo": "Lucio Papirio Craso y Lucio Julio Julo",
-      "texto": "Año sin grandes hitos militares registrados."
+      "texto": "Año sin grandes hitos militares registrados.",
+      "imagenes": [
+        {
+          "label": "L. P. Craso",
+          "abbr": "L. P. C."
+        },
+        {
+          "label": "L. Julio Julo",
+          "abbr": "L. J. J."
+        }
+      ]
     },
     {
       "anio": -429,
