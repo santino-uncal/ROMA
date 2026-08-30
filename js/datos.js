@@ -1015,7 +1015,17 @@ window.ROMA_DATA = {
     {
       "anio": -444,
       "titulo": "Primeros tribunos consulares: Aulo Sempronio Atratino, Tito Cluilio Sículo y Lucio Atilio Lusco",
-      "texto": "Estreno de los tribunos militares con potestad consular. Renunciaron a los pocos meses por defecto de auspicios; los sufectos Lucio Papirio Mugilano y Lucio Sempronio Atratino renovaron el tratado con Ardea."
+      "texto": "Estreno de los tribunos militares con potestad consular. Renunciaron a los pocos meses por defecto de auspicios; los sufectos Lucio Papirio Mugilano y Lucio Sempronio Atratino renovaron el tratado con Ardea.",
+      "imagenes": [
+        {
+          "label": "A. S. Atratino",
+          "abbr": "A. S. A."
+        },
+        {
+          "label": "T. C. Sículo",
+          "abbr": "T. C. S."
+        }
+      ]
     },
     {
       "anio": -443,
