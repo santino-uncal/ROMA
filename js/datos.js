@@ -1060,7 +1060,17 @@ window.ROMA_DATA = {
     {
       "anio": -441,
       "titulo": "Cayo Furio Pacilo Fuso y Manio Papirio Craso",
-      "texto": "Año de paz interna y externa; se celebraron los Juegos Sagrados prometidos por los decenviros."
+      "texto": "Año de paz interna y externa; se celebraron los Juegos Sagrados prometidos por los decenviros.",
+      "imagenes": [
+        {
+          "label": "C. F. P. Fuso",
+          "abbr": "C. F. P. F."
+        },
+        {
+          "label": "M. P. Craso",
+          "abbr": "M. P. C."
+        }
+      ]
     },
     {
       "anio": -440,
