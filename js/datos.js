@@ -1285,137 +1285,407 @@ window.ROMA_DATA = {
     {
       "anio": -426,
       "titulo": "Tribunos consulares Tito Quincio Peno Cincinato, Cayo Furio Pacilo Fuso, Marco Postumio Albino Regilense y Aulo Cornelio Coso",
-      "texto": "Primera vez con cuatro tribunos consulares. Se nombró dictador (3ª vez) a Mamerco Emilio Mamercino, con Coso como magister equitum, ante la guerra con Veyes y Fidenas."
+      "texto": "Primera vez con cuatro tribunos consulares. Se nombró dictador (3ª vez) a Mamerco Emilio Mamercino, con Coso como magister equitum, ante la guerra con Veyes y Fidenas.",
+      "imagenes": [
+        {
+          "label": "T. Q. P. Cincinato",
+          "abbr": "T. Q. P. C."
+        },
+        {
+          "label": "C. F. P. Fuso",
+          "abbr": "C. F. P. F."
+        }
+      ]
     },
     {
       "anio": -425,
       "titulo": "Tribunos consulares Aulo Sempronio Atratino, Lucio Furio Medulino, Lucio Quincio Cincinato y Lucio Horacio Barbato",
-      "texto": "Continuó el conflicto con Veyes en un año sin batallas decisivas."
+      "texto": "Continuó el conflicto con Veyes en un año sin batallas decisivas.",
+      "imagenes": [
+        {
+          "label": "A. S. Atratino",
+          "abbr": "A. S. A."
+        },
+        {
+          "label": "L. F. Medulino",
+          "abbr": "L. F. M."
+        }
+      ]
     },
     {
       "anio": -424,
       "titulo": "Tribunos consulares Apio Claudio Craso y Lucio Sergio Fidenate",
-      "texto": "Año de escasa actividad militar registrada."
+      "texto": "Año de escasa actividad militar registrada.",
+      "imagenes": [
+        {
+          "label": "A. C. Craso",
+          "abbr": "A. C. C."
+        },
+        {
+          "label": "L. S. Fidenate",
+          "abbr": "L. S. F."
+        }
+      ]
     },
     {
       "anio": -423,
       "titulo": "Cayo Sempronio Atratino y Quinto Fabio Vibulano Ambusto",
-      "texto": "Combates contra los volscos, con resultados poco favorables para Roma según Livio."
+      "texto": "Combates contra los volscos, con resultados poco favorables para Roma según Livio.",
+      "imagenes": [
+        {
+          "label": "C. S. Atratino",
+          "abbr": "C. S. A."
+        },
+        {
+          "label": "Q. F. V. Ambusto",
+          "abbr": "Q. F. V. A."
+        }
+      ]
     },
     {
       "anio": -422,
       "titulo": "Tribunos consulares Lucio Manlio Capitolino, Lucio Papirio Mugilano y Quinto Antonio Merenda",
-      "texto": "Año sin grandes hitos militares o legislativos."
+      "texto": "Año sin grandes hitos militares o legislativos.",
+      "imagenes": [
+        {
+          "label": "L. M. Capitolino",
+          "abbr": "L. M. C."
+        },
+        {
+          "label": "L. P. Mugilano",
+          "abbr": "L. P. M."
+        }
+      ]
     },
     {
       "anio": -421,
       "titulo": "Numerio Fabio Vibulano y Tito Quincio Capitolino Barbato",
-      "texto": "Aumentó el número de cuestores de dos a cuatro, abriéndose el debate sobre el acceso plebeyo a esta magistratura."
+      "texto": "Aumentó el número de cuestores de dos a cuatro, abriéndose el debate sobre el acceso plebeyo a esta magistratura.",
+      "imagenes": [
+        {
+          "label": "Numerio F. Vibulano",
+          "abbr": "N. F. V."
+        },
+        {
+          "label": "T. Q. C. Barbato",
+          "abbr": "T. Q. C. B."
+        }
+      ]
     },
     {
       "anio": -420,
       "titulo": "Tribunos consulares Tito Quincio Peno Cincinato, Marco Manlio Vulsón, Lucio Furio Medulino y Aulo Sempronio Atratino",
-      "texto": "Año sin hechos destacados según las fuentes disponibles."
+      "texto": "Año sin hechos destacados según las fuentes disponibles.",
+      "imagenes": [
+        {
+          "label": "T. Q. P. Cincinato",
+          "abbr": "T. Q. P. C."
+        },
+        {
+          "label": "M. M. Vulsón",
+          "abbr": "M. M. V."
+        }
+      ]
     },
     {
       "anio": -419,
       "titulo": "Tribunos consulares Agripa Menenio Lanato, Espurio Naucio Rútilo, Cayo Servilio Axila y Publio Lucrecio Tricipitino",
-      "texto": "Tensiones sociales por sospechas de agitación entre esclavos y la plebe."
+      "texto": "Tensiones sociales por sospechas de agitación entre esclavos y la plebe.",
+      "imagenes": [
+        {
+          "label": "A. M. Lanato",
+          "abbr": "A. M. L."
+        },
+        {
+          "label": "E. N. Rútilo",
+          "abbr": "E. N. R."
+        }
+      ]
     },
     {
       "anio": -418,
       "titulo": "Tribunos consulares Lucio Sergio Fidenate, Cayo Servilio Axila y Marco Papirio Mugilano",
-      "texto": "Se nombró dictador a Quinto Servilio Fidenate (2°) para hacer frente a una ofensiva de los ecuos."
+      "texto": "Se nombró dictador a Quinto Servilio Fidenate (2°) para hacer frente a una ofensiva de los ecuos.",
+      "imagenes": [
+        {
+          "label": "L. S. Fidenate",
+          "abbr": "L. S. F."
+        },
+        {
+          "label": "C. S. Axila",
+          "abbr": "C. S. A."
+        }
+      ]
     },
     {
       "anio": -417,
       "titulo": "Tribunos consulares Publio Lucrecio Tricipitino, Agripa Menenio Lanato, Espurio Veturio Craso Cicurino y Cayo Servilio Axila",
-      "texto": "Año sin grandes campañas registradas."
+      "texto": "Año sin grandes campañas registradas.",
+      "imagenes": [
+        {
+          "label": "P. L. Tricipitino",
+          "abbr": "P. L. T."
+        },
+        {
+          "label": "A. M. Lanato",
+          "abbr": "A. M. L."
+        }
+      ]
     },
     {
       "anio": -416,
       "titulo": "Tribunos consulares Aulo Sempronio Atratino, Quinto Fabio Vibulano Ambusto, Marco Papirio Mugilano y Espurio Naucio Rútilo",
-      "texto": "Año de escasa actividad militar."
+      "texto": "Año de escasa actividad militar.",
+      "imagenes": [
+        {
+          "label": "A. S. Atratino",
+          "abbr": "A. S. A."
+        },
+        {
+          "label": "Q. F. V. Ambusto",
+          "abbr": "Q. F. V. A."
+        }
+      ]
     },
     {
       "anio": -415,
       "titulo": "Tribunos consulares Publio Cornelio Coso, Numerio Fabio Vibulano, Cayo Valerio Potito Voluso y Quinto Quincio Cincinato",
-      "texto": "Sin hitos destacados según Livio."
+      "texto": "Sin hitos destacados según Livio.",
+      "imagenes": [
+        {
+          "label": "P. C. Coso",
+          "abbr": "P. C. C."
+        },
+        {
+          "label": "Numerio F. Vibulano",
+          "abbr": "N. F. V."
+        }
+      ]
     },
     {
       "anio": -414,
       "titulo": "Tribunos consulares Cneo Cornelio Coso, Quinto Fabio Vibulano Ambusto, Lucio Valerio Potito y Publio Postumio Albino Regilense",
-      "texto": "Año sin grandes conflictos militares reseñados."
+      "texto": "Año sin grandes conflictos militares reseñados.",
+      "imagenes": [
+        {
+          "label": "Cneo C. Coso",
+          "abbr": "Cneo C. C."
+        },
+        {
+          "label": "Q. F. V. Ambusto",
+          "abbr": "Q. F. V. A."
+        }
+      ]
     },
     {
       "anio": -413,
       "titulo": "Aulo Cornelio Coso y Lucio Furio Medulino",
-      "texto": "Año de relativa tranquilidad tras el período anterior de tribunos consulares."
+      "texto": "Año de relativa tranquilidad tras el período anterior de tribunos consulares.",
+      "imagenes": [
+        {
+          "label": "A. C. Coso",
+          "abbr": "A. C. C."
+        },
+        {
+          "label": "L. F. Medulino",
+          "abbr": "L. F. M."
+        }
+      ]
     },
     {
       "anio": -412,
       "titulo": "Quinto Fabio Vibulano Ambusto y Cayo Furio Pacilo",
-      "texto": "Sin hechos memorables registrados."
+      "texto": "Sin hechos memorables registrados.",
+      "imagenes": [
+        {
+          "label": "Q. F. V. Ambusto",
+          "abbr": "Q. F. V. A."
+        },
+        {
+          "label": "C. F. Pacilo",
+          "abbr": "C. F. P."
+        }
+      ]
     },
     {
       "anio": -411,
       "titulo": "Marco Papirio Mugilano y Cayo Naucio Rútilo",
-      "texto": "Año sin campañas destacadas."
+      "texto": "Año sin campañas destacadas.",
+      "imagenes": [
+        {
+          "label": "M. P. Mugilano",
+          "abbr": "M. P. M."
+        },
+        {
+          "label": "C. N. Rútilo",
+          "abbr": "C. N. R."
+        }
+      ]
     },
     {
       "anio": -410,
       "titulo": "Manio Emilio Mamercino y Cayo Valerio Potito Voluso",
-      "texto": "Año de escasa actividad militar."
+      "texto": "Año de escasa actividad militar.",
+      "imagenes": [
+        {
+          "label": "M. E. Mamercino",
+          "abbr": "M. E. M."
+        },
+        {
+          "label": "C. V. P. Voluso",
+          "abbr": "C. V. P. V."
+        }
+      ]
     },
     {
       "anio": -409,
       "titulo": "Cneo Cornelio Coso y Lucio Furio Medulino (2°)",
-      "texto": "Se eligieron los primeros cuestores plebeyos, ampliando el acceso de la plebe a las magistraturas."
+      "texto": "Se eligieron los primeros cuestores plebeyos, ampliando el acceso de la plebe a las magistraturas.",
+      "imagenes": [
+        {
+          "label": "Cneo C. Coso",
+          "abbr": "Cneo C. C."
+        },
+        {
+          "label": "L. F. Medulino",
+          "abbr": "L. F. M."
+        }
+      ]
     },
     {
       "anio": -408,
       "titulo": "Tribunos consulares Cayo Julio Julo, Cayo Servilio Estructo Ahala y Publio Cornelio Coso",
-      "texto": "Se nombró dictador a Publio Cornelio Rútilo Coso, con Ahala como magister equitum; derrotaron a un ejército aliado enemigo cerca de Antium."
+      "texto": "Se nombró dictador a Publio Cornelio Rútilo Coso, con Ahala como magister equitum; derrotaron a un ejército aliado enemigo cerca de Antium.",
+      "imagenes": [
+        {
+          "label": "C. Julio Julo",
+          "abbr": "C. J. J."
+        },
+        {
+          "label": "C. S. E. Ahala",
+          "abbr": "C. S. E. A."
+        }
+      ]
     },
     {
       "anio": -407,
       "titulo": "Tribunos consulares Lucio Furio Medulino, Numerio Fabio Vibulano, Cayo Valerio Potito Voluso y Cayo Servilio Estructo Ahala",
-      "texto": "Año sin grandes campañas adicionales tras la victoria del año anterior."
+      "texto": "Año sin grandes campañas adicionales tras la victoria del año anterior.",
+      "imagenes": [
+        {
+          "label": "L. F. Medulino",
+          "abbr": "L. F. M."
+        },
+        {
+          "label": "Numerio F. Vibulano",
+          "abbr": "N. F. V."
+        }
+      ]
     },
     {
       "anio": -406,
       "titulo": "Tribunos consulares Publio Cornelio Rútilo Coso, Cneo Fabio Ambusto, Cneo Cornelio Coso y Lucio Valerio Potito",
-      "texto": "Comenzó formalmente el largo conflicto que desembocaría en el sitio de Veyes."
+      "texto": "Comenzó formalmente el largo conflicto que desembocaría en el sitio de Veyes.",
+      "imagenes": [
+        {
+          "label": "P. C. R. Coso",
+          "abbr": "P. C. R. C."
+        },
+        {
+          "label": "Cneo F. Ambusto",
+          "abbr": "Cneo F. A."
+        }
+      ]
     },
     {
       "anio": -405,
       "titulo": "Tribunos consulares Tito Quincio Capitolino Barbato, Aulo Manlio Vulsón Capitolino, Quinto Quincio Cincinato, Lucio Furio Medulino, Cayo Julio Julo y Manio Emilio Mamercino",
-      "texto": "Comenzó formalmente el asedio de Veyes. Aumentó a seis el número de tribunos consulares."
+      "texto": "Comenzó formalmente el asedio de Veyes. Aumentó a seis el número de tribunos consulares.",
+      "imagenes": [
+        {
+          "label": "T. Q. C. Barbato",
+          "abbr": "T. Q. C. B."
+        },
+        {
+          "label": "A. M. V. Capitolino",
+          "abbr": "A. M. V. C."
+        }
+      ]
     },
     {
       "anio": -404,
       "titulo": "Tribunos consulares Cayo Valerio Potito Voluso, Cneo Cornelio Coso, Manio Sergio Fidenate, Cesón Fabio Ambusto, Publio Cornelio Maluginense y Espurio Naucio Rútilo",
-      "texto": "Continuó el asedio de Veyes, sin avances decisivos todavía."
+      "texto": "Continuó el asedio de Veyes, sin avances decisivos todavía.",
+      "imagenes": [
+        {
+          "label": "C. V. P. Voluso",
+          "abbr": "C. V. P. V."
+        },
+        {
+          "label": "Cneo C. Coso",
+          "abbr": "Cneo C. C."
+        }
+      ]
     },
     {
       "anio": -403,
       "titulo": "Tribunos consulares Manio Emilio Mamercino, Marco Quintilio Varo, Lucio Valerio Potito, Lucio Julio Julo, Apio Claudio Craso y Marco Furio Fuso",
-      "texto": "El sitio de Veyes se prolongó durante todo el invierno, novedad que generó descontento entre los soldados."
+      "texto": "El sitio de Veyes se prolongó durante todo el invierno, novedad que generó descontento entre los soldados.",
+      "imagenes": [
+        {
+          "label": "M. E. Mamercino",
+          "abbr": "M. E. M."
+        },
+        {
+          "label": "M. Q. Varo",
+          "abbr": "M. Q. V."
+        }
+      ]
     },
     {
       "anio": -402,
       "titulo": "Tribunos consulares Cayo Servilio Estructo Ahala, Quinto Sulpicio Camerino Cornuto, Quinto Servilio Fidenate, Aulo Manlio Vulsón Capitolino, Lucio Verginio Tricosto Esquilino y Manio Sergio Fidenate",
-      "texto": "El asedio de Veyes sufrió graves reveses, agravados por la discordia entre los tribunos consulares al mando."
+      "texto": "El asedio de Veyes sufrió graves reveses, agravados por la discordia entre los tribunos consulares al mando.",
+      "imagenes": [
+        {
+          "label": "C. S. E. Ahala",
+          "abbr": "C. S. E. A."
+        },
+        {
+          "label": "Q. S. C. Cornuto",
+          "abbr": "Q. S. C. C."
+        }
+      ]
     },
     {
       "anio": -401,
       "titulo": "Tribunos consulares Lucio Valerio Potito, Cneo Cornelio Coso, Marco Furio Camilo, Cesón Fabio Ambusto, Manio Emilio Mamercino y Lucio Julio Julo",
-      "texto": "Primera aparición en el cargo de Marco Furio Camilo, futuro conquistador de Veyes."
+      "texto": "Primera aparición en el cargo de Marco Furio Camilo, futuro conquistador de Veyes.",
+      "imagenes": [
+        {
+          "label": "L. V. Potito",
+          "abbr": "L. V. P."
+        },
+        {
+          "label": "Cneo C. Coso",
+          "abbr": "Cneo C. C."
+        }
+      ]
     },
     {
       "anio": -400,
       "titulo": "Tribunos consulares Publio Licinio Calvo Esquilino, Publio Melio Capitolino, Publio Manlio Vulsón, Espurio Furio Medulino, Lucio Titinio Pansa Saco y Lucio Publilio Filón Volsco",
-      "texto": "Publio Licinio Calvo se convirtió en el primer plebeyo en ocupar el tribunado consular."
+      "texto": "Publio Licinio Calvo se convirtió en el primer plebeyo en ocupar el tribunado consular.",
+      "imagenes": [
+        {
+          "label": "P. L. C. Esquilino",
+          "abbr": "P. L. C. E."
+        },
+        {
+          "label": "P. M. Capitolino",
+          "abbr": "P. M. C."
+        }
+      ]
     },
     {
       "anio": -399,
