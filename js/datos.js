@@ -1150,7 +1150,17 @@ window.ROMA_DATA = {
     {
       "anio": -435,
       "titulo": "Cayo Julio Julo (2°) y Lucio Verginio Tricosto",
-      "texto": "Una peste debilitó a Roma. El dictador Quinto Servilio Prisco tomó la ciudadela de Fidenas mediante un túnel, ganando el cognomen 'Fidenas'."
+      "texto": "Una peste debilitó a Roma. El dictador Quinto Servilio Prisco tomó la ciudadela de Fidenas mediante un túnel, ganando el cognomen 'Fidenas'.",
+      "imagenes": [
+        {
+          "label": "C. Julio Julo",
+          "abbr": "C. J. J."
+        },
+        {
+          "label": "L. V. Tricosto",
+          "abbr": "L. V. T."
+        }
+      ]
     },
     {
       "anio": -434,
