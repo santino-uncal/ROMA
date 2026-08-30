@@ -970,7 +970,17 @@ window.ROMA_DATA = {
     {
       "anio": -447,
       "titulo": "Marco Geganio Macerino y Cayo Julio Julo",
-      "texto": "Año sin grandes hitos militares ni legislativos, en el marco de calma tras la caída del decenvirato."
+      "texto": "Año sin grandes hitos militares ni legislativos, en el marco de calma tras la caída del decenvirato.",
+      "imagenes": [
+        {
+          "label": "M. G. Macerino",
+          "abbr": "M. G. M."
+        },
+        {
+          "label": "C. Julio Julo",
+          "abbr": "C. J. J."
+        }
+      ]
     },
     {
       "anio": -446,
