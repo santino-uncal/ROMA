@@ -940,7 +940,17 @@ window.ROMA_DATA = {
     {
       "anio": -449,
       "titulo": "Lucio Valerio Potito y Marco Horacio Barbato",
-      "texto": "Caída del segundo decenvirato: el caso de Verginia (asesinada por su padre antes de dejarla en poder de Apio Claudio) provocó una segunda secesión de la plebe. Se restauró el consulado y se promulgaron las Leges Valeriae Horatiae. Apio Claudio se suicidó en prisión."
+      "texto": "Caída del segundo decenvirato: el caso de Verginia (asesinada por su padre antes de dejarla en poder de Apio Claudio) provocó una segunda secesión de la plebe. Se restauró el consulado y se promulgaron las Leges Valeriae Horatiae. Apio Claudio se suicidó en prisión.",
+      "imagenes": [
+        {
+          "label": "L. V. Potito",
+          "abbr": "L. V. P."
+        },
+        {
+          "label": "M. H. Barbato",
+          "abbr": "M. H. B."
+        }
+      ]
     },
     {
       "anio": -448,
