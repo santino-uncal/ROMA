@@ -1045,7 +1045,17 @@ window.ROMA_DATA = {
     {
       "anio": -442,
       "titulo": "Marco Fabio Vibulano y Postumo Ebucio Helva Cornicén",
-      "texto": "Se envió un grupo de colonos a Ardea para reforzar su defensa frente a los volscos."
+      "texto": "Se envió un grupo de colonos a Ardea para reforzar su defensa frente a los volscos.",
+      "imagenes": [
+        {
+          "label": "M. F. Vibulano",
+          "abbr": "M. F. V."
+        },
+        {
+          "label": "Postumo E. H. Cornicén",
+          "abbr": "P. E. H. C."
+        }
+      ]
     },
     {
       "anio": -441,
