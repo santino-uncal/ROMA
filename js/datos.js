@@ -1240,7 +1240,17 @@ window.ROMA_DATA = {
     {
       "anio": -429,
       "titulo": "Hosto Lucrecio Tricipitino y Lucio Sergio Fidenate (2°)",
-      "texto": "Año sin hechos memorables según las fuentes conservadas."
+      "texto": "Año sin hechos memorables según las fuentes conservadas.",
+      "imagenes": [
+        {
+          "label": "Hosto L. Tricipitino",
+          "abbr": "Hosto L. T."
+        },
+        {
+          "label": "L. S. Fidenate",
+          "abbr": "L. S. F."
+        }
+      ]
     },
     {
       "anio": -428,
