@@ -985,7 +985,17 @@ window.ROMA_DATA = {
     {
       "anio": -446,
       "titulo": "Tito Quincio Capitolino Barbato (4°) y Agripa Furio Medulino Fuso",
-      "texto": "Campaña conjunta contra ecuos y volscos coaligados: batalla de Corbión, victoria contundente de Capitolino Barbato."
+      "texto": "Campaña conjunta contra ecuos y volscos coaligados: batalla de Corbión, victoria contundente de Capitolino Barbato.",
+      "imagenes": [
+        {
+          "label": "T. Q. C. Barbato",
+          "abbr": "T. Q. C. B."
+        },
+        {
+          "label": "A. F. M. Fuso",
+          "abbr": "A. F. M. F."
+        }
+      ]
     },
     {
       "anio": -445,
