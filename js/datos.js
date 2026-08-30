@@ -1270,7 +1270,17 @@ window.ROMA_DATA = {
     {
       "anio": -427,
       "titulo": "Cayo Servilio Estructo Ahala y Lucio Papirio Mugilano",
-      "texto": "Año de relativa calma tras los conflictos anteriores con Veyes."
+      "texto": "Año de relativa calma tras los conflictos anteriores con Veyes.",
+      "imagenes": [
+        {
+          "label": "C. S. E. Ahala",
+          "abbr": "C. S. E. A."
+        },
+        {
+          "label": "L. P. Mugilano",
+          "abbr": "L. P. M."
+        }
+      ]
     },
     {
       "anio": -426,
