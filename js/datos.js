@@ -1030,7 +1030,17 @@ window.ROMA_DATA = {
     {
       "anio": -443,
       "titulo": "Marco Geganio Macerino (2°) y Tito Quincio Capitolino Barbato (5°)",
-      "texto": "Se creó la censura, liberando a los cónsules del censo. Primeros censores: Papirio Mugilano y Sempronio Atratino."
+      "texto": "Se creó la censura, liberando a los cónsules del censo. Primeros censores: Papirio Mugilano y Sempronio Atratino.",
+      "imagenes": [
+        {
+          "label": "M. G. Macerino",
+          "abbr": "M. G. M."
+        },
+        {
+          "label": "T. Q. C. Barbato",
+          "abbr": "T. Q. C. B."
+        }
+      ]
     },
     {
       "anio": -442,
