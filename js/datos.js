@@ -1244,7 +1244,7 @@ window.ROMA_DATA = {
       "imagenes": [
         {
           "label": "Hosto L. Tricipitino",
-          "abbr": "Hosto L. T."
+          "abbr": "H. L. T."
         },
         {
           "label": "L. S. Fidenate",
@@ -1255,7 +1255,17 @@ window.ROMA_DATA = {
     {
       "anio": -428,
       "titulo": "Aulo Cornelio Coso y Tito Quincio Peno Cincinato (2°)",
-      "texto": "Se reanudaron tensiones con Veyes; las fuentes discrepan sobre los cónsules exactos de este año."
+      "texto": "Se reanudaron tensiones con Veyes; las fuentes discrepan sobre los cónsules exactos de este año.",
+      "imagenes": [
+        {
+          "label": "A. C. Coso",
+          "abbr": "A. C. C."
+        },
+        {
+          "label": "T. Q. P. Cincinato",
+          "abbr": "T. Q. P. C."
+        }
+      ]
     },
     {
       "anio": -427,
