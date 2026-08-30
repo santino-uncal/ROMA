@@ -1120,7 +1120,17 @@ window.ROMA_DATA = {
     {
       "anio": -437,
       "titulo": "Marco Geganio Macerino (3°) y Lucio Sergio Fidenate",
-      "texto": "Batalla de Fidenas: Aulo Cornelio Coso mató en combate singular al rey de Veyes, Lars Tolumnio, ganando los spolia opima (tercer romano en lograrlo)."
+      "texto": "Batalla de Fidenas: Aulo Cornelio Coso mató en combate singular al rey de Veyes, Lars Tolumnio, ganando los spolia opima (tercer romano en lograrlo).",
+      "imagenes": [
+        {
+          "label": "M. G. Macerino",
+          "abbr": "M. G. M."
+        },
+        {
+          "label": "L. S. Fidenate",
+          "abbr": "L. S. F."
+        }
+      ]
     },
     {
       "anio": -436,
