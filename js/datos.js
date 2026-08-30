@@ -1165,7 +1165,17 @@ window.ROMA_DATA = {
     {
       "anio": -434,
       "titulo": "Cayo Julio Julo (3°) y Lucio Verginio Tricosto (2°)",
-      "texto": "El dictador Mamerco Emilio Mamercino (2°) limitó la censura a 18 meses, lo que le costó la enemistad de los censores."
+      "texto": "El dictador Mamerco Emilio Mamercino (2°) limitó la censura a 18 meses, lo que le costó la enemistad de los censores.",
+      "imagenes": [
+        {
+          "label": "C. Julio Julo",
+          "abbr": "C. J. J."
+        },
+        {
+          "label": "L. V. Tricosto",
+          "abbr": "L. V. T."
+        }
+      ]
     },
     {
       "anio": -433,
