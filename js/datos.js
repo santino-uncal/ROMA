@@ -1180,7 +1180,17 @@ window.ROMA_DATA = {
     {
       "anio": -433,
       "titulo": "Tribunos consulares Marco Fabio Vibulano, Lucio Sergio Fidenate y Marco Folio Flaccinator",
-      "texto": "La peste continuó cobrando víctimas, en un año de escasa actividad militar."
+      "texto": "La peste continuó cobrando víctimas, en un año de escasa actividad militar.",
+      "imagenes": [
+        {
+          "label": "M. F. Vibulano",
+          "abbr": "M. F. V."
+        },
+        {
+          "label": "L. S. Fidenate",
+          "abbr": "L. S. F."
+        }
+      ]
     },
     {
       "anio": -432,
