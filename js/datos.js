@@ -929,7 +929,13 @@ window.ROMA_DATA = {
     {
       "anio": -450,
       "titulo": "Segundo Decenvirato",
-      "texto": "Un segundo colegio de diez decenviros, con tres plebeyos, encabezado de nuevo por Apio Claudio Craso, completó las Doce Tablas, expuestas en el Foro. Pero se negó a dejar el cargo y comenzó a gobernar tiránicamente."
+      "texto": "Un segundo colegio de diez decenviros, con tres plebeyos, encabezado de nuevo por Apio Claudio Craso, completó las Doce Tablas, expuestas en el Foro. Pero se negó a dejar el cargo y comenzó a gobernar tiránicamente.",
+      "imagenes": [
+        {
+          "label": "A. C. Craso",
+          "abbr": "A. C. C."
+        }
+      ]
     },
     {
       "anio": -449,
