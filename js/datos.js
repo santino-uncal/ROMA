@@ -1000,7 +1000,17 @@ window.ROMA_DATA = {
     {
       "anio": -445,
       "titulo": "Marco Genucio Augurino y Cayo Curcio Filo",
-      "texto": "Se aprobó la Lex Canuleia, que autorizó el matrimonio entre patricios y plebeyos. Se consagró el Lacus Curtius en el Foro."
+      "texto": "Se aprobó la Lex Canuleia, que autorizó el matrimonio entre patricios y plebeyos. Se consagró el Lacus Curtius en el Foro.",
+      "imagenes": [
+        {
+          "label": "M. G. Augurino",
+          "abbr": "M. G. A."
+        },
+        {
+          "label": "C. C. Filo",
+          "abbr": "C. C. F."
+        }
+      ]
     },
     {
       "anio": -444,
