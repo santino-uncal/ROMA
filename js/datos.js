@@ -1135,7 +1135,17 @@ window.ROMA_DATA = {
     {
       "anio": -436,
       "titulo": "Lucio Papirio Craso y Marco Cornelio Maluginense",
-      "texto": "Año sin grandes hitos militares, en el marco de tensión sostenida con Veyes y Fidenas."
+      "texto": "Año sin grandes hitos militares, en el marco de tensión sostenida con Veyes y Fidenas.",
+      "imagenes": [
+        {
+          "label": "L. P. Craso",
+          "abbr": "L. P. C."
+        },
+        {
+          "label": "M. C. Maluginense",
+          "abbr": "M. C. M."
+        }
+      ]
     },
     {
       "anio": -435,
