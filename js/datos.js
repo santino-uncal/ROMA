@@ -1090,7 +1090,17 @@ window.ROMA_DATA = {
     {
       "anio": -439,
       "titulo": "Agripa Menenio Lanato y Tito Quincio Capitolino Barbato (6°)",
-      "texto": "Se nombró dictador (2ª vez) a Lucio Quincio Cincinato; su magister equitum Cayo Servilio Ahala mató a Espurio Melio cuando trató de huir tras negarse a comparecer."
+      "texto": "Se nombró dictador (2ª vez) a Lucio Quincio Cincinato; su magister equitum Cayo Servilio Ahala mató a Espurio Melio cuando trató de huir tras negarse a comparecer.",
+      "imagenes": [
+        {
+          "label": "A. M. Lanato",
+          "abbr": "A. M. L."
+        },
+        {
+          "label": "T. Q. C. Barbato",
+          "abbr": "T. Q. C. B."
+        }
+      ]
     },
     {
       "anio": -438,
