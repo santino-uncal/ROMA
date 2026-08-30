@@ -1105,7 +1105,17 @@ window.ROMA_DATA = {
     {
       "anio": -438,
       "titulo": "Tribunos consulares Mamerco Emilio Mamercino, Lucio Julio Julo y Lucio Quincio Cincinato",
-      "texto": "Estalló la guerra contra Veyes, Fidenas y Faleros. Se nombró dictador a Mamerco Emilio Mamercino."
+      "texto": "Estalló la guerra contra Veyes, Fidenas y Faleros. Se nombró dictador a Mamerco Emilio Mamercino.",
+      "imagenes": [
+        {
+          "label": "Mamerco E. Mamercino",
+          "abbr": "M. E. M."
+        },
+        {
+          "label": "L. Julio Julo",
+          "abbr": "L. J. J."
+        }
+      ]
     },
     {
       "anio": -437,
