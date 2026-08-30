@@ -1075,7 +1075,17 @@ window.ROMA_DATA = {
     {
       "anio": -440,
       "titulo": "Próculo Genucio Macerino y Lucio Menenio Agripa Lanato",
-      "texto": "Gran hambruna. Espurio Melio compró grano en Etruria y lo repartió, ganando popularidad y despertando sospechas patricias."
+      "texto": "Gran hambruna. Espurio Melio compró grano en Etruria y lo repartió, ganando popularidad y despertando sospechas patricias.",
+      "imagenes": [
+        {
+          "label": "P. G. Macerino",
+          "abbr": "P. G. M."
+        },
+        {
+          "label": "L. M. A. Lanato",
+          "abbr": "L. M. A. L."
+        }
+      ]
     },
     {
       "anio": -439,
