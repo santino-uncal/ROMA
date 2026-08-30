@@ -1195,7 +1195,17 @@ window.ROMA_DATA = {
     {
       "anio": -432,
       "titulo": "Tribunos consulares Lucio Pinario Mamercino, Espurio Postumio Albo Regilense y Lucio Furio Medulino",
-      "texto": "Año sin hechos destacados registrados por las fuentes."
+      "texto": "Año sin hechos destacados registrados por las fuentes.",
+      "imagenes": [
+        {
+          "label": "L. P. Mamercino",
+          "abbr": "L. P. M."
+        },
+        {
+          "label": "E. P. A. Regilense",
+          "abbr": "E. P. A. R."
+        }
+      ]
     },
     {
       "anio": -431,
