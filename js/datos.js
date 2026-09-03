@@ -1768,8 +1768,8 @@ window.ROMA_DATA = {
       "texto": "Camilo continuó consolidando el dominio romano sobre el territorio conquistado de Veyes.",
       "imagenes": [
         {
-          "label": "M. F. Camilo",
-          "abbr": "M. F. C."
+          "imagen": "assets/img/retratos/retrato-12.jpg",
+          "label": "M. F. Camilo"
         },
         {
           "label": "L. V. Publícola",
@@ -1888,8 +1888,8 @@ window.ROMA_DATA = {
       "texto": "Camilo continuó campañas de estabilización contra volscos y otros pueblos itálicos.",
       "imagenes": [
         {
-          "label": "M. F. Camilo",
-          "abbr": "M. F. C."
+          "imagen": "assets/img/retratos/retrato-12.jpg",
+          "label": "M. F. Camilo"
         },
         {
           "label": "S. C. Maluginense",
@@ -1963,8 +1963,8 @@ window.ROMA_DATA = {
       "texto": "Camilo sometió definitivamente Tusculum, incorporada con derecho de ciudadanía, modelo de integración itálica.",
       "imagenes": [
         {
-          "label": "M. F. Camilo",
-          "abbr": "M. F. C."
+          "imagen": "assets/img/retratos/retrato-12.jpg",
+          "label": "M. F. Camilo"
         },
         {
           "label": "A. P. A. Regilense",
@@ -2407,8 +2407,8 @@ window.ROMA_DATA = {
           "abbr": "C. P. V. H."
         },
         {
-          "label": "T. M. I. Torcuato",
-          "abbr": "T. M. I. T."
+          "imagen": "assets/img/retratos/retrato-13.jpg",
+          "label": "T. M. I. Torcuato"
         }
       ]
     },
@@ -2452,8 +2452,8 @@ window.ROMA_DATA = {
           "abbr": "C. M. R."
         },
         {
-          "label": "T. M. I. Torcuato",
-          "abbr": "T. M. I. T."
+          "imagen": "assets/img/retratos/retrato-13.jpg",
+          "label": "T. M. I. Torcuato"
         }
       ]
     },
@@ -2508,8 +2508,8 @@ window.ROMA_DATA = {
       "texto": "Estalló la Guerra Latina. Decio Mus se sacrificó (devotio) en la batalla del Vesubio para asegurar la victoria romana.",
       "imagenes": [
         {
-          "label": "T. M. I. Torcuato",
-          "abbr": "T. M. I. T."
+          "imagen": "assets/img/retratos/retrato-13.jpg",
+          "label": "T. M. I. Torcuato"
         },
         {
           "label": "P. D. Mus",
