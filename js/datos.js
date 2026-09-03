@@ -1690,122 +1690,362 @@ window.ROMA_DATA = {
     {
       "anio": -399,
       "titulo": "Tribunos consulares Cneo Genucio Augurino, Cayo Duilio Longo, Lucio Atilio Prisco, Marco Veturio Craso Cicurino, Marco Pomponio Rufo y Volerón Publilio Filón",
-      "texto": "Año sin grandes hitos militares, en el marco de la prolongada guerra contra Veyes."
+      "texto": "Año sin grandes hitos militares, en el marco de la prolongada guerra contra Veyes.",
+      "imagenes": [
+        {
+          "label": "Cneo G. Augurino",
+          "abbr": "Cneo G. A."
+        },
+        {
+          "label": "C. D. Longo",
+          "abbr": "C. D. L."
+        }
+      ]
     },
     {
       "anio": -398,
       "titulo": "Tribunos consulares Lucio Valerio Potito, Lucio Furio Medulino, Marco Valerio Lactucino Máximo, Quinto Servilio Fidenate, Marco Furio Camilo y Quinto Sulpicio Camerino Cornuto",
-      "texto": "Continuó el asedio de Veyes bajo mando colegiado."
+      "texto": "Continuó el asedio de Veyes bajo mando colegiado.",
+      "imagenes": [
+        {
+          "label": "L. V. Potito",
+          "abbr": "L. V. P."
+        },
+        {
+          "label": "L. F. Medulino",
+          "abbr": "L. F. M."
+        }
+      ]
     },
     {
       "anio": -397,
       "titulo": "Tribunos consulares Lucio Julio Julo, Aulo Postumio Albino Regilense, Lucio Furio Medulino, Publio Cornelio Maluginense, Lucio Sergio Fidenate y Aulo Manlio Vulsón Capitolino",
-      "texto": "El sitio de Veyes se prolongó; los veyentes buscaron sin éxito una coalición etrusca."
+      "texto": "El sitio de Veyes se prolongó; los veyentes buscaron sin éxito una coalición etrusca.",
+      "imagenes": [
+        {
+          "label": "L. Julio Julo",
+          "abbr": "L. J. J."
+        },
+        {
+          "label": "A. P. A. Regilense",
+          "abbr": "A. P. A. R."
+        }
+      ]
     },
     {
       "anio": -396,
       "titulo": "Tribunos consulares Lucio Titinio Pansa Saco, Quinto Manlio Vulsón Capitolino, Publio Licinio Calvo Esquilino, Cneo Genucio Augurino, Publio Melio Capitolino y Lucio Atilio Prisco",
-      "texto": "Se nombró dictador a Marco Furio Camilo, quien tomó Veyes mediante un túnel, poniendo fin a la guerra de diez años."
+      "texto": "Se nombró dictador a Marco Furio Camilo, quien tomó Veyes mediante un túnel, poniendo fin a la guerra de diez años.",
+      "imagenes": [
+        {
+          "label": "L. T. P. Saco",
+          "abbr": "L. T. P. S."
+        },
+        {
+          "label": "Q. M. V. Capitolino",
+          "abbr": "Q. M. V. C."
+        }
+      ]
     },
     {
       "anio": -395,
       "titulo": "Tribunos consulares Publio Cornelio Coso, Lucio Furio Medulino, Publio Cornelio Escipión, Quinto Servilio Fidenate, Cesón Fabio Ambusto y Marco Valerio Lactucino Máximo",
-      "texto": "Camilo ordenó la destrucción sistemática de Veyes."
+      "texto": "Camilo ordenó la destrucción sistemática de Veyes.",
+      "imagenes": [
+        {
+          "label": "P. C. Coso",
+          "abbr": "P. C. C."
+        },
+        {
+          "label": "L. F. Medulino",
+          "abbr": "L. F. M."
+        }
+      ]
     },
     {
       "anio": -394,
       "titulo": "Tribunos consulares Marco Furio Camilo, Lucio Valerio Publícola, Lucio Furio Medulino, Espurio Postumio Albino Regilense, Cayo Emilio Mamercino y Publio Cornelio Escipión",
-      "texto": "Camilo continuó consolidando el dominio romano sobre el territorio conquistado de Veyes."
+      "texto": "Camilo continuó consolidando el dominio romano sobre el territorio conquistado de Veyes.",
+      "imagenes": [
+        {
+          "label": "M. F. Camilo",
+          "abbr": "M. F. C."
+        },
+        {
+          "label": "L. V. Publícola",
+          "abbr": "L. V. P."
+        }
+      ]
     },
     {
       "anio": -393,
       "titulo": "Lucio Valerio Potito y Publio Cornelio Maluginense Coso",
-      "texto": "Reorganización tras la caída de Veyes, con reparto de tierras conquistadas entre la plebe."
+      "texto": "Reorganización tras la caída de Veyes, con reparto de tierras conquistadas entre la plebe.",
+      "imagenes": [
+        {
+          "label": "L. V. Potito",
+          "abbr": "L. V. P."
+        },
+        {
+          "label": "P. C. M. Coso",
+          "abbr": "P. C. M. C."
+        }
+      ]
     },
     {
       "anio": -392,
       "titulo": "Lucio Valerio Potito (2°) y Marco Manlio Capitolino",
-      "texto": "Año de relativa calma mientras se consolidaba la anexión del territorio veyente."
+      "texto": "Año de relativa calma mientras se consolidaba la anexión del territorio veyente.",
+      "imagenes": [
+        {
+          "label": "L. V. Potito",
+          "abbr": "L. V. P."
+        },
+        {
+          "label": "M. M. Capitolino",
+          "abbr": "M. M. C."
+        }
+      ]
     },
     {
       "anio": -391,
       "titulo": "Tribunos consulares Lucio Lucrecio Tricipitino Flavo, Lucio Furio Medulino, Servio Sulpicio Camerino, Agripa Furio Fuso, Marco Emilio Mamercino y Cayo Emilio Mamercino",
-      "texto": "Comenzaron a sentirse los primeros indicios de la amenaza gala en el norte de Italia."
+      "texto": "Comenzaron a sentirse los primeros indicios de la amenaza gala en el norte de Italia.",
+      "imagenes": [
+        {
+          "label": "L. L. T. Flavo",
+          "abbr": "L. L. T. F."
+        },
+        {
+          "label": "L. F. Medulino",
+          "abbr": "L. F. M."
+        }
+      ]
     },
     {
       "anio": -390,
       "titulo": "Tribunos consulares Quinto Fabio Ambusto, Quinto Sulpicio Longo, Cesón Fabio Ambusto, Quinto Servilio Fidenate, Numerio Fabio Ambusto y Publio Cornelio Maluginense",
-      "texto": "Los galos senones, liderados por Breno, derrotaron a Roma en la batalla del río Alia y saquearon la ciudad. El dictador Marco Furio Camilo los expulsó, ganándose el título de 'segundo fundador de Roma'."
+      "texto": "Los galos senones, liderados por Breno, derrotaron a Roma en la batalla del río Alia y saquearon la ciudad. El dictador Marco Furio Camilo los expulsó, ganándose el título de 'segundo fundador de Roma'.",
+      "imagenes": [
+        {
+          "label": "Q. F. Ambusto",
+          "abbr": "Q. F. A."
+        },
+        {
+          "label": "Q. S. Longo",
+          "abbr": "Q. S. L."
+        }
+      ]
     },
     {
       "anio": -389,
       "titulo": "Tribunos consulares Lucio Valerio Publícola, Aulo Manlio Capitolino, Lucio Verginio Tricosto, Lucio Emilio Mamercino, Publio Cornelio y Postumio Albino Regilense",
-      "texto": "Tras el desastre gálico, Camilo (dictador por 3ª vez) sometió a volscos, ecuos y etruscos rebelados."
+      "texto": "Tras el desastre gálico, Camilo (dictador por 3ª vez) sometió a volscos, ecuos y etruscos rebelados.",
+      "imagenes": [
+        {
+          "label": "L. V. Publícola",
+          "abbr": "L. V. P."
+        },
+        {
+          "label": "A. M. Capitolino",
+          "abbr": "A. M. C."
+        }
+      ]
     },
     {
       "anio": -388,
       "titulo": "Tribunos consulares Tito Quincio Cincinato Capitolino, Quinto Servilio Fidenate, Lucio Julio Julo, Lucio Aquilio Corvo, Lucio Lucrecio Tricipitino Flavo y Servio Sulpicio Rufo",
-      "texto": "Continuó la reconstrucción de Roma tras el incendio gálico."
+      "texto": "Continuó la reconstrucción de Roma tras el incendio gálico.",
+      "imagenes": [
+        {
+          "label": "T. Q. C. Capitolino",
+          "abbr": "T. Q. C. C."
+        },
+        {
+          "label": "Q. S. Fidenate",
+          "abbr": "Q. S. F."
+        }
+      ]
     },
     {
       "anio": -387,
       "titulo": "Tribunos consulares Lucio Papirio Cursor, Cneo Sergio Fidenate Coso, Lucio Emilio Mamercino, Licinio Menenio Lanato y Lucio Valerio Publícola",
-      "texto": "Se reorganizó el territorio romano en nuevas tribus rústicas tras la crisis gala."
+      "texto": "Se reorganizó el territorio romano en nuevas tribus rústicas tras la crisis gala.",
+      "imagenes": [
+        {
+          "label": "L. P. Cursor",
+          "abbr": "L. P. C."
+        },
+        {
+          "label": "Cneo S. F. Coso",
+          "abbr": "Cneo S. F. C."
+        }
+      ]
     },
     {
       "anio": -386,
       "titulo": "Tribunos consulares Marco Furio Camilo, Servio Cornelio Maluginense, Quinto Servilio Fidenate, Lucio Quincio Cincinato Capitolino, Lucio Horacio Pulvilo y Publio Valerio Potito Publícola",
-      "texto": "Camilo continuó campañas de estabilización contra volscos y otros pueblos itálicos."
+      "texto": "Camilo continuó campañas de estabilización contra volscos y otros pueblos itálicos.",
+      "imagenes": [
+        {
+          "label": "M. F. Camilo",
+          "abbr": "M. F. C."
+        },
+        {
+          "label": "S. C. Maluginense",
+          "abbr": "S. C. M."
+        }
+      ]
     },
     {
       "anio": -385,
       "titulo": "Tribunos consulares Aulo Manlio Capitolino, Publio Cornelio, Tito Quincio Capitolino, Lucio Papirio Cursor, Lucio Quincio Cincinato Capitolino y Cneo Sergio Fidenate Coso",
-      "texto": "Se nombró dictador a Aulo Cornelio Coso: Marco Manlio Capitolino, defensor del Capitolio en la invasión gala, fue acusado de aspirar a la tiranía."
+      "texto": "Se nombró dictador a Aulo Cornelio Coso: Marco Manlio Capitolino, defensor del Capitolio en la invasión gala, fue acusado de aspirar a la tiranía.",
+      "imagenes": [
+        {
+          "label": "A. M. Capitolino",
+          "abbr": "A. M. C."
+        },
+        {
+          "label": "P. Cornelio",
+          "abbr": "P. C."
+        }
+      ]
     },
     {
       "anio": -384,
       "titulo": "Tribunos consulares Servio Cornelio Maluginense, Publio Valerio Potito Publícola, Marco Furio Camilo, Servio Sulpicio Rufo, Cayo Papirio Craso y Tito Quincio Cincinato Capitolino",
-      "texto": "Marco Manlio Capitolino fue condenado y arrojado desde la Roca Tarpeya."
+      "texto": "Marco Manlio Capitolino fue condenado y arrojado desde la Roca Tarpeya.",
+      "imagenes": [
+        {
+          "label": "S. C. Maluginense",
+          "abbr": "S. C. M."
+        },
+        {
+          "label": "P. V. P. Publícola",
+          "abbr": "P. V. P. P."
+        }
+      ]
     },
     {
       "anio": -383,
       "titulo": "Tribunos consulares Lucio Valerio Publícola, Aulo Manlio Capitolino, Servio Sulpicio Rufo, Lucio Lucrecio Tricipitino Flavo, Lucio Emilio Mamercino y Marco Trebonio",
-      "texto": "Tensiones sociales persistentes por las deudas de la plebe."
+      "texto": "Tensiones sociales persistentes por las deudas de la plebe.",
+      "imagenes": [
+        {
+          "label": "L. V. Publícola",
+          "abbr": "L. V. P."
+        },
+        {
+          "label": "A. M. Capitolino",
+          "abbr": "A. M. C."
+        }
+      ]
     },
     {
       "anio": -382,
       "titulo": "Tribunos consulares Lucio Papirio Craso, Servio Cornelio Maluginense, Espurio Papirio Craso, Quinto Servilio Fidenate, Cayo Sulpicio Camerino y Lucio Emilio Mamercino",
-      "texto": "Continuaron los conflictos con los volscos y con Velitrae."
+      "texto": "Continuaron los conflictos con los volscos y con Velitrae.",
+      "imagenes": [
+        {
+          "label": "L. P. Craso",
+          "abbr": "L. P. C."
+        },
+        {
+          "label": "S. C. Maluginense",
+          "abbr": "S. C. M."
+        }
+      ]
     },
     {
       "anio": -381,
       "titulo": "Tribunos consulares Marco Furio Camilo, Aulo Postumio Albino Regilense, Lucio Postumio Albino Regilense, Lucio Furio Medulino Fuso, Lucio Lucrecio Tricipitino Flavo y Marco Fabio Ambusto",
-      "texto": "Camilo sometió definitivamente Tusculum, incorporada con derecho de ciudadanía, modelo de integración itálica."
+      "texto": "Camilo sometió definitivamente Tusculum, incorporada con derecho de ciudadanía, modelo de integración itálica.",
+      "imagenes": [
+        {
+          "label": "M. F. Camilo",
+          "abbr": "M. F. C."
+        },
+        {
+          "label": "A. P. A. Regilense",
+          "abbr": "A. P. A. R."
+        }
+      ]
     },
     {
       "anio": -380,
       "titulo": "Tribunos consulares varios, entre ellos Lucio Valerio Publícola y Publio Valerio Potito Publícola",
-      "texto": "Se nombró dictador a Tito Quincio Cincinato Capitolino ante amenazas de volscos y pueblos latinos."
+      "texto": "Se nombró dictador a Tito Quincio Cincinato Capitolino ante amenazas de volscos y pueblos latinos.",
+      "imagenes": [
+        {
+          "label": "L. V. Publícola",
+          "abbr": "L. V. P."
+        },
+        {
+          "label": "P. V. P. Publícola",
+          "abbr": "P. V. P. P."
+        }
+      ]
     },
     {
       "anio": -379,
       "titulo": "Tribunos consulares Publio Manlio Capitolino, Cneo Manlio Vulsón, Lucio Julio Julo y Cayo Sestilio, entre otros",
-      "texto": "Año de escasa actividad militar reseñada."
+      "texto": "Año de escasa actividad militar reseñada.",
+      "imagenes": [
+        {
+          "label": "P. M. Capitolino",
+          "abbr": "P. M. C."
+        },
+        {
+          "label": "Cneo M. Vulsón",
+          "abbr": "Cneo M. V."
+        }
+      ]
     },
     {
       "anio": -378,
       "titulo": "Tribunos consulares Quinto Servilio Fidenate, Espurio Furio Medulino, Licinio Menenio Lanato, Publio Clelio Sículo, Marco Horacio Pulvilo y Lucio Geganio Macerino",
-      "texto": "Se inició la construcción de nuevas fortificaciones defensivas en Roma tras el saqueo galo."
+      "texto": "Se inició la construcción de nuevas fortificaciones defensivas en Roma tras el saqueo galo.",
+      "imagenes": [
+        {
+          "label": "Q. S. Fidenate",
+          "abbr": "Q. S. F."
+        },
+        {
+          "label": "E. F. Medulino",
+          "abbr": "E. F. M."
+        }
+      ]
     },
     {
       "anio": -377,
       "titulo": "Tribunos consulares Lucio Emilio Mamercino, Publio Valerio Potito Publícola, Cayo Veturio Craso Cicurino, Servio Sulpicio Pretextato, Lucio Quincio Cincinato Capitolino y Cayo Quincio Cincinato",
-      "texto": "Año de continuidad en los conflictos con volscos y latinos."
+      "texto": "Año de continuidad en los conflictos con volscos y latinos.",
+      "imagenes": [
+        {
+          "label": "L. E. Mamercino",
+          "abbr": "L. E. M."
+        },
+        {
+          "label": "P. V. P. Publícola",
+          "abbr": "P. V. P. P."
+        }
+      ]
     },
     {
       "anio": -376,
       "titulo": "Tribunos consulares Lucio Papirio Craso, Licinio Menenio Lanato, Servio Cornelio Maluginense y Servio Sulpicio Pretextato",
-      "texto": "Los tribunos Cayo Licinio Estolón y Lucio Sextio Lateranao iniciaron su campaña, bloqueando la elección de magistrados curules para forzar sus leyes."
+      "texto": "Los tribunos Cayo Licinio Estolón y Lucio Sextio Lateranao iniciaron su campaña, bloqueando la elección de magistrados curules para forzar sus leyes.",
+      "imagenes": [
+        {
+          "label": "L. P. Craso",
+          "abbr": "L. P. C."
+        },
+        {
+          "label": "L. M. Lanato",
+          "abbr": "L. M. L."
+        }
+      ]
     },
     {
       "anio": -375,
@@ -1825,7 +2065,17 @@ window.ROMA_DATA = {
     {
       "anio": -372,
       "titulo": "Tribunos consulares Tito Quincio, Servio Cornelio, Servio Sulpicio, Lucio Papirio y Lucio Veturio",
-      "texto": "Se reanudaron brevemente las elecciones normales, en medio de la presión de los tribunos de la plebe."
+      "texto": "Se reanudaron brevemente las elecciones normales, en medio de la presión de los tribunos de la plebe.",
+      "imagenes": [
+        {
+          "label": "T. Quincio",
+          "abbr": "T. Q."
+        },
+        {
+          "label": "S. Cornelio",
+          "abbr": "S. C."
+        }
+      ]
     },
     {
       "anio": -371,
@@ -1850,337 +2100,991 @@ window.ROMA_DATA = {
     {
       "anio": -367,
       "titulo": "Tribunos consulares Aulo Cornelio Coso, Marco Cornelio Maluginense, Marco Geganio Macerino, Publio Manlio Capitolino, Lucio Veturio Craso Cicurino y Publio Valerio Potito Publícola",
-      "texto": "Se aprobaron las Leges Liciniae Sextiae: abolición del tribunado consular, consulado compartido patricio-plebeyo, edilidad curul y límites a la posesión de tierras públicas."
+      "texto": "Se aprobaron las Leges Liciniae Sextiae: abolición del tribunado consular, consulado compartido patricio-plebeyo, edilidad curul y límites a la posesión de tierras públicas.",
+      "imagenes": [
+        {
+          "label": "A. C. Coso",
+          "abbr": "A. C. C."
+        },
+        {
+          "label": "M. C. Maluginense",
+          "abbr": "M. C. M."
+        }
+      ]
     },
     {
       "anio": -366,
       "titulo": "Lucio Emilio Mamercino y Lucio Sextio Lateranao",
-      "texto": "Lucio Sextio se convirtió en el primer cónsul plebeyo de la historia de Roma. Se instituyó la edilidad curul."
+      "texto": "Lucio Sextio se convirtió en el primer cónsul plebeyo de la historia de Roma. Se instituyó la edilidad curul.",
+      "imagenes": [
+        {
+          "label": "L. E. Mamercino",
+          "abbr": "L. E. M."
+        },
+        {
+          "label": "L. S. Lateranao",
+          "abbr": "L. S. L."
+        }
+      ]
     },
     {
       "anio": -365,
       "titulo": "Lucio Genucio Aventinense y Quinto Servilio Ahala",
-      "texto": "Una grave peste azotó Roma, cobrándose entre sus víctimas a Marco Furio Camilo."
+      "texto": "Una grave peste azotó Roma, cobrándose entre sus víctimas a Marco Furio Camilo.",
+      "imagenes": [
+        {
+          "label": "L. G. Aventinense",
+          "abbr": "L. G. A."
+        },
+        {
+          "label": "Q. S. Ahala",
+          "abbr": "Q. S. A."
+        }
+      ]
     },
     {
       "anio": -364,
       "titulo": "Cayo Sulpicio Petico y Cayo Licinio Calvo",
-      "texto": "Se instituyeron los primeros ludi scenici (juegos escénicos teatrales) para aplacar a los dioses tras la peste."
+      "texto": "Se instituyeron los primeros ludi scenici (juegos escénicos teatrales) para aplacar a los dioses tras la peste.",
+      "imagenes": [
+        {
+          "label": "C. S. Petico",
+          "abbr": "C. S. P."
+        },
+        {
+          "label": "C. L. Calvo",
+          "abbr": "C. L. C."
+        }
+      ]
     },
     {
       "anio": -363,
       "titulo": "Cneo Genucio Aventinense (2°) y Lucio Emilio Mamercino (2°)",
-      "texto": "Se nombró dictador a Lucio Manlio Capitolino Imperioso, quien abdicó ante la oposición de los tribunos y del pueblo."
+      "texto": "Se nombró dictador a Lucio Manlio Capitolino Imperioso, quien abdicó ante la oposición de los tribunos y del pueblo.",
+      "imagenes": [
+        {
+          "label": "Cneo G. Aventinense",
+          "abbr": "Cneo G. A."
+        },
+        {
+          "label": "L. E. Mamercino",
+          "abbr": "L. E. M."
+        }
+      ]
     },
     {
       "anio": -362,
       "titulo": "Lucio Genucio Aventinense (2°) y Quinto Servilio Ahala (2°)",
-      "texto": "Se nombró dictador a Apio Claudio Craso Inregilense."
+      "texto": "Se nombró dictador a Apio Claudio Craso Inregilense.",
+      "imagenes": [
+        {
+          "label": "L. G. Aventinense",
+          "abbr": "L. G. A."
+        },
+        {
+          "label": "Q. S. Ahala",
+          "abbr": "Q. S. A."
+        }
+      ]
     },
     {
       "anio": -361,
       "titulo": "Cayo Licinio Stolón y Cayo Sulpicio Petico (2°)",
-      "texto": "Se nombró dictador a Tito Quincio Peno Capitolino Crispino, con Servio Cornelio Maluginense como magister equitum."
+      "texto": "Se nombró dictador a Tito Quincio Peno Capitolino Crispino, con Servio Cornelio Maluginense como magister equitum.",
+      "imagenes": [
+        {
+          "label": "C. L. Stolón",
+          "abbr": "C. L. S."
+        },
+        {
+          "label": "C. S. Petico",
+          "abbr": "C. S. P."
+        }
+      ]
     },
     {
       "anio": -360,
       "titulo": "Marco Fabio Ambusto y Cayo Petelio Libón Visolo",
-      "texto": "Batalla del Anio: combate singular entre Tito Manlio Torcuato y un guerrero galo, al que venció y despojó de su collar (torques). Roma derrotó a los galos cerca de la Puerta Collina."
+      "texto": "Batalla del Anio: combate singular entre Tito Manlio Torcuato y un guerrero galo, al que venció y despojó de su collar (torques). Roma derrotó a los galos cerca de la Puerta Collina.",
+      "imagenes": [
+        {
+          "label": "M. F. Ambusto",
+          "abbr": "M. F. A."
+        },
+        {
+          "label": "C. P. L. Visolo",
+          "abbr": "C. P. L. V."
+        }
+      ]
     },
     {
       "anio": -359,
       "titulo": "Marco Popilio Lenate y Cneo Manlio Capitolino Imperioso",
-      "texto": "Año de continuidad en los conflictos con los galos tras la victoria del año anterior."
+      "texto": "Año de continuidad en los conflictos con los galos tras la victoria del año anterior.",
+      "imagenes": [
+        {
+          "label": "M. P. Lenate",
+          "abbr": "M. P. L."
+        },
+        {
+          "label": "Cneo M. C. Imperioso",
+          "abbr": "Cneo M. C. I."
+        }
+      ]
     },
     {
       "anio": -358,
       "titulo": "Cayo Fabio Ambusto y Cayo Plaucio Próculo",
-      "texto": "Se reorganizó el ejército romano y se reconstituyó la Liga Latina bajo liderazgo de Roma."
+      "texto": "Se reorganizó el ejército romano y se reconstituyó la Liga Latina bajo liderazgo de Roma.",
+      "imagenes": [
+        {
+          "label": "C. F. Ambusto",
+          "abbr": "C. F. A."
+        },
+        {
+          "label": "C. P. Próculo",
+          "abbr": "C. P. P."
+        }
+      ]
     },
     {
       "anio": -357,
       "titulo": "Cayo Marcio Rútilo y Cneo Manlio Capitolino Imperioso (2°)",
-      "texto": "Año de consolidación de las alianzas itálicas renovadas el año anterior."
+      "texto": "Año de consolidación de las alianzas itálicas renovadas el año anterior.",
+      "imagenes": [
+        {
+          "label": "C. M. Rútilo",
+          "abbr": "C. M. R."
+        },
+        {
+          "label": "Cneo M. C. Imperioso",
+          "abbr": "Cneo M. C. I."
+        }
+      ]
     },
     {
       "anio": -356,
       "titulo": "Marco Fabio Ambusto (2°) y Marco Popilio Lenate (2°)",
-      "texto": "Se nombró dictador a Cayo Marcio Rútilo, primer plebeyo en ocupar ese cargo."
+      "texto": "Se nombró dictador a Cayo Marcio Rútilo, primer plebeyo en ocupar ese cargo.",
+      "imagenes": [
+        {
+          "label": "M. F. Ambusto",
+          "abbr": "M. F. A."
+        },
+        {
+          "label": "M. P. Lenate",
+          "abbr": "M. P. L."
+        }
+      ]
     },
     {
       "anio": -355,
       "titulo": "Cayo Sulpicio Petico (3°) y Marco Valerio Publícola",
-      "texto": "Por primera vez en años, ambos cónsules electos fueron patricios."
+      "texto": "Por primera vez en años, ambos cónsules electos fueron patricios.",
+      "imagenes": [
+        {
+          "label": "C. S. Petico",
+          "abbr": "C. S. P."
+        },
+        {
+          "label": "M. V. Publícola",
+          "abbr": "M. V. P."
+        }
+      ]
     },
     {
       "anio": -354,
       "titulo": "Marco Fabio Ambusto (3°) y Tito Quincio Peno Capitolino Crispino",
-      "texto": "Roma derrotó a Tarquinia y firmó un tratado de alianza con los samnitas."
+      "texto": "Roma derrotó a Tarquinia y firmó un tratado de alianza con los samnitas.",
+      "imagenes": [
+        {
+          "label": "M. F. Ambusto",
+          "abbr": "M. F. A."
+        },
+        {
+          "label": "T. Q. P. C. Crispino",
+          "abbr": "T. Q. P. C. C."
+        }
+      ]
     },
     {
       "anio": -353,
       "titulo": "Cayo Sulpicio Petico (4°) y Marco Valerio Publícola (2°)",
-      "texto": "Se nombró dictador a Tito Manlio Imperioso Torcuato."
+      "texto": "Se nombró dictador a Tito Manlio Imperioso Torcuato.",
+      "imagenes": [
+        {
+          "label": "C. S. Petico",
+          "abbr": "C. S. P."
+        },
+        {
+          "label": "M. V. Publícola",
+          "abbr": "M. V. P."
+        }
+      ]
     },
     {
       "anio": -352,
       "titulo": "Publio Valerio Publícola y Cayo Marcio Rútilo (2°)",
-      "texto": "Se nombró dictador a Cayo Julio."
+      "texto": "Se nombró dictador a Cayo Julio.",
+      "imagenes": [
+        {
+          "label": "P. V. Publícola",
+          "abbr": "P. V. P."
+        },
+        {
+          "label": "C. M. Rútilo",
+          "abbr": "C. M. R."
+        }
+      ]
     },
     {
       "anio": -351,
       "titulo": "Cayo Sulpicio Petico (5°) y Tito Quincio Peno Capitolino Crispino (2°)",
-      "texto": "Se nombró dictador a Marco Fabio Ambusto. Cayo Marcio Rútilo se convirtió en el primer censor plebeyo."
+      "texto": "Se nombró dictador a Marco Fabio Ambusto. Cayo Marcio Rútilo se convirtió en el primer censor plebeyo.",
+      "imagenes": [
+        {
+          "label": "C. S. Petico",
+          "abbr": "C. S. P."
+        },
+        {
+          "label": "T. Q. P. C. Crispino",
+          "abbr": "T. Q. P. C. C."
+        }
+      ]
     },
     {
       "anio": -350,
       "titulo": "Marco Popilio Lenate (3°) y Lucio Cornelio Escipión",
-      "texto": "Se nombró dictador a Lucio Furio Camilo (hijo de Marco Furio Camilo)."
+      "texto": "Se nombró dictador a Lucio Furio Camilo (hijo de Marco Furio Camilo).",
+      "imagenes": [
+        {
+          "label": "M. P. Lenate",
+          "abbr": "M. P. L."
+        },
+        {
+          "label": "L. C. Escipión",
+          "abbr": "L. C. E."
+        }
+      ]
     },
     {
       "anio": -349,
       "titulo": "Lucio Furio Camilo y Apio Claudio Craso Inregilense",
-      "texto": "Se nombró dictador a Tito Manlio Imperioso Torcuato ante una incursión gala en el Lacio."
+      "texto": "Se nombró dictador a Tito Manlio Imperioso Torcuato ante una incursión gala en el Lacio.",
+      "imagenes": [
+        {
+          "label": "L. F. Camilo",
+          "abbr": "L. F. C."
+        },
+        {
+          "label": "A. C. C. Inregilense",
+          "abbr": "A. C. C. I."
+        }
+      ]
     },
     {
       "anio": -348,
       "titulo": "Marco Valerio Corvo y Marco Popilio Lenate (4°)",
-      "texto": "Se firmó un pacto entre Roma y Capua, y se renovó el tratado comercial con Cartago."
+      "texto": "Se firmó un pacto entre Roma y Capua, y se renovó el tratado comercial con Cartago.",
+      "imagenes": [
+        {
+          "label": "M. V. Corvo",
+          "abbr": "M. V. C."
+        },
+        {
+          "label": "M. P. Lenate",
+          "abbr": "M. P. L."
+        }
+      ]
     },
     {
       "anio": -347,
       "titulo": "Cayo Plaucio Vennón Hipseo y Tito Manlio Imperioso Torcuato",
-      "texto": "Año de continuidad en las relaciones con los pueblos itálicos vecinos."
+      "texto": "Año de continuidad en las relaciones con los pueblos itálicos vecinos.",
+      "imagenes": [
+        {
+          "label": "C. P. V. Hipseo",
+          "abbr": "C. P. V. H."
+        },
+        {
+          "label": "T. M. I. Torcuato",
+          "abbr": "T. M. I. T."
+        }
+      ]
     },
     {
       "anio": -346,
       "titulo": "Marco Valerio Corvo (2°) y Cayo Petelio Libón Visolo (2°)",
-      "texto": "Los romanos derrotaron a los volscos y arrasaron completamente la ciudad de Satricum."
+      "texto": "Los romanos derrotaron a los volscos y arrasaron completamente la ciudad de Satricum.",
+      "imagenes": [
+        {
+          "label": "M. V. Corvo",
+          "abbr": "M. V. C."
+        },
+        {
+          "label": "C. P. L. Visolo",
+          "abbr": "C. P. L. V."
+        }
+      ]
     },
     {
       "anio": -345,
       "titulo": "Marco Fabio Dorsuo y Servio Sulpicio Camerino Rufo",
-      "texto": "Se nombró dictador a Lucio Furio Camilo."
+      "texto": "Se nombró dictador a Lucio Furio Camilo.",
+      "imagenes": [
+        {
+          "label": "M. F. Dorsuo",
+          "abbr": "M. F. D."
+        },
+        {
+          "label": "S. S. C. Rufo",
+          "abbr": "S. S. C. R."
+        }
+      ]
     },
     {
       "anio": -344,
       "titulo": "Cayo Marcio Rútilo (3°) y Tito Manlio Imperioso Torcuato (2°)",
-      "texto": "Se nombró dictador a Publio Valerio Publícola."
+      "texto": "Se nombró dictador a Publio Valerio Publícola.",
+      "imagenes": [
+        {
+          "label": "C. M. Rútilo",
+          "abbr": "C. M. R."
+        },
+        {
+          "label": "T. M. I. Torcuato",
+          "abbr": "T. M. I. T."
+        }
+      ]
     },
     {
       "anio": -343,
       "titulo": "Marco Valerio Corvo (3°) y Aulo Cornelio Coso Arvina",
-      "texto": "Estalló la Primera Guerra Samnita (343–341). Corvo derrotó a los samnitas en el Monte Gauro. Capua se entregó a Roma."
+      "texto": "Estalló la Primera Guerra Samnita (343–341). Corvo derrotó a los samnitas en el Monte Gauro. Capua se entregó a Roma.",
+      "imagenes": [
+        {
+          "label": "M. V. Corvo",
+          "abbr": "M. V. C."
+        },
+        {
+          "label": "A. C. C. Arvina",
+          "abbr": "A. C. C. A."
+        }
+      ]
     },
     {
       "anio": -342,
       "titulo": "Quinto Servilio Ahala (3°) y Cayo Marcio Rútilo (4°)",
-      "texto": "Se nombró dictador a Marco Valerio Corvo para sofocar un motín militar."
+      "texto": "Se nombró dictador a Marco Valerio Corvo para sofocar un motín militar.",
+      "imagenes": [
+        {
+          "label": "Q. S. Ahala",
+          "abbr": "Q. S. A."
+        },
+        {
+          "label": "C. M. Rútilo",
+          "abbr": "C. M. R."
+        }
+      ]
     },
     {
       "anio": -341,
       "titulo": "Cayo Plaucio Vennón (2°) y Lucio Emilio Mamercino Privernate",
-      "texto": "Corvo derrotó a los samnitas en Suessula, poniendo fin a la Primera Guerra Samnita."
+      "texto": "Corvo derrotó a los samnitas en Suessula, poniendo fin a la Primera Guerra Samnita.",
+      "imagenes": [
+        {
+          "label": "C. P. Vennón",
+          "abbr": "C. P. V."
+        },
+        {
+          "label": "L. E. M. Privernate",
+          "abbr": "L. E. M. P."
+        }
+      ]
     },
     {
       "anio": -340,
       "titulo": "Tito Manlio Imperioso Torcuato (3°) y Publio Decio Mus",
-      "texto": "Estalló la Guerra Latina. Decio Mus se sacrificó (devotio) en la batalla del Vesubio para asegurar la victoria romana."
+      "texto": "Estalló la Guerra Latina. Decio Mus se sacrificó (devotio) en la batalla del Vesubio para asegurar la victoria romana.",
+      "imagenes": [
+        {
+          "label": "T. M. I. Torcuato",
+          "abbr": "T. M. I. T."
+        },
+        {
+          "label": "P. D. Mus",
+          "abbr": "P. D. M."
+        }
+      ]
     },
     {
       "anio": -339,
       "titulo": "Tiberio Emilio Mamercino y Quinto Publilio Filón",
-      "texto": "Manlio Torcuato derrotó a los latinos en Trifano. Se aprobaron las Leges Publiliae Philonis."
+      "texto": "Manlio Torcuato derrotó a los latinos en Trifano. Se aprobaron las Leges Publiliae Philonis.",
+      "imagenes": [
+        {
+          "label": "T. E. Mamercino",
+          "abbr": "T. E. M."
+        },
+        {
+          "label": "Q. P. Filón",
+          "abbr": "Q. P. F."
+        }
+      ]
     },
     {
       "anio": -338,
       "titulo": "Lucio Furio Camilo y Cayo Menio",
-      "texto": "Roma disolvió la Liga Latina, sometiendo individualmente a cada ciudad. Se fundó Ostia y se conquistó Pedum."
+      "texto": "Roma disolvió la Liga Latina, sometiendo individualmente a cada ciudad. Se fundó Ostia y se conquistó Pedum.",
+      "imagenes": [
+        {
+          "label": "L. F. Camilo",
+          "abbr": "L. F. C."
+        },
+        {
+          "label": "C. Menio",
+          "abbr": "C. M."
+        }
+      ]
     },
     {
       "anio": -337,
       "titulo": "Cayo Sulpicio Longo y Publio Elio Peto",
-      "texto": "Se nombró dictador a Cayo Claudio Regilense. Roma inició el asedio de Nápoles."
+      "texto": "Se nombró dictador a Cayo Claudio Regilense. Roma inició el asedio de Nápoles.",
+      "imagenes": [
+        {
+          "label": "C. S. Longo",
+          "abbr": "C. S. L."
+        },
+        {
+          "label": "P. E. Peto",
+          "abbr": "P. E. P."
+        }
+      ]
     },
     {
       "anio": -336,
       "titulo": "Lucio Papirio Craso y Cesón Duilio",
-      "texto": "Se abolió definitivamente el tribunado consular en favor del consulado compartido patricio-plebeyo."
+      "texto": "Se abolió definitivamente el tribunado consular en favor del consulado compartido patricio-plebeyo.",
+      "imagenes": [
+        {
+          "label": "L. P. Craso",
+          "abbr": "L. P. C."
+        },
+        {
+          "label": "Cesón Duilio",
+          "abbr": "Cesón D."
+        }
+      ]
     },
     {
       "anio": -335,
       "titulo": "Marco Atilio Régulo Caleno y Marco Valerio Corvo (4°)",
-      "texto": "Se nombró dictador a Lucio Emilio Mamercino Priverna."
+      "texto": "Se nombró dictador a Lucio Emilio Mamercino Priverna.",
+      "imagenes": [
+        {
+          "label": "M. A. R. Caleno",
+          "abbr": "M. A. R. C."
+        },
+        {
+          "label": "M. V. Corvo",
+          "abbr": "M. V. C."
+        }
+      ]
     },
     {
       "anio": -334,
       "titulo": "Espurio Postumio Albino (Caudino) y Tiberio Veturio Calvino",
-      "texto": "Año de consolidación tras la disolución de la Liga Latina."
+      "texto": "Año de consolidación tras la disolución de la Liga Latina.",
+      "imagenes": [
+        {
+          "label": "E. P. A. Caudino",
+          "abbr": "E. P. A. C."
+        },
+        {
+          "label": "T. V. Calvino",
+          "abbr": "T. V. C."
+        }
+      ]
     },
     {
       "anio": -333,
       "titulo": "Dictador Publio Cornelio Rufino",
-      "texto": "Año atípico sin cónsules registrados con claridad en las fuentes."
+      "texto": "Año atípico sin cónsules registrados con claridad en las fuentes.",
+      "imagenes": [
+        {
+          "label": "P. C. Rufino",
+          "abbr": "P. C. R."
+        }
+      ]
     },
     {
       "anio": -332,
       "titulo": "Cneo Domicio Calvino y Aulo Cornelio Coso Arvina (2°)",
-      "texto": "Se nombró dictador a Marco Papirio Craso."
+      "texto": "Se nombró dictador a Marco Papirio Craso.",
+      "imagenes": [
+        {
+          "label": "Cneo D. Calvino",
+          "abbr": "Cneo D. C."
+        },
+        {
+          "label": "A. C. C. Arvina",
+          "abbr": "A. C. C. A."
+        }
+      ]
     },
     {
       "anio": -331,
       "titulo": "Cayo Valerio Potito (Flaco) y Marco Claudio Marcelo",
-      "texto": "Se nombró dictador a Cneo Quintilio Capitolino."
+      "texto": "Se nombró dictador a Cneo Quintilio Capitolino.",
+      "imagenes": [
+        {
+          "label": "C. V. P. Flaco",
+          "abbr": "C. V. P. F."
+        },
+        {
+          "label": "M. C. Marcelo",
+          "abbr": "M. C. M."
+        }
+      ]
     },
     {
       "anio": -330,
       "titulo": "Lucio Papirio Craso (2°) y Lucio Plaucio Venón",
-      "texto": "Año sin grandes hitos militares reseñados."
+      "texto": "Año sin grandes hitos militares reseñados.",
+      "imagenes": [
+        {
+          "label": "L. P. Craso",
+          "abbr": "L. P. C."
+        },
+        {
+          "label": "L. P. Venón",
+          "abbr": "L. P. V."
+        }
+      ]
     },
     {
       "anio": -329,
       "titulo": "Lucio Emilio Mamercino Privernate (2°) y Cayo Plaucio Deciano",
-      "texto": "Se fundó la colonia de Terracina."
+      "texto": "Se fundó la colonia de Terracina.",
+      "imagenes": [
+        {
+          "label": "L. E. M. Privernate",
+          "abbr": "L. E. M. P."
+        },
+        {
+          "label": "C. P. Deciano",
+          "abbr": "C. P. D."
+        }
+      ]
     },
     {
       "anio": -328,
       "titulo": "Publio Plaucio Próculo y Publio Cornelio Escápula",
-      "texto": "Año de continuidad en la expansión itálica de Roma."
+      "texto": "Año de continuidad en la expansión itálica de Roma.",
+      "imagenes": [
+        {
+          "label": "P. P. Próculo",
+          "abbr": "P. P. P."
+        },
+        {
+          "label": "P. C. Escápula",
+          "abbr": "P. C. E."
+        }
+      ]
     },
     {
       "anio": -327,
       "titulo": "Lucio Cornelio Léntulo y Quinto Publilio Filón (2°)",
-      "texto": "Se nombró dictador a Marco Claudio Marcelo. Estalló la Segunda Guerra Samnita (327–304)."
+      "texto": "Se nombró dictador a Marco Claudio Marcelo. Estalló la Segunda Guerra Samnita (327–304).",
+      "imagenes": [
+        {
+          "label": "L. C. Léntulo",
+          "abbr": "L. C. L."
+        },
+        {
+          "label": "Q. P. Filón",
+          "abbr": "Q. P. F."
+        }
+      ]
     },
     {
       "anio": -326,
       "titulo": "Cayo Petelio Libón Visolo y Lucio Papirio Cursor",
-      "texto": "Nápoles se rindió y fue anexionada. Se promulgó la Lex Poetelia Papiria, que abolió la esclavitud por deudas."
+      "texto": "Nápoles se rindió y fue anexionada. Se promulgó la Lex Poetelia Papiria, que abolió la esclavitud por deudas.",
+      "imagenes": [
+        {
+          "label": "C. P. L. Visolo",
+          "abbr": "C. P. L. V."
+        },
+        {
+          "label": "L. P. Cursor",
+          "abbr": "L. P. C."
+        }
+      ]
     },
     {
       "anio": -325,
       "titulo": "Lucio Furio Camilo (2°) y Décimo Junio Bruto Sceva",
-      "texto": "Continuó la Segunda Guerra Samnita con campañas de desgaste en el sur de Italia."
+      "texto": "Continuó la Segunda Guerra Samnita con campañas de desgaste en el sur de Italia.",
+      "imagenes": [
+        {
+          "label": "L. F. Camilo",
+          "abbr": "L. F. C."
+        },
+        {
+          "label": "D. J. B. Sceva",
+          "abbr": "D. J. B. S."
+        }
+      ]
     },
     {
       "anio": -324,
       "titulo": "Dictador Lucio Papirio Cursor",
-      "texto": "Con Quinto Fabio Máximo Rulliano como magister equitum, dirigió campañas contra los samnitas."
+      "texto": "Con Quinto Fabio Máximo Rulliano como magister equitum, dirigió campañas contra los samnitas.",
+      "imagenes": [
+        {
+          "label": "L. P. Cursor",
+          "abbr": "L. P. C."
+        }
+      ]
     },
     {
       "anio": -323,
       "titulo": "Cayo Sulpicio Longo (2°) y Quinto Emilio Cerretano",
-      "texto": "Murió Alejandro Magno en Babilonia, contemporáneo a la expansión romana por Italia central."
+      "texto": "Murió Alejandro Magno en Babilonia, contemporáneo a la expansión romana por Italia central.",
+      "imagenes": [
+        {
+          "label": "C. S. Longo",
+          "abbr": "C. S. L."
+        },
+        {
+          "label": "Q. E. Cerretano",
+          "abbr": "Q. E. C."
+        }
+      ]
     },
     {
       "anio": -322,
       "titulo": "Quinto Fabio Máximo Rulliano y Lucio Fulvio Curvo",
-      "texto": "Se nombró dictador a Aulo Cornelio Coso Arvina, con Marco Fabio Ambusto como magister equitum."
+      "texto": "Se nombró dictador a Aulo Cornelio Coso Arvina, con Marco Fabio Ambusto como magister equitum.",
+      "imagenes": [
+        {
+          "label": "Q. F. M. Rulliano",
+          "abbr": "Q. F. M. R."
+        },
+        {
+          "label": "L. F. Curvo",
+          "abbr": "L. F. C."
+        }
+      ]
     },
     {
       "anio": -321,
       "titulo": "Tiberio Veturio Calvino (2°) y Espurio Postumio Albino (Caudino) (2°)",
-      "texto": "Desastre de las Horcas Caudinas: el ejército romano quedó atrapado por los samnitas de Cayo Poncio y fue humillado bajo el yugo enemigo."
+      "texto": "Desastre de las Horcas Caudinas: el ejército romano quedó atrapado por los samnitas de Cayo Poncio y fue humillado bajo el yugo enemigo.",
+      "imagenes": [
+        {
+          "label": "T. V. Calvino",
+          "abbr": "T. V. C."
+        },
+        {
+          "label": "E. P. A. Caudino",
+          "abbr": "E. P. A. C."
+        }
+      ]
     },
     {
       "anio": -320,
       "titulo": "Lucio Papirio Cursor (2°) y Quinto Publilio Filón (3°)",
-      "texto": "Sucesión de dictadores en la reorganización militar tras el desastre caudino, buscando restaurar el honor romano."
+      "texto": "Sucesión de dictadores en la reorganización militar tras el desastre caudino, buscando restaurar el honor romano.",
+      "imagenes": [
+        {
+          "label": "L. P. Cursor",
+          "abbr": "L. P. C."
+        },
+        {
+          "label": "Q. P. Filón",
+          "abbr": "Q. P. F."
+        }
+      ]
     },
     {
       "anio": -319,
       "titulo": "Lucio Papirio Cursor (3°) y Quinto Aulio Cerretano (2°)",
-      "texto": "Continuó la guerra de desquite contra los samnitas."
+      "texto": "Continuó la guerra de desquite contra los samnitas.",
+      "imagenes": [
+        {
+          "label": "L. P. Cursor",
+          "abbr": "L. P. C."
+        },
+        {
+          "label": "Q. A. Cerretano",
+          "abbr": "Q. A. C."
+        }
+      ]
     },
     {
       "anio": -318,
       "titulo": "Lucio Plaucio Venón y Marco Folio Flaccinator",
-      "texto": "Año de consolidación militar tras los reveses anteriores."
+      "texto": "Año de consolidación militar tras los reveses anteriores.",
+      "imagenes": [
+        {
+          "label": "L. P. Venón",
+          "abbr": "L. P. V."
+        },
+        {
+          "label": "M. F. Flaccinator",
+          "abbr": "M. F. F."
+        }
+      ]
     },
     {
       "anio": -317,
       "titulo": "Quinto Emilio Bárbula y Cayo Junio Bubulco Bruto",
-      "texto": "Continuó la Segunda Guerra Samnita con campañas de desgaste."
+      "texto": "Continuó la Segunda Guerra Samnita con campañas de desgaste.",
+      "imagenes": [
+        {
+          "label": "Q. E. Bárbula",
+          "abbr": "Q. E. B."
+        },
+        {
+          "label": "C. J. B. Bruto",
+          "abbr": "C. J. B. B."
+        }
+      ]
     },
     {
       "anio": -316,
       "titulo": "Espurio Naucio Rútilo y Marco Popilio Lenate",
-      "texto": "Se nombró dictador a Lucio Emilio Mamercino Privernate. Batalla de Lautulae: derrota romana ante los samnitas."
+      "texto": "Se nombró dictador a Lucio Emilio Mamercino Privernate. Batalla de Lautulae: derrota romana ante los samnitas.",
+      "imagenes": [
+        {
+          "label": "E. N. Rútilo",
+          "abbr": "E. N. R."
+        },
+        {
+          "label": "M. P. Lenate",
+          "abbr": "M. P. L."
+        }
+      ]
     },
     {
       "anio": -315,
       "titulo": "Lucio Papirio Cursor (4°) y Quinto Publilio Filón (4°)",
-      "texto": "Se nombró dictador (2ª vez) a Quinto Fabio Máximo Rulliano, quien logró la victoria en una nueva batalla en Lautulae."
+      "texto": "Se nombró dictador (2ª vez) a Quinto Fabio Máximo Rulliano, quien logró la victoria en una nueva batalla en Lautulae.",
+      "imagenes": [
+        {
+          "label": "L. P. Cursor",
+          "abbr": "L. P. C."
+        },
+        {
+          "label": "Q. P. Filón",
+          "abbr": "Q. P. F."
+        }
+      ]
     },
     {
       "anio": -314,
       "titulo": "Marco Petelio Libón y Cayo Sulpicio Longo (3°)",
-      "texto": "Se nombró dictador a Cayo Menio. Roma conquistó Sora, Ausona, Minturno, Vescia y Luceria."
+      "texto": "Se nombró dictador a Cayo Menio. Roma conquistó Sora, Ausona, Minturno, Vescia y Luceria.",
+      "imagenes": [
+        {
+          "label": "M. P. Libón",
+          "abbr": "M. P. L."
+        },
+        {
+          "label": "C. S. Longo",
+          "abbr": "C. S. L."
+        }
+      ]
     },
     {
       "anio": -313,
       "titulo": "Lucio Papirio Cursor (5°) y Cayo Junio Bubulco Bruto (2°)",
-      "texto": "Se nombró dictador a Cayo Petelio Libón Visolo. Roma conquistó Nola a los samnitas."
+      "texto": "Se nombró dictador a Cayo Petelio Libón Visolo. Roma conquistó Nola a los samnitas.",
+      "imagenes": [
+        {
+          "label": "L. P. Cursor",
+          "abbr": "L. P. C."
+        },
+        {
+          "label": "C. J. B. Bruto",
+          "abbr": "C. J. B. B."
+        }
+      ]
     },
     {
       "anio": -312,
       "titulo": "Marco Valerio Máximo Corvino y Publio Decio Mus",
-      "texto": "Se nombró dictador a Cayo Sulpicio Longo. Apio Claudio el Ciego inició la Vía Apia y el acueducto Aqua Appia."
+      "texto": "Se nombró dictador a Cayo Sulpicio Longo. Apio Claudio el Ciego inició la Vía Apia y el acueducto Aqua Appia.",
+      "imagenes": [
+        {
+          "label": "M. V. M. Corvino",
+          "abbr": "M. V. M. C."
+        },
+        {
+          "label": "P. D. Mus",
+          "abbr": "P. D. M."
+        }
+      ]
     },
     {
       "anio": -311,
       "titulo": "Cayo Junio Bubulco Bruto (3°) y Quinto Emilio Bárbula (2°)",
-      "texto": "Año de continuidad en la guerra samnita, con campañas menores."
+      "texto": "Año de continuidad en la guerra samnita, con campañas menores.",
+      "imagenes": [
+        {
+          "label": "C. J. B. Bruto",
+          "abbr": "C. J. B. B."
+        },
+        {
+          "label": "Q. E. Bárbula",
+          "abbr": "Q. E. B."
+        }
+      ]
     },
     {
       "anio": -310,
       "titulo": "Quinto Fabio Máximo Rulliano (2°) y Cayo Marcio Rútilo Censorino",
-      "texto": "Los romanos derrotaron a los etruscos en la batalla del Lago Vadimón."
+      "texto": "Los romanos derrotaron a los etruscos en la batalla del Lago Vadimón.",
+      "imagenes": [
+        {
+          "label": "Q. F. M. Rulliano",
+          "abbr": "Q. F. M. R."
+        },
+        {
+          "label": "C. M. R. Censorino",
+          "abbr": "C. M. R. C."
+        }
+      ]
     },
     {
       "anio": -309,
       "titulo": "Dictador Lucio Papirio Cursor",
-      "texto": "Con Cayo Junio Bubulco Bruto como magister equitum, logró victorias contra etruscos y samnitas."
+      "texto": "Con Cayo Junio Bubulco Bruto como magister equitum, logró victorias contra etruscos y samnitas.",
+      "imagenes": [
+        {
+          "label": "L. P. Cursor",
+          "abbr": "L. P. C."
+        }
+      ]
     },
     {
       "anio": -308,
       "titulo": "Publio Decio Mus (2°) y Quinto Fabio Máximo Rulliano (3°)",
-      "texto": "Rulliano venció a los etruscos y se firmó una tregua de 40 años con ellos."
+      "texto": "Rulliano venció a los etruscos y se firmó una tregua de 40 años con ellos.",
+      "imagenes": [
+        {
+          "label": "P. D. Mus",
+          "abbr": "P. D. M."
+        },
+        {
+          "label": "Q. F. M. Rulliano",
+          "abbr": "Q. F. M. R."
+        }
+      ]
     },
     {
       "anio": -307,
       "titulo": "Apio Claudio el Ciego y Lucio Volumnio Flama Violento",
-      "texto": "Año de continuidad en la Segunda Guerra Samnita."
+      "texto": "Año de continuidad en la Segunda Guerra Samnita.",
+      "imagenes": [
+        {
+          "label": "A. C. Ciego",
+          "abbr": "A. C. C."
+        },
+        {
+          "label": "L. V. F. Violento",
+          "abbr": "L. V. F. V."
+        }
+      ]
     },
     {
       "anio": -306,
       "titulo": "Quinto Marcio Trémulo y Publio Cornelio Arvina",
-      "texto": "Se nombró dictador a Publio Cornelio Escipión Barbato. Se renovó el tratado con Cartago dividiendo zonas de influencia."
+      "texto": "Se nombró dictador a Publio Cornelio Escipión Barbato. Se renovó el tratado con Cartago dividiendo zonas de influencia.",
+      "imagenes": [
+        {
+          "label": "Q. M. Trémulo",
+          "abbr": "Q. M. T."
+        },
+        {
+          "label": "P. C. Arvina",
+          "abbr": "P. C. A."
+        }
+      ]
     },
     {
       "anio": -305,
       "titulo": "Lucio Postumio Megelo y Tiberio Minucio Augurino",
-      "texto": "Batalla de Boviano: última gran batalla de la Segunda Guerra Samnita, con victoria romana."
+      "texto": "Batalla de Boviano: última gran batalla de la Segunda Guerra Samnita, con victoria romana.",
+      "imagenes": [
+        {
+          "label": "L. P. Megelo",
+          "abbr": "L. P. M."
+        },
+        {
+          "label": "T. M. Augurino",
+          "abbr": "T. M. A."
+        }
+      ]
     },
     {
       "anio": -304,
       "titulo": "Publio Sempronio Sofo y Publio Sulpicio Saverrio",
-      "texto": "Se fundó la colonia de Alba Fucens. Los samnitas pidieron la paz, poniendo fin a la Segunda Guerra Samnita."
+      "texto": "Se fundó la colonia de Alba Fucens. Los samnitas pidieron la paz, poniendo fin a la Segunda Guerra Samnita.",
+      "imagenes": [
+        {
+          "label": "P. S. Sofo",
+          "abbr": "P. S. S."
+        },
+        {
+          "label": "P. S. Saverrio",
+          "abbr": "P. S. S."
+        }
+      ]
     },
     {
       "anio": -303,
       "titulo": "Servio Cornelio Léntulo y Lucio Genucio Aventinense",
-      "texto": "Se firmó un tratado entre Roma y Tarento, comprometiéndose Roma a no navegar en el mar Jónico."
+      "texto": "Se firmó un tratado entre Roma y Tarento, comprometiéndose Roma a no navegar en el mar Jónico.",
+      "imagenes": [
+        {
+          "label": "S. C. Léntulo",
+          "abbr": "S. C. L."
+        },
+        {
+          "label": "L. G. Aventinense",
+          "abbr": "L. G. A."
+        }
+      ]
     },
     {
       "anio": -302,
       "titulo": "Marco Livio Denter y Marco Emilio Paulo",
-      "texto": "Se nombró dictador a Cayo Junio Bubulco Bruto. Se consagró el templo de la diosa Salus y se renovó el tratado con Tarento."
+      "texto": "Se nombró dictador a Cayo Junio Bubulco Bruto. Se consagró el templo de la diosa Salus y se renovó el tratado con Tarento.",
+      "imagenes": [
+        {
+          "label": "M. L. Denter",
+          "abbr": "M. L. D."
+        },
+        {
+          "label": "M. E. Paulo",
+          "abbr": "M. E. P."
+        }
+      ]
     },
     {
       "anio": -301,
       "titulo": "Dictador Marco Valerio Corvo",
-      "texto": "Con Quinto Fabio Máximo Rulliano como magister equitum, año sin cónsules claros, en medio de tensiones con etruscos y galos."
+      "texto": "Con Quinto Fabio Máximo Rulliano como magister equitum, año sin cónsules claros, en medio de tensiones con etruscos y galos.",
+      "imagenes": [
+        {
+          "label": "M. V. Corvo",
+          "abbr": "M. V. C."
+        }
+      ]
     },
     {
       "anio": -300,
