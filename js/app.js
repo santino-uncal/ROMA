@@ -223,6 +223,10 @@
     });
     document.getElementById('spqrBtn').classList.toggle('active', spqrEras.includes(era));
     document.getElementById('jumpbar').style.display = (era==='republica') ? 'flex' : 'none';
+    if(era!=='republica'){
+      const cr = document.getElementById('consulResults');
+      if(cr) cr.innerHTML = '';
+    }
     document.getElementById('eras').style.display = spqrEras.includes(era) ? 'flex' : 'none';
     document.getElementById('conflictsBox').style.display = spqrEras.includes(era) ? 'block' : 'none';
     document.getElementById('conflictsBoxOccidente').style.display = (era==='occidente') ? 'block' : 'none';
@@ -279,6 +283,256 @@
     }
     input.value = val;
   });
+
+  // ----- Buscador de consules (era republica) -----
+  function foldText(s){
+    return (s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+  }
+  const CONSUL_PREFIX_RE = /^(primeros?\s+)?tribunos\s+consulares\s*:?\s*/i;
+  const CONSUL_SKIP_RE = /^(segundo\s+decenvirato|primer\s+decenvirato|decenvirato|ausencia\b|interregno|anarqu|sin\s+c[oó]nsul|bloqueo|nuevo\s+bloqueo|[uú]ltima\s+secesi|c[oó]nsules\s+inciertos)/i;
+  const CONSUL_ROLE_RE = /^(dictador|c[oó]nsul(\s+(unico|único|sufecto|suffecto))?|magister\s+equitum|prefecto|tribuno)\b/i;
+
+  // Traduccion aproximada de nombres al latin (praenomina, gens, cognomina + heuristica).
+  const LAT_MAP = {
+  "acidino":"Acidinus","acilio":"Acilius","aemiliano":"Aemilianus","afranio":"Afranius",
+  "africano":"Africanus","agripa":"Agrippa","ahala":"Ahala","albino":"Albinus","albo":"Albus",
+  "alobrogico":"Allobrogicus","ambusto":"Ambustus","amintino":"Amintinus","anicio":"Anicius",
+  "antonio":"Antonius","apio":"Appius","apuleyo":"Appuleius","apustio":"Apustius","aquilino":"Aquilinus",
+  "aquilio":"Aquilius","arvina":"Arvina","asiatico":"Asiaticus","asina":"Asina","asinio":"Asinius",
+  "aternio":"Aternius","atico":"Atticus","atilio":"Atilius","atratino":"Atratinus","aufidio":"Aufidius",
+  "augurino":"Augurinus","aulio":"Aulius","aulo":"Aulus","aurelio":"Aurelius","aurunco":"Auruncus",
+  "aventinense":"Aventinensis","axila":"Axilla","balbo":"Balbus","balearico":"Baliaricus",
+  "barbato":"Barbatus","barbula":"Barbula","bebio":"Baebius","bestia":"Bestia","bibulo":"Bibulus",
+  "blasion":"Blasio","blesio":"Blaesus","bruto":"Brutus","bubulco":"Bubulcus","bulbo":"Bulbus",
+  "buteon":"Buteo","caeco":"Caecus","calaico":"Callaicus","calatino":"Calatinus","caldo":"Caldus",
+  "caleno":"Calenus","calpurniano":"Calpurnianus","calpurnio":"Calpurnius","calvino":"Calvinus",
+  "calvisio":"Calvisius","calvo":"Calvus","camerino":"Camerinus","camilo":"Camillus","canina":"Canina",
+  "caninio":"Caninius","capitolino":"Capitolinus","caprario":"Caprarius","carbon":"Carbo",
+  "carvilio":"Carvilius","casio":"Cassius","cassio":"Cassius","cato":"Cato","caton":"Cato",
+  "catulo":"Catulus","caudex":"Caudex","caudice":"Caudex","caudine":"Caudinus","caudino":"Caudinus",
+  "cayo":"Gaius","cecilio":"Caecilius","cedicio":"Caedicius","celer":"Celer","celio":"Caelius",
+  "celiomontano":"Caelimontanus","censorino":"Censorinus","centon":"Cento","centumalo":"Centumalus",
+  "cepion":"Caepio","cerco":"Cerco","cerretano":"Cerretanus","cesar":"Caesar","ceson":"Kaeso",
+  "cesonino":"Caesoninus","cetego":"Cethegus","ciceron":"Cicero","cicurino":"Cicurinus","ciego":"Caecus",
+  "cina":"Cinna","cincinato":"Cincinnatus","claudio":"Claudius","claudo":"Claudus","clelio":"Cloelius",
+  "clepsina":"Clepsina","clodiano":"Clodianus","cluilio":"Cluilius","cneo":"Gnaeus","coceyo":"Cocceius",
+  "colatino":"Collatinus","cominio":"Cominius","coritinesano":"Coritinesanus","cornelio":"Cornelius",
+  "cornicen":"Cornicen","cornuto":"Cornutus","coruncanio":"Coruncanius","corvino":"Corvinus",
+  "corvo":"Corvus","coso":"Cossus","cota":"Cotta","craso":"Crassus","creticus":"Creticus",
+  "crispino":"Crispinus","crispo":"Crispus","crus":"Crus","curcio":"Curtius","curiacio":"Curiatius",
+  "curio":"Curius","curion":"Curio","cursor":"Cursor","curvo":"Curvus","deciano":"Decianus",
+  "decimo":"Decimus","decio":"Decius","delmatico":"Dalmaticus","dentato":"Dentatus","denter":"Denter",
+  "dentro":"Denter","diademato":"Diadematus","didio":"Didius","dolabela":"Dolabella","domicio":"Domitius",
+  "dorsuo":"Dorsuo","druso":"Drusus","duilio":"Duilius","ebucio":"Aebutius","eburno":"Eburnus",
+  "elio":"Aelius","emiliano":"Aemilianus","emilio":"Aemilius","enobarbo":"Ahenobarbus","escaeva":"Scaeva",
+  "escapula":"Scapula","escauro":"Scaurus","esceva":"Scaeva","escevola":"Scaevola","escipion":"Scipio",
+  "escribonio":"Scribonius","espurino":"Spurinus","espurio":"Spurius","esquilino":"Esquilinus",
+  "estrabon":"Strabo","estructo":"Structus","fabio":"Fabius","fabricio":"Fabricius","falto":"Falto",
+  "fanio":"Fannius","fannio":"Fannius","fidenate":"Fidenas","figulo":"Figulus","filipo":"Philippus",
+  "filo":"Philo","filon":"Philo","fimbria":"Fimbria","fisto":"Fistus","flaccinator":"Flaccinator",
+  "flaco":"Flaccus","flama":"Flamma","flaminino":"Flamininus","flaminio":"Flaminius","flavio":"Flavius",
+  "flavo":"Flavus","floro":"Florus","folio":"Folius","frugi":"Frugi","fulon":"Fullo","fulviano":"Fulvianus",
+  "fulvio":"Fulvius","fundanio":"Fundanius","fundulo":"Fundulus","furio":"Furius","fuso":"Fusus",
+  "gabinio":"Gabinius","galba":"Galba","galo":"Gallus","gayo":"Gaius","geganio":"Geganius",
+  "gelio":"Gellius","gemino":"Geminus","genucio":"Genucius","geta":"Geta","glabrion":"Glabrio",
+  "gneo":"Gnaeus","graco":"Gracchus","gurges":"Gurges","helva":"Helva","herenio":"Herennius",
+  "herminio":"Herminius","hibrida":"Hybrida","hipseo":"Hypsaeus","hircio":"Hirtius","hispalo":"Hispallus",
+  "horacio":"Horatius","hortalo":"Hortalus","hortensio":"Hortensius","hostilio":"Hostilius",
+  "hosto":"Hostus","imperioso":"Imperiosus","inregilense":"Inregillensis","isaurico":"Isauricus","joven":"",
+  "julio":"Iulius","julo":"Iulus","junio":"Iunius","juvencio":"Iuventius","labeon":"Labeo",
+  "lactuca":"Lactuca","lactucino":"Lactucinus","lanato":"Lanatus","larcio":"Larcius","lars":"Lars",
+  "lateranao":"Lateranus","laterano":"Lateranus","lelio":"Laelius","lenate":"Laenas","lentulo":"Lentulus",
+  "lepido":"Lepidus","levino":"Laevinus","libon":"Libo","licinio":"Licinius","licino":"Licinus",
+  "ligur":"Ligur","livianio":"Livienus","livio":"Livius","loculo":"Lucullus","longino":"Longinus",
+  "longo":"Longus","lucio":"Lucius","lucrecio":"Lucretius","luculo":"Lucullus","lupo":"Lupus",
+  "luscino":"Luscinus","lusco":"Luscus","luscon":"Lusco","lutacio":"Lutatius","macedonico":"Macedonicus",
+  "macerino":"Macerinus","magno":"Magnus","malleolo":"Malleolus","maluginense":"Maluginensis",
+  "mamercino":"Mamercinus","mamerco":"Mamercus","mamilio":"Mamilius","mancino":"Mancinus",
+  "manilio":"Manilius","manio":"Manius","manlio":"Manlius","marcelino":"Marcellinus","marcelo":"Marcellus",
+  "marcio":"Marcius","marco":"Marcus","mario":"Marius","mason":"Maso","maton":"Mato","maximo":"Maximus",
+  "medulino":"Medullinus","megelo":"Megellus","melio":"Maelius","menenio":"Menenius","menio":"Maenius",
+  "merenda":"Merenda","merula":"Merula","mesala":"Messalla","metelo":"Metellus","minucio":"Minucius",
+  "montano":"Montanus","muciano":"Mucianus","mucio":"Mucius","mugilano":"Mugillanus","mumio":"Mummius",
+  "munacio":"Munatius","murena":"Murena","mus":"Mus","musca":"Musca","muzio":"Mucius","nasica":"Nasica",
+  "naucio":"Nautius","nautio":"Nautius","nepote":"Nepos","neron":"Nero","nerva":"Nerva","nigro":"Niger",
+  "nobilior":"Nobilior","noctua":"Noctua","norbano":"Norbanus","numerio":"Numerius","numicio":"Numicius",
+  "numidico":"Numidicus","numio":"Numius","octavio":"Octavius","ogulnio":"Ogulnius","opimio":"Opimius",
+  "opiter":"Opiter","orestes":"Orestes","otacilio":"Otacilius","pacilo":"Pacilus","pansa":"Pansa",
+  "papirio":"Papirius","papo":"Papus","paterculo":"Paterculus","paulo":"Paullus","pcilo":"Pacilus",
+  "peno":"Poenus","perpenna":"Perpenna","petelio":"Petelius","petico":"Peticus","petilio":"Petilius",
+  "petino":"Petinus","peto":"Paetus","pictor":"Pictor","pinario":"Pinarius","pio":"Pius","pison":"Piso",
+  "planco":"Plancus","plaucio":"Plautius","plautio":"Plautius","poeno":"Poenus","polion":"Pollio",
+  "pompeyo":"Pompeius","pomponio":"Pomponius","popilio":"Popillius","porcina":"Porcina","porcio":"Porcius",
+  "postumio":"Postumius","postumo":"Postumus","potito":"Potitus","pretextato":"Praetextatus",
+  "prisco":"Priscus","privernate":"Privernas","proculo":"Proculus","publicio":"Publicius",
+  "publicola":"Poplicola","publilio":"Publilius","publio":"Publius","pulcro":"Pulcher","pulo":"Pullus",
+  "pulvilo":"Pulvillus","pupio":"Pupius","purpurion":"Purpureo","quincio":"Quinctius",
+  "quintilio":"Quinctilius","quinto":"Quintus","ravila":"Ravilla","regilense":"Regillensis",
+  "regulo":"Regulus","rex":"Rex","roco":"Rocus","romilio":"Romilius","rufino":"Rufinus","rufo":"Rufus",
+  "rulliano":"Rullianus","rupilio":"Rupilius","ruso":"Rufus","rutilio":"Rutilius","rutilo":"Rutilus",
+  "sabino":"Sabinus","saco":"Saccus","salinator":"Salinator","sapiens":"Sapiens","saturnino":"Saturninus",
+  "saverrio":"Saverrio","sceva":"Scaeva","sempronio":"Sempronius","ser":"Servius","serapion":"Serapio",
+  "sergio":"Sergius","serrano":"Serranus","serviliano":"Servilianus","servilio":"Servilius",
+  "servio":"Servius","sestilio":"Sextilius","sestio":"Sextius","sextilio":"Sextilius","sextio":"Sextius",
+  "sexto":"Sextus","sicinio":"Sicinius","siculo":"Siculus","sila":"Sulla","silano":"Silanus",
+  "sofo":"Sophus","sosio":"Sosius","spinter":"Spinther","stolon":"Stolo","sulpicio":"Sulpicius",
+  "sura":"Sura","talna":"Talna","tanfilo":"Tamphilus","tapulo":"Tappulus","tarpeyo":"Tarpeius",
+  "tarquinio":"Tarquinius","terencio":"Terentius","termo":"Thermus","tiberio":"Tiberius",
+  "titinio":"Titinius","tito":"Titus","torcuato":"Torquatus","trebonio":"Trebonius","tremulo":"Tremulus",
+  "tricipitino":"Tricipitinus","tricosto":"Tricostus","trigemino":"Trigeminus","tuberto":"Tubertus",
+  "tucca":"Tucca","tuditano":"Tuditanus","tulio":"Tullius","tulo":"Tullus","turrino":"Turrinus",
+  "tusco":"Tuscus","uritino":"Uritinus","valerio":"Valerius","varo":"Varus","varron":"Varro",
+  "vatia":"Vatia","vaticano":"Vaticanus","vecelino":"Vecellinus","vennon":"Venno","venon":"Venno",
+  "verginio":"Verginius","verrucoso":"Verrucosus","veturio":"Veturius","vibio":"Vibius",
+  "vibulano":"Vibulanus","villio":"Villius","violento":"Violens","vipsanio":"Vipsanius",
+  "virginio":"Verginius","visolo":"Visellus","vitulo":"Vitulus","volcacio":"Volcatius","voleron":"Volero",
+  "voleyo":"Voleius","volsco":"Volscus","volumnio":"Volumnius","voluso":"Volusus","vopisco":"Vopiscus",
+  "vulson":"Vulso"
+  };
+  const NAME_STOP = { de:1, la:1, el:1, y:1, del:1, los:1, las:1 };
+
+  function latinizeToken(tok){
+    const key = foldText(tok);
+    if(NAME_STOP[key]) return '';
+    if(Object.prototype.hasOwnProperty.call(LAT_MAP, key)) return LAT_MAP[key];
+    let s = tok;
+    const m = s.match(/^[Ee]s([cpqt])(.*)$/);
+    if(m) s = (s[0]==='E' ? 'S' : 's') + m[1] + m[2];
+    s = s.replace(/J/g,'I').replace(/j/g,'i');
+    const END = [
+      [/ci[oó]n$/i,'tio'], [/si[oó]n$/i,'sio'], [/[oó]n$/i,'o'],
+      [/ense$/i,'ensis'], [/ate$/i,'as'],
+      [/iano$/i,'ianus'], [/ano$/i,'anus'], [/ino$/i,'inus'],
+      [/ico$/i,'icus'], [/oso$/i,'osus'],
+      [/io$/i,'ius'], [/eo$/i,'eus'], [/o$/i,'us']
+    ];
+    for(let k=0;k<END.length;k++){
+      if(END[k][0].test(s)){ s = s.replace(END[k][0], END[k][1]); break; }
+    }
+    s = s.normalize('NFD').replace(/[̀-ͯ]/g,'');
+    if(/^[a-z]/.test(s) && /^[A-ZÁÉÍÓÚÜÑ]/.test(tok)){
+      s = s.charAt(0).toUpperCase() + s.slice(1);
+    }
+    return s;
+  }
+  function latinizeName(name){
+    return name.split(/\s+/).map(latinizeToken).filter(Boolean).join(' ');
+  }
+
+  let consulIndex = null;
+  function buildConsulIndex(){
+    const map = new Map();
+    DATA.republica.forEach(item=>{
+      let raw = (item.titulo || '')
+        .replace(CONSUL_PREFIX_RE, '')
+        .replace(/\([^)]*\)/g, '');
+      if(CONSUL_SKIP_RE.test(raw)) return;
+      raw.split(/\s*,\s*|\s+y\s+|\s+[—–]\s+/).forEach((part, partIdx)=>{
+        let name = part.replace(/\s+/g,' ').trim();
+        name = name.replace(/[.,;:·]+$/,'').trim();
+        if(name.length < 3) return;
+        if(CONSUL_ROLE_RE.test(name)) return;
+        if(!/^[A-ZÁÉÍÓÚÜÑ]/.test(name)) return;
+        const key = foldText(name);
+        let g = map.get(key);
+        if(!g){ g = { name: name, latin: latinizeName(name), years: [], portrait: null }; map.set(key, g); }
+        if(g.years.indexOf(item.anio) === -1) g.years.push(item.anio);
+        const imgData = item.imagenes && item.imagenes[partIdx];
+        if(imgData && (!g.portrait || (imgData.imagen && !g.portrait.imagen))){
+          g.portrait = imgData;
+        }
+      });
+    });
+    consulIndex = Array.from(map.values());
+    consulIndex.forEach(g=> g.years.sort((a,b)=> a-b));
+  }
+
+  function yearLabel(y){ return (y<0 ? Math.abs(y)+' a.C.' : y+' d.C.'); }
+
+  function jumpToYear(anio){
+    const idx = DATA.republica.findIndex(it=> it.anio===anio);
+    if(idx!==-1) selectIndex(idx, true);
+  }
+
+  function renderConsulResults(query){
+    const box = document.getElementById('consulResults');
+    box.innerHTML = '';
+    const q = foldText(query).trim();
+    if(q.length < 2) return;
+    if(!consulIndex) buildConsulIndex();
+    const matches = consulIndex
+      .filter(g=> foldText(g.name).indexOf(q) !== -1 || foldText(g.latin).indexOf(q) !== -1)
+      .sort((a,b)=> a.years[0] - b.years[0])
+      .slice(0, 25);
+    if(!matches.length){
+      const p = document.createElement('p');
+      p.className = 'consul-noresult';
+      p.textContent = 'Sin resultados para "' + query.trim() + '".';
+      box.appendChild(p);
+      return;
+    }
+    matches.forEach(g=>{
+      const row = document.createElement('div');
+      row.className = 'consul-result';
+
+      const circle = document.createElement('span');
+      circle.className = 'portrait-circle';
+      const p = g.portrait;
+      if(p && p.imagen){
+        const img = document.createElement('img');
+        img.src = p.imagen;
+        img.alt = g.name;
+        img.onload = ()=>{ img.style.opacity = 1; };
+        img.onerror = ()=>{
+          img.remove();
+          circle.style.background = hashColor(g.name);
+          const s = document.createElement('span');
+          s.textContent = getInitials(g.name);
+          circle.appendChild(s);
+        };
+        circle.appendChild(img);
+      } else {
+        circle.style.background = hashColor(g.name);
+        const s = document.createElement('span');
+        s.textContent = (p && p.abbr) ? p.abbr : getInitials(g.name);
+        circle.appendChild(s);
+      }
+      row.appendChild(circle);
+
+      const body = document.createElement('div');
+      body.className = 'consul-result-body';
+      const nm = document.createElement('span');
+      nm.className = 'consul-result-name';
+      nm.textContent = g.name;
+      body.appendChild(nm);
+
+      if(g.latin && foldText(g.latin) !== foldText(g.name)){
+        const lat = document.createElement('span');
+        lat.className = 'consul-result-latin';
+        lat.textContent = g.latin;
+        body.appendChild(lat);
+      }
+
+      const years = document.createElement('div');
+      years.className = 'consul-result-years';
+      g.years.forEach(y=>{
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'consul-year-btn';
+        b.textContent = yearLabel(y);
+        b.addEventListener('click', ()=> jumpToYear(y));
+        years.appendChild(b);
+      });
+      body.appendChild(years);
+      row.appendChild(body);
+      box.appendChild(row);
+    });
+  }
+
+  const consulInput = document.getElementById('jumpConsul');
+  if(consulInput){
+    consulInput.addEventListener('input', ()=> renderConsulResults(consulInput.value));
+  }
 
   // init
   setEra('monarquia');
