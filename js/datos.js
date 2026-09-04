@@ -3089,67 +3089,193 @@ window.ROMA_DATA = {
     {
       "anio": -300,
       "titulo": "Marco Valerio Corvo (5°) y Quinto Apuleyo Pansa",
-      "texto": "Se aprobó la Lex Ogulnia, que permitió a los plebeyos acceder a los colegios de pontífices y augures."
+      "texto": "Se aprobó la Lex Ogulnia, que permitió a los plebeyos acceder a los colegios de pontífices y augures.",
+      "imagenes": [
+        {
+          "label": "M. V. Corvo",
+          "abbr": "M. V. C."
+        },
+        {
+          "label": "Q. A. Pansa",
+          "abbr": "Q. A. P."
+        }
+      ]
     },
     {
       "anio": -299,
       "titulo": "Marco Fulvio Petino y Tito Manlio Torcuato",
-      "texto": "Torcuato murió al caer de su caballo en campaña contra los galos senones. Se reanudó la guerra contra los samnitas, que buscaron apoyo galo y etrusco."
+      "texto": "Torcuato murió al caer de su caballo en campaña contra los galos senones. Se reanudó la guerra contra los samnitas, que buscaron apoyo galo y etrusco.",
+      "imagenes": [
+        {
+          "label": "M. F. Petino",
+          "abbr": "M. F. P."
+        },
+        {
+          "label": "T. M. Torcuato",
+          "abbr": "T. M. T."
+        }
+      ]
     },
     {
       "anio": -298,
       "titulo": "Lucio Cornelio Escipión Barbato y Cneo Fulvio Máximo Centumalo",
-      "texto": "Estalló la Tercera Guerra Samnita (298–290). Escipión Barbato conquistó Taurasia y Cisauna, según su célebre epitafio."
+      "texto": "Estalló la Tercera Guerra Samnita (298–290). Escipión Barbato conquistó Taurasia y Cisauna, según su célebre epitafio.",
+      "imagenes": [
+        {
+          "label": "L. C. E. Barbato",
+          "abbr": "L. C. E. B."
+        },
+        {
+          "label": "Cneo F. M. Centumalo",
+          "abbr": "Cneo F. M. C."
+        }
+      ]
     },
     {
       "anio": -297,
       "titulo": "Quinto Fabio Máximo Rulliano (4°) y Publio Decio Mus (3°)",
-      "texto": "Ambos veteranos devastaron el territorio de Samnio en campaña conjunta, debilitando seriamente al enemigo."
+      "texto": "Ambos veteranos devastaron el territorio de Samnio en campaña conjunta, debilitando seriamente al enemigo.",
+      "imagenes": [
+        {
+          "label": "Q. F. M. Rulliano",
+          "abbr": "Q. F. M. R."
+        },
+        {
+          "label": "P. D. Mus",
+          "abbr": "P. D. M."
+        }
+      ]
     },
     {
       "anio": -296,
       "titulo": "Apio Claudio el Ciego (2°) y Lucio Volumnio Flama Violento (2°)",
-      "texto": "Los samnitas reunieron una gran coalición con galos, etruscos y umbros. Volumnio los derrotó en Samnio; Apio Claudio contuvo a etruscos y galos."
+      "texto": "Los samnitas reunieron una gran coalición con galos, etruscos y umbros. Volumnio los derrotó en Samnio; Apio Claudio contuvo a etruscos y galos.",
+      "imagenes": [
+        {
+          "label": "A. C. Ciego",
+          "abbr": "A. C. C."
+        },
+        {
+          "label": "L. V. F. Violento",
+          "abbr": "L. V. F. V."
+        }
+      ]
     },
     {
       "anio": -295,
       "titulo": "Quinto Fabio Máximo Rulliano (5°) y Publio Decio Mus (4°)",
-      "texto": "Batalla de Sentinum: Decio Mus se sacrificó (devotio) contra la coalición samnita-gala, punto de inflexión de la guerra."
+      "texto": "Batalla de Sentinum: Decio Mus se sacrificó (devotio) contra la coalición samnita-gala, punto de inflexión de la guerra.",
+      "imagenes": [
+        {
+          "label": "Q. F. M. Rulliano",
+          "abbr": "Q. F. M. R."
+        },
+        {
+          "label": "P. D. Mus",
+          "abbr": "P. D. M."
+        }
+      ]
     },
     {
       "anio": -294,
       "titulo": "Marco Atilio Régulo y Lucio Postumio Megelo (2°)",
-      "texto": "Régulo combatió a samnitas y apulios hasta prometer un templo a Júpiter Estátor tras vencer en Interamna."
+      "texto": "Régulo combatió a samnitas y apulios hasta prometer un templo a Júpiter Estátor tras vencer en Interamna.",
+      "imagenes": [
+        {
+          "label": "M. A. Régulo",
+          "abbr": "M. A. R."
+        },
+        {
+          "label": "L. P. Megelo",
+          "abbr": "L. P. M."
+        }
+      ]
     },
     {
       "anio": -293,
       "titulo": "Lucio Papirio Cursor (2°) y Espurio Carvilio Máximo",
-      "texto": "Papirio Cursor venció a los samnitas en Aquilonia, aniquilando la 'legión enlazada' samnita."
+      "texto": "Papirio Cursor venció a los samnitas en Aquilonia, aniquilando la 'legión enlazada' samnita.",
+      "imagenes": [
+        {
+          "label": "L. P. Cursor",
+          "abbr": "L. P. C."
+        },
+        {
+          "label": "E. C. Máximo",
+          "abbr": "E. C. M."
+        }
+      ]
     },
     {
       "anio": -292,
       "titulo": "Quinto Fabio Máximo Gurges y Décimo Junio Bruto Escaeva",
-      "texto": "Fabio Gurges sufrió una primera derrota ante los samnitas, pero con ayuda de su padre Rulliano logró vencerlos."
+      "texto": "Fabio Gurges sufrió una primera derrota ante los samnitas, pero con ayuda de su padre Rulliano logró vencerlos.",
+      "imagenes": [
+        {
+          "label": "Q. F. M. Gurges",
+          "abbr": "Q. F. M. G."
+        },
+        {
+          "label": "D. J. B. Escaeva",
+          "abbr": "D. J. B. E."
+        }
+      ]
     },
     {
       "anio": -291,
       "titulo": "Lucio Postumio Megelo (3°) y Cayo Junio Bubulco Bruto (2°)",
-      "texto": "Desgaste final de la guerra samnita; Postumio Megelo fue acusado luego de abusos de poder en el sitio de Cominio."
+      "texto": "Desgaste final de la guerra samnita; Postumio Megelo fue acusado luego de abusos de poder en el sitio de Cominio.",
+      "imagenes": [
+        {
+          "label": "L. P. Megelo",
+          "abbr": "L. P. M."
+        },
+        {
+          "label": "C. J. B. Bruto",
+          "abbr": "C. J. B. B."
+        }
+      ]
     },
     {
       "anio": -290,
       "titulo": "Publio Cornelio Rufino y Manio Curio Dentato",
-      "texto": "Curio Dentato logró la rendición definitiva de los samnitas, fin de la Tercera Guerra Samnita. Sometió también a los sabinos."
+      "texto": "Curio Dentato logró la rendición definitiva de los samnitas, fin de la Tercera Guerra Samnita. Sometió también a los sabinos.",
+      "imagenes": [
+        {
+          "label": "P. C. Rufino",
+          "abbr": "P. C. R."
+        },
+        {
+          "label": "M. C. Dentato",
+          "abbr": "M. C. D."
+        }
+      ]
     },
     {
       "anio": -289,
       "titulo": "Marco Valerio Máximo Corvino y Quinto Cedicio Noctua",
-      "texto": "Año de escasa documentación, en la consolidación tras la victoria sobre los samnitas."
+      "texto": "Año de escasa documentación, en la consolidación tras la victoria sobre los samnitas.",
+      "imagenes": [
+        {
+          "label": "M. V. M. Corvino",
+          "abbr": "M. V. M. C."
+        },
+        {
+          "label": "Q. C. Noctua",
+          "abbr": "Q. C. N."
+        }
+      ]
     },
     {
       "anio": -287,
       "titulo": "Última secesión de la plebe — dictador Quinto Hortensio",
-      "texto": "Resuelta por el dictador Quinto Hortensio, quien promulgó la Lex Hortensia: los plebiscitos tuvieron fuerza de ley para todos los ciudadanos, cerrando la Lucha de las Órdenes."
+      "texto": "Resuelta por el dictador Quinto Hortensio, quien promulgó la Lex Hortensia: los plebiscitos tuvieron fuerza de ley para todos los ciudadanos, cerrando la Lucha de las Órdenes.",
+      "imagenes": [
+        {
+          "label": "Q. Hortensio",
+          "abbr": "Q. H."
+        }
+      ]
     },
     {
       "anio": -286,
@@ -3159,427 +3285,1277 @@ window.ROMA_DATA = {
     {
       "anio": -285,
       "titulo": "Cayo Claudio Canina y Marco Emilio Lépido",
-      "texto": "Los galos senones, aliados de etruscos, sitiaron Arretium; sus enviados romanos fueron asesinados, desatando un nuevo conflicto galo."
+      "texto": "Los galos senones, aliados de etruscos, sitiaron Arretium; sus enviados romanos fueron asesinados, desatando un nuevo conflicto galo.",
+      "imagenes": [
+        {
+          "label": "C. C. Canina",
+          "abbr": "C. C. C."
+        },
+        {
+          "label": "M. E. Lépido",
+          "abbr": "M. E. L."
+        }
+      ]
     },
     {
       "anio": -284,
       "titulo": "Cayo Servilio Tucca y Lucio Cecilio Metelo Dentro",
-      "texto": "En represalia, Roma atacó a los senones; Metelo Dentro murió en una emboscada gala cerca de Arretium."
+      "texto": "En represalia, Roma atacó a los senones; Metelo Dentro murió en una emboscada gala cerca de Arretium.",
+      "imagenes": [
+        {
+          "label": "C. S. Tucca",
+          "abbr": "C. S. T."
+        },
+        {
+          "label": "L. C. M. Dentro",
+          "abbr": "L. C. M. D."
+        }
+      ]
     },
     {
       "anio": -283,
       "titulo": "Publio Cornelio Dolabela y Cneo Domicio Calvino Máximo",
-      "texto": "Dolabela destruyó completamente a los senones. Ambos vencieron a galos boios y etruscos en el Lago Vadimón."
+      "texto": "Dolabela destruyó completamente a los senones. Ambos vencieron a galos boios y etruscos en el Lago Vadimón.",
+      "imagenes": [
+        {
+          "label": "P. C. Dolabela",
+          "abbr": "P. C. D."
+        },
+        {
+          "label": "Cneo D. C. Máximo",
+          "abbr": "Cneo D. C. M."
+        }
+      ]
     },
     {
       "anio": -282,
       "titulo": "Cayo Fabricio Luscino y Quinto Emilio Papo",
-      "texto": "Una flota romana en auxilio de Thurii fue atacada por Tarento, chispa del conflicto con la ciudad griega."
+      "texto": "Una flota romana en auxilio de Thurii fue atacada por Tarento, chispa del conflicto con la ciudad griega.",
+      "imagenes": [
+        {
+          "label": "C. F. Luscino",
+          "abbr": "C. F. L."
+        },
+        {
+          "label": "Q. E. Papo",
+          "abbr": "Q. E. P."
+        }
+      ]
     },
     {
       "anio": -281,
       "titulo": "Lucio Emilio Barbula y Quinto Marcio Filipo",
-      "texto": "Estalló la guerra contra Tarento, que pidió ayuda a Pirro de Epiro, dando inicio a la Guerra Pírrica (280–275)."
+      "texto": "Estalló la guerra contra Tarento, que pidió ayuda a Pirro de Epiro, dando inicio a la Guerra Pírrica (280–275).",
+      "imagenes": [
+        {
+          "label": "L. E. Barbula",
+          "abbr": "L. E. B."
+        },
+        {
+          "label": "Q. M. Filipo",
+          "abbr": "Q. M. F."
+        }
+      ]
     },
     {
       "anio": -280,
       "titulo": "Publio Valerio Levino y Tiberio Coruncanio",
-      "texto": "Pirro desembarcó en Italia y venció en la batalla de Heraclea, con pérdidas tan altas que dio origen a la 'victoria pírrica'."
+      "texto": "Pirro desembarcó en Italia y venció en la batalla de Heraclea, con pérdidas tan altas que dio origen a la 'victoria pírrica'.",
+      "imagenes": [
+        {
+          "label": "P. V. Levino",
+          "abbr": "P. V. L."
+        },
+        {
+          "label": "T. Coruncanio",
+          "abbr": "T. C."
+        }
+      ]
     },
     {
       "anio": -279,
       "titulo": "Publio Sulpicio Saverrio y Publio Decio Mus (5°)",
-      "texto": "Pirro volvió a vencer en la batalla de Ásculo, de nuevo a un costo altísimo."
+      "texto": "Pirro volvió a vencer en la batalla de Ásculo, de nuevo a un costo altísimo.",
+      "imagenes": [
+        {
+          "label": "P. S. Saverrio",
+          "abbr": "P. S. S."
+        },
+        {
+          "label": "P. D. Mus",
+          "abbr": "P. D. M."
+        }
+      ]
     },
     {
       "anio": -278,
       "titulo": "Cayo Fabricio Luscino (2°) y Quinto Emilio Papo (2°)",
-      "texto": "Fabricio Luscino rechazó envenenar a Pirro y delató el complot. Pirro cruzó a Sicilia para auxiliar a Siracusa contra Cartago."
+      "texto": "Fabricio Luscino rechazó envenenar a Pirro y delató el complot. Pirro cruzó a Sicilia para auxiliar a Siracusa contra Cartago.",
+      "imagenes": [
+        {
+          "label": "C. F. Luscino",
+          "abbr": "C. F. L."
+        },
+        {
+          "label": "Q. E. Papo",
+          "abbr": "Q. E. P."
+        }
+      ]
     },
     {
       "anio": -277,
       "titulo": "Publio Cornelio Rufino (2°) y Cayo Junio Bubulco Bruto (2°)",
-      "texto": "Aprovechando la ausencia de Pirro, Roma conquistó Crotona en el sur de Italia."
+      "texto": "Aprovechando la ausencia de Pirro, Roma conquistó Crotona en el sur de Italia.",
+      "imagenes": [
+        {
+          "label": "P. C. Rufino",
+          "abbr": "P. C. R."
+        },
+        {
+          "label": "C. J. B. Bruto",
+          "abbr": "C. J. B. B."
+        }
+      ]
     },
     {
       "anio": -276,
       "titulo": "Cayo Genucio Clepsina y Cneo Cornelio Blasión",
-      "texto": "Continuaron las campañas de sometimiento en el sur de Italia mientras Pirro seguía en Sicilia."
+      "texto": "Continuaron las campañas de sometimiento en el sur de Italia mientras Pirro seguía en Sicilia.",
+      "imagenes": [
+        {
+          "label": "C. G. Clepsina",
+          "abbr": "C. G. C."
+        },
+        {
+          "label": "Cneo C. Blasión",
+          "abbr": "Cneo C. B."
+        }
+      ]
     },
     {
       "anio": -275,
       "titulo": "Manio Curio Dentato (3°) y Lucio Cornelio Léntulo Caudino",
-      "texto": "Pirro fue derrotado decisivamente por Curio Dentato en la batalla de Benevento, fin de la Guerra Pírrica."
+      "texto": "Pirro fue derrotado decisivamente por Curio Dentato en la batalla de Benevento, fin de la Guerra Pírrica.",
+      "imagenes": [
+        {
+          "label": "M. C. Dentato",
+          "abbr": "M. C. D."
+        },
+        {
+          "label": "L. C. L. Caudino",
+          "abbr": "L. C. L. C."
+        }
+      ]
     },
     {
       "anio": -274,
       "titulo": "Manio Curio Dentato (4°) y Servio Cornelio Merenda",
-      "texto": "Se completó la sumisión de los últimos focos de resistencia samnita, lucana y bruttia."
+      "texto": "Se completó la sumisión de los últimos focos de resistencia samnita, lucana y bruttia.",
+      "imagenes": [
+        {
+          "label": "M. C. Dentato",
+          "abbr": "M. C. D."
+        },
+        {
+          "label": "S. C. Merenda",
+          "abbr": "S. C. M."
+        }
+      ]
     },
     {
       "anio": -273,
       "titulo": "Cayo Fabio Licino y Cayo Claudio Canina",
-      "texto": "Ptolomeo II de Egipto envió una embajada a Roma, uno de los primeros contactos con una potencia helenística."
+      "texto": "Ptolomeo II de Egipto envió una embajada a Roma, uno de los primeros contactos con una potencia helenística.",
+      "imagenes": [
+        {
+          "label": "C. F. Licino",
+          "abbr": "C. F. L."
+        },
+        {
+          "label": "C. C. Canina",
+          "abbr": "C. C. C."
+        }
+      ]
     },
     {
       "anio": -272,
       "titulo": "Lucio Papirio Cursor (hijo) y Espurio Carvilio Máximo (2°)",
-      "texto": "Tarento se rindió a Roma, completando la conquista romana de la Magna Grecia."
+      "texto": "Tarento se rindió a Roma, completando la conquista romana de la Magna Grecia.",
+      "imagenes": [
+        {
+          "label": "L. P. Cursor",
+          "abbr": "L. P. C."
+        },
+        {
+          "label": "E. C. Máximo",
+          "abbr": "E. C. M."
+        }
+      ]
     },
     {
       "anio": -271,
       "titulo": "Cayo Quincio Claudo y Lucio Genucio Clepsina (2°)",
-      "texto": "Roma recuperó Regio, tomada por una guarnición amotinada campana; los sobrevivientes fueron ejecutados."
+      "texto": "Roma recuperó Regio, tomada por una guarnición amotinada campana; los sobrevivientes fueron ejecutados.",
+      "imagenes": [
+        {
+          "label": "C. Q. Claudo",
+          "abbr": "C. Q. C."
+        },
+        {
+          "label": "L. G. Clepsina",
+          "abbr": "L. G. C."
+        }
+      ]
     },
     {
       "anio": -270,
       "titulo": "Cneo Cornelio Blasión (2°) y Cayo Genucio Clepsina (2°)",
-      "texto": "Con la caída de los últimos focos de resistencia, Roma completó el dominio de la península itálica al sur del Po."
+      "texto": "Con la caída de los últimos focos de resistencia, Roma completó el dominio de la península itálica al sur del Po.",
+      "imagenes": [
+        {
+          "label": "Cneo C. Blasión",
+          "abbr": "Cneo C. B."
+        },
+        {
+          "label": "C. G. Clepsina",
+          "abbr": "C. G. C."
+        }
+      ]
     },
     {
       "anio": -269,
       "titulo": "Quinto Ogulnio Galo y Cayo Fabio Pictor",
-      "texto": "Roma comenzó a acuñar sus primeras monedas de plata, los didracmas."
+      "texto": "Roma comenzó a acuñar sus primeras monedas de plata, los didracmas.",
+      "imagenes": [
+        {
+          "label": "Q. O. Galo",
+          "abbr": "Q. O. G."
+        },
+        {
+          "label": "C. F. Pictor",
+          "abbr": "C. F. P."
+        }
+      ]
     },
     {
       "anio": -268,
       "titulo": "Publio Sempronio Sofo y Apio Claudio Ruso",
-      "texto": "Se sofocó una rebelión de los Piceni; se fundó la colonia de Ariminum (Rímini)."
+      "texto": "Se sofocó una rebelión de los Piceni; se fundó la colonia de Ariminum (Rímini).",
+      "imagenes": [
+        {
+          "label": "P. S. Sofo",
+          "abbr": "P. S. S."
+        },
+        {
+          "label": "A. C. Ruso",
+          "abbr": "A. C. R."
+        }
+      ]
     },
     {
       "anio": -267,
       "titulo": "Marco Atilio Régulo y Lucio Julio Líbón",
-      "texto": "Roma sometió a sallentinos y mesapios, completando la pacificación de la península."
+      "texto": "Roma sometió a sallentinos y mesapios, completando la pacificación de la península.",
+      "imagenes": [
+        {
+          "label": "M. A. Régulo",
+          "abbr": "M. A. R."
+        },
+        {
+          "label": "L. J. Líbón",
+          "abbr": "L. J. L."
+        }
+      ]
     },
     {
       "anio": -266,
       "titulo": "Décimo Junio Peto y Numerio Fabio Pictor",
-      "texto": "Se sometió a los últimos reductos de resistencia en el sur de Italia."
+      "texto": "Se sometió a los últimos reductos de resistencia en el sur de Italia.",
+      "imagenes": [
+        {
+          "label": "D. J. Peto",
+          "abbr": "D. J. P."
+        },
+        {
+          "label": "Numerio F. Pictor",
+          "abbr": "N. F. P."
+        }
+      ]
     },
     {
       "anio": -265,
       "titulo": "Lucio Manlio Vulsón Longo y Quinto Cedicio (o Marco Fulvio Flaco)",
-      "texto": "Guerra civil en Sicilia entre Hierón II de Siracusa y los mamertinos, que pidieron ayuda a Roma y Cartago."
+      "texto": "Guerra civil en Sicilia entre Hierón II de Siracusa y los mamertinos, que pidieron ayuda a Roma y Cartago.",
+      "imagenes": [
+        {
+          "label": "L. M. V. Longo",
+          "abbr": "L. M. V. L."
+        },
+        {
+          "label": "Q. Cedicio",
+          "abbr": "Q. C."
+        }
+      ]
     },
     {
       "anio": -264,
       "titulo": "Apio Claudio Cáudice y Marco Fulvio Flaco",
-      "texto": "Roma intervino en Mesina y derrotó a Hierón II y Cartago, dando inicio a la Primera Guerra Púnica (264–241)."
+      "texto": "Roma intervino en Mesina y derrotó a Hierón II y Cartago, dando inicio a la Primera Guerra Púnica (264–241).",
+      "imagenes": [
+        {
+          "label": "A. C. Cáudice",
+          "abbr": "A. C. C."
+        },
+        {
+          "label": "M. F. Flaco",
+          "abbr": "M. F. F."
+        }
+      ]
     },
     {
       "anio": -263,
       "titulo": "Manio Valerio Máximo Mesala y Manio Otacilio Craso",
-      "texto": "Un gran ejército romano invadió Sicilia; Hierón II rompió con Cartago y se alió con Roma."
+      "texto": "Un gran ejército romano invadió Sicilia; Hierón II rompió con Cartago y se alió con Roma.",
+      "imagenes": [
+        {
+          "label": "M. V. M. Mesala",
+          "abbr": "M. V. M. M."
+        },
+        {
+          "label": "M. O. Craso",
+          "abbr": "M. O. C."
+        }
+      ]
     },
     {
       "anio": -262,
       "titulo": "Lucio Postumio Megelo (2°) y Quinto Mamilio Vitulo",
-      "texto": "Roma sitió y conquistó Agrigento, principal plaza cartaginesa del interior de Sicilia."
+      "texto": "Roma sitió y conquistó Agrigento, principal plaza cartaginesa del interior de Sicilia.",
+      "imagenes": [
+        {
+          "label": "L. P. Megelo",
+          "abbr": "L. P. M."
+        },
+        {
+          "label": "Q. M. Vitulo",
+          "abbr": "Q. M. V."
+        }
+      ]
     },
     {
       "anio": -261,
       "titulo": "Lucio Valerio Flaco y Tito Otacilio Craso",
-      "texto": "Roma decidió construir su primera gran flota de guerra."
+      "texto": "Roma decidió construir su primera gran flota de guerra.",
+      "imagenes": [
+        {
+          "label": "L. V. Flaco",
+          "abbr": "L. V. F."
+        },
+        {
+          "label": "T. O. Craso",
+          "abbr": "T. O. C."
+        }
+      ]
     },
     {
       "anio": -260,
       "titulo": "Cneo Cornelio Escipión Asina y Cayo Duilio",
-      "texto": "Duilio obtuvo la primera gran victoria naval romana en Milas gracias al corvus; Escipión Asina fue capturado en las Lípari."
+      "texto": "Duilio obtuvo la primera gran victoria naval romana en Milas gracias al corvus; Escipión Asina fue capturado en las Lípari.",
+      "imagenes": [
+        {
+          "label": "Cneo C. E. Asina",
+          "abbr": "Cneo C. E. A."
+        },
+        {
+          "label": "C. Duilio",
+          "abbr": "C. D."
+        }
+      ]
     },
     {
       "anio": -259,
       "titulo": "Lucio Cornelio Escipión y Cayo Aquilio Floro",
-      "texto": "Escipión conquistó Córcega y partes de Cerdeña."
+      "texto": "Escipión conquistó Córcega y partes de Cerdeña.",
+      "imagenes": [
+        {
+          "label": "L. C. Escipión",
+          "abbr": "L. C. E."
+        },
+        {
+          "label": "C. A. Floro",
+          "abbr": "C. A. F."
+        }
+      ]
     },
     {
       "anio": -258,
       "titulo": "Aulo Atilio Calatino y Cayo Sulpicio Paterculo",
-      "texto": "Roma obtuvo nuevas victorias navales y terrestres en Sicilia y Cerdeña."
+      "texto": "Roma obtuvo nuevas victorias navales y terrestres en Sicilia y Cerdeña.",
+      "imagenes": [
+        {
+          "label": "A. A. Calatino",
+          "abbr": "A. A. C."
+        },
+        {
+          "label": "C. S. Paterculo",
+          "abbr": "C. S. P."
+        }
+      ]
     },
     {
       "anio": -257,
       "titulo": "Cayo Atilio Régulo y Cneo Cornelio Blasión (2°)",
-      "texto": "Batalla naval de Tíndaris, con victoria romana."
+      "texto": "Batalla naval de Tíndaris, con victoria romana.",
+      "imagenes": [
+        {
+          "label": "C. A. Régulo",
+          "abbr": "C. A. R."
+        },
+        {
+          "label": "Cneo C. Blasión",
+          "abbr": "Cneo C. B."
+        }
+      ]
     },
     {
       "anio": -256,
       "titulo": "Lucio Manlio Vulsón Longo (2°) y Marco Atilio Régulo (2°)",
-      "texto": "Gran victoria naval en el cabo Écnomo, abriendo el camino para invadir África."
+      "texto": "Gran victoria naval en el cabo Écnomo, abriendo el camino para invadir África.",
+      "imagenes": [
+        {
+          "label": "L. M. V. Longo",
+          "abbr": "L. M. V. L."
+        },
+        {
+          "label": "M. A. Régulo",
+          "abbr": "M. A. R."
+        }
+      ]
     },
     {
       "anio": -255,
       "titulo": "Marco Emilio Paulo y Ser Fulvio Petino Nobilior",
-      "texto": "El ejército de Régulo en África fue derrotado por Jantipo y Régulo capturado; una flota de rescate fue destruida por una tormenta."
+      "texto": "El ejército de Régulo en África fue derrotado por Jantipo y Régulo capturado; una flota de rescate fue destruida por una tormenta.",
+      "imagenes": [
+        {
+          "label": "M. E. Paulo",
+          "abbr": "M. E. P."
+        },
+        {
+          "label": "S. F. P. Nobilior",
+          "abbr": "S. F. P. N."
+        }
+      ]
     },
     {
       "anio": -254,
       "titulo": "Cneo Cornelio Escipión Asina (2°) y Aulo Atilio Calatino (2°)",
-      "texto": "Roma reconstruyó su flota y conquistó Palermo."
+      "texto": "Roma reconstruyó su flota y conquistó Palermo.",
+      "imagenes": [
+        {
+          "label": "Cneo C. E. Asina",
+          "abbr": "Cneo C. E. A."
+        },
+        {
+          "label": "A. A. Calatino",
+          "abbr": "A. A. C."
+        }
+      ]
     },
     {
       "anio": -253,
       "titulo": "Cneo Servilio Cepión y Cayo Sempronio Blesio",
-      "texto": "Otra expedición naval a África terminó en desastre por tormenta."
+      "texto": "Otra expedición naval a África terminó en desastre por tormenta.",
+      "imagenes": [
+        {
+          "label": "Cneo S. Cepión",
+          "abbr": "Cneo S. C."
+        },
+        {
+          "label": "C. S. Blesio",
+          "abbr": "C. S. B."
+        }
+      ]
     },
     {
       "anio": -252,
       "titulo": "Cayo Aurelio Cota y Publio Servilio Gémino",
-      "texto": "Roma consolidó su control sobre Sicilia; Cartago se replegó a Lilibeo y Drépano."
+      "texto": "Roma consolidó su control sobre Sicilia; Cartago se replegó a Lilibeo y Drépano.",
+      "imagenes": [
+        {
+          "label": "C. A. Cota",
+          "abbr": "C. A. C."
+        },
+        {
+          "label": "P. S. Gémino",
+          "abbr": "P. S. G."
+        }
+      ]
     },
     {
       "anio": -251,
       "titulo": "Lucio Cecilio Metelo y Cayo Furio Pácilo",
-      "texto": "Metelo venció en la batalla de Palermo, capturando varios elefantes cartagineses."
+      "texto": "Metelo venció en la batalla de Palermo, capturando varios elefantes cartagineses.",
+      "imagenes": [
+        {
+          "label": "L. C. Metelo",
+          "abbr": "L. C. M."
+        },
+        {
+          "label": "C. F. Pácilo",
+          "abbr": "C. F. P."
+        }
+      ]
     },
     {
       "anio": -250,
       "titulo": "Cayo Atilio Régulo (2°) y Lucio Manlio Vulsón Longo (3°)",
-      "texto": "Roma inició el largo sitio de Lilibeo."
+      "texto": "Roma inició el largo sitio de Lilibeo.",
+      "imagenes": [
+        {
+          "label": "C. A. Régulo",
+          "abbr": "C. A. R."
+        },
+        {
+          "label": "L. M. V. Longo",
+          "abbr": "L. M. V. L."
+        }
+      ]
     },
     {
       "anio": -249,
       "titulo": "Publio Claudio Pulcro y Lucio Junio Pulo",
-      "texto": "Desastre naval en Drépano tras ignorar los presagios; Junio Pulo perdió su flota en una tormenta."
+      "texto": "Desastre naval en Drépano tras ignorar los presagios; Junio Pulo perdió su flota en una tormenta.",
+      "imagenes": [
+        {
+          "label": "P. C. Pulcro",
+          "abbr": "P. C. P."
+        },
+        {
+          "label": "L. J. Pulo",
+          "abbr": "L. J. P."
+        }
+      ]
     },
     {
       "anio": -248,
       "titulo": "Cayo Aurelio Cota (2°) y Publio Sempronio Blesio",
-      "texto": "Roma adoptó una estrategia más cauta tras los desastres navales."
+      "texto": "Roma adoptó una estrategia más cauta tras los desastres navales.",
+      "imagenes": [
+        {
+          "label": "C. A. Cota",
+          "abbr": "C. A. C."
+        },
+        {
+          "label": "P. S. Blesio",
+          "abbr": "P. S. B."
+        }
+      ]
     },
     {
       "anio": -247,
       "titulo": "Lucio Cecilio Metelo (2°) y Numerio Fabio Buteón",
-      "texto": "Cartago envió a Sicilia a Amílcar Barca, quien hostigó con éxito a Roma desde el Monte Ercte."
+      "texto": "Cartago envió a Sicilia a Amílcar Barca, quien hostigó con éxito a Roma desde el Monte Ercte.",
+      "imagenes": [
+        {
+          "label": "L. C. Metelo",
+          "abbr": "L. C. M."
+        },
+        {
+          "label": "Numerio F. Buteón",
+          "abbr": "N. F. B."
+        }
+      ]
     },
     {
       "anio": -246,
       "titulo": "Manio Otacilio Craso (2°) y Marco Fabio Licino",
-      "texto": "Continuó el asedio de Lilibeo mientras Amílcar Barca acosaba a las fuerzas romanas."
+      "texto": "Continuó el asedio de Lilibeo mientras Amílcar Barca acosaba a las fuerzas romanas.",
+      "imagenes": [
+        {
+          "label": "M. O. Craso",
+          "abbr": "M. O. C."
+        },
+        {
+          "label": "M. F. Licino",
+          "abbr": "M. F. L."
+        }
+      ]
     },
     {
       "anio": -245,
       "titulo": "Marco Fabio Buteón y Cayo Atilio Bulbo",
-      "texto": "Año de relativo estancamiento militar, ambos bandos exhaustos."
+      "texto": "Año de relativo estancamiento militar, ambos bandos exhaustos.",
+      "imagenes": [
+        {
+          "label": "M. F. Buteón",
+          "abbr": "M. F. B."
+        },
+        {
+          "label": "C. A. Bulbo",
+          "abbr": "C. A. B."
+        }
+      ]
     },
     {
       "anio": -244,
       "titulo": "Aulo Manlio Torcuato Atico y Cayo Sempronio Blesio (2°)",
-      "texto": "Amílcar Barca trasladó su base al Monte Erix, continuando su desgaste sobre Roma en Sicilia."
+      "texto": "Amílcar Barca trasladó su base al Monte Erix, continuando su desgaste sobre Roma en Sicilia.",
+      "imagenes": [
+        {
+          "label": "A. M. T. Atico",
+          "abbr": "A. M. T. A."
+        },
+        {
+          "label": "C. S. Blesio",
+          "abbr": "C. S. B."
+        }
+      ]
     },
     {
       "anio": -243,
       "titulo": "Cayo Fundanio Fundulo y Cayo Sulpicio Galo",
-      "texto": "Ciudadanos adinerados financiaron con préstamos privados una nueva flota romana."
+      "texto": "Ciudadanos adinerados financiaron con préstamos privados una nueva flota romana.",
+      "imagenes": [
+        {
+          "label": "C. F. Fundulo",
+          "abbr": "C. F. F."
+        },
+        {
+          "label": "C. S. Galo",
+          "abbr": "C. S. G."
+        }
+      ]
     },
     {
       "anio": -242,
       "titulo": "Cayo Lutacio Cátulo y Aulo Postumio Albino",
-      "texto": "Lutacio Cátulo sitió Lilibeo y Drépano, cortando el suministro a Amílcar Barca."
+      "texto": "Lutacio Cátulo sitió Lilibeo y Drépano, cortando el suministro a Amílcar Barca.",
+      "imagenes": [
+        {
+          "label": "C. L. Cátulo",
+          "abbr": "C. L. C."
+        },
+        {
+          "label": "A. P. Albino",
+          "abbr": "A. P. A."
+        }
+      ]
     },
     {
       "anio": -241,
       "titulo": "Cayo Lutacio Cátulo (procónsul) y Quinto Lutacio Cerco",
-      "texto": "Batalla naval de las islas Egadas: victoria decisiva romana. Cartago pidió la paz, cediendo Sicilia; fin de la Primera Guerra Púnica."
+      "texto": "Batalla naval de las islas Egadas: victoria decisiva romana. Cartago pidió la paz, cediendo Sicilia; fin de la Primera Guerra Púnica.",
+      "imagenes": [
+        {
+          "label": "C. L. Cátulo",
+          "abbr": "C. L. C."
+        },
+        {
+          "label": "Q. L. Cerco",
+          "abbr": "Q. L. C."
+        }
+      ]
     },
     {
       "anio": -240,
       "titulo": "Cayo Claudio Centón y Marco Sempronio Tuditano",
-      "texto": "Se representó la primera obra de teatro con guion escrito, de Livio Andrónico. Cartago sufrió la Guerra de los Mercenarios."
+      "texto": "Se representó la primera obra de teatro con guion escrito, de Livio Andrónico. Cartago sufrió la Guerra de los Mercenarios.",
+      "imagenes": [
+        {
+          "label": "C. C. Centón",
+          "abbr": "C. C. C."
+        },
+        {
+          "label": "M. S. Tuditano",
+          "abbr": "M. S. T."
+        }
+      ]
     },
     {
       "anio": -239,
       "titulo": "Cayo Mamilio Turrino y Quinto Valerio Falto",
-      "texto": "Roma se mantuvo al margen de la Guerra de los Mercenarios en Cartago."
+      "texto": "Roma se mantuvo al margen de la Guerra de los Mercenarios en Cartago.",
+      "imagenes": [
+        {
+          "label": "C. M. Turrino",
+          "abbr": "C. M. T."
+        },
+        {
+          "label": "Q. V. Falto",
+          "abbr": "Q. V. F."
+        }
+      ]
     },
     {
       "anio": -238,
       "titulo": "Tiberio Sempronio Graco y Publio Valerio Falto",
-      "texto": "Roma exigió y obtuvo la cesión de Cerdeña y Córcega, alimentando el resentimiento cartaginés."
+      "texto": "Roma exigió y obtuvo la cesión de Cerdeña y Córcega, alimentando el resentimiento cartaginés.",
+      "imagenes": [
+        {
+          "label": "T. S. Graco",
+          "abbr": "T. S. G."
+        },
+        {
+          "label": "P. V. Falto",
+          "abbr": "P. V. F."
+        }
+      ]
     },
     {
       "anio": -237,
       "titulo": "Publio Cornelio Léntulo Caudino y Cayo Licinio Varo",
-      "texto": "Amílcar Barca partió hacia Hispania con su hijo Aníbal, para expandir el dominio cartaginés."
+      "texto": "Amílcar Barca partió hacia Hispania con su hijo Aníbal, para expandir el dominio cartaginés.",
+      "imagenes": [
+        {
+          "label": "P. C. L. Caudino",
+          "abbr": "P. C. L. C."
+        },
+        {
+          "label": "C. L. Varo",
+          "abbr": "C. L. V."
+        }
+      ]
     },
     {
       "anio": -236,
       "titulo": "Publio Cornelio Léntulo Caudino (2°) y Cneo Fulvio Centumalo",
-      "texto": "Amílcar Barca continuó su conquista en el sur de Hispania."
+      "texto": "Amílcar Barca continuó su conquista en el sur de Hispania.",
+      "imagenes": [
+        {
+          "label": "P. C. L. Caudino",
+          "abbr": "P. C. L. C."
+        },
+        {
+          "label": "Cneo F. Centumalo",
+          "abbr": "Cneo F. C."
+        }
+      ]
     },
     {
       "anio": -235,
       "titulo": "Tito Manlio Torcuato (2°) y Cayo Atilio Bulbo (2°)",
-      "texto": "Se cerraron por única vez las puertas del templo de Jano, señal de paz total (hasta Augusto)."
+      "texto": "Se cerraron por única vez las puertas del templo de Jano, señal de paz total (hasta Augusto).",
+      "imagenes": [
+        {
+          "label": "T. M. Torcuato",
+          "abbr": "T. M. T."
+        },
+        {
+          "label": "C. A. Bulbo",
+          "abbr": "C. A. B."
+        }
+      ]
     },
     {
       "anio": -234,
       "titulo": "Lucio Postumio Albino y Espurio Carvilio Máximo (2°)",
-      "texto": "Año de calma mientras Amílcar Barca seguía expandiendo el dominio cartaginés en Hispania."
+      "texto": "Año de calma mientras Amílcar Barca seguía expandiendo el dominio cartaginés en Hispania.",
+      "imagenes": [
+        {
+          "label": "L. P. Albino",
+          "abbr": "L. P. A."
+        },
+        {
+          "label": "E. C. Máximo",
+          "abbr": "E. C. M."
+        }
+      ]
     },
     {
       "anio": -233,
       "titulo": "Quinto Fabio Máximo Verrucoso (1°) y Manio Pomponio Matón",
-      "texto": "Fabio Máximo sometió a los ligures en el norte de Italia."
+      "texto": "Fabio Máximo sometió a los ligures en el norte de Italia.",
+      "imagenes": [
+        {
+          "label": "Q. F. M. Verrucoso",
+          "abbr": "Q. F. M. V."
+        },
+        {
+          "label": "M. P. Matón",
+          "abbr": "M. P. M."
+        }
+      ]
     },
     {
       "anio": -232,
       "titulo": "Marco Publicio Malleolo y Marco Emilio Lépido",
-      "texto": "Ley agraria repartió tierras confiscadas a los senones, generando descontento galo."
+      "texto": "Ley agraria repartió tierras confiscadas a los senones, generando descontento galo.",
+      "imagenes": [
+        {
+          "label": "M. P. Malleolo",
+          "abbr": "M. P. M."
+        },
+        {
+          "label": "M. E. Lépido",
+          "abbr": "M. E. L."
+        }
+      ]
     },
     {
       "anio": -231,
       "titulo": "Marco Pomponio Matón y Cayo Papirio Masón",
-      "texto": "Murió Amílcar Barca en Hispania, sucediéndolo su yerno Asdrúbal el Bello."
+      "texto": "Murió Amílcar Barca en Hispania, sucediéndolo su yerno Asdrúbal el Bello.",
+      "imagenes": [
+        {
+          "label": "M. P. Matón",
+          "abbr": "M. P. M."
+        },
+        {
+          "label": "C. P. Masón",
+          "abbr": "C. P. M."
+        }
+      ]
     },
     {
       "anio": -230,
       "titulo": "Marco Emilio Barbula y Marco Junio Peno",
-      "texto": "Asdrúbal el Bello consolidó el poder cartaginés en Hispania, fundando Cartago Nova."
+      "texto": "Asdrúbal el Bello consolidó el poder cartaginés en Hispania, fundando Cartago Nova.",
+      "imagenes": [
+        {
+          "label": "M. E. Barbula",
+          "abbr": "M. E. B."
+        },
+        {
+          "label": "M. J. Peno",
+          "abbr": "M. J. P."
+        }
+      ]
     },
     {
       "anio": -229,
       "titulo": "Lucio Postumio Albino (2°) y Cneo Fulvio Centumalo (2°)",
-      "texto": "Estalló la Primera Guerra Ilírica contra la reina Teuta."
+      "texto": "Estalló la Primera Guerra Ilírica contra la reina Teuta.",
+      "imagenes": [
+        {
+          "label": "L. P. Albino",
+          "abbr": "L. P. A."
+        },
+        {
+          "label": "Cneo F. Centumalo",
+          "abbr": "Cneo F. C."
+        }
+      ]
     },
     {
       "anio": -228,
       "titulo": "Espurio Carvilio Máximo (3°) y Quinto Fabio Máximo Verrucoso (2°)",
-      "texto": "Teuta se rindió, aceptando un protectorado romano sobre la costa del Adriático oriental."
+      "texto": "Teuta se rindió, aceptando un protectorado romano sobre la costa del Adriático oriental.",
+      "imagenes": [
+        {
+          "label": "E. C. Máximo",
+          "abbr": "E. C. M."
+        },
+        {
+          "label": "Q. F. M. Verrucoso",
+          "abbr": "Q. F. M. V."
+        }
+      ]
     },
     {
       "anio": -227,
       "titulo": "Publio Valerio Flaco y Marco Atilio Régulo",
-      "texto": "Se crearon dos pretorías para Sicilia y Cerdeña-Córcega, formalizando la organización provincial."
+      "texto": "Se crearon dos pretorías para Sicilia y Cerdeña-Córcega, formalizando la organización provincial.",
+      "imagenes": [
+        {
+          "label": "P. V. Flaco",
+          "abbr": "P. V. F."
+        },
+        {
+          "label": "M. A. Régulo",
+          "abbr": "M. A. R."
+        }
+      ]
     },
     {
       "anio": -226,
       "titulo": "Marco Valerio Mesala y Lucio Apustio Fulón",
-      "texto": "Tratado del Ebro con Asdrúbal el Bello, límite de expansión cartaginesa en Hispania."
+      "texto": "Tratado del Ebro con Asdrúbal el Bello, límite de expansión cartaginesa en Hispania.",
+      "imagenes": [
+        {
+          "label": "M. V. Mesala",
+          "abbr": "M. V. M."
+        },
+        {
+          "label": "L. A. Fulón",
+          "abbr": "L. A. F."
+        }
+      ]
     },
     {
       "anio": -225,
       "titulo": "Lucio Emilio Papo y Cayo Atilio Régulo",
-      "texto": "Invasión de galos boios e insubres; victoria romana en Telamón, aunque murió el cónsul Atilio Régulo."
+      "texto": "Invasión de galos boios e insubres; victoria romana en Telamón, aunque murió el cónsul Atilio Régulo.",
+      "imagenes": [
+        {
+          "label": "L. E. Papo",
+          "abbr": "L. E. P."
+        },
+        {
+          "label": "C. A. Régulo",
+          "abbr": "C. A. R."
+        }
+      ]
     },
     {
       "anio": -224,
       "titulo": "Tito Manlio Torcuato (3°) y Quinto Fulvio Flaco",
-      "texto": "Roma llevó la guerra al territorio de los boios, iniciando la conquista de la Galia Cisalpina."
+      "texto": "Roma llevó la guerra al territorio de los boios, iniciando la conquista de la Galia Cisalpina.",
+      "imagenes": [
+        {
+          "label": "T. M. Torcuato",
+          "abbr": "T. M. T."
+        },
+        {
+          "label": "Q. F. Flaco",
+          "abbr": "Q. F. F."
+        }
+      ]
     },
     {
       "anio": -223,
       "titulo": "Cayo Flaminio y Publio Furio Filo",
-      "texto": "Flaminio derrotó a los ínsubres en el valle del Po."
+      "texto": "Flaminio derrotó a los ínsubres en el valle del Po.",
+      "imagenes": [
+        {
+          "label": "C. Flaminio",
+          "abbr": "C. F."
+        },
+        {
+          "label": "P. F. Filo",
+          "abbr": "P. F. F."
+        }
+      ]
     },
     {
       "anio": -222,
       "titulo": "Cneo Cornelio Escipión Calvo y Marco Claudio Marcelo",
-      "texto": "Marcelo venció a galos gesatos e ínsubres en Clastidium, matando a su rey Viridomaro (spolia opima). Se conquistó Mediolanum."
+      "texto": "Marcelo venció a galos gesatos e ínsubres en Clastidium, matando a su rey Viridomaro (spolia opima). Se conquistó Mediolanum.",
+      "imagenes": [
+        {
+          "label": "Cneo C. E. Calvo",
+          "abbr": "Cneo C. E. C."
+        },
+        {
+          "label": "M. C. Marcelo",
+          "abbr": "M. C. M."
+        }
+      ]
     },
     {
       "anio": -221,
       "titulo": "Publio Cornelio Escipión Asina y Marco Minucio Rufo",
-      "texto": "Asdrúbal el Bello fue asesinado en Hispania, sucediéndole Aníbal Barca."
+      "texto": "Asdrúbal el Bello fue asesinado en Hispania, sucediéndole Aníbal Barca.",
+      "imagenes": [
+        {
+          "label": "P. C. E. Asina",
+          "abbr": "P. C. E. A."
+        },
+        {
+          "label": "M. M. Rufo",
+          "abbr": "M. M. R."
+        }
+      ]
     },
     {
       "anio": -220,
       "titulo": "Lucio Veturio Filón y Cayo Lutacio Cátulo",
-      "texto": "Aníbal completó la conquista hispana al norte del Tajo, antes de dirigirse a Sagunto."
+      "texto": "Aníbal completó la conquista hispana al norte del Tajo, antes de dirigirse a Sagunto.",
+      "imagenes": [
+        {
+          "label": "L. V. Filón",
+          "abbr": "L. V. F."
+        },
+        {
+          "label": "C. L. Cátulo",
+          "abbr": "C. L. C."
+        }
+      ]
     },
     {
       "anio": -219,
       "titulo": "Lucio Emilio Paulo y Marco Livio Salinator",
-      "texto": "Aníbal sitió y destruyó Sagunto, chispa de la Segunda Guerra Púnica."
+      "texto": "Aníbal sitió y destruyó Sagunto, chispa de la Segunda Guerra Púnica.",
+      "imagenes": [
+        {
+          "label": "L. E. Paulo",
+          "abbr": "L. E. P."
+        },
+        {
+          "label": "M. L. Salinator",
+          "abbr": "M. L. S."
+        }
+      ]
     },
     {
       "anio": -218,
       "titulo": "Publio Cornelio Escipión y Tiberio Sempronio Longo",
-      "texto": "Roma declaró la guerra a Cartago. Aníbal cruzó los Alpes y venció en el Tesino y el Trebia."
+      "texto": "Roma declaró la guerra a Cartago. Aníbal cruzó los Alpes y venció en el Tesino y el Trebia.",
+      "imagenes": [
+        {
+          "label": "P. C. Escipión",
+          "abbr": "P. C. E."
+        },
+        {
+          "label": "T. S. Longo",
+          "abbr": "T. S. L."
+        }
+      ]
     },
     {
       "anio": -217,
       "titulo": "Cneo Servilio Gémino y Cayo Flaminio (2°)",
-      "texto": "Emboscada del Lago Trasimeno: Aníbal aniquiló el ejército de Flaminio, quien murió. El dictador Fabio Máximo adoptó una estrategia de desgaste."
+      "texto": "Emboscada del Lago Trasimeno: Aníbal aniquiló el ejército de Flaminio, quien murió. El dictador Fabio Máximo adoptó una estrategia de desgaste.",
+      "imagenes": [
+        {
+          "label": "Cneo S. Gémino",
+          "abbr": "Cneo S. G."
+        },
+        {
+          "label": "C. Flaminio",
+          "abbr": "C. F."
+        }
+      ]
     },
     {
       "anio": -216,
       "titulo": "Lucio Emilio Paulo (2°) y Cayo Terencio Varrón",
-      "texto": "Catástrofe de Cannas: Aníbal aniquiló al ejército romano; murió el cónsul Paulo. Roma se negó a negociar la paz."
+      "texto": "Catástrofe de Cannas: Aníbal aniquiló al ejército romano; murió el cónsul Paulo. Roma se negó a negociar la paz.",
+      "imagenes": [
+        {
+          "label": "L. E. Paulo",
+          "abbr": "L. E. P."
+        },
+        {
+          "label": "C. T. Varrón",
+          "abbr": "C. T. V."
+        }
+      ]
     },
     {
       "anio": -215,
       "titulo": "Lucio Postumio Albino (3°, muere antes de asumir) y Tiberio Sempronio Graco",
-      "texto": "Postumio murió en emboscada gala. Filipo V de Macedonia se alió con Aníbal, abriendo un nuevo frente."
+      "texto": "Postumio murió en emboscada gala. Filipo V de Macedonia se alió con Aníbal, abriendo un nuevo frente.",
+      "imagenes": [
+        {
+          "label": "L. P. Albino",
+          "abbr": "L. P. A."
+        },
+        {
+          "label": "T. S. Graco",
+          "abbr": "T. S. G."
+        }
+      ]
     },
     {
       "anio": -214,
       "titulo": "Quinto Fabio Máximo Verrucoso (3°) y Marco Claudio Marcelo (3°)",
-      "texto": "Marcelo defendió Nola frente a Aníbal; Roma intervino en Grecia contra Filipo V."
+      "texto": "Marcelo defendió Nola frente a Aníbal; Roma intervino en Grecia contra Filipo V.",
+      "imagenes": [
+        {
+          "label": "Q. F. M. Verrucoso",
+          "abbr": "Q. F. M. V."
+        },
+        {
+          "label": "M. C. Marcelo",
+          "abbr": "M. C. M."
+        }
+      ]
     },
     {
       "anio": -213,
       "titulo": "Quinto Fabio Máximo (hijo) y Tiberio Sempronio Graco (2°)",
-      "texto": "Continuó el asedio romano de Siracusa, pasada al bando cartaginés."
+      "texto": "Continuó el asedio romano de Siracusa, pasada al bando cartaginés.",
+      "imagenes": [
+        {
+          "label": "Q. F. Máximo",
+          "abbr": "Q. F. M."
+        },
+        {
+          "label": "T. S. Graco",
+          "abbr": "T. S. G."
+        }
+      ]
     },
     {
       "anio": -212,
       "titulo": "Quinto Fulvio Flaco (3°) y Apio Claudio Pulcro",
-      "texto": "Marcelo conquistó Siracusa, célebre por las máquinas de Arquímedes, quien murió durante el saqueo."
+      "texto": "Marcelo conquistó Siracusa, célebre por las máquinas de Arquímedes, quien murió durante el saqueo.",
+      "imagenes": [
+        {
+          "label": "Q. F. Flaco",
+          "abbr": "Q. F. F."
+        },
+        {
+          "label": "A. C. Pulcro",
+          "abbr": "A. C. P."
+        }
+      ]
     },
     {
       "anio": -211,
       "titulo": "Cneo Fulvio Centumalo Máximo y Publio Sulpicio Galba Máximo",
-      "texto": "Roma recuperó Capua. En Hispania murieron los hermanos Publio y Cneo Cornelio Escipión."
+      "texto": "Roma recuperó Capua. En Hispania murieron los hermanos Publio y Cneo Cornelio Escipión.",
+      "imagenes": [
+        {
+          "label": "Cneo F. C. Máximo",
+          "abbr": "Cneo F. C. M."
+        },
+        {
+          "label": "P. S. G. Máximo",
+          "abbr": "P. S. G. M."
+        }
+      ]
     },
     {
       "anio": -210,
       "titulo": "Marco Claudio Marcelo (4°) y Marco Valerio Levino",
-      "texto": "El joven Publio Cornelio Escipión fue enviado a Hispania con mando extraordinario."
+      "texto": "El joven Publio Cornelio Escipión fue enviado a Hispania con mando extraordinario.",
+      "imagenes": [
+        {
+          "label": "M. C. Marcelo",
+          "abbr": "M. C. M."
+        },
+        {
+          "label": "M. V. Levino",
+          "abbr": "M. V. L."
+        }
+      ]
     },
     {
       "anio": -209,
       "titulo": "Quinto Fabio Máximo Verrucoso (5°) y Quinto Fulvio Flaco (4°)",
-      "texto": "Escipión conquistó por sorpresa Cartago Nova. Fabio Máximo recuperó Tarento."
+      "texto": "Escipión conquistó por sorpresa Cartago Nova. Fabio Máximo recuperó Tarento.",
+      "imagenes": [
+        {
+          "label": "Q. F. M. Verrucoso",
+          "abbr": "Q. F. M. V."
+        },
+        {
+          "label": "Q. F. Flaco",
+          "abbr": "Q. F. F."
+        }
+      ]
     },
     {
       "anio": -208,
       "titulo": "Marco Claudio Marcelo (5°) y Tito Quincio Crispino",
-      "texto": "Ambos cónsules cayeron en una emboscada de Aníbal; Marcelo murió. Escipión venció a Asdrúbal Barca en Baecula."
+      "texto": "Ambos cónsules cayeron en una emboscada de Aníbal; Marcelo murió. Escipión venció a Asdrúbal Barca en Baecula.",
+      "imagenes": [
+        {
+          "label": "M. C. Marcelo",
+          "abbr": "M. C. M."
+        },
+        {
+          "label": "T. Q. Crispino",
+          "abbr": "T. Q. C."
+        }
+      ]
     },
     {
       "anio": -207,
       "titulo": "Cayo Claudio Nerón y Marco Livio Salinator (2°)",
-      "texto": "Asdrúbal Barca fue interceptado y derrotado en el Metauro; murió en combate, golpe decisivo contra Aníbal."
+      "texto": "Asdrúbal Barca fue interceptado y derrotado en el Metauro; murió en combate, golpe decisivo contra Aníbal.",
+      "imagenes": [
+        {
+          "label": "C. C. Nerón",
+          "abbr": "C. C. N."
+        },
+        {
+          "label": "M. L. Salinator",
+          "abbr": "M. L. S."
+        }
+      ]
     },
     {
       "anio": -206,
       "titulo": "Lucio Veturio Filón y Quinto Cecilio Metelo",
-      "texto": "Escipión completó la conquista de Hispania al derrotar a Cartago en Ilipa."
+      "texto": "Escipión completó la conquista de Hispania al derrotar a Cartago en Ilipa.",
+      "imagenes": [
+        {
+          "label": "L. V. Filón",
+          "abbr": "L. V. F."
+        },
+        {
+          "label": "Q. C. Metelo",
+          "abbr": "Q. C. M."
+        }
+      ]
     },
     {
       "anio": -205,
       "titulo": "Publio Cornelio Escipión (2°) y Publio Licinio Craso",
-      "texto": "Escipión obtuvo autorización para invadir África, pese a la oposición de Fabio Máximo."
+      "texto": "Escipión obtuvo autorización para invadir África, pese a la oposición de Fabio Máximo.",
+      "imagenes": [
+        {
+          "label": "P. C. Escipión",
+          "abbr": "P. C. E."
+        },
+        {
+          "label": "P. L. Craso",
+          "abbr": "P. L. C."
+        }
+      ]
     },
     {
       "anio": -204,
       "titulo": "Marco Cornelio Cetego y Publio Sempronio Tuditano",
-      "texto": "Escipión desembarcó en África, aliándose con el rey Masinisa contra Cartago y Sífax."
+      "texto": "Escipión desembarcó en África, aliándose con el rey Masinisa contra Cartago y Sífax.",
+      "imagenes": [
+        {
+          "label": "M. C. Cetego",
+          "abbr": "M. C. C."
+        },
+        {
+          "label": "P. S. Tuditano",
+          "abbr": "P. S. T."
+        }
+      ]
     },
     {
       "anio": -203,
       "titulo": "Cneo Servilio Cepión y Cayo Servilio Gémino",
-      "texto": "Escipión venció a Cartago y Sífax en los Campos Ígneos; Cartago llamó de regreso a Aníbal."
+      "texto": "Escipión venció a Cartago y Sífax en los Campos Ígneos; Cartago llamó de regreso a Aníbal.",
+      "imagenes": [
+        {
+          "label": "Cneo S. Cepión",
+          "abbr": "Cneo S. C."
+        },
+        {
+          "label": "C. S. Gémino",
+          "abbr": "C. S. G."
+        }
+      ]
     },
     {
       "anio": -202,
       "titulo": "Marco Servilio Gémino y Tiberio Claudio Nerón",
-      "texto": "Batalla de Zama: Escipión derrotó definitivamente a Aníbal con apoyo de la caballería de Masinisa."
+      "texto": "Batalla de Zama: Escipión derrotó definitivamente a Aníbal con apoyo de la caballería de Masinisa.",
+      "imagenes": [
+        {
+          "label": "M. S. Gémino",
+          "abbr": "M. S. G."
+        },
+        {
+          "label": "T. C. Nerón",
+          "abbr": "T. C. N."
+        }
+      ]
     },
     {
       "anio": -201,
       "titulo": "Cneo Cornelio Léntulo y Publio Elio Peto",
-      "texto": "Cartago firmó la paz, perdiendo Hispania y su flota. Escipión recibió el cognomen 'Africano'. Fin de la Segunda Guerra Púnica."
+      "texto": "Cartago firmó la paz, perdiendo Hispania y su flota. Escipión recibió el cognomen 'Africano'. Fin de la Segunda Guerra Púnica.",
+      "imagenes": [
+        {
+          "label": "Cneo C. Léntulo",
+          "abbr": "Cneo C. L."
+        },
+        {
+          "label": "P. E. Peto",
+          "abbr": "P. E. P."
+        }
+      ]
     },
     {
       "anio": -200,
