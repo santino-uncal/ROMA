@@ -4560,502 +4560,1502 @@ window.ROMA_DATA = {
     {
       "anio": -200,
       "titulo": "Publio Sulpicio Galba Máximo (2°) y Cayo Aurelio Cota",
-      "texto": "Roma declaró la guerra a Filipo V de Macedonia, dando inicio a la Segunda Guerra Macedónica."
+      "texto": "Roma declaró la guerra a Filipo V de Macedonia, dando inicio a la Segunda Guerra Macedónica.",
+      "imagenes": [
+        {
+          "label": "P. S. G. Máximo",
+          "abbr": "P. S. G. M."
+        },
+        {
+          "label": "C. A. Cota",
+          "abbr": "C. A. C."
+        }
+      ]
     },
     {
       "anio": -199,
       "titulo": "Lucio Cornelio Léntulo y Publio Villio Tápulo",
-      "texto": "Continuó la guerra contra Filipo V de Macedonia, sin avances decisivos."
+      "texto": "Continuó la guerra contra Filipo V de Macedonia, sin avances decisivos.",
+      "imagenes": [
+        {
+          "label": "L. C. Léntulo",
+          "abbr": "L. C. L."
+        },
+        {
+          "label": "P. V. Tápulo",
+          "abbr": "P. V. T."
+        }
+      ]
     },
     {
       "anio": -198,
       "titulo": "Sexto Elio Peto y Tito Quincio Flaminino",
-      "texto": "Flaminino asumió el mando contra Macedonia, ganando apoyo de ligas griegas."
+      "texto": "Flaminino asumió el mando contra Macedonia, ganando apoyo de ligas griegas.",
+      "imagenes": [
+        {
+          "label": "S. E. Peto",
+          "abbr": "S. E. P."
+        },
+        {
+          "label": "T. Q. Flaminino",
+          "abbr": "T. Q. F."
+        }
+      ]
     },
     {
       "anio": -197,
       "titulo": "Cayo Cornelio Cetego y Quinto Minucio Rufo",
-      "texto": "Flaminino derrotó a Filipo V en Cinoscéfalos, quebrando el poder militar macedonio."
+      "texto": "Flaminino derrotó a Filipo V en Cinoscéfalos, quebrando el poder militar macedonio.",
+      "imagenes": [
+        {
+          "label": "C. C. Cetego",
+          "abbr": "C. C. C."
+        },
+        {
+          "label": "Q. M. Rufo",
+          "abbr": "Q. M. R."
+        }
+      ]
     },
     {
       "anio": -196,
       "titulo": "Lucio Furio Purpurión y Marco Claudio Marcelo",
-      "texto": "En los Juegos Ístmicos, Flaminino proclamó la 'libertad de los griegos'."
+      "texto": "En los Juegos Ístmicos, Flaminino proclamó la 'libertad de los griegos'.",
+      "imagenes": [
+        {
+          "label": "L. F. Purpurión",
+          "abbr": "L. F. P."
+        },
+        {
+          "label": "M. C. Marcelo",
+          "abbr": "M. C. M."
+        }
+      ]
     },
     {
       "anio": -195,
       "titulo": "Lucio Valerio Flaco y Marco Porcio Catón",
-      "texto": "Catón sofocó una rebelión en Hispania. Se derogó la Lex Oppia tras movilización femenina."
+      "texto": "Catón sofocó una rebelión en Hispania. Se derogó la Lex Oppia tras movilización femenina.",
+      "imagenes": [
+        {
+          "label": "L. V. Flaco",
+          "abbr": "L. V. F."
+        },
+        {
+          "label": "M. P. Catón",
+          "abbr": "M. P. C."
+        }
+      ]
     },
     {
       "anio": -194,
       "titulo": "Publio Cornelio Escipión Africano (2°) y Tiberio Sempronio Longo",
-      "texto": "Se fundaron colonias en la costa itálica y se completó la retirada de Grecia."
+      "texto": "Se fundaron colonias en la costa itálica y se completó la retirada de Grecia.",
+      "imagenes": [
+        {
+          "label": "P. C. E. Africano",
+          "abbr": "P. C. E. A."
+        },
+        {
+          "label": "T. S. Longo",
+          "abbr": "T. S. L."
+        }
+      ]
     },
     {
       "anio": -193,
       "titulo": "Lucio Cornelio Merula y Quinto Minucio Termo",
-      "texto": "Conflictos con ligures y galos; crecía la tensión con Antíoco III de Siria."
+      "texto": "Conflictos con ligures y galos; crecía la tensión con Antíoco III de Siria.",
+      "imagenes": [
+        {
+          "label": "L. C. Merula",
+          "abbr": "L. C. M."
+        },
+        {
+          "label": "Q. M. Termo",
+          "abbr": "Q. M. T."
+        }
+      ]
     },
     {
       "anio": -192,
       "titulo": "Lucio Quincio Flaminino y Cneo Domicio Enobarbo",
-      "texto": "Estalló la Guerra Siríaca (192–188): Antíoco III desembarcó en Grecia."
+      "texto": "Estalló la Guerra Siríaca (192–188): Antíoco III desembarcó en Grecia.",
+      "imagenes": [
+        {
+          "label": "L. Q. Flaminino",
+          "abbr": "L. Q. F."
+        },
+        {
+          "label": "Cneo D. Enobarbo",
+          "abbr": "Cneo D. E."
+        }
+      ]
     },
     {
       "anio": -191,
       "titulo": "Publio Cornelio Escipión Nasica y Manio Acilio Glabrión",
-      "texto": "Glabrión derrotó a Antíoco III en las Termópilas."
+      "texto": "Glabrión derrotó a Antíoco III en las Termópilas.",
+      "imagenes": [
+        {
+          "label": "P. C. E. Nasica",
+          "abbr": "P. C. E. N."
+        },
+        {
+          "label": "M. A. Glabrión",
+          "abbr": "M. A. G."
+        }
+      ]
     },
     {
       "anio": -190,
       "titulo": "Lucio Cornelio Escipión Asiático y Cayo Lelio",
-      "texto": "Con Escipión Africano como legado, Roma derrotó a Antíoco III en Magnesia."
+      "texto": "Con Escipión Africano como legado, Roma derrotó a Antíoco III en Magnesia.",
+      "imagenes": [
+        {
+          "label": "L. C. E. Asiático",
+          "abbr": "L. C. E. A."
+        },
+        {
+          "label": "C. Lelio",
+          "abbr": "C. L."
+        }
+      ]
     },
     {
       "anio": -189,
       "titulo": "Cneo Manlio Vulsón y Marco Fulvio Nobilior",
-      "texto": "Manlio Vulsón sometió a los gálatas; Fulvio Nobilior conquistó Ambracia, sede de la Liga Etolia."
+      "texto": "Manlio Vulsón sometió a los gálatas; Fulvio Nobilior conquistó Ambracia, sede de la Liga Etolia.",
+      "imagenes": [
+        {
+          "label": "Cneo M. Vulsón",
+          "abbr": "Cneo M. V."
+        },
+        {
+          "label": "M. F. Nobilior",
+          "abbr": "M. F. N."
+        }
+      ]
     },
     {
       "anio": -188,
       "titulo": "Marco Valerio Mesala y Cayo Livio Salinator",
-      "texto": "Paz de Apamea con Antíoco III, repartiendo su territorio entre Roma, Pérgamo y Rodas."
+      "texto": "Paz de Apamea con Antíoco III, repartiendo su territorio entre Roma, Pérgamo y Rodas.",
+      "imagenes": [
+        {
+          "label": "M. V. Mesala",
+          "abbr": "M. V. M."
+        },
+        {
+          "label": "C. L. Salinator",
+          "abbr": "C. L. S."
+        }
+      ]
     },
     {
       "anio": -187,
       "titulo": "Marco Emilio Lépido y Cayo Flaminio",
-      "texto": "Se construyó la Vía Emilia. Comenzaron procesos judiciales contra los Escipiones."
+      "texto": "Se construyó la Vía Emilia. Comenzaron procesos judiciales contra los Escipiones.",
+      "imagenes": [
+        {
+          "label": "M. E. Lépido",
+          "abbr": "M. E. L."
+        },
+        {
+          "label": "C. Flaminio",
+          "abbr": "C. F."
+        }
+      ]
     },
     {
       "anio": -186,
       "titulo": "Espurio Postumio Albino y Quinto Marcio Filipo",
-      "texto": "Senadoconsulto de Bacchanalibus, que prohibió los cultos báquicos en Italia."
+      "texto": "Senadoconsulto de Bacchanalibus, que prohibió los cultos báquicos en Italia.",
+      "imagenes": [
+        {
+          "label": "E. P. Albino",
+          "abbr": "E. P. A."
+        },
+        {
+          "label": "Q. M. Filipo",
+          "abbr": "Q. M. F."
+        }
+      ]
     },
     {
       "anio": -185,
       "titulo": "Apio Claudio Pulcro y Marco Sempronio Tuditano",
-      "texto": "Conflictos con ligures e histrios; crecía la tensión política por el legado de los Escipiones."
+      "texto": "Conflictos con ligures e histrios; crecía la tensión política por el legado de los Escipiones.",
+      "imagenes": [
+        {
+          "label": "A. C. Pulcro",
+          "abbr": "A. C. P."
+        },
+        {
+          "label": "M. S. Tuditano",
+          "abbr": "M. S. T."
+        }
+      ]
     },
     {
       "anio": -184,
       "titulo": "Publio Claudio Pulcro y Lucio Porcio Licino",
-      "texto": "Catón el Censor purgó el Senado por moralidad. Murió Aníbal, exiliado, envenenándose."
+      "texto": "Catón el Censor purgó el Senado por moralidad. Murió Aníbal, exiliado, envenenándose.",
+      "imagenes": [
+        {
+          "label": "P. C. Pulcro",
+          "abbr": "P. C. P."
+        },
+        {
+          "label": "L. P. Licino",
+          "abbr": "L. P. L."
+        }
+      ]
     },
     {
       "anio": -183,
       "titulo": "Marco Claudio Marcelo (2°) y Quinto Fabio Labeón",
-      "texto": "Murió Escipión Africano, retirado en Literno."
+      "texto": "Murió Escipión Africano, retirado en Literno.",
+      "imagenes": [
+        {
+          "label": "M. C. Marcelo",
+          "abbr": "M. C. M."
+        },
+        {
+          "label": "Q. F. Labeón",
+          "abbr": "Q. F. L."
+        }
+      ]
     },
     {
       "anio": -182,
       "titulo": "Cneo Bebio Tánfilo y Lucio Emilio Paulo",
-      "texto": "Continuaron campañas de pacificación contra ligures en el norte de Italia."
+      "texto": "Continuaron campañas de pacificación contra ligures en el norte de Italia.",
+      "imagenes": [
+        {
+          "label": "Cneo B. Tánfilo",
+          "abbr": "Cneo B. T."
+        },
+        {
+          "label": "L. E. Paulo",
+          "abbr": "L. E. P."
+        }
+      ]
     },
     {
       "anio": -181,
       "titulo": "Publio Cornelio Cetego y Marco Bebio Tánfilo",
-      "texto": "Se aprobaron la Lex Baebia Cornelia y la Lex Orchia (primera ley suntuaria de banquetes)."
+      "texto": "Se aprobaron la Lex Baebia Cornelia y la Lex Orchia (primera ley suntuaria de banquetes).",
+      "imagenes": [
+        {
+          "label": "P. C. Cetego",
+          "abbr": "P. C. C."
+        },
+        {
+          "label": "M. B. Tánfilo",
+          "abbr": "M. B. T."
+        }
+      ]
     },
     {
       "anio": -180,
       "titulo": "Aulo Postumio Albino Luscón y Cayo Calpurnio Pisón",
-      "texto": "Se promulgó la Lex Villia Annalis, regulando la edad mínima y el orden del cursus honorum."
+      "texto": "Se promulgó la Lex Villia Annalis, regulando la edad mínima y el orden del cursus honorum.",
+      "imagenes": [
+        {
+          "label": "A. P. A. Luscón",
+          "abbr": "A. P. A. L."
+        },
+        {
+          "label": "C. C. Pisón",
+          "abbr": "C. C. P."
+        }
+      ]
     },
     {
       "anio": -179,
       "titulo": "Quinto Fulvio Flaco y Lucio Manlio Acidino Fulviano",
-      "texto": "Se inició la construcción del primer puente de piedra sobre el Tíber, el Pons Aemilius."
+      "texto": "Se inició la construcción del primer puente de piedra sobre el Tíber, el Pons Aemilius.",
+      "imagenes": [
+        {
+          "label": "Q. F. Flaco",
+          "abbr": "Q. F. F."
+        },
+        {
+          "label": "L. M. A. Fulviano",
+          "abbr": "L. M. A. F."
+        }
+      ]
     },
     {
       "anio": -178,
       "titulo": "Marco Junio Bruto y Aulo Manlio Vulsón",
-      "texto": "Estalló la Segunda Guerra Ilírica (178–177) contra el rey Genthio."
+      "texto": "Estalló la Segunda Guerra Ilírica (178–177) contra el rey Genthio.",
+      "imagenes": [
+        {
+          "label": "M. J. Bruto",
+          "abbr": "M. J. B."
+        },
+        {
+          "label": "A. M. Vulsón",
+          "abbr": "A. M. V."
+        }
+      ]
     },
     {
       "anio": -177,
       "titulo": "Cayo Claudio Pulcro y Tiberio Sempronio Graco (padre)",
-      "texto": "Sempronio Graco sometió una rebelión en Cerdeña y combatió a los histrios."
+      "texto": "Sempronio Graco sometió una rebelión en Cerdeña y combatió a los histrios.",
+      "imagenes": [
+        {
+          "label": "C. C. Pulcro",
+          "abbr": "C. C. P."
+        },
+        {
+          "label": "T. S. Graco",
+          "abbr": "T. S. G."
+        }
+      ]
     },
     {
       "anio": -176,
       "titulo": "Cneo Cornelio Escipión Hispalo y Quinto Petilio Espurino",
-      "texto": "Petilio Espurino murió en combate contra los ligures."
+      "texto": "Petilio Espurino murió en combate contra los ligures.",
+      "imagenes": [
+        {
+          "label": "Cneo C. E. Hispalo",
+          "abbr": "Cneo C. E. H."
+        },
+        {
+          "label": "Q. P. Espurino",
+          "abbr": "Q. P. E."
+        }
+      ]
     },
     {
       "anio": -175,
       "titulo": "Publio Mucio Escévola y Publio Licinio Craso",
-      "texto": "Crecían las tensiones con Perseo de Macedonia, sucesor de Filipo V."
+      "texto": "Crecían las tensiones con Perseo de Macedonia, sucesor de Filipo V.",
+      "imagenes": [
+        {
+          "label": "P. M. Escévola",
+          "abbr": "P. M. E."
+        },
+        {
+          "label": "P. L. Craso",
+          "abbr": "P. L. C."
+        }
+      ]
     },
     {
       "anio": -174,
       "titulo": "Espurio Postumio Albino Paulo y Quinto Mucio Escévola",
-      "texto": "Obras públicas de gran envergadura: empedrado de calles y nuevas cloacas."
+      "texto": "Obras públicas de gran envergadura: empedrado de calles y nuevas cloacas.",
+      "imagenes": [
+        {
+          "label": "E. P. A. Paulo",
+          "abbr": "E. P. A. P."
+        },
+        {
+          "label": "Q. M. Escévola",
+          "abbr": "Q. M. E."
+        }
+      ]
     },
     {
       "anio": -173,
       "titulo": "Lucio Postumio Albino y Marco Popilio Lenate",
-      "texto": "Continuaron las tensiones con Perseo de Macedonia."
+      "texto": "Continuaron las tensiones con Perseo de Macedonia.",
+      "imagenes": [
+        {
+          "label": "L. P. Albino",
+          "abbr": "L. P. A."
+        },
+        {
+          "label": "M. P. Lenate",
+          "abbr": "M. P. L."
+        }
+      ]
     },
     {
       "anio": -172,
       "titulo": "Cayo Popilio Lenate y Publio Elio Ligur",
-      "texto": "Roma reunió apoyos ante la inminente ruptura con Perseo."
+      "texto": "Roma reunió apoyos ante la inminente ruptura con Perseo.",
+      "imagenes": [
+        {
+          "label": "C. P. Lenate",
+          "abbr": "C. P. L."
+        },
+        {
+          "label": "P. E. Ligur",
+          "abbr": "P. E. L."
+        }
+      ]
     },
     {
       "anio": -171,
       "titulo": "Publio Licinio Craso y Cayo Casio Longino",
-      "texto": "Estalló la Tercera Guerra Macedónica (171–168); Craso desembarcó en Grecia."
+      "texto": "Estalló la Tercera Guerra Macedónica (171–168); Craso desembarcó en Grecia.",
+      "imagenes": [
+        {
+          "label": "P. L. Craso",
+          "abbr": "P. L. C."
+        },
+        {
+          "label": "C. C. Longino",
+          "abbr": "C. C. L."
+        }
+      ]
     },
     {
       "anio": -170,
       "titulo": "Aulo Hostilio Mancino y Aulo Atilio Serrano",
-      "texto": "La guerra contra Perseo se estancó, con críticas a la conducción de Hostilio Mancino."
+      "texto": "La guerra contra Perseo se estancó, con críticas a la conducción de Hostilio Mancino.",
+      "imagenes": [
+        {
+          "label": "A. H. Mancino",
+          "abbr": "A. H. M."
+        },
+        {
+          "label": "A. A. Serrano",
+          "abbr": "A. A. S."
+        }
+      ]
     },
     {
       "anio": -169,
       "titulo": "Quinto Marcio Filipo (2°) y Cneo Servilio Cepión",
-      "texto": "Marcio Filipo avanzó sobre territorio macedonio a través de un paso montañoso."
+      "texto": "Marcio Filipo avanzó sobre territorio macedonio a través de un paso montañoso.",
+      "imagenes": [
+        {
+          "label": "Q. M. Filipo",
+          "abbr": "Q. M. F."
+        },
+        {
+          "label": "Cneo S. Cepión",
+          "abbr": "Cneo S. C."
+        }
+      ]
     },
     {
       "anio": -168,
       "titulo": "Lucio Emilio Paulo (Macedónico) y Cayo Licinio Craso",
-      "texto": "Emilio Paulo derrotó a Perseo en Pidna, fin del reino de Macedonia. Popilio Lenate forzó a Antíoco IV a retirarse de Egipto ('línea de Popilio')."
+      "texto": "Emilio Paulo derrotó a Perseo en Pidna, fin del reino de Macedonia. Popilio Lenate forzó a Antíoco IV a retirarse de Egipto ('línea de Popilio').",
+      "imagenes": [
+        {
+          "label": "L. E. P. Macedónico",
+          "abbr": "L. E. P. M."
+        },
+        {
+          "label": "C. L. Craso",
+          "abbr": "C. L. C."
+        }
+      ]
     },
     {
       "anio": -167,
       "titulo": "Quinto Elio Peto y Marco Junio Peno",
-      "texto": "Mil rehenes aqueos (entre ellos Polibio) llevados a Roma. Roma dejó de cobrar el tributum gracias al botín macedonio."
+      "texto": "Mil rehenes aqueos (entre ellos Polibio) llevados a Roma. Roma dejó de cobrar el tributum gracias al botín macedonio.",
+      "imagenes": [
+        {
+          "label": "Q. E. Peto",
+          "abbr": "Q. E. P."
+        },
+        {
+          "label": "M. J. Peno",
+          "abbr": "M. J. P."
+        }
+      ]
     },
     {
       "anio": -166,
       "titulo": "Marco Claudio Marcelo y Cayo Sulpicio Galo",
-      "texto": "Se representó en Roma la comedia Andria de Terencio."
+      "texto": "Se representó en Roma la comedia Andria de Terencio.",
+      "imagenes": [
+        {
+          "label": "M. C. Marcelo",
+          "abbr": "M. C. M."
+        },
+        {
+          "label": "C. S. Galo",
+          "abbr": "C. S. G."
+        }
+      ]
     },
     {
       "anio": -165,
       "titulo": "Tito Manlio Torcuato y Cneo Octavio",
-      "texto": "Tensiones diplomáticas con Pérgamo y otras potencias helenísticas."
+      "texto": "Tensiones diplomáticas con Pérgamo y otras potencias helenísticas.",
+      "imagenes": [
+        {
+          "label": "T. M. Torcuato",
+          "abbr": "T. M. T."
+        },
+        {
+          "label": "Cneo Octavio",
+          "abbr": "Cneo O."
+        }
+      ]
     },
     {
       "anio": -164,
       "titulo": "Aulo Manlio Torcuato y Quinto Cassio Longino",
-      "texto": "Roma consolidó su posición como árbitro de los asuntos griegos."
+      "texto": "Roma consolidó su posición como árbitro de los asuntos griegos.",
+      "imagenes": [
+        {
+          "label": "A. M. Torcuato",
+          "abbr": "A. M. T."
+        },
+        {
+          "label": "Q. C. Longino",
+          "abbr": "Q. C. L."
+        }
+      ]
     },
     {
       "anio": -163,
       "titulo": "Tiberio Sempronio Graco (2°, padre de los Gracos) y Manio Juvencio Talna",
-      "texto": "Sempronio Graco realizó un censo en Cerdeña."
+      "texto": "Sempronio Graco realizó un censo en Cerdeña.",
+      "imagenes": [
+        {
+          "label": "T. S. Graco",
+          "abbr": "T. S. G."
+        },
+        {
+          "label": "M. J. Talna",
+          "abbr": "M. J. T."
+        }
+      ]
     },
     {
       "anio": -162,
       "titulo": "Publio Cornelio Léntulo y Cayo Marcio Fígulo",
-      "texto": "Ambos cónsules renunciaron por defectos en los auspicios; fueron reemplazados."
+      "texto": "Ambos cónsules renunciaron por defectos en los auspicios; fueron reemplazados.",
+      "imagenes": [
+        {
+          "label": "P. C. Léntulo",
+          "abbr": "P. C. L."
+        },
+        {
+          "label": "C. M. Fígulo",
+          "abbr": "C. M. F."
+        }
+      ]
     },
     {
       "anio": -161,
       "titulo": "Marco Valerio Mésala y Cayo Fannio Estrabón",
-      "texto": "El Senado expulsó de Roma a filósofos griegos y maestros de retórica."
+      "texto": "El Senado expulsó de Roma a filósofos griegos y maestros de retórica.",
+      "imagenes": [
+        {
+          "label": "M. V. Mésala",
+          "abbr": "M. V. M."
+        },
+        {
+          "label": "C. F. Estrabón",
+          "abbr": "C. F. E."
+        }
+      ]
     },
     {
       "anio": -160,
       "titulo": "Lucio Anicio Galo y Marco Cornelio Cetego",
-      "texto": "Se representó Hécyra de Terencio; murió Emilio Paulo, vencedor de Pidna."
+      "texto": "Se representó Hécyra de Terencio; murió Emilio Paulo, vencedor de Pidna.",
+      "imagenes": [
+        {
+          "label": "L. A. Galo",
+          "abbr": "L. A. G."
+        },
+        {
+          "label": "M. C. Cetego",
+          "abbr": "M. C. C."
+        }
+      ]
     },
     {
       "anio": -159,
       "titulo": "Cneo Cornelio Dolabela y Marco Fulvio Nobilior",
-      "texto": "Se instaló en el Foro el primer reloj de agua (clepsidra) de Roma."
+      "texto": "Se instaló en el Foro el primer reloj de agua (clepsidra) de Roma.",
+      "imagenes": [
+        {
+          "label": "Cneo C. Dolabela",
+          "abbr": "Cneo C. D."
+        },
+        {
+          "label": "M. F. Nobilior",
+          "abbr": "M. F. N."
+        }
+      ]
     },
     {
       "anio": -158,
       "titulo": "Marco Emilio Lépido y Cayo Popilio Lenate (2°)",
-      "texto": "Obras públicas en Roma, incluyendo restauración de acueductos."
+      "texto": "Obras públicas en Roma, incluyendo restauración de acueductos.",
+      "imagenes": [
+        {
+          "label": "M. E. Lépido",
+          "abbr": "M. E. L."
+        },
+        {
+          "label": "C. P. Lenate",
+          "abbr": "C. P. L."
+        }
+      ]
     },
     {
       "anio": -157,
       "titulo": "Sexto Julio César y Lucio Aurelio Orestes",
-      "texto": "Roma intervino en Dalmacia tras conflictos con Iliria."
+      "texto": "Roma intervino en Dalmacia tras conflictos con Iliria.",
+      "imagenes": [
+        {
+          "label": "S. J. César",
+          "abbr": "S. J. C."
+        },
+        {
+          "label": "L. A. Orestes",
+          "abbr": "L. A. O."
+        }
+      ]
     },
     {
       "anio": -156,
       "titulo": "Lucio Cornelio Léntulo Lupo y Cayo Marcio Fígulo (2°)",
-      "texto": "Marcio Fígulo llevó una campaña contra los dálmatas."
+      "texto": "Marcio Fígulo llevó una campaña contra los dálmatas.",
+      "imagenes": [
+        {
+          "label": "L. C. L. Lupo",
+          "abbr": "L. C. L. L."
+        },
+        {
+          "label": "C. M. Fígulo",
+          "abbr": "C. M. F."
+        }
+      ]
     },
     {
       "anio": -155,
       "titulo": "Publio Cornelio Léntulo y Marco Claudio Marcelo (2°)",
-      "texto": "Marcelo sometió a los dálmatas. Embajada de filósofos atenienses escandalizó a Catón."
+      "texto": "Marcelo sometió a los dálmatas. Embajada de filósofos atenienses escandalizó a Catón.",
+      "imagenes": [
+        {
+          "label": "P. C. Léntulo",
+          "abbr": "P. C. L."
+        },
+        {
+          "label": "M. C. Marcelo",
+          "abbr": "M. C. M."
+        }
+      ]
     },
     {
       "anio": -154,
       "titulo": "Quinto Opimio y Lucio Postumio Albino",
-      "texto": "Estalló una nueva guerra contra los lusitanos en Hispania."
+      "texto": "Estalló una nueva guerra contra los lusitanos en Hispania.",
+      "imagenes": [
+        {
+          "label": "Q. Opimio",
+          "abbr": "Q. O."
+        },
+        {
+          "label": "L. P. Albino",
+          "abbr": "L. P. A."
+        }
+      ]
     },
     {
       "anio": -153,
       "titulo": "Quinto Fulvio Nobilior y Tito Anicio Galo",
-      "texto": "El inicio del año consular se trasladó del 15 de marzo al 1 de enero."
+      "texto": "El inicio del año consular se trasladó del 15 de marzo al 1 de enero.",
+      "imagenes": [
+        {
+          "label": "Q. F. Nobilior",
+          "abbr": "Q. F. N."
+        },
+        {
+          "label": "T. A. Galo",
+          "abbr": "T. A. G."
+        }
+      ]
     },
     {
       "anio": -152,
       "titulo": "Marco Claudio Marcelo (3°) y Lucio Valerio Flaco",
-      "texto": "Continuaron los conflictos en Hispania contra celtíberos y lusitanos."
+      "texto": "Continuaron los conflictos en Hispania contra celtíberos y lusitanos.",
+      "imagenes": [
+        {
+          "label": "M. C. Marcelo",
+          "abbr": "M. C. M."
+        },
+        {
+          "label": "L. V. Flaco",
+          "abbr": "L. V. F."
+        }
+      ]
     },
     {
       "anio": -151,
       "titulo": "Lucio Licinio Luculo y Aulo Postumio Albino",
-      "texto": "Luculo llevó una brutal campaña contra los vacceos en Hispania."
+      "texto": "Luculo llevó una brutal campaña contra los vacceos en Hispania.",
+      "imagenes": [
+        {
+          "label": "L. L. Luculo",
+          "abbr": "L. L. L."
+        },
+        {
+          "label": "A. P. Albino",
+          "abbr": "A. P. A."
+        }
+      ]
     },
     {
       "anio": -150,
       "titulo": "Tito Quincio Flaminino y Manio Acilio Balbo",
-      "texto": "Cartago se defendió de Masinisa, dando a Roma el pretexto para intervenir."
+      "texto": "Cartago se defendió de Masinisa, dando a Roma el pretexto para intervenir.",
+      "imagenes": [
+        {
+          "label": "T. Q. Flaminino",
+          "abbr": "T. Q. F."
+        },
+        {
+          "label": "M. A. Balbo",
+          "abbr": "M. A. B."
+        }
+      ]
     },
     {
       "anio": -149,
       "titulo": "Lucio Marcio Censorino y Manio Manilio",
-      "texto": "Estalló la Tercera Guerra Púnica (149–146): Cartago rechazó las condiciones romanas."
+      "texto": "Estalló la Tercera Guerra Púnica (149–146): Cartago rechazó las condiciones romanas.",
+      "imagenes": [
+        {
+          "label": "L. M. Censorino",
+          "abbr": "L. M. C."
+        },
+        {
+          "label": "M. Manilio",
+          "abbr": "M. M."
+        }
+      ]
     },
     {
       "anio": -148,
       "titulo": "Espurio Postumio Albino Magno y Lucio Calpurnio Pisón Cesonino",
-      "texto": "El asedio de Cartago se estancó. Andrisco encabezó una rebelión en Macedonia."
+      "texto": "El asedio de Cartago se estancó. Andrisco encabezó una rebelión en Macedonia.",
+      "imagenes": [
+        {
+          "label": "E. P. A. Magno",
+          "abbr": "E. P. A. M."
+        },
+        {
+          "label": "L. C. P. Cesonino",
+          "abbr": "L. C. P. C."
+        }
+      ]
     },
     {
       "anio": -147,
       "titulo": "Publio Cornelio Escipión Emiliano y Cayo Livio Druso",
-      "texto": "Escipión Emiliano fue elegido cónsul antes de edad para hacerse cargo del sitio de Cartago."
+      "texto": "Escipión Emiliano fue elegido cónsul antes de edad para hacerse cargo del sitio de Cartago.",
+      "imagenes": [
+        {
+          "label": "P. C. E. Emiliano",
+          "abbr": "P. C. E. E."
+        },
+        {
+          "label": "C. L. Druso",
+          "abbr": "C. L. D."
+        }
+      ]
     },
     {
       "anio": -146,
       "titulo": "Cneo Cornelio Léntulo y Lucio Mumio",
-      "texto": "Escipión Emiliano destruyó Cartago. Mumio destruyó Corinto. Macedonia se convirtió en provincia romana."
+      "texto": "Escipión Emiliano destruyó Cartago. Mumio destruyó Corinto. Macedonia se convirtió en provincia romana.",
+      "imagenes": [
+        {
+          "label": "Cneo C. Léntulo",
+          "abbr": "Cneo C. L."
+        },
+        {
+          "label": "L. Mumio",
+          "abbr": "L. M."
+        }
+      ]
     },
     {
       "anio": -145,
       "titulo": "Quinto Fabio Máximo Emiliano y Lucio Hostilio Mancino",
-      "texto": "Fabio Máximo Emiliano fue enviado a Hispania contra el caudillo lusitano Viriato."
+      "texto": "Fabio Máximo Emiliano fue enviado a Hispania contra el caudillo lusitano Viriato.",
+      "imagenes": [
+        {
+          "label": "Q. F. M. Emiliano",
+          "abbr": "Q. F. M. E."
+        },
+        {
+          "label": "L. H. Mancino",
+          "abbr": "L. H. M."
+        }
+      ]
     },
     {
       "anio": -144,
       "titulo": "Servio Sulpicio Galba y Lucio Aurelio Cota",
-      "texto": "Se inició la construcción del acueducto Aqua Marcia."
+      "texto": "Se inició la construcción del acueducto Aqua Marcia.",
+      "imagenes": [
+        {
+          "label": "S. S. Galba",
+          "abbr": "S. S. G."
+        },
+        {
+          "label": "L. A. Cota",
+          "abbr": "L. A. C."
+        }
+      ]
     },
     {
       "anio": -143,
       "titulo": "Apio Claudio Pulcro y Quinto Cecilio Metelo Macedónico",
-      "texto": "Metelo Macedónico venció a los celtíberos en Hispania; Viriato seguía resistiendo."
+      "texto": "Metelo Macedónico venció a los celtíberos en Hispania; Viriato seguía resistiendo.",
+      "imagenes": [
+        {
+          "label": "A. C. Pulcro",
+          "abbr": "A. C. P."
+        },
+        {
+          "label": "Q. C. M. Macedónico",
+          "abbr": "Q. C. M. M."
+        }
+      ]
     },
     {
       "anio": -142,
       "titulo": "Lucio Cecilio Metelo Calvo y Quinto Fabio Máximo Serviliano",
-      "texto": "Serviliano logró éxitos parciales contra Viriato sin vencerlo."
+      "texto": "Serviliano logró éxitos parciales contra Viriato sin vencerlo.",
+      "imagenes": [
+        {
+          "label": "L. C. M. Calvo",
+          "abbr": "L. C. M. C."
+        },
+        {
+          "label": "Q. F. M. Serviliano",
+          "abbr": "Q. F. M. S."
+        }
+      ]
     },
     {
       "anio": -141,
       "titulo": "Cneo Servilio Cepión y Quinto Pompeyo",
-      "texto": "Serviliano firmó la paz con Viriato, descontentando al Senado."
+      "texto": "Serviliano firmó la paz con Viriato, descontentando al Senado.",
+      "imagenes": [
+        {
+          "label": "Cneo S. Cepión",
+          "abbr": "Cneo S. C."
+        },
+        {
+          "label": "Q. Pompeyo",
+          "abbr": "Q. P."
+        }
+      ]
     },
     {
       "anio": -140,
       "titulo": "Quinto Servilio Cepión y Cayo Lelio Sapiens",
-      "texto": "Servilio Cepión sobornó a emisarios de Viriato para asesinarlo, poniendo fin a la resistencia lusitana."
+      "texto": "Servilio Cepión sobornó a emisarios de Viriato para asesinarlo, poniendo fin a la resistencia lusitana.",
+      "imagenes": [
+        {
+          "label": "Q. S. Cepión",
+          "abbr": "Q. S. C."
+        },
+        {
+          "label": "C. L. Sapiens",
+          "abbr": "C. L. S."
+        }
+      ]
     },
     {
       "anio": -139,
       "titulo": "Cneo Calpurnio Pisón y Marco Popilio Lenate",
-      "texto": "Continuó la guerra en Hispania, concentrada en el asedio de Numancia."
+      "texto": "Continuó la guerra en Hispania, concentrada en el asedio de Numancia.",
+      "imagenes": [
+        {
+          "label": "Cneo C. Pisón",
+          "abbr": "Cneo C. P."
+        },
+        {
+          "label": "M. P. Lenate",
+          "abbr": "M. P. L."
+        }
+      ]
     },
     {
       "anio": -138,
       "titulo": "Publio Cornelio Escipión Nasica Serapión y Décimo Junio Bruto Calaico",
-      "texto": "Bruto Calaico venció a galaicos y lusitanos en el noroeste hispano."
+      "texto": "Bruto Calaico venció a galaicos y lusitanos en el noroeste hispano.",
+      "imagenes": [
+        {
+          "label": "P. C. E. N. Serapión",
+          "abbr": "P. C. E. N. S."
+        },
+        {
+          "label": "D. J. B. Calaico",
+          "abbr": "D. J. B. C."
+        }
+      ]
     },
     {
       "anio": -137,
       "titulo": "Marco Emilio Lépido Porcina y Cayo Hostilio Mancino",
-      "texto": "Mancino fue derrotado por los numantinos y forzado a un tratado que el Senado repudió, entregándolo atado a los numantinos."
+      "texto": "Mancino fue derrotado por los numantinos y forzado a un tratado que el Senado repudió, entregándolo atado a los numantinos.",
+      "imagenes": [
+        {
+          "label": "M. E. L. Porcina",
+          "abbr": "M. E. L. P."
+        },
+        {
+          "label": "C. H. Mancino",
+          "abbr": "C. H. M."
+        }
+      ]
     },
     {
       "anio": -136,
       "titulo": "Lucio Furio Filo y Sexto Atilio Serrano",
-      "texto": "Continuó sin resolución el conflicto numantino."
+      "texto": "Continuó sin resolución el conflicto numantino.",
+      "imagenes": [
+        {
+          "label": "L. F. Filo",
+          "abbr": "L. F. F."
+        },
+        {
+          "label": "S. A. Serrano",
+          "abbr": "S. A. S."
+        }
+      ]
     },
     {
       "anio": -135,
       "titulo": "Servio Fulvio Flaco y Quinto Calpurnio Pisón",
-      "texto": "Estalló en Sicilia la Primera Guerra Servil, liderada por el esclavo Euno."
+      "texto": "Estalló en Sicilia la Primera Guerra Servil, liderada por el esclavo Euno.",
+      "imagenes": [
+        {
+          "label": "S. F. Flaco",
+          "abbr": "S. F. F."
+        },
+        {
+          "label": "Q. C. Pisón",
+          "abbr": "Q. C. P."
+        }
+      ]
     },
     {
       "anio": -134,
       "titulo": "Publio Cornelio Escipión Emiliano (2°) y Cayo Fulvio Flaco",
-      "texto": "Escipión Emiliano fue enviado a Hispania a poner fin al conflicto numantino, iniciando un cerco sistemático."
+      "texto": "Escipión Emiliano fue enviado a Hispania a poner fin al conflicto numantino, iniciando un cerco sistemático.",
+      "imagenes": [
+        {
+          "label": "P. C. E. Emiliano",
+          "abbr": "P. C. E. E."
+        },
+        {
+          "label": "C. F. Flaco",
+          "abbr": "C. F. F."
+        }
+      ]
     },
     {
       "anio": -133,
       "titulo": "Publio Mucio Escévola y Lucio Calpurnio Pisón Frugi",
-      "texto": "Escipión Emiliano completó el asedio de Numancia: los numantinos se quemaron y se dieron muerte antes de rendirse. El tribuno Tiberio Graco, impulsor de una ley agraria, fue asesinado por senadores liderados por Escipión Nasica."
+      "texto": "Escipión Emiliano completó el asedio de Numancia: los numantinos se quemaron y se dieron muerte antes de rendirse. El tribuno Tiberio Graco, impulsor de una ley agraria, fue asesinado por senadores liderados por Escipión Nasica.",
+      "imagenes": [
+        {
+          "label": "P. M. Escévola",
+          "abbr": "P. M. E."
+        },
+        {
+          "label": "L. C. P. Frugi",
+          "abbr": "L. C. P. F."
+        }
+      ]
     },
     {
       "anio": -132,
       "titulo": "Publio Rupilio y Publio Popilio Lenate",
-      "texto": "Rupilio sofocó la Primera Guerra Servil, capturando y ejecutando a Euno."
+      "texto": "Rupilio sofocó la Primera Guerra Servil, capturando y ejecutando a Euno.",
+      "imagenes": [
+        {
+          "label": "P. Rupilio",
+          "abbr": "P. R."
+        },
+        {
+          "label": "P. P. Lenate",
+          "abbr": "P. P. L."
+        }
+      ]
     },
     {
       "anio": -131,
       "titulo": "Publio Licinio Craso Muciano y Lucio Valerio Flaco",
-      "texto": "Craso Muciano combatió al rey Aristónico de Pérgamo, rebelado contra Roma."
+      "texto": "Craso Muciano combatió al rey Aristónico de Pérgamo, rebelado contra Roma.",
+      "imagenes": [
+        {
+          "label": "P. L. C. Muciano",
+          "abbr": "P. L. C. M."
+        },
+        {
+          "label": "L. V. Flaco",
+          "abbr": "L. V. F."
+        }
+      ]
     },
     {
       "anio": -130,
       "titulo": "Marco Perpenna y Lucio Cornelio Léntulo",
-      "texto": "Perpenna derrotó y capturó a Aristónico; Pérgamo se organizó como provincia de Asia."
+      "texto": "Perpenna derrotó y capturó a Aristónico; Pérgamo se organizó como provincia de Asia.",
+      "imagenes": [
+        {
+          "label": "M. Perpenna",
+          "abbr": "M. P."
+        },
+        {
+          "label": "L. C. Léntulo",
+          "abbr": "L. C. L."
+        }
+      ]
     },
     {
       "anio": -129,
       "titulo": "Cayo Sempronio Tuditano y Manio Aquilio",
-      "texto": "Murió Escipión Emiliano en circunstancias sospechosas."
+      "texto": "Murió Escipión Emiliano en circunstancias sospechosas.",
+      "imagenes": [
+        {
+          "label": "C. S. Tuditano",
+          "abbr": "C. S. T."
+        },
+        {
+          "label": "M. Aquilio",
+          "abbr": "M. A."
+        }
+      ]
     },
     {
       "anio": -128,
       "titulo": "Cneo Octavio y Tito Anicio Galo",
-      "texto": "Año de relativa calma en torno a la cuestión agraria planteada por Tiberio Graco."
+      "texto": "Año de relativa calma en torno a la cuestión agraria planteada por Tiberio Graco.",
+      "imagenes": [
+        {
+          "label": "Cneo Octavio",
+          "abbr": "Cneo O."
+        },
+        {
+          "label": "T. A. Galo",
+          "abbr": "T. A. G."
+        }
+      ]
     },
     {
       "anio": -127,
       "titulo": "Lucio Casio Longino Ravila y Lucio Cornelio Cina",
-      "texto": "Año sin grandes hitos militares o legislativos."
+      "texto": "Año sin grandes hitos militares o legislativos.",
+      "imagenes": [
+        {
+          "label": "L. C. L. Ravila",
+          "abbr": "L. C. L. R."
+        },
+        {
+          "label": "L. C. Cina",
+          "abbr": "L. C. C."
+        }
+      ]
     },
     {
       "anio": -126,
       "titulo": "Marco Emilio Lépido y Lucio Aurelio Orestes",
-      "texto": "Se aprobó una ley que expulsó de Roma a los peregrini."
+      "texto": "Se aprobó una ley que expulsó de Roma a los peregrini.",
+      "imagenes": [
+        {
+          "label": "M. E. Lépido",
+          "abbr": "M. E. L."
+        },
+        {
+          "label": "L. A. Orestes",
+          "abbr": "L. A. O."
+        }
+      ]
     },
     {
       "anio": -125,
       "titulo": "Marco Plautio Hipseo y Marco Fulvio Flaco",
-      "texto": "Fulvio Flaco propuso extender la ciudadanía a los aliados itálicos, sin éxito."
+      "texto": "Fulvio Flaco propuso extender la ciudadanía a los aliados itálicos, sin éxito.",
+      "imagenes": [
+        {
+          "label": "M. P. Hipseo",
+          "abbr": "M. P. H."
+        },
+        {
+          "label": "M. F. Flaco",
+          "abbr": "M. F. F."
+        }
+      ]
     },
     {
       "anio": -124,
       "titulo": "Cayo Casio Longino y Cayo Sextio Calvino",
-      "texto": "Sextio Calvino combatió a los salios en la Galia Transalpina, en auxilio de Massalia."
+      "texto": "Sextio Calvino combatió a los salios en la Galia Transalpina, en auxilio de Massalia.",
+      "imagenes": [
+        {
+          "label": "C. C. Longino",
+          "abbr": "C. C. L."
+        },
+        {
+          "label": "C. S. Calvino",
+          "abbr": "C. S. C."
+        }
+      ]
     },
     {
       "anio": -123,
       "titulo": "Quinto Cecilio Metelo Baleárico y Tito Quincio Flaminino",
-      "texto": "Cayo Graco fue elegido tribuno de la plebe, impulsando reformas agrarias, de grano y judiciales."
+      "texto": "Cayo Graco fue elegido tribuno de la plebe, impulsando reformas agrarias, de grano y judiciales.",
+      "imagenes": [
+        {
+          "label": "Q. C. M. Baleárico",
+          "abbr": "Q. C. M. B."
+        },
+        {
+          "label": "T. Q. Flaminino",
+          "abbr": "T. Q. F."
+        }
+      ]
     },
     {
       "anio": -122,
       "titulo": "Cneo Domicio Enobarbo y Cayo Fanio",
-      "texto": "Cayo Graco propuso extender la ciudadanía a itálicos, perdiendo apoyo popular. Se fundó Narbo Martius."
+      "texto": "Cayo Graco propuso extender la ciudadanía a itálicos, perdiendo apoyo popular. Se fundó Narbo Martius.",
+      "imagenes": [
+        {
+          "label": "Cneo D. Enobarbo",
+          "abbr": "Cneo D. E."
+        },
+        {
+          "label": "C. Fanio",
+          "abbr": "C. F."
+        }
+      ]
     },
     {
       "anio": -121,
       "titulo": "Lucio Opimio y Quinto Fabio Máximo Alóbrogico",
-      "texto": "Opimio, con el primer senatus consultum ultimum, reprimió a los partidarios de Cayo Graco, quien murió junto a miles de seguidores."
+      "texto": "Opimio, con el primer senatus consultum ultimum, reprimió a los partidarios de Cayo Graco, quien murió junto a miles de seguidores.",
+      "imagenes": [
+        {
+          "label": "L. Opimio",
+          "abbr": "L. O."
+        },
+        {
+          "label": "Q. F. M. Alóbrogico",
+          "abbr": "Q. F. M. A."
+        }
+      ]
     },
     {
       "anio": -120,
       "titulo": "Publio Manilio y Cayo Papirio Carbón",
-      "texto": "Opimio fue juzgado y absuelto por la represión del año anterior."
+      "texto": "Opimio fue juzgado y absuelto por la represión del año anterior.",
+      "imagenes": [
+        {
+          "label": "P. Manilio",
+          "abbr": "P. M."
+        },
+        {
+          "label": "C. P. Carbón",
+          "abbr": "C. P. C."
+        }
+      ]
     },
     {
       "anio": -119,
       "titulo": "Lucio Cecilio Metelo Delmático y Lucio Aurelio Cota",
-      "texto": "Metelo sometió a los dálmatas. Ascendió al trono del Ponto el joven Mitrídates VI."
+      "texto": "Metelo sometió a los dálmatas. Ascendió al trono del Ponto el joven Mitrídates VI.",
+      "imagenes": [
+        {
+          "label": "L. C. M. Delmático",
+          "abbr": "L. C. M. D."
+        },
+        {
+          "label": "L. A. Cota",
+          "abbr": "L. A. C."
+        }
+      ]
     },
     {
       "anio": -118,
       "titulo": "Marco Porcio Catón y Quinto Marcio Rex",
-      "texto": "Se fundó Narbo Martius. Murió Micipsa de Numidia, desatando la disputa sucesoria con Yugurta."
+      "texto": "Se fundó Narbo Martius. Murió Micipsa de Numidia, desatando la disputa sucesoria con Yugurta.",
+      "imagenes": [
+        {
+          "label": "M. P. Catón",
+          "abbr": "M. P. C."
+        },
+        {
+          "label": "Q. M. Rex",
+          "abbr": "Q. M. R."
+        }
+      ]
     },
     {
       "anio": -117,
       "titulo": "Lucio Cecilio Metelo Diademato y Quinto Muzio Escévola",
-      "texto": "Tensiones en Numidia entre Yugurta y sus primos Hiempsal y Adherbal."
+      "texto": "Tensiones en Numidia entre Yugurta y sus primos Hiempsal y Adherbal.",
+      "imagenes": [
+        {
+          "label": "L. C. M. Diademato",
+          "abbr": "L. C. M. D."
+        },
+        {
+          "label": "Q. M. Escévola",
+          "abbr": "Q. M. E."
+        }
+      ]
     },
     {
       "anio": -116,
       "titulo": "Cayo Licinio Geta y Quinto Fabio Máximo Eburno",
-      "texto": "Yugurta hizo asesinar a Hiempsal; el Senado dividió Numidia favorablemente a Yugurta."
+      "texto": "Yugurta hizo asesinar a Hiempsal; el Senado dividió Numidia favorablemente a Yugurta.",
+      "imagenes": [
+        {
+          "label": "C. L. Geta",
+          "abbr": "C. L. G."
+        },
+        {
+          "label": "Q. F. M. Eburno",
+          "abbr": "Q. F. M. E."
+        }
+      ]
     },
     {
       "anio": -115,
       "titulo": "Marco Emilio Escauro y Marco Cecilio Metelo",
-      "texto": "Escauro, como censor, expulsó del Senado a numerosos miembros por corrupción."
+      "texto": "Escauro, como censor, expulsó del Senado a numerosos miembros por corrupción.",
+      "imagenes": [
+        {
+          "label": "M. E. Escauro",
+          "abbr": "M. E. E."
+        },
+        {
+          "label": "M. C. Metelo",
+          "abbr": "M. C. M."
+        }
+      ]
     },
     {
       "anio": -114,
       "titulo": "Manio Acilio Balbo y Cayo Porcio Catón",
-      "texto": "Roma sufrió una derrota ante los escordiscos en los Balcanes."
+      "texto": "Roma sufrió una derrota ante los escordiscos en los Balcanes.",
+      "imagenes": [
+        {
+          "label": "M. A. Balbo",
+          "abbr": "M. A. B."
+        },
+        {
+          "label": "C. P. Catón",
+          "abbr": "C. P. C."
+        }
+      ]
     },
     {
       "anio": -113,
       "titulo": "Cayo Cecilio Metelo Caprario y Cneo Papirio Carbón",
-      "texto": "Los cimbrios derrotaron a Roma en Noreia, inicio de la amenaza cimbria-teutona."
+      "texto": "Los cimbrios derrotaron a Roma en Noreia, inicio de la amenaza cimbria-teutona.",
+      "imagenes": [
+        {
+          "label": "C. C. M. Caprario",
+          "abbr": "C. C. M. C."
+        },
+        {
+          "label": "Cneo P. Carbón",
+          "abbr": "Cneo P. C."
+        }
+      ]
     },
     {
       "anio": -112,
       "titulo": "Marco Livio Druso y Lucio Calpurnio Pisón Cesonino",
-      "texto": "Yugurta masacró a Adherbal y comerciantes romanos en Cirta; Roma declaró la Guerra de Yugurta (112–105)."
+      "texto": "Yugurta masacró a Adherbal y comerciantes romanos en Cirta; Roma declaró la Guerra de Yugurta (112–105).",
+      "imagenes": [
+        {
+          "label": "M. L. Druso",
+          "abbr": "M. L. D."
+        },
+        {
+          "label": "L. C. P. Cesonino",
+          "abbr": "L. C. P. C."
+        }
+      ]
     },
     {
       "anio": -111,
       "titulo": "Publio Cornelio Escipión Nasica y Lucio Calpurnio Bestia",
-      "texto": "Calpurnio Bestia firmó con Yugurta una paz sospechosa, con acusaciones de soborno."
+      "texto": "Calpurnio Bestia firmó con Yugurta una paz sospechosa, con acusaciones de soborno.",
+      "imagenes": [
+        {
+          "label": "P. C. E. Nasica",
+          "abbr": "P. C. E. N."
+        },
+        {
+          "label": "L. C. Bestia",
+          "abbr": "L. C. B."
+        }
+      ]
     },
     {
       "anio": -110,
       "titulo": "Marco Minucio Rufo y Espurio Postumio Albino",
-      "texto": "Postumio Albino sufrió un revés en Numidia; comisión investigadora sobre corrupción."
+      "texto": "Postumio Albino sufrió un revés en Numidia; comisión investigadora sobre corrupción.",
+      "imagenes": [
+        {
+          "label": "M. M. Rufo",
+          "abbr": "M. M. R."
+        },
+        {
+          "label": "E. P. Albino",
+          "abbr": "E. P. A."
+        }
+      ]
     },
     {
       "anio": -109,
       "titulo": "Quinto Cecilio Metelo Numídico y Marco Junio Silano",
-      "texto": "Metelo Numídico logró victorias contra Yugurta, sin capturarlo."
+      "texto": "Metelo Numídico logró victorias contra Yugurta, sin capturarlo.",
+      "imagenes": [
+        {
+          "label": "Q. C. M. Numídico",
+          "abbr": "Q. C. M. N."
+        },
+        {
+          "label": "M. J. Silano",
+          "abbr": "M. J. S."
+        }
+      ]
     },
     {
       "anio": -108,
       "titulo": "Servio Sulpicio Galba y Quinto Hortensio",
-      "texto": "Cayo Mario regresó a Roma como candidato al consulado, prometiendo mayor eficacia."
+      "texto": "Cayo Mario regresó a Roma como candidato al consulado, prometiendo mayor eficacia.",
+      "imagenes": [
+        {
+          "label": "S. S. Galba",
+          "abbr": "S. S. G."
+        },
+        {
+          "label": "Q. Hortensio",
+          "abbr": "Q. H."
+        }
+      ]
     },
     {
       "anio": -107,
       "titulo": "Cayo Mario (1°) y Lucio Casio Longino",
-      "texto": "Mario asumió el mando en Numidia y reformó el ejército, abriendo el reclutamiento a los capite censi."
+      "texto": "Mario asumió el mando en Numidia y reformó el ejército, abriendo el reclutamiento a los capite censi.",
+      "imagenes": [
+        {
+          "label": "C. Mario",
+          "abbr": "C. M."
+        },
+        {
+          "label": "L. C. Longino",
+          "abbr": "L. C. L."
+        }
+      ]
     },
     {
       "anio": -106,
       "titulo": "Quinto Servilio Cepión y Cayo Atilio Serrano",
-      "texto": "Nacieron Pompeyo y Cicerón. Servilio Cepión sufrió una catástrofe ante cimbrios y teutones en Arausio."
+      "texto": "Nacieron Pompeyo y Cicerón. Servilio Cepión sufrió una catástrofe ante cimbrios y teutones en Arausio.",
+      "imagenes": [
+        {
+          "label": "Q. S. Cepión",
+          "abbr": "Q. S. C."
+        },
+        {
+          "label": "C. A. Serrano",
+          "abbr": "C. A. S."
+        }
+      ]
     },
     {
       "anio": -105,
       "titulo": "Publio Rutilio Rufo y Cneo Malio Máximo",
-      "texto": "Desastre de Arausio contra cimbrios y teutones. Sila capturó a Yugurta gracias a Bocco de Mauritania."
+      "texto": "Desastre de Arausio contra cimbrios y teutones. Sila capturó a Yugurta gracias a Bocco de Mauritania.",
+      "imagenes": [
+        {
+          "label": "P. R. Rufo",
+          "abbr": "P. R. R."
+        },
+        {
+          "label": "Cneo M. Máximo",
+          "abbr": "Cneo M. M."
+        }
+      ]
     },
     {
       "anio": -104,
       "titulo": "Cayo Mario (2°) y Cayo Flavio Fimbria",
-      "texto": "Mario reorganizó el ejército ante la amenaza germánica. Estalló la Segunda Guerra Servil en Sicilia."
+      "texto": "Mario reorganizó el ejército ante la amenaza germánica. Estalló la Segunda Guerra Servil en Sicilia.",
+      "imagenes": [
+        {
+          "label": "C. Mario",
+          "abbr": "C. M."
+        },
+        {
+          "label": "C. F. Fimbria",
+          "abbr": "C. F. F."
+        }
+      ]
     },
     {
       "anio": -103,
       "titulo": "Cayo Mario (3°) y Lucio Aurelio Orestes",
-      "texto": "Mario preparó la defensa de Italia frente a cimbrios y teutones."
+      "texto": "Mario preparó la defensa de Italia frente a cimbrios y teutones.",
+      "imagenes": [
+        {
+          "label": "C. Mario",
+          "abbr": "C. M."
+        },
+        {
+          "label": "L. A. Orestes",
+          "abbr": "L. A. O."
+        }
+      ]
     },
     {
       "anio": -102,
       "titulo": "Cayo Mario (4°) y Quinto Lutacio Cátulo",
-      "texto": "Mario derrotó a teutones y ambrones en Aquae Sextiae."
+      "texto": "Mario derrotó a teutones y ambrones en Aquae Sextiae.",
+      "imagenes": [
+        {
+          "label": "C. Mario",
+          "abbr": "C. M."
+        },
+        {
+          "label": "Q. L. Cátulo",
+          "abbr": "Q. L. C."
+        }
+      ]
     },
     {
       "anio": -101,
       "titulo": "Cayo Mario (5°) y Manio Aquilio",
-      "texto": "Mario y Cátulo derrotaron a los cimbrios en Vercelas. Aquilio sofocó la Segunda Guerra Servil."
+      "texto": "Mario y Cátulo derrotaron a los cimbrios en Vercelas. Aquilio sofocó la Segunda Guerra Servil.",
+      "imagenes": [
+        {
+          "label": "C. Mario",
+          "abbr": "C. M."
+        },
+        {
+          "label": "M. Aquilio",
+          "abbr": "M. A."
+        }
+      ]
     },
     {
       "anio": -100,
