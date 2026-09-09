@@ -7216,7 +7216,25 @@ window.ROMA_DATA = {
     {
       "periodo": "68–69 d.C.",
       "nombre": "Año de los Cuatro Emperadores",
-      "texto": "Guerra civil con la sucesión rápida de Galba, Otón y Vitelio, cada uno derrocado violentamente, hasta que Vespasiano se impuso, fundando la dinastía Flavia."
+      "texto": "Guerra civil con la sucesión rápida de Galba, Otón y Vitelio, cada uno derrocado violentamente, hasta que Vespasiano se impuso, fundando la dinastía Flavia.",
+      "galeria": [
+        {
+          "imagen": "assets/img/retratos/retrato-140.jpg",
+          "label": "Galba"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-141.jpg",
+          "label": "Otón"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-142.jpg",
+          "label": "Vitelio"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-19.jpg",
+          "label": "Vespasiano"
+        }
+      ]
     },
     {
       "periodo": "69–79 d.C.",
@@ -7275,7 +7293,29 @@ window.ROMA_DATA = {
     {
       "periodo": "193 d.C.",
       "nombre": "Año de los Cinco Emperadores",
-      "texto": "Pertinax fue asesinado por la Guardia Pretoriana; Didio Juliano 'compró' el trono subastado; finalmente Septimio Severo se impuso sobre Pescenio Níger y Clodio Albino, fundando la dinastía Severa."
+      "texto": "Pertinax fue asesinado por la Guardia Pretoriana; Didio Juliano 'compró' el trono subastado; finalmente Septimio Severo se impuso sobre Pescenio Níger y Clodio Albino, fundando la dinastía Severa.",
+      "galeria": [
+        {
+          "imagen": "assets/img/retratos/retrato-143.jpg",
+          "label": "Pértinax"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-144.jpg",
+          "label": "Didio Juliano"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-145.jpg",
+          "label": "Pescenio Níger"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-146.jpg",
+          "label": "Clodio Albino"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-28.jpg",
+          "label": "Septimio Severo"
+        }
+      ]
     },
     {
       "periodo": "193–211 d.C.",
@@ -7304,7 +7344,93 @@ window.ROMA_DATA = {
     {
       "periodo": "235–284 d.C.",
       "nombre": "La Crisis del Siglo III",
-      "texto": "Casi cincuenta años de anarquía militar con más de veinte emperadores efímeros. Destacan Maximino el Tracio (primer emperador de origen humilde), Decio (primera gran persecución sistemática contra los cristianos), Valeriano (capturado por los persas de Sapor I), Galieno (fragmentación del Imperio en tres) y Aureliano (reunificó el Imperio y construyó las Murallas Aurelianas)."
+      "texto": "Casi cincuenta años de anarquía militar con más de veinte emperadores efímeros. Destacan Maximino el Tracio (primer emperador de origen humilde), Decio (primera gran persecución sistemática contra los cristianos), Valeriano (capturado por los persas de Sapor I), Galieno (fragmentación del Imperio en tres) y Aureliano (reunificó el Imperio y construyó las Murallas Aurelianas).",
+      "galeria": [
+        {
+          "imagen": "assets/img/retratos/retrato-147.jpg",
+          "label": "Maximino el Tracio"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-148.jpg",
+          "label": "Gordiano I"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-149.jpg",
+          "label": "Gordiano II"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-150.jpg",
+          "label": "Pupieno"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-151.jpg",
+          "label": "Balbino"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-152.jpg",
+          "label": "Gordiano III"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-153.jpg",
+          "label": "Filipo el Árabe"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-154.jpg",
+          "label": "Decio"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-155.jpg",
+          "label": "Treboniano Galo"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-156.jpg",
+          "label": "Emiliano"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-157.jpg",
+          "label": "Valeriano"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-158.jpg",
+          "label": "Galieno"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-159.jpg",
+          "label": "Claudio II el Gótico"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-160.jpg",
+          "label": "Quintilo"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-161.jpg",
+          "label": "Aureliano"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-162.jpg",
+          "label": "Tácito"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-163.jpg",
+          "label": "Floriano"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-164.jpg",
+          "label": "Probo"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-165.jpg",
+          "label": "Caro"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-166.jpg",
+          "label": "Carino"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-167.jpg",
+          "label": "Numeriano"
+        }
+      ]
     },
     {
       "periodo": "284–305 d.C.",
@@ -7321,7 +7447,21 @@ window.ROMA_DATA = {
     {
       "periodo": "337–361 d.C.",
       "nombre": "Los hijos de Constantino",
-      "texto": "El Imperio se repartió entre Constantino II, Constancio II y Constante, en conflicto entre sí. Constancio II quedó como único emperador tras la muerte de sus hermanos, en medio de disputas religiosas entre arrianos y niceos."
+      "texto": "El Imperio se repartió entre Constantino II, Constancio II y Constante, en conflicto entre sí. Constancio II quedó como único emperador tras la muerte de sus hermanos, en medio de disputas religiosas entre arrianos y niceos.",
+      "galeria": [
+        {
+          "imagen": "assets/img/retratos/retrato-168.jpg",
+          "label": "Constantino II"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-169.jpg",
+          "label": "Constante I"
+        },
+        {
+          "imagen": "assets/img/retratos/retrato-170.jpg",
+          "label": "Constancio II"
+        }
+      ]
     },
     {
       "periodo": "361–363 d.C.",
