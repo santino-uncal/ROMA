@@ -7151,30 +7151,31 @@ window.ROMA_DATA = {
       "periodo": "27 a.C. – 14 d.C.",
       "nombre": "Augusto",
       "texto": "Primer emperador romano, tras derrotar a Marco Antonio y Cleopatra en Actio. Instauró el Principado, manteniendo formas republicanas mientras concentraba el poder real. Reformó el ejército, creó la Guardia Pretoriana, expandió las fronteras y sufrió la derrota de Teutoburgo (9 d.C.). Impulsó la Pax Romana y patrocinó a Virgilio, Horacio y Ovidio.",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Statue-Augustus.jpg"
+      "imagen": "assets/img/retratos/retrato-14.jpg"
     },
     {
       "periodo": "14–37 d.C.",
       "nombre": "Tiberio",
-      "texto": "Hijastro y sucesor de Augusto, reservado y desconfiado. Consolidó las fronteras sin grandes expansiones. Se retiró a Capri, dejando el gobierno en manos de su prefecto Sejano, ejecutado en el 31 d.C. tras conspirar contra él."
+      "texto": "Hijastro y sucesor de Augusto, reservado y desconfiado. Consolidó las fronteras sin grandes expansiones. Se retiró a Capri, dejando el gobierno en manos de su prefecto Sejano, ejecutado en el 31 d.C. tras conspirar contra él.",
+      "imagen": "assets/img/retratos/retrato-15.jpg"
     },
     {
       "periodo": "37–41 d.C.",
       "nombre": "Calígula",
       "texto": "Comenzó con gran popularidad pero derivó, según la tradición, en un gobierno errático y cruel, con gastos desmedidos y crueldad hacia el Senado. Fue asesinado por su propia Guardia Pretoriana.",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Caligula_02.JPG"
+      "imagen": "assets/img/retratos/retrato-16.jpg"
     },
     {
       "periodo": "41–54 d.C.",
       "nombre": "Claudio",
       "texto": "Tío de Calígula, llegó al poder inesperadamente. Inició la conquista de Britania (43 d.C.), expandió la burocracia imperial y construyó el puerto de Ostia. Murió posiblemente envenenado por su esposa Agripina en favor de Nerón.",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Claudius_crop.jpg"
+      "imagen": "assets/img/retratos/retrato-17.jpg"
     },
     {
       "periodo": "54–68 d.C.",
       "nombre": "Nerón",
       "texto": "Último de la dinastía Julio-Claudia. Comenzó bien bajo Séneca y Burro, pero derivó en tiranía: hizo asesinar a su madre Agripina y a su esposa Octavia. Roma sufrió el gran incendio del 64 d.C., tras el cual persiguió a los cristianos. Declarado enemigo público, se suicidó en el 68 d.C.",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Nero_1.JPG"
+      "imagen": "assets/img/retratos/retrato-18.jpg"
     },
     {
       "periodo": "68–69 d.C.",
@@ -7184,48 +7185,56 @@ window.ROMA_DATA = {
     {
       "periodo": "69–79 d.C.",
       "nombre": "Vespasiano",
-      "texto": "Restauró la estabilidad tras el caos. Sofocó la Gran Revuelta Judía (completada por su hijo Tito con la destrucción del Templo de Jerusalén en el 70 d.C.). Reforzó las finanzas e inició la construcción del Coliseo."
+      "texto": "Restauró la estabilidad tras el caos. Sofocó la Gran Revuelta Judía (completada por su hijo Tito con la destrucción del Templo de Jerusalén en el 70 d.C.). Reforzó las finanzas e inició la construcción del Coliseo.",
+      "imagen": "assets/img/retratos/retrato-19.jpg"
     },
     {
       "periodo": "79–81 d.C.",
       "nombre": "Tito",
-      "texto": "Inauguró el Coliseo. Su reinado estuvo marcado por la erupción del Vesubio (79 d.C.), que sepultó Pompeya y Herculano, y un gran incendio en Roma. Murió joven, con imagen de gobernante querido."
+      "texto": "Inauguró el Coliseo. Su reinado estuvo marcado por la erupción del Vesubio (79 d.C.), que sepultó Pompeya y Herculano, y un gran incendio en Roma. Murió joven, con imagen de gobernante querido.",
+      "imagen": "assets/img/retratos/retrato-20.jpg"
     },
     {
       "periodo": "81–96 d.C.",
       "nombre": "Domiciano",
       "texto": "Gobernó de forma autoritaria, en conflicto creciente con el Senado. Llevó campañas en Germania y Dacia. Fue asesinado en una conspiración palaciega en el 96 d.C.",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Bust_Domitian_Musei_Capitolini_MC1156.jpg"
+      "imagen": "assets/img/retratos/retrato-21.jpg"
     },
     {
       "periodo": "96–98 d.C.",
       "nombre": "Nerva",
-      "texto": "Elegido por el Senado tras el asesinato de Domiciano, instauró la práctica de adoptar como sucesor al candidato más capaz, adoptando a Trajano."
+      "texto": "Elegido por el Senado tras el asesinato de Domiciano, instauró la práctica de adoptar como sucesor al candidato más capaz, adoptando a Trajano.",
+      "imagen": "assets/img/retratos/retrato-22.jpg"
     },
     {
       "periodo": "98–117 d.C.",
       "nombre": "Trajano",
-      "texto": "Primer emperador de origen provincial (hispano). Bajo su gobierno el Imperio alcanzó su máxima extensión territorial, con la conquista de Dacia y campañas en Partia. Impulsó grandes obras públicas, como su Foro y Columna."
+      "texto": "Primer emperador de origen provincial (hispano). Bajo su gobierno el Imperio alcanzó su máxima extensión territorial, con la conquista de Dacia y campañas en Partia. Impulsó grandes obras públicas, como su Foro y Columna.",
+      "imagen": "assets/img/retratos/retrato-23.jpg"
     },
     {
       "periodo": "117–138 d.C.",
       "nombre": "Adriano",
-      "texto": "Adoptó una política más defensiva, consolidando fronteras; mandó construir el Muro de Adriano en Britania. Viajó extensamente y fue gran mecenas cultural, reconstruyendo el Panteón."
+      "texto": "Adoptó una política más defensiva, consolidando fronteras; mandó construir el Muro de Adriano en Britania. Viajó extensamente y fue gran mecenas cultural, reconstruyendo el Panteón.",
+      "imagen": "assets/img/retratos/retrato-24.jpg"
     },
     {
       "periodo": "138–161 d.C.",
       "nombre": "Antonino Pío",
-      "texto": "Reinado excepcionalmente pacífico y estable, sin grandes guerras ni crisis internas, con fama de gobernante justo y prudente."
+      "texto": "Reinado excepcionalmente pacífico y estable, sin grandes guerras ni crisis internas, con fama de gobernante justo y prudente.",
+      "imagen": "assets/img/retratos/retrato-25.jpg"
     },
     {
       "periodo": "161–180 d.C.",
       "nombre": "Marco Aurelio",
-      "texto": "Filósofo estoico, autor de las Meditaciones. Gobernó (con Lucio Vero al inicio) en medio de guerras defensivas contra partos, marcomanos y germanos, y una grave peste. Su sucesión por su hijo Cómodo suele marcar el inicio del declive del Alto Imperio."
+      "texto": "Filósofo estoico, autor de las Meditaciones. Gobernó (con Lucio Vero al inicio) en medio de guerras defensivas contra partos, marcomanos y germanos, y una grave peste. Su sucesión por su hijo Cómodo suele marcar el inicio del declive del Alto Imperio.",
+      "imagen": "assets/img/retratos/retrato-26.jpg"
     },
     {
       "periodo": "180–192 d.C.",
       "nombre": "Cómodo",
-      "texto": "Rompió la tradición de adopción al heredar por sangre. Descuidó el gobierno, se obsesionó con presentarse como gladiador identificándose con Hércules. Fue asesinado en una conspiración palaciega en el 192 d.C."
+      "texto": "Rompió la tradición de adopción al heredar por sangre. Descuidó el gobierno, se obsesionó con presentarse como gladiador identificándose con Hércules. Fue asesinado en una conspiración palaciega en el 192 d.C.",
+      "imagen": "assets/img/retratos/retrato-27.jpg"
     },
     {
       "periodo": "193 d.C.",
@@ -7236,22 +7245,25 @@ window.ROMA_DATA = {
       "periodo": "193–211 d.C.",
       "nombre": "Septimio Severo",
       "texto": "De origen norteafricano, reforzó el poder militar del emperador sobre el Senado, aumentando el sueldo de las legiones. Llevó campañas en Partia y Britania, donde murió en York.",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Septimius_Severus_busto-Musei_Capitolini.jpg"
+      "imagen": "assets/img/retratos/retrato-28.jpg"
     },
     {
       "periodo": "211–217 d.C.",
       "nombre": "Caracalla",
-      "texto": "Gobernó junto a su hermano Geta, a quien mandó asesinar. Se le recuerda por la Constitutio Antoniniana (212 d.C.), que otorgó la ciudadanía romana a casi todos los habitantes libres del Imperio. Fue asesinado por un oficial de su guardia."
+      "texto": "Gobernó junto a su hermano Geta, a quien mandó asesinar. Se le recuerda por la Constitutio Antoniniana (212 d.C.), que otorgó la ciudadanía romana a casi todos los habitantes libres del Imperio. Fue asesinado por un oficial de su guardia.",
+      "imagen": "assets/img/retratos/retrato-29.jpg"
     },
     {
       "periodo": "218–222 d.C.",
       "nombre": "Heliogábalo",
-      "texto": "Joven emperador sirio de comportamiento extravagante, que intentó imponer un culto solar sirio por encima de las divinidades romanas. Fue asesinado, junto a su madre, por la Guardia Pretoriana."
+      "texto": "Joven emperador sirio de comportamiento extravagante, que intentó imponer un culto solar sirio por encima de las divinidades romanas. Fue asesinado, junto a su madre, por la Guardia Pretoriana.",
+      "imagen": "assets/img/retratos/retrato-30.jpg"
     },
     {
       "periodo": "222–235 d.C.",
       "nombre": "Alejandro Severo",
-      "texto": "Último de la dinastía Severa, gobernó bajo fuerte influencia de su madre Julia Mamea. Su asesinato en una revuelta militar en Germania marcó el inicio de la Crisis del Siglo III."
+      "texto": "Último de la dinastía Severa, gobernó bajo fuerte influencia de su madre Julia Mamea. Su asesinato en una revuelta militar en Germania marcó el inicio de la Crisis del Siglo III.",
+      "imagen": "assets/img/retratos/retrato-31.jpg"
     },
     {
       "periodo": "235–284 d.C.",
@@ -7261,12 +7273,14 @@ window.ROMA_DATA = {
     {
       "periodo": "284–305 d.C.",
       "nombre": "Diocleciano",
-      "texto": "Puso fin a la Crisis del Siglo III con la Tetrarquía, dividiendo el gobierno entre dos Augustos y dos Césares. Reformó economía, ejército y administración, y lanzó la última y más severa persecución contra los cristianos. Único emperador en abdicar voluntariamente."
+      "texto": "Puso fin a la Crisis del Siglo III con la Tetrarquía, dividiendo el gobierno entre dos Augustos y dos Césares. Reformó economía, ejército y administración, y lanzó la última y más severa persecución contra los cristianos. Único emperador en abdicar voluntariamente.",
+      "imagen": "assets/img/retratos/retrato-32.jpg"
     },
     {
       "periodo": "306–337 d.C.",
       "nombre": "Constantino I",
-      "texto": "Se impuso como único emperador tras vencer a Majencio en el Puente Milvio (312 d.C.). Con el Edicto de Milán (313 d.C.) estableció la tolerancia hacia el cristianismo. Fundó Constantinopla (330 d.C.) sobre el antiguo Bizancio."
+      "texto": "Se impuso como único emperador tras vencer a Majencio en el Puente Milvio (312 d.C.). Con el Edicto de Milán (313 d.C.) estableció la tolerancia hacia el cristianismo. Fundó Constantinopla (330 d.C.) sobre el antiguo Bizancio.",
+      "imagen": "assets/img/retratos/retrato-33.jpg"
     },
     {
       "periodo": "337–361 d.C.",
@@ -7276,12 +7290,14 @@ window.ROMA_DATA = {
     {
       "periodo": "361–363 d.C.",
       "nombre": "Juliano el Apóstata",
-      "texto": "Último emperador pagano: intentó revertir el ascenso del cristianismo y restaurar los cultos tradicionales, sin recurrir a la persecución violenta. Murió en combate contra los persas sasánidas."
+      "texto": "Último emperador pagano: intentó revertir el ascenso del cristianismo y restaurar los cultos tradicionales, sin recurrir a la persecución violenta. Murió en combate contra los persas sasánidas.",
+      "imagen": "assets/img/retratos/retrato-34.jpg"
     },
     {
       "periodo": "363–364 d.C.",
       "nombre": "Joviano",
-      "texto": "Restauró el cristianismo como religión favorecida del Estado. Reinado brevísimo: murió pocos meses después, posiblemente por intoxicación accidental."
+      "texto": "Restauró el cristianismo como religión favorecida del Estado. Reinado brevísimo: murió pocos meses después, posiblemente por intoxicación accidental.",
+      "imagen": "assets/img/retratos/retrato-35.jpg"
     },
     {
       "periodo": "364–378 d.C.",
@@ -7291,7 +7307,8 @@ window.ROMA_DATA = {
     {
       "periodo": "379–395 d.C.",
       "nombre": "Teodosio I \"el Grande\"",
-      "texto": "Nombrado emperador de Oriente tras Adrianópolis, pacificó a los godos como aliados (foederati). Último emperador en gobernar todo el Imperio unificado, tras vencer a los usurpadores Magno Máximo y Eugenio. Convirtió al cristianismo niceno en religión oficial y única del Estado (Edicto de Tesalónica, 380 d.C.). Murió en Milán en enero del 395 d.C., dividiendo el Imperio entre sus hijos Honorio (Occidente) y Arcadio (Oriente), división que ya nunca se reunificaría."
+      "texto": "Nombrado emperador de Oriente tras Adrianópolis, pacificó a los godos como aliados (foederati). Último emperador en gobernar todo el Imperio unificado, tras vencer a los usurpadores Magno Máximo y Eugenio. Convirtió al cristianismo niceno en religión oficial y única del Estado (Edicto de Tesalónica, 380 d.C.). Murió en Milán en enero del 395 d.C., dividiendo el Imperio entre sus hijos Honorio (Occidente) y Arcadio (Oriente), división que ya nunca se reunificaría.",
+      "imagen": "assets/img/retratos/retrato-36.jpg"
     }
   ],
   "occidente": [
