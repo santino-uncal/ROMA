@@ -6060,267 +6060,793 @@ window.ROMA_DATA = {
     {
       "anio": -100,
       "titulo": "Cayo Mario (6°) y Lucio Valerio Flaco",
-      "texto": "Nació Julio César. El tribuno Apuleyo Saturnino fue reprimido y asesinado con complicidad de Mario."
+      "texto": "Nació Julio César. El tribuno Apuleyo Saturnino fue reprimido y asesinado con complicidad de Mario.",
+      "imagenes": [
+        {
+          "label": "C. Mario",
+          "abbr": "C. M."
+        },
+        {
+          "label": "L. V. Flaco",
+          "abbr": "L. V. F."
+        }
+      ]
     },
     {
       "anio": -99,
       "titulo": "Marco Antonio (el orador) y Aulo Postumio Albino",
-      "texto": "Año de calma tras la represión de Saturnino."
+      "texto": "Año de calma tras la represión de Saturnino.",
+      "imagenes": [
+        {
+          "label": "M. Antonio",
+          "abbr": "M. A."
+        },
+        {
+          "label": "A. P. Albino",
+          "abbr": "A. P. A."
+        }
+      ]
     },
     {
       "anio": -98,
       "titulo": "Quinto Cecilio Metelo Numídico (regresa del exilio) y Tito Didio",
-      "texto": "Metelo Numídico regresó a Roma en triunfo tras la caída de Saturnino."
+      "texto": "Metelo Numídico regresó a Roma en triunfo tras la caída de Saturnino.",
+      "imagenes": [
+        {
+          "label": "Q. C. M. Numídico",
+          "abbr": "Q. C. M. N."
+        },
+        {
+          "label": "T. Didio",
+          "abbr": "T. D."
+        }
+      ]
     },
     {
       "anio": -97,
       "titulo": "Cneo Cornelio Léntulo y Publio Licinio Craso",
-      "texto": "Se abolieron oficialmente los sacrificios humanos en Roma."
+      "texto": "Se abolieron oficialmente los sacrificios humanos en Roma.",
+      "imagenes": [
+        {
+          "label": "Cneo C. Léntulo",
+          "abbr": "Cneo C. L."
+        },
+        {
+          "label": "P. L. Craso",
+          "abbr": "P. L. C."
+        }
+      ]
     },
     {
       "anio": -96,
       "titulo": "Cneo Domicio Enobarbo y Cayo Casio Longino",
-      "texto": "Roma heredó el reino de Cirene por testamento de Ptolomeo Apión."
+      "texto": "Roma heredó el reino de Cirene por testamento de Ptolomeo Apión.",
+      "imagenes": [
+        {
+          "label": "Cneo D. Enobarbo",
+          "abbr": "Cneo D. E."
+        },
+        {
+          "label": "C. C. Longino",
+          "abbr": "C. C. L."
+        }
+      ]
     },
     {
       "anio": -95,
       "titulo": "Lucio Licinio Craso y Quinto Mucio Escévola",
-      "texto": "Lex Licinia Mucia expulsó a itálicos inscriptos fraudulentamente como ciudadanos."
+      "texto": "Lex Licinia Mucia expulsó a itálicos inscriptos fraudulentamente como ciudadanos.",
+      "imagenes": [
+        {
+          "label": "L. L. Craso",
+          "abbr": "L. L. C."
+        },
+        {
+          "label": "Q. M. Escévola",
+          "abbr": "Q. M. E."
+        }
+      ]
     },
     {
       "anio": -94,
       "titulo": "Cayo Celio Caldo y Lucio Domicio Enobarbo",
-      "texto": "Sila fue enviado a Capadocia, primer contacto directo con Mitrídates VI."
+      "texto": "Sila fue enviado a Capadocia, primer contacto directo con Mitrídates VI.",
+      "imagenes": [
+        {
+          "label": "C. C. Caldo",
+          "abbr": "C. C. C."
+        },
+        {
+          "label": "L. D. Enobarbo",
+          "abbr": "L. D. E."
+        }
+      ]
     },
     {
       "anio": -93,
       "titulo": "Cayo Valerio Flaco y Marco Herenio",
-      "texto": "Continuaron las tensiones en Asia Menor entre Roma, Mitrídates y Bitinia."
+      "texto": "Continuaron las tensiones en Asia Menor entre Roma, Mitrídates y Bitinia.",
+      "imagenes": [
+        {
+          "label": "C. V. Flaco",
+          "abbr": "C. V. F."
+        },
+        {
+          "label": "M. Herenio",
+          "abbr": "M. H."
+        }
+      ]
     },
     {
       "anio": -92,
       "titulo": "Cayo Claudio Pulcro y Marco Perpenna",
-      "texto": "Creció el descontento itálico por la negativa romana a conceder la ciudadanía."
+      "texto": "Creció el descontento itálico por la negativa romana a conceder la ciudadanía.",
+      "imagenes": [
+        {
+          "label": "C. C. Pulcro",
+          "abbr": "C. C. P."
+        },
+        {
+          "label": "M. Perpenna",
+          "abbr": "M. P."
+        }
+      ]
     },
     {
       "anio": -91,
       "titulo": "Lucio Marcio Filipo y Sexto Julio César",
-      "texto": "El tribuno Livio Druso (hijo) fue asesinado antes de lograr la ciudadanía itálica, desatando la Guerra Social (91–88)."
+      "texto": "El tribuno Livio Druso (hijo) fue asesinado antes de lograr la ciudadanía itálica, desatando la Guerra Social (91–88).",
+      "imagenes": [
+        {
+          "label": "L. M. Filipo",
+          "abbr": "L. M. F."
+        },
+        {
+          "label": "S. J. César",
+          "abbr": "S. J. C."
+        }
+      ]
     },
     {
       "anio": -90,
       "titulo": "Lucio Julio César y Publio Rutilio Lupo",
-      "texto": "Rutilio Lupo murió en combate. Julio César logró la Lex Julia, dando ciudadanía a los itálicos no rebelados."
+      "texto": "Rutilio Lupo murió en combate. Julio César logró la Lex Julia, dando ciudadanía a los itálicos no rebelados.",
+      "imagenes": [
+        {
+          "label": "L. J. César",
+          "abbr": "L. J. C."
+        },
+        {
+          "label": "P. R. Lupo",
+          "abbr": "P. R. L."
+        }
+      ]
     },
     {
       "anio": -89,
       "titulo": "Cneo Pompeyo Estrabón y Lucio Porcio Catón",
-      "texto": "Se extendió la ciudadanía a los itálicos. Mitrídates VI invadió Bitinia y Capadocia, iniciando la Primera Guerra Mitridática (89–85)."
+      "texto": "Se extendió la ciudadanía a los itálicos. Mitrídates VI invadió Bitinia y Capadocia, iniciando la Primera Guerra Mitridática (89–85).",
+      "imagenes": [
+        {
+          "label": "Cneo P. Estrabón",
+          "abbr": "Cneo P. E."
+        },
+        {
+          "label": "L. P. Catón",
+          "abbr": "L. P. C."
+        }
+      ]
     },
     {
       "anio": -88,
       "titulo": "Lucio Cornelio Sila y Quinto Pompeyo Rufo",
-      "texto": "Mitrídates masacró romanos en Asia ('Vísperas Asiáticas'). Sila marchó con su ejército sobre Roma, la primera vez en la historia."
+      "texto": "Mitrídates masacró romanos en Asia ('Vísperas Asiáticas'). Sila marchó con su ejército sobre Roma, la primera vez en la historia.",
+      "imagenes": [
+        {
+          "label": "L. C. Sila",
+          "abbr": "L. C. S."
+        },
+        {
+          "label": "Q. P. Rufo",
+          "abbr": "Q. P. R."
+        }
+      ]
     },
     {
       "anio": -87,
       "titulo": "Cneo Octavio y Lucio Cornelio Cina",
-      "texto": "Cina y Mario (regresado del exilio) marcharon sobre Roma y desataron una purga sangrienta."
+      "texto": "Cina y Mario (regresado del exilio) marcharon sobre Roma y desataron una purga sangrienta.",
+      "imagenes": [
+        {
+          "label": "Cneo Octavio",
+          "abbr": "Cneo O."
+        },
+        {
+          "label": "L. C. Cina",
+          "abbr": "L. C. C."
+        }
+      ]
     },
     {
       "anio": -86,
       "titulo": "Cayo Mario (7°, muere a los pocos días) y Lucio Cornelio Cina (2°)",
-      "texto": "Sila tomó Atenas y derrotó a Mitrídates en Queronea y Orcómeno."
+      "texto": "Sila tomó Atenas y derrotó a Mitrídates en Queronea y Orcómeno.",
+      "imagenes": [
+        {
+          "label": "C. Mario",
+          "abbr": "C. M."
+        },
+        {
+          "label": "L. C. Cina",
+          "abbr": "L. C. C."
+        }
+      ]
     },
     {
       "anio": -85,
       "titulo": "Lucio Cornelio Cina (3°) y Cneo Papirio Carbón",
-      "texto": "Sila firmó la Paz de Dárdano con Mitrídates, fin de la Primera Guerra Mitridática."
+      "texto": "Sila firmó la Paz de Dárdano con Mitrídates, fin de la Primera Guerra Mitridática.",
+      "imagenes": [
+        {
+          "label": "L. C. Cina",
+          "abbr": "L. C. C."
+        },
+        {
+          "label": "Cneo P. Carbón",
+          "abbr": "Cneo P. C."
+        }
+      ]
     },
     {
       "anio": -84,
       "titulo": "Lucio Cornelio Cina (4°, asesinado en un motín) y Cneo Papirio Carbón (2°)",
-      "texto": "Cina murió asesinado por sus propios soldados en un motín."
+      "texto": "Cina murió asesinado por sus propios soldados en un motín.",
+      "imagenes": [
+        {
+          "label": "L. C. Cina",
+          "abbr": "L. C. C."
+        },
+        {
+          "label": "Cneo P. Carbón",
+          "abbr": "Cneo P. C."
+        }
+      ]
     },
     {
       "anio": -83,
       "titulo": "Lucio Cornelio Escipión Asiático y Cayo Norbano",
-      "texto": "Sila desembarcó en Italia. Estalló la Segunda Guerra Mitridática (83–81)."
+      "texto": "Sila desembarcó en Italia. Estalló la Segunda Guerra Mitridática (83–81).",
+      "imagenes": [
+        {
+          "label": "L. C. E. Asiático",
+          "abbr": "L. C. E. A."
+        },
+        {
+          "label": "C. Norbano",
+          "abbr": "C. N."
+        }
+      ]
     },
     {
       "anio": -82,
       "titulo": "Cayo Mario el Joven y Cneo Papirio Carbón (3°)",
-      "texto": "Sila venció en la batalla de la Puerta Colina, fue nombrado dictador y ordenó las proscripciones."
+      "texto": "Sila venció en la batalla de la Puerta Colina, fue nombrado dictador y ordenó las proscripciones.",
+      "imagenes": [
+        {
+          "label": "C. M. Joven",
+          "abbr": "C. M. J."
+        },
+        {
+          "label": "Cneo P. Carbón",
+          "abbr": "Cneo P. C."
+        }
+      ]
     },
     {
       "anio": -81,
       "titulo": "Marco Tulio Décula y Cneo Cornelio Dolabela",
-      "texto": "Sila reformó la constitución, reforzando al Senado y debilitando a los tribunos."
+      "texto": "Sila reformó la constitución, reforzando al Senado y debilitando a los tribunos.",
+      "imagenes": [
+        {
+          "label": "M. T. Décula",
+          "abbr": "M. T. D."
+        },
+        {
+          "label": "Cneo C. Dolabela",
+          "abbr": "Cneo C. D."
+        }
+      ]
     },
     {
       "anio": -80,
       "titulo": "Lucio Cornelio Sila (2°) y Quinto Cecilio Metelo Pío",
-      "texto": "Sila consolidó sus reformas antes de retirarse voluntariamente al año siguiente."
+      "texto": "Sila consolidó sus reformas antes de retirarse voluntariamente al año siguiente.",
+      "imagenes": [
+        {
+          "label": "L. C. Sila",
+          "abbr": "L. C. S."
+        },
+        {
+          "label": "Q. C. M. Pío",
+          "abbr": "Q. C. M. P."
+        }
+      ]
     },
     {
       "anio": -79,
       "titulo": "Publio Servilio Vatia y Apio Claudio Pulcro",
-      "texto": "Sila renunció voluntariamente a la dictadura y se retiró a la vida privada."
+      "texto": "Sila renunció voluntariamente a la dictadura y se retiró a la vida privada.",
+      "imagenes": [
+        {
+          "label": "P. S. Vatia",
+          "abbr": "P. S. V."
+        },
+        {
+          "label": "A. C. Pulcro",
+          "abbr": "A. C. P."
+        }
+      ]
     },
     {
       "anio": -78,
       "titulo": "Marco Emilio Lépido y Quinto Lutacio Cátulo",
-      "texto": "Murió Sila. Lépido intentó revertir sus reformas y fue sofocado por Cátulo y Pompeyo."
+      "texto": "Murió Sila. Lépido intentó revertir sus reformas y fue sofocado por Cátulo y Pompeyo.",
+      "imagenes": [
+        {
+          "label": "M. E. Lépido",
+          "abbr": "M. E. L."
+        },
+        {
+          "label": "Q. L. Cátulo",
+          "abbr": "Q. L. C."
+        }
+      ]
     },
     {
       "anio": -77,
       "titulo": "Décimo Junio Bruto y Mamerco Emilio Lépido Livianio",
-      "texto": "Pompeyo fue enviado a Hispania a enfrentar a Sertorio."
+      "texto": "Pompeyo fue enviado a Hispania a enfrentar a Sertorio.",
+      "imagenes": [
+        {
+          "label": "D. J. Bruto",
+          "abbr": "D. J. B."
+        },
+        {
+          "label": "Mamerco E. L. Livianio",
+          "abbr": "M. E. L. L."
+        }
+      ]
     },
     {
       "anio": -76,
       "titulo": "Cneo Octavio y Cayo Escribonio Curión",
-      "texto": "Continuó la difícil guerra contra Sertorio en Hispania."
+      "texto": "Continuó la difícil guerra contra Sertorio en Hispania.",
+      "imagenes": [
+        {
+          "label": "Cneo Octavio",
+          "abbr": "Cneo O."
+        },
+        {
+          "label": "C. E. Curión",
+          "abbr": "C. E. C."
+        }
+      ]
     },
     {
       "anio": -75,
       "titulo": "Lucio Octavio y Cayo Aurelio Cota",
-      "texto": "Murió Nicomedes IV de Bitinia, legando su reino a Roma; Mitrídates se preparó para la guerra."
+      "texto": "Murió Nicomedes IV de Bitinia, legando su reino a Roma; Mitrídates se preparó para la guerra.",
+      "imagenes": [
+        {
+          "label": "L. Octavio",
+          "abbr": "L. O."
+        },
+        {
+          "label": "C. A. Cota",
+          "abbr": "C. A. C."
+        }
+      ]
     },
     {
       "anio": -74,
       "titulo": "Lucio Licinio Lúculo y Marco Aurelio Cota",
-      "texto": "Mitrídates invadió Bitinia, iniciando la Tercera Guerra Mitridática (74–63)."
+      "texto": "Mitrídates invadió Bitinia, iniciando la Tercera Guerra Mitridática (74–63).",
+      "imagenes": [
+        {
+          "label": "L. L. Lúculo",
+          "abbr": "L. L. L."
+        },
+        {
+          "label": "M. A. Cota",
+          "abbr": "M. A. C."
+        }
+      ]
     },
     {
       "anio": -73,
       "titulo": "Marco Terencio Varrón Lúculo y Cayo Casio Longino",
-      "texto": "Estalló la rebelión de Espartaco (Tercera Guerra Servil, 73–71). Lúculo sitió Cízico."
+      "texto": "Estalló la rebelión de Espartaco (Tercera Guerra Servil, 73–71). Lúculo sitió Cízico.",
+      "imagenes": [
+        {
+          "label": "M. T. V. Lúculo",
+          "abbr": "M. T. V. L."
+        },
+        {
+          "label": "C. C. Longino",
+          "abbr": "C. C. L."
+        }
+      ]
     },
     {
       "anio": -72,
       "titulo": "Lucio Gelio Publícola y Cneo Cornelio Léntulo Clodiano",
-      "texto": "Espartaco derrotó a ambos cónsules. Lúculo forzó a Mitrídates a huir a Armenia."
+      "texto": "Espartaco derrotó a ambos cónsules. Lúculo forzó a Mitrídates a huir a Armenia.",
+      "imagenes": [
+        {
+          "label": "L. G. Publícola",
+          "abbr": "L. G. P."
+        },
+        {
+          "label": "Cneo C. L. Clodiano",
+          "abbr": "Cneo C. L. C."
+        }
+      ]
     },
     {
       "anio": -71,
       "titulo": "Publio Cornelio Léntulo Sura y Cneo Aufidio Orestes",
-      "texto": "Craso derrotó y mató a Espartaco; Pompeyo eliminó los restos de su ejército."
+      "texto": "Craso derrotó y mató a Espartaco; Pompeyo eliminó los restos de su ejército.",
+      "imagenes": [
+        {
+          "label": "P. C. L. Sura",
+          "abbr": "P. C. L. S."
+        },
+        {
+          "label": "Cneo A. Orestes",
+          "abbr": "Cneo A. O."
+        }
+      ]
     },
     {
       "anio": -70,
       "titulo": "Cneo Pompeyo Magno (1°) y Marco Licinio Craso (1°)",
-      "texto": "Restauraron el poder de los tribunos de la plebe. Cicerón condenó a Verres por corrupción."
+      "texto": "Restauraron el poder de los tribunos de la plebe. Cicerón condenó a Verres por corrupción.",
+      "imagenes": [
+        {
+          "label": "Cneo P. Magno",
+          "abbr": "Cneo P. M."
+        },
+        {
+          "label": "M. L. Craso",
+          "abbr": "M. L. C."
+        }
+      ]
     },
     {
       "anio": -69,
       "titulo": "Quinto Hortensio Hórtalo y Quinto Cecilio Metelo Créticus",
-      "texto": "Lúculo invadió Armenia y venció a Tigranes II en Tigranocerta."
+      "texto": "Lúculo invadió Armenia y venció a Tigranes II en Tigranocerta.",
+      "imagenes": [
+        {
+          "label": "Q. H. Hórtalo",
+          "abbr": "Q. H. H."
+        },
+        {
+          "label": "Q. C. M. Créticus",
+          "abbr": "Q. C. M. C."
+        }
+      ]
     },
     {
       "anio": -68,
       "titulo": "Lucio Cecilio Metelo y Quinto Marcio Rex",
-      "texto": "Un motín debilitó la capacidad de Lúculo para continuar la guerra."
+      "texto": "Un motín debilitó la capacidad de Lúculo para continuar la guerra.",
+      "imagenes": [
+        {
+          "label": "L. C. Metelo",
+          "abbr": "L. C. M."
+        },
+        {
+          "label": "Q. M. Rex",
+          "abbr": "Q. M. R."
+        }
+      ]
     },
     {
       "anio": -67,
       "titulo": "Cayo Calpurnio Pisón y Manio Acilio Glabrión",
-      "texto": "Lex Gabinia: Pompeyo recibió mando extraordinario contra la piratería, completado en tres meses."
+      "texto": "Lex Gabinia: Pompeyo recibió mando extraordinario contra la piratería, completado en tres meses.",
+      "imagenes": [
+        {
+          "label": "C. C. Pisón",
+          "abbr": "C. C. P."
+        },
+        {
+          "label": "M. A. Glabrión",
+          "abbr": "M. A. G."
+        }
+      ]
     },
     {
       "anio": -66,
       "titulo": "Manio Emilio Lépido y Lucio Volcacio Tulo",
-      "texto": "Lex Manilia: Pompeyo asumió la guerra contra Mitrídates, derrotándolo; el rey huyó a Crimea."
+      "texto": "Lex Manilia: Pompeyo asumió la guerra contra Mitrídates, derrotándolo; el rey huyó a Crimea.",
+      "imagenes": [
+        {
+          "label": "M. E. Lépido",
+          "abbr": "M. E. L."
+        },
+        {
+          "label": "L. V. Tulo",
+          "abbr": "L. V. T."
+        }
+      ]
     },
     {
       "anio": -65,
       "titulo": "Lucio Aurelio Cota y Lucio Manlio Torcuato",
-      "texto": "Pompeyo sometió el Cáucaso. Nació el poeta Horacio."
+      "texto": "Pompeyo sometió el Cáucaso. Nació el poeta Horacio.",
+      "imagenes": [
+        {
+          "label": "L. A. Cota",
+          "abbr": "L. A. C."
+        },
+        {
+          "label": "L. M. Torcuato",
+          "abbr": "L. M. T."
+        }
+      ]
     },
     {
       "anio": -64,
       "titulo": "Lucio Julio César y Cayo Marcio Fígulo",
-      "texto": "Pompeyo organizó Siria como provincia romana."
+      "texto": "Pompeyo organizó Siria como provincia romana.",
+      "imagenes": [
+        {
+          "label": "L. J. César",
+          "abbr": "L. J. C."
+        },
+        {
+          "label": "C. M. Fígulo",
+          "abbr": "C. M. F."
+        }
+      ]
     },
     {
       "anio": -63,
       "titulo": "Marco Tulio Cicerón y Cayo Antonio Híbrida",
-      "texto": "Cicerón sofocó la conspiración de Catilina. Mitrídates VI se suicidó, fin de la Tercera Guerra Mitridática."
+      "texto": "Cicerón sofocó la conspiración de Catilina. Mitrídates VI se suicidó, fin de la Tercera Guerra Mitridática.",
+      "imagenes": [
+        {
+          "label": "M. T. Cicerón",
+          "abbr": "M. T. C."
+        },
+        {
+          "label": "C. A. Híbrida",
+          "abbr": "C. A. H."
+        }
+      ]
     },
     {
       "anio": -62,
       "titulo": "Décimo Junio Silano y Lucio Licinio Murena",
-      "texto": "Catilina murió en combate en Pistoia."
+      "texto": "Catilina murió en combate en Pistoia.",
+      "imagenes": [
+        {
+          "label": "D. J. Silano",
+          "abbr": "D. J. S."
+        },
+        {
+          "label": "L. L. Murena",
+          "abbr": "L. L. M."
+        }
+      ]
     },
     {
       "anio": -61,
       "titulo": "Marco Pupio Pisón Frugi Calpurniano y Marco Valerio Mésala Nigro",
-      "texto": "Pompeyo celebró un triunfo por sus campañas orientales."
+      "texto": "Pompeyo celebró un triunfo por sus campañas orientales.",
+      "imagenes": [
+        {
+          "label": "M. P. P. F. Calpurniano",
+          "abbr": "M. P. P. F. C."
+        },
+        {
+          "label": "M. V. M. Nigro",
+          "abbr": "M. V. M. N."
+        }
+      ]
     },
     {
       "anio": -60,
       "titulo": "Quinto Cecilio Metelo Céler y Lucio Afranio",
-      "texto": "Se formó el Primer Triunvirato entre Pompeyo, Craso y César."
+      "texto": "Se formó el Primer Triunvirato entre Pompeyo, Craso y César.",
+      "imagenes": [
+        {
+          "label": "Q. C. M. Céler",
+          "abbr": "Q. C. M. C."
+        },
+        {
+          "label": "L. Afranio",
+          "abbr": "L. A."
+        }
+      ]
     },
     {
       "anio": -59,
       "titulo": "Cayo Julio César y Marco Calpurnio Bíbulo",
-      "texto": "César hizo aprobar una ley agraria pese a Bíbulo. Se aseguró el mando de las Galias por cinco años."
+      "texto": "César hizo aprobar una ley agraria pese a Bíbulo. Se aseguró el mando de las Galias por cinco años.",
+      "imagenes": [
+        {
+          "label": "C. J. César",
+          "abbr": "C. J. C."
+        },
+        {
+          "label": "M. C. Bíbulo",
+          "abbr": "M. C. B."
+        }
+      ]
     },
     {
       "anio": -58,
       "titulo": "Lucio Calpurnio Pisón Cesonino y Aulo Gabinio",
-      "texto": "César inició la conquista de la Galia. Clodio logró el exilio de Cicerón."
+      "texto": "César inició la conquista de la Galia. Clodio logró el exilio de Cicerón.",
+      "imagenes": [
+        {
+          "label": "L. C. P. Cesonino",
+          "abbr": "L. C. P. C."
+        },
+        {
+          "label": "A. Gabinio",
+          "abbr": "A. G."
+        }
+      ]
     },
     {
       "anio": -57,
       "titulo": "Publio Cornelio Léntulo Spínter y Quinto Cecilio Metelo Nepote",
-      "texto": "César sometió a los belgas. Cicerón fue autorizado a regresar del exilio."
+      "texto": "César sometió a los belgas. Cicerón fue autorizado a regresar del exilio.",
+      "imagenes": [
+        {
+          "label": "P. C. L. Spínter",
+          "abbr": "P. C. L. S."
+        },
+        {
+          "label": "Q. C. M. Nepote",
+          "abbr": "Q. C. M. N."
+        }
+      ]
     },
     {
       "anio": -56,
       "titulo": "Cneo Cornelio Léntulo Marcelino y Lucio Marcio Filipo",
-      "texto": "Conferencia de Lucca: renovación del Primer Triunvirato."
+      "texto": "Conferencia de Lucca: renovación del Primer Triunvirato.",
+      "imagenes": [
+        {
+          "label": "Cneo C. L. Marcelino",
+          "abbr": "Cneo C. L. M."
+        },
+        {
+          "label": "L. M. Filipo",
+          "abbr": "L. M. F."
+        }
+      ]
     },
     {
       "anio": -55,
       "titulo": "Cneo Pompeyo Magno (2°) y Marco Licinio Craso (2°)",
-      "texto": "Pompeyo y Craso se aseguraron mandos provinciales. César realizó su primera expedición a Britania."
+      "texto": "Pompeyo y Craso se aseguraron mandos provinciales. César realizó su primera expedición a Britania.",
+      "imagenes": [
+        {
+          "label": "Cneo P. Magno",
+          "abbr": "Cneo P. M."
+        },
+        {
+          "label": "M. L. Craso",
+          "abbr": "M. L. C."
+        }
+      ]
     },
     {
       "anio": -54,
       "titulo": "Lucio Domicio Enobarbo y Apio Claudio Pulcro",
-      "texto": "César realizó una segunda expedición a Britania. Murió Julia, hija de César y esposa de Pompeyo."
+      "texto": "César realizó una segunda expedición a Britania. Murió Julia, hija de César y esposa de Pompeyo.",
+      "imagenes": [
+        {
+          "label": "L. D. Enobarbo",
+          "abbr": "L. D. E."
+        },
+        {
+          "label": "A. C. Pulcro",
+          "abbr": "A. C. P."
+        }
+      ]
     },
     {
       "anio": -53,
       "titulo": "Cneo Domicio Calvino y Marco Valerio Mésala Rufo",
-      "texto": "Craso fue derrotado y muerto por los partos en Carras, fin del Primer Triunvirato."
+      "texto": "Craso fue derrotado y muerto por los partos en Carras, fin del Primer Triunvirato.",
+      "imagenes": [
+        {
+          "label": "Cneo D. Calvino",
+          "abbr": "Cneo D. C."
+        },
+        {
+          "label": "M. V. M. Rufo",
+          "abbr": "M. V. M. R."
+        }
+      ]
     },
     {
       "anio": -52,
       "titulo": "Cneo Pompeyo Magno (3°, cónsul único)",
-      "texto": "Rebelión de Vercingétorix en la Galia; César lo derrotó en Alesia. Pompeyo fue nombrado cónsul único."
+      "texto": "Rebelión de Vercingétorix en la Galia; César lo derrotó en Alesia. Pompeyo fue nombrado cónsul único.",
+      "imagenes": [
+        {
+          "label": "Cneo P. Magno",
+          "abbr": "Cneo P. M."
+        }
+      ]
     },
     {
       "anio": -51,
       "titulo": "Servio Sulpicio Rufo y Marco Claudio Marcelo",
-      "texto": "César completó la pacificación de la Galia. El Senado exigió que renunciara a su mando."
+      "texto": "César completó la pacificación de la Galia. El Senado exigió que renunciara a su mando.",
+      "imagenes": [
+        {
+          "label": "S. S. Rufo",
+          "abbr": "S. S. R."
+        },
+        {
+          "label": "M. C. Marcelo",
+          "abbr": "M. C. M."
+        }
+      ]
     },
     {
       "anio": -50,
       "titulo": "Lucio Emilio Paulo y Cayo Claudio Marcelo",
-      "texto": "Se rompieron las negociaciones entre César y el Senado."
+      "texto": "Se rompieron las negociaciones entre César y el Senado.",
+      "imagenes": [
+        {
+          "label": "L. E. Paulo",
+          "abbr": "L. E. P."
+        },
+        {
+          "label": "C. C. Marcelo",
+          "abbr": "C. C. M."
+        }
+      ]
     },
     {
       "anio": -49,
       "titulo": "Cayo Claudio Marcelo y Lucio Cornelio Léntulo Crus",
-      "texto": "César cruzó el Rubicón, iniciando la guerra civil. Pompeyo se retiró a Grecia."
+      "texto": "César cruzó el Rubicón, iniciando la guerra civil. Pompeyo se retiró a Grecia.",
+      "imagenes": [
+        {
+          "label": "C. C. Marcelo",
+          "abbr": "C. C. M."
+        },
+        {
+          "label": "L. C. L. Crus",
+          "abbr": "L. C. L. C."
+        }
+      ]
     },
     {
       "anio": -48,
       "titulo": "Cayo Julio César (2°) y Publio Servilio Vatia Isáurico",
-      "texto": "César venció a Pompeyo en Farsalia. Pompeyo fue asesinado en Egipto."
+      "texto": "César venció a Pompeyo en Farsalia. Pompeyo fue asesinado en Egipto.",
+      "imagenes": [
+        {
+          "label": "C. J. César",
+          "abbr": "C. J. C."
+        },
+        {
+          "label": "P. S. V. Isáurico",
+          "abbr": "P. S. V. I."
+        }
+      ]
     },
     {
       "anio": -47,
@@ -6330,102 +6856,294 @@ window.ROMA_DATA = {
     {
       "anio": -46,
       "titulo": "Cayo Julio César (3°) y Marco Emilio Lépido",
-      "texto": "César venció en Thapsus. Fue nombrado dictador por diez años y reformó el calendario (juliano)."
+      "texto": "César venció en Thapsus. Fue nombrado dictador por diez años y reformó el calendario (juliano).",
+      "imagenes": [
+        {
+          "label": "C. J. César",
+          "abbr": "C. J. C."
+        },
+        {
+          "label": "M. E. Lépido",
+          "abbr": "M. E. L."
+        }
+      ]
     },
     {
       "anio": -45,
       "titulo": "Cayo Julio César (4°, cónsul único)",
-      "texto": "César derrotó a los hijos de Pompeyo en Munda, quedando como amo del mundo romano."
+      "texto": "César derrotó a los hijos de Pompeyo en Munda, quedando como amo del mundo romano.",
+      "imagenes": [
+        {
+          "label": "C. J. César",
+          "abbr": "C. J. C."
+        }
+      ]
     },
     {
       "anio": -44,
       "titulo": "Cayo Julio César (5°) y Marco Antonio",
-      "texto": "César fue nombrado dictador perpetuo. El 15 de marzo (Idus de marzo) fue asesinado en el Senado por Bruto y Casio."
+      "texto": "César fue nombrado dictador perpetuo. El 15 de marzo (Idus de marzo) fue asesinado en el Senado por Bruto y Casio.",
+      "imagenes": [
+        {
+          "label": "C. J. César",
+          "abbr": "C. J. C."
+        },
+        {
+          "label": "M. Antonio",
+          "abbr": "M. A."
+        }
+      ]
     },
     {
       "anio": -43,
       "titulo": "Cayo Vibio Pansa y Aulo Hircio (mueren en combate)",
-      "texto": "Ambos murieron en Módena. Octavio se alió con Antonio y Lépido en el Segundo Triunvirato; proscripciones, muere Cicerón."
+      "texto": "Ambos murieron en Módena. Octavio se alió con Antonio y Lépido en el Segundo Triunvirato; proscripciones, muere Cicerón.",
+      "imagenes": [
+        {
+          "label": "C. V. Pansa",
+          "abbr": "C. V. P."
+        },
+        {
+          "label": "A. Hircio",
+          "abbr": "A. H."
+        }
+      ]
     },
     {
       "anio": -42,
       "titulo": "Marco Emilio Lépido (2°) y Lucio Munacio Planco",
-      "texto": "Octavio y Antonio derrotaron a Bruto y Casio en Filipos; ambos se suicidaron."
+      "texto": "Octavio y Antonio derrotaron a Bruto y Casio en Filipos; ambos se suicidaron.",
+      "imagenes": [
+        {
+          "label": "M. E. Lépido",
+          "abbr": "M. E. L."
+        },
+        {
+          "label": "L. M. Planco",
+          "abbr": "L. M. P."
+        }
+      ]
     },
     {
       "anio": -41,
       "titulo": "Lucio Antonio y Publio Servilio Vatia Isáurico",
-      "texto": "Estalló la Guerra de Perusia entre Octavio y Lucio Antonio."
+      "texto": "Estalló la Guerra de Perusia entre Octavio y Lucio Antonio.",
+      "imagenes": [
+        {
+          "label": "L. Antonio",
+          "abbr": "L. A."
+        },
+        {
+          "label": "P. S. V. Isáurico",
+          "abbr": "P. S. V. I."
+        }
+      ]
     },
     {
       "anio": -40,
       "titulo": "Cneo Domicio Calvino (2°) y Cayo Asinio Polión",
-      "texto": "Octavio derrotó a Lucio Antonio. Pacto de Brindisi repartió el mundo romano entre los triunviros."
+      "texto": "Octavio derrotó a Lucio Antonio. Pacto de Brindisi repartió el mundo romano entre los triunviros.",
+      "imagenes": [
+        {
+          "label": "Cneo D. Calvino",
+          "abbr": "Cneo D. C."
+        },
+        {
+          "label": "C. A. Polión",
+          "abbr": "C. A. P."
+        }
+      ]
     },
     {
       "anio": -39,
       "titulo": "Lucio Marcio Censorino y Cayo Calvisio Sabino",
-      "texto": "Pacto de Miseno con Sexto Pompeyo."
+      "texto": "Pacto de Miseno con Sexto Pompeyo.",
+      "imagenes": [
+        {
+          "label": "L. M. Censorino",
+          "abbr": "L. M. C."
+        },
+        {
+          "label": "C. C. Sabino",
+          "abbr": "C. C. S."
+        }
+      ]
     },
     {
       "anio": -38,
       "titulo": "Apio Claudio Pulcro y Cayo Norbano Flaco",
-      "texto": "Se rompió la paz con Sexto Pompeyo; Octavio sufrió reveses navales."
+      "texto": "Se rompió la paz con Sexto Pompeyo; Octavio sufrió reveses navales.",
+      "imagenes": [
+        {
+          "label": "A. C. Pulcro",
+          "abbr": "A. C. P."
+        },
+        {
+          "label": "C. N. Flaco",
+          "abbr": "C. N. F."
+        }
+      ]
     },
     {
       "anio": -37,
       "titulo": "Marco Vipsanio Agripa y Lucio Caninio Galo",
-      "texto": "Pacto de Tarento renovó el triunvirato. Agripa construyó una nueva flota."
+      "texto": "Pacto de Tarento renovó el triunvirato. Agripa construyó una nueva flota.",
+      "imagenes": [
+        {
+          "label": "M. V. Agripa",
+          "abbr": "M. V. A."
+        },
+        {
+          "label": "L. C. Galo",
+          "abbr": "L. C. G."
+        }
+      ]
     },
     {
       "anio": -36,
       "titulo": "Lucio Gelio Publícola y Marco Coceyo Nerva",
-      "texto": "Agripa derrotó a Sexto Pompeyo en Nauloco. Lépido fue despojado del triunvirato."
+      "texto": "Agripa derrotó a Sexto Pompeyo en Nauloco. Lépido fue despojado del triunvirato.",
+      "imagenes": [
+        {
+          "label": "L. G. Publícola",
+          "abbr": "L. G. P."
+        },
+        {
+          "label": "M. C. Nerva",
+          "abbr": "M. C. N."
+        }
+      ]
     },
     {
       "anio": -35,
       "titulo": "Marco Antonio (2°, ausente) y Lucio Escribonio Libón",
-      "texto": "Antonio, en Egipto con Cleopatra, lanzó una fallida campaña contra los partos."
+      "texto": "Antonio, en Egipto con Cleopatra, lanzó una fallida campaña contra los partos.",
+      "imagenes": [
+        {
+          "label": "M. Antonio",
+          "abbr": "M. A."
+        },
+        {
+          "label": "L. E. Libón",
+          "abbr": "L. E. L."
+        }
+      ]
     },
     {
       "anio": -34,
       "titulo": "Marco Antonio (3°, ausente)",
-      "texto": "Antonio celebró las 'Donaciones de Alejandría', escandalizando a Roma."
+      "texto": "Antonio celebró las 'Donaciones de Alejandría', escandalizando a Roma.",
+      "imagenes": [
+        {
+          "label": "M. Antonio",
+          "abbr": "M. A."
+        }
+      ]
     },
     {
       "anio": -33,
       "titulo": "Octavio (2°) y Lucio Voleyo Saturnino",
-      "texto": "Se rompieron definitivamente las relaciones entre Octavio y Antonio."
+      "texto": "Se rompieron definitivamente las relaciones entre Octavio y Antonio.",
+      "imagenes": [
+        {
+          "label": "Octavio",
+          "abbr": "O."
+        },
+        {
+          "label": "L. V. Saturnino",
+          "abbr": "L. V. S."
+        }
+      ]
     },
     {
       "anio": -32,
       "titulo": "Cneo Domicio Enobarbo y Cayo Sosio",
-      "texto": "El Senado declaró la guerra a Cleopatra, iniciando el enfrentamiento final."
+      "texto": "El Senado declaró la guerra a Cleopatra, iniciando el enfrentamiento final.",
+      "imagenes": [
+        {
+          "label": "Cneo D. Enobarbo",
+          "abbr": "Cneo D. E."
+        },
+        {
+          "label": "C. Sosio",
+          "abbr": "C. S."
+        }
+      ]
     },
     {
       "anio": -31,
       "titulo": "Octavio (3°) y Marco Valerio Mésala Corvino",
-      "texto": "Octavio y Agripa derrotaron a Antonio y Cleopatra en Actio."
+      "texto": "Octavio y Agripa derrotaron a Antonio y Cleopatra en Actio.",
+      "imagenes": [
+        {
+          "label": "Octavio",
+          "abbr": "O."
+        },
+        {
+          "label": "M. V. M. Corvino",
+          "abbr": "M. V. M. C."
+        }
+      ]
     },
     {
       "anio": -30,
       "titulo": "Octavio (4°) y Marco Licinio Craso",
-      "texto": "Octavio invadió Egipto; Antonio y Cleopatra se suicidaron. Egipto fue anexionado."
+      "texto": "Octavio invadió Egipto; Antonio y Cleopatra se suicidaron. Egipto fue anexionado.",
+      "imagenes": [
+        {
+          "label": "Octavio",
+          "abbr": "O."
+        },
+        {
+          "label": "M. L. Craso",
+          "abbr": "M. L. C."
+        }
+      ]
     },
     {
       "anio": -29,
       "titulo": "Octavio (5°) y Sexto Apuleyo",
-      "texto": "Octavio celebró un triple triunfo y cerró las puertas del templo de Jano."
+      "texto": "Octavio celebró un triple triunfo y cerró las puertas del templo de Jano.",
+      "imagenes": [
+        {
+          "label": "Octavio",
+          "abbr": "O."
+        },
+        {
+          "label": "S. Apuleyo",
+          "abbr": "S. A."
+        }
+      ]
     },
     {
       "anio": -28,
       "titulo": "Octavio (6°) y Marco Vipsanio Agripa (3°)",
-      "texto": "Octavio y Agripa, como censores, purgaron el Senado."
+      "texto": "Octavio y Agripa, como censores, purgaron el Senado.",
+      "imagenes": [
+        {
+          "label": "Octavio",
+          "abbr": "O."
+        },
+        {
+          "label": "M. V. Agripa",
+          "abbr": "M. V. A."
+        }
+      ]
     },
     {
       "anio": -27,
       "titulo": "Octavio (7°) y Marco Vipsanio Agripa (4°)",
-      "texto": "Octavio devolvió el poder al Senado y al pueblo, que le otorgó el título de 'Augusto', fin de la República e inicio del Principado."
+      "texto": "Octavio devolvió el poder al Senado y al pueblo, que le otorgó el título de 'Augusto', fin de la República e inicio del Principado.",
+      "imagenes": [
+        {
+          "label": "Octavio",
+          "abbr": "O."
+        },
+        {
+          "label": "M. V. Agripa",
+          "abbr": "M. V. A."
+        }
+      ]
     }
   ],
   "imperio": [
