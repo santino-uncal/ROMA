@@ -7302,7 +7302,8 @@ window.ROMA_DATA = {
     {
       "periodo": "364–378 d.C.",
       "nombre": "Valentiniano I y Valente",
-      "texto": "Valentiniano I gobernó Occidente defendiendo el Rin y el Danubio; su hermano Valente gobernó Oriente. Valente permitió el ingreso de los godos al Imperio, pero el maltrato romano provocó una rebelión que culminó en el desastre de Adrianópolis (378 d.C.), donde murió Valente."
+      "texto": "Valentiniano I gobernó Occidente defendiendo el Rin y el Danubio; su hermano Valente gobernó Oriente. Valente permitió el ingreso de los godos al Imperio, pero el maltrato romano provocó una rebelión que culminó en el desastre de Adrianópolis (378 d.C.), donde murió Valente.",
+      "imagen": "assets/img/retratos/retrato-128.jpg"
     },
     {
       "periodo": "379–395 d.C.",
