@@ -7215,26 +7215,21 @@ window.ROMA_DATA = {
     },
     {
       "periodo": "68–69 d.C.",
-      "nombre": "Año de los Cuatro Emperadores",
-      "texto": "Guerra civil con la sucesión rápida de Galba, Otón y Vitelio, cada uno derrocado violentamente, hasta que Vespasiano se impuso, fundando la dinastía Flavia.",
-      "galeria": [
-        {
-          "imagen": "assets/img/retratos/retrato-140.jpg",
-          "label": "Galba"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-141.jpg",
-          "label": "Otón"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-142.jpg",
-          "label": "Vitelio"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-19.jpg",
-          "label": "Vespasiano"
-        }
-      ]
+      "nombre": "Galba",
+      "texto": "Gobernador de Hispania Tarraconense, proclamado emperador tras la caída de Nerón. Su severidad fiscal y la negativa a pagar el donativo prometido a los pretorianos lo hicieron impopular enseguida; fue asesinado en el Foro a los pocos meses.",
+      "imagen": "assets/img/retratos/retrato-140.jpg"
+    },
+    {
+      "periodo": "69 d.C.",
+      "nombre": "Otón",
+      "texto": "Antiguo compañero de Nerón, instigó el asesinato de Galba y fue aclamado por la Guardia Pretoriana. Derrotado por las legiones germánicas de Vitelio en la primera batalla de Bedriacum, se suicidó tras unos tres meses de reinado.",
+      "imagen": "assets/img/retratos/retrato-141.jpg"
+    },
+    {
+      "periodo": "69 d.C.",
+      "nombre": "Vitelio",
+      "texto": "Proclamado por las legiones del Rin. Llegó al poder al vencer a Otón, pero su gobierno fue corto y disipado. Las tropas orientales de Vespasiano lo derrotaron en la segunda batalla de Bedriacum; fue linchado en Roma en diciembre del 69.",
+      "imagen": "assets/img/retratos/retrato-142.jpg"
     },
     {
       "periodo": "69–79 d.C.",
@@ -7342,95 +7337,130 @@ window.ROMA_DATA = {
       "imagen": "assets/img/retratos/retrato-31.jpg"
     },
     {
-      "periodo": "235–284 d.C.",
-      "nombre": "La Crisis del Siglo III",
-      "texto": "Casi cincuenta años de anarquía militar con más de veinte emperadores efímeros. Destacan Maximino el Tracio (primer emperador de origen humilde), Decio (primera gran persecución sistemática contra los cristianos), Valeriano (capturado por los persas de Sapor I), Galieno (fragmentación del Imperio en tres) y Aureliano (reunificó el Imperio y construyó las Murallas Aurelianas).",
-      "galeria": [
-        {
-          "imagen": "assets/img/retratos/retrato-147.jpg",
-          "label": "Maximino el Tracio"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-148.jpg",
-          "label": "Gordiano I"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-149.jpg",
-          "label": "Gordiano II"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-150.jpg",
-          "label": "Pupieno"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-151.jpg",
-          "label": "Balbino"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-152.jpg",
-          "label": "Gordiano III"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-153.jpg",
-          "label": "Filipo el Árabe"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-154.jpg",
-          "label": "Decio"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-155.jpg",
-          "label": "Treboniano Galo"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-156.jpg",
-          "label": "Emiliano"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-157.jpg",
-          "label": "Valeriano"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-158.jpg",
-          "label": "Galieno"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-159.jpg",
-          "label": "Claudio II el Gótico"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-160.jpg",
-          "label": "Quintilo"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-161.jpg",
-          "label": "Aureliano"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-162.jpg",
-          "label": "Tácito"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-163.jpg",
-          "label": "Floriano"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-164.jpg",
-          "label": "Probo"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-165.jpg",
-          "label": "Caro"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-166.jpg",
-          "label": "Carino"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-167.jpg",
-          "label": "Numeriano"
-        }
-      ]
+      "periodo": "235–238 d.C.",
+      "nombre": "Maximino el Tracio",
+      "texto": "Primer emperador surgido de la tropa sin pasar por el Senado, tras el asesinato de Alejandro Severo. De origen humilde, gobernó desde el frente del Danubio y el Rin y nunca entró en Roma. La presión fiscal desató la revuelta de África; fue asesinado por sus soldados mientras sitiaba Aquilea.",
+      "imagen": "assets/img/retratos/retrato-147.jpg"
+    },
+    {
+      "periodo": "238 d.C.",
+      "nombre": "Gordiano I",
+      "texto": "Procónsul de África, octogenario, proclamado junto a su hijo durante la revuelta contra Maximino. Se suicidó al conocer la muerte de su hijo en combate, tras poco más de tres semanas de reinado.",
+      "imagen": "assets/img/retratos/retrato-148.jpg"
+    },
+    {
+      "periodo": "238 d.C.",
+      "nombre": "Gordiano II",
+      "texto": "Hijo de Gordiano I y coemperador durante la revuelta africana. Murió en combate frente a Cartago contra las tropas leales a Maximino, casi al mismo tiempo que su padre.",
+      "imagen": "assets/img/retratos/retrato-149.jpg"
+    },
+    {
+      "periodo": "238 d.C.",
+      "nombre": "Pupieno",
+      "texto": "Elegido por el Senado junto a Balbino para hacer frente a Maximino; dirigió la defensa militar en el norte de Italia. Caído Maximino, la desconfianza entre ambos augustos permitió que la Guardia Pretoriana los asesinara a los tres meses.",
+      "imagen": "assets/img/retratos/retrato-150.jpg"
+    },
+    {
+      "periodo": "238 d.C.",
+      "nombre": "Balbino",
+      "texto": "Senador elevado al trono junto a Pupieno, a cargo del gobierno civil en Roma. No logró controlar a la Guardia Pretoriana, que lo asesinó junto a su colega tras un breve reinado conjunto.",
+      "imagen": "assets/img/retratos/retrato-151.jpg"
+    },
+    {
+      "periodo": "238–244 d.C.",
+      "nombre": "Gordiano III",
+      "texto": "Nieto de Gordiano I, proclamado con trece años una vez muertos los demás pretendientes. Gobernó bajo la tutela del prefecto Timesiteo. Murió en campaña contra los persas sasánidas, probablemente asesinado por instigación de su sucesor.",
+      "imagen": "assets/img/retratos/retrato-152.jpg"
+    },
+    {
+      "periodo": "244–249 d.C.",
+      "nombre": "Filipo el Árabe",
+      "texto": "Prefecto del pretorio que accedió al trono tras la muerte de Gordiano III. Pactó la paz con Persia y presidió los juegos del milenario de Roma (248 d.C.). Murió en combate contra el usurpador Decio cerca de Verona.",
+      "imagen": "assets/img/retratos/retrato-153.jpg"
+    },
+    {
+      "periodo": "249–251 d.C.",
+      "nombre": "Decio",
+      "texto": "Enviado por Filipo al Danubio, fue proclamado por sus tropas. Ordenó la primera persecución general y sistemática de los cristianos. Murió con su hijo en la batalla de Abrito frente a los godos: primer emperador caído en combate ante un enemigo extranjero.",
+      "imagen": "assets/img/retratos/retrato-154.jpg"
+    },
+    {
+      "periodo": "251–253 d.C.",
+      "nombre": "Treboniano Galo",
+      "texto": "Aclamado por el ejército del Danubio tras el desastre de Abrito. Firmó una paz humillante con los godos y afrontó una gran peste. Sus soldados lo asesinaron al pasarse al usurpador Emiliano.",
+      "imagen": "assets/img/retratos/retrato-155.jpg"
+    },
+    {
+      "periodo": "253 d.C.",
+      "nombre": "Emiliano",
+      "texto": "Gobernador de Mesia proclamado tras una victoria sobre los godos. Marchó sobre Italia y derrotó a Treboniano Galo, pero sus propias tropas lo mataron a los tres meses al acercarse el ejército de Valeriano.",
+      "imagen": "assets/img/retratos/retrato-156.jpg"
+    },
+    {
+      "periodo": "253–260 d.C.",
+      "nombre": "Valeriano",
+      "texto": "Repartió el gobierno con su hijo Galieno y se reservó Oriente. Reanudó la persecución de los cristianos. Fue capturado por Sapor I en la batalla de Edesa —único emperador romano hecho prisionero por un enemigo— y murió en cautiverio.",
+      "imagen": "assets/img/retratos/retrato-157.jpg"
+    },
+    {
+      "periodo": "253–268 d.C.",
+      "nombre": "Galieno",
+      "texto": "Gobernó solo tras la captura de su padre, en el punto más grave de la crisis: el Imperio se partió en tres con el Imperio Galo y el reino de Palmira. Reformó la caballería y apartó a los senadores del mando militar. Fue asesinado por sus oficiales ante los muros de Milán.",
+      "imagen": "assets/img/retratos/retrato-158.jpg"
+    },
+    {
+      "periodo": "268–270 d.C.",
+      "nombre": "Claudio II el Gótico",
+      "texto": "Militar ilirio llegado al poder tras el asesinato de Galieno. Aplastó a los godos en la batalla de Naissus, victoria que le dio su sobrenombre. Murió de peste a los dos años, con fama de buen gobernante.",
+      "imagen": "assets/img/retratos/retrato-159.jpg"
+    },
+    {
+      "periodo": "270 d.C.",
+      "nombre": "Quintilo",
+      "texto": "Hermano de Claudio II, proclamado por el Senado a su muerte. Al alzarse Aureliano con el grueso del ejército, murió a las pocas semanas, por suicidio o a manos de su tropa.",
+      "imagen": "assets/img/retratos/retrato-160.jpg"
+    },
+    {
+      "periodo": "270–275 d.C.",
+      "nombre": "Aureliano",
+      "texto": "En cinco años reunificó el Imperio: venció a Zenobia de Palmira y recuperó el Imperio Galo, lo que le valió el título de restitutor orbis. Amuralló Roma, reformó la moneda y evacuó la Dacia. Fue asesinado en una conspiración de oficiales camino a Persia.",
+      "imagen": "assets/img/retratos/retrato-161.jpg"
+    },
+    {
+      "periodo": "275–276 d.C.",
+      "nombre": "Tácito",
+      "texto": "Senador de edad avanzada elegido tras un interregno, en el último intento del Senado de designar emperador. Combatió a los godos en Asia Menor y murió a los pocos meses, por enfermedad o asesinato.",
+      "imagen": "assets/img/retratos/retrato-162.jpg"
+    },
+    {
+      "periodo": "276 d.C.",
+      "nombre": "Floriano",
+      "texto": "Hermano de Tácito, se proclamó a su muerte sin sanción del Senado. Enfrentado a Probo en Cilicia, fue asesinado por sus propios soldados tras unos ochenta días.",
+      "imagen": "assets/img/retratos/retrato-163.jpg"
+    },
+    {
+      "periodo": "276–282 d.C.",
+      "nombre": "Probo",
+      "texto": "General ilirio que dedicó su reinado a expulsar a los germanos que habían cruzado el Rin y el Danubio y a repoblar las provincias arrasadas. Empleó a las legiones en obras públicas, lo que le enemistó con la tropa: fue asesinado por sus soldados en Sirmio.",
+      "imagen": "assets/img/retratos/retrato-164.jpg"
+    },
+    {
+      "periodo": "282–283 d.C.",
+      "nombre": "Caro",
+      "texto": "Prefecto del pretorio proclamado por el ejército, sin pedir la confirmación del Senado. Lanzó una campaña victoriosa contra Persia y tomó Ctesifonte, pero murió en el camino, según las fuentes fulminado por un rayo.",
+      "imagen": "assets/img/retratos/retrato-165.jpg"
+    },
+    {
+      "periodo": "283–285 d.C.",
+      "nombre": "Carino",
+      "texto": "Hijo mayor de Caro, quedó al frente de Occidente. Derrotó a Diocleciano en el río Margus, pero fue asesinado por sus propios oficiales en plena victoria, dejando el trono al vencedor.",
+      "imagen": "assets/img/retratos/retrato-166.jpg"
+    },
+    {
+      "periodo": "283–284 d.C.",
+      "nombre": "Numeriano",
+      "texto": "Hijo menor de Caro, gobernó Oriente y dirigió la retirada del ejército tras la muerte de su padre. Murió en circunstancias oscuras durante la marcha; el hallazgo de su cadáver llevó a las tropas a proclamar a Diocleciano.",
+      "imagen": "assets/img/retratos/retrato-167.jpg"
     },
     {
       "periodo": "284–305 d.C.",
