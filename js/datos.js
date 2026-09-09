@@ -4357,6 +4357,7 @@ window.ROMA_DATA = {
           "abbr": "Q. F. M. V."
         },
         {
+          "imagen": "assets/img/retratos/retrato-139.jpg",
           "label": "M. C. Marcelo",
           "abbr": "M. C. M."
         }
@@ -4488,6 +4489,7 @@ window.ROMA_DATA = {
       "texto": "Escipión obtuvo autorización para invadir África, pese a la oposición de Fabio Máximo.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-137.jpg",
           "label": "P. C. Escipión",
           "abbr": "P. C. E."
         },
@@ -4642,6 +4644,7 @@ window.ROMA_DATA = {
           "abbr": "L. V. F."
         },
         {
+          "imagen": "assets/img/retratos/retrato-138.jpg",
           "label": "M. P. Catón",
           "abbr": "M. P. C."
         }
@@ -4653,6 +4656,7 @@ window.ROMA_DATA = {
       "texto": "Se fundaron colonias en la costa itálica y se completó la retirada de Grecia.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-137.jpg",
           "label": "P. C. E. Africano",
           "abbr": "P. C. E. A."
         },
@@ -5958,6 +5962,7 @@ window.ROMA_DATA = {
       "texto": "Mario asumió el mando en Numidia y reformó el ejército, abriendo el reclutamiento a los capite censi.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-129.jpg",
           "label": "C. Mario",
           "abbr": "C. M."
         },
@@ -6003,6 +6008,7 @@ window.ROMA_DATA = {
       "texto": "Mario reorganizó el ejército ante la amenaza germánica. Estalló la Segunda Guerra Servil en Sicilia.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-129.jpg",
           "label": "C. Mario",
           "abbr": "C. M."
         },
@@ -6018,6 +6024,7 @@ window.ROMA_DATA = {
       "texto": "Mario preparó la defensa de Italia frente a cimbrios y teutones.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-129.jpg",
           "label": "C. Mario",
           "abbr": "C. M."
         },
@@ -6033,6 +6040,7 @@ window.ROMA_DATA = {
       "texto": "Mario derrotó a teutones y ambrones en Aquae Sextiae.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-129.jpg",
           "label": "C. Mario",
           "abbr": "C. M."
         },
@@ -6048,6 +6056,7 @@ window.ROMA_DATA = {
       "texto": "Mario y Cátulo derrotaron a los cimbrios en Vercelas. Aquilio sofocó la Segunda Guerra Servil.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-129.jpg",
           "label": "C. Mario",
           "abbr": "C. M."
         },
@@ -6063,6 +6072,7 @@ window.ROMA_DATA = {
       "texto": "Nació Julio César. El tribuno Apuleyo Saturnino fue reprimido y asesinado con complicidad de Mario.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-129.jpg",
           "label": "C. Mario",
           "abbr": "C. M."
         },
@@ -6243,6 +6253,7 @@ window.ROMA_DATA = {
       "texto": "Mitrídates masacró romanos en Asia ('Vísperas Asiáticas'). Sila marchó con su ejército sobre Roma, la primera vez en la historia.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-130.jpg",
           "label": "L. C. Sila",
           "abbr": "L. C. S."
         },
@@ -6273,6 +6284,7 @@ window.ROMA_DATA = {
       "texto": "Sila tomó Atenas y derrotó a Mitrídates en Queronea y Orcómeno.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-129.jpg",
           "label": "C. Mario",
           "abbr": "C. M."
         },
@@ -6363,6 +6375,7 @@ window.ROMA_DATA = {
       "texto": "Sila consolidó sus reformas antes de retirarse voluntariamente al año siguiente.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-130.jpg",
           "label": "L. C. Sila",
           "abbr": "L. C. S."
         },
@@ -6513,10 +6526,12 @@ window.ROMA_DATA = {
       "texto": "Restauraron el poder de los tribunos de la plebe. Cicerón condenó a Verres por corrupción.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-131.jpg",
           "label": "Cneo P. Magno",
           "abbr": "Cneo P. M."
         },
         {
+          "imagen": "assets/img/retratos/retrato-132.jpg",
           "label": "M. L. Craso",
           "abbr": "M. L. C."
         }
@@ -6618,6 +6633,7 @@ window.ROMA_DATA = {
       "texto": "Cicerón sofocó la conspiración de Catilina. Mitrídates VI se suicidó, fin de la Tercera Guerra Mitridática.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-134.jpg",
           "label": "M. T. Cicerón",
           "abbr": "M. T. C."
         },
@@ -6678,6 +6694,7 @@ window.ROMA_DATA = {
       "texto": "César hizo aprobar una ley agraria pese a Bíbulo. Se aseguró el mando de las Galias por cinco años.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-133.jpg",
           "label": "C. J. César",
           "abbr": "C. J. C."
         },
@@ -6738,10 +6755,12 @@ window.ROMA_DATA = {
       "texto": "Pompeyo y Craso se aseguraron mandos provinciales. César realizó su primera expedición a Britania.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-131.jpg",
           "label": "Cneo P. Magno",
           "abbr": "Cneo P. M."
         },
         {
+          "imagen": "assets/img/retratos/retrato-132.jpg",
           "label": "M. L. Craso",
           "abbr": "M. L. C."
         }
@@ -6783,6 +6802,7 @@ window.ROMA_DATA = {
       "texto": "Rebelión de Vercingétorix en la Galia; César lo derrotó en Alesia. Pompeyo fue nombrado cónsul único.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-131.jpg",
           "label": "Cneo P. Magno",
           "abbr": "Cneo P. M."
         }
@@ -6839,6 +6859,7 @@ window.ROMA_DATA = {
       "texto": "César venció a Pompeyo en Farsalia. Pompeyo fue asesinado en Egipto.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-133.jpg",
           "label": "C. J. César",
           "abbr": "C. J. C."
         },
@@ -6859,6 +6880,7 @@ window.ROMA_DATA = {
       "texto": "César venció en Thapsus. Fue nombrado dictador por diez años y reformó el calendario (juliano).",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-133.jpg",
           "label": "C. J. César",
           "abbr": "C. J. C."
         },
@@ -6874,6 +6896,7 @@ window.ROMA_DATA = {
       "texto": "César derrotó a los hijos de Pompeyo en Munda, quedando como amo del mundo romano.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-133.jpg",
           "label": "C. J. César",
           "abbr": "C. J. C."
         }
@@ -6885,10 +6908,12 @@ window.ROMA_DATA = {
       "texto": "César fue nombrado dictador perpetuo. El 15 de marzo (Idus de marzo) fue asesinado en el Senado por Bruto y Casio.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-133.jpg",
           "label": "C. J. César",
           "abbr": "C. J. C."
         },
         {
+          "imagen": "assets/img/retratos/retrato-135.jpg",
           "label": "M. Antonio",
           "abbr": "M. A."
         }
@@ -6990,6 +7015,7 @@ window.ROMA_DATA = {
       "texto": "Pacto de Tarento renovó el triunvirato. Agripa construyó una nueva flota.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-136.jpg",
           "label": "M. V. Agripa",
           "abbr": "M. V. A."
         },
@@ -7020,6 +7046,7 @@ window.ROMA_DATA = {
       "texto": "Antonio, en Egipto con Cleopatra, lanzó una fallida campaña contra los partos.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-135.jpg",
           "label": "M. Antonio",
           "abbr": "M. A."
         },
@@ -7035,6 +7062,7 @@ window.ROMA_DATA = {
       "texto": "Antonio celebró las 'Donaciones de Alejandría', escandalizando a Roma.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-135.jpg",
           "label": "M. Antonio",
           "abbr": "M. A."
         }
@@ -7046,6 +7074,7 @@ window.ROMA_DATA = {
       "texto": "Se rompieron definitivamente las relaciones entre Octavio y Antonio.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-14.jpg",
           "label": "Octavio",
           "abbr": "O."
         },
@@ -7076,6 +7105,7 @@ window.ROMA_DATA = {
       "texto": "Octavio y Agripa derrotaron a Antonio y Cleopatra en Actio.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-14.jpg",
           "label": "Octavio",
           "abbr": "O."
         },
@@ -7091,6 +7121,7 @@ window.ROMA_DATA = {
       "texto": "Octavio invadió Egipto; Antonio y Cleopatra se suicidaron. Egipto fue anexionado.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-14.jpg",
           "label": "Octavio",
           "abbr": "O."
         },
@@ -7106,6 +7137,7 @@ window.ROMA_DATA = {
       "texto": "Octavio celebró un triple triunfo y cerró las puertas del templo de Jano.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-14.jpg",
           "label": "Octavio",
           "abbr": "O."
         },
@@ -7121,10 +7153,12 @@ window.ROMA_DATA = {
       "texto": "Octavio y Agripa, como censores, purgaron el Senado.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-14.jpg",
           "label": "Octavio",
           "abbr": "O."
         },
         {
+          "imagen": "assets/img/retratos/retrato-136.jpg",
           "label": "M. V. Agripa",
           "abbr": "M. V. A."
         }
@@ -7136,10 +7170,12 @@ window.ROMA_DATA = {
       "texto": "Octavio devolvió el poder al Senado y al pueblo, que le otorgó el título de 'Augusto', fin de la República e inicio del Principado.",
       "imagenes": [
         {
+          "imagen": "assets/img/retratos/retrato-14.jpg",
           "label": "Octavio",
           "abbr": "O."
         },
         {
+          "imagen": "assets/img/retratos/retrato-136.jpg",
           "label": "M. V. Agripa",
           "abbr": "M. V. A."
         }
