@@ -145,45 +145,6 @@
     const titleEl = document.getElementById('cardTitulo');
     const leftGroup = document.getElementById('cardPortraitLeftGroup');
     const rightGroup = document.getElementById('cardPortraitRightGroup');
-    const gallery = document.getElementById('cardPortraitGallery');
-    gallery.classList.add('hidden');
-    gallery.innerHTML = '';
-
-    if(item.galeria && item.galeria.length){
-      box.classList.add('hidden');
-      leftGroup.classList.add('hidden');
-      rightGroup.classList.add('hidden');
-      titleEl.textContent = getTitle(era, item);
-      gallery.classList.remove('hidden');
-      item.galeria.forEach(g => {
-        const cell = document.createElement('div');
-        cell.className = 'gallery-item';
-        const circle = document.createElement('span');
-        circle.className = 'portrait-circle';
-        if(g.imagen){
-          const img = document.createElement('img');
-          img.alt = g.label || '';
-          img.onload = () => { img.style.opacity = 1; };
-          img.onerror = () => {
-            img.remove();
-            circle.style.background = hashColor(g.label || '?');
-            circle.textContent = getInitials(g.label);
-          };
-          img.src = g.imagen;
-          circle.appendChild(img);
-        } else {
-          circle.style.background = hashColor(g.label || '?');
-          circle.textContent = getInitials(g.label);
-        }
-        const cap = document.createElement('div');
-        cap.className = 'gallery-caption';
-        cap.textContent = g.label || '';
-        cell.appendChild(circle);
-        cell.appendChild(cap);
-        gallery.appendChild(cell);
-      });
-      return;
-    }
 
     if(item.imagenes && item.imagenes.length){
       box.classList.add('hidden');

@@ -7287,30 +7287,27 @@ window.ROMA_DATA = {
     },
     {
       "periodo": "193 d.C.",
-      "nombre": "Año de los Cinco Emperadores",
-      "texto": "Pertinax fue asesinado por la Guardia Pretoriana; Didio Juliano 'compró' el trono subastado; finalmente Septimio Severo se impuso sobre Pescenio Níger y Clodio Albino, fundando la dinastía Severa.",
-      "galeria": [
-        {
-          "imagen": "assets/img/retratos/retrato-143.jpg",
-          "label": "Pértinax"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-144.jpg",
-          "label": "Didio Juliano"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-145.jpg",
-          "label": "Pescenio Níger"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-146.jpg",
-          "label": "Clodio Albino"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-28.jpg",
-          "label": "Septimio Severo"
-        }
-      ]
+      "nombre": "Pértinax",
+      "texto": "Prefecto de la Ciudad, elevado al trono por los pretorianos tras el asesinato de Cómodo. Intentó restaurar la disciplina militar y sanear las finanzas, pero su rigor le enemistó con la Guardia, que lo asesinó a los tres meses.",
+      "imagen": "assets/img/retratos/retrato-143.jpg"
+    },
+    {
+      "periodo": "193 d.C.",
+      "nombre": "Didio Juliano",
+      "texto": "Senador acaudalado que 'compró' el trono en una subasta de la Guardia Pretoriana tras la muerte de Pértinax. Sin apoyo del pueblo ni del ejército, el Senado lo condenó y fue ejecutado al acercarse Septimio Severo a Roma, tras nueve semanas de reinado.",
+      "imagen": "assets/img/retratos/retrato-144.jpg"
+    },
+    {
+      "periodo": "193–194 d.C.",
+      "nombre": "Pescenio Níger",
+      "texto": "Gobernador de Siria proclamado emperador por las legiones de Oriente. Fue derrotado por Septimio Severo en la batalla de Issos (194 d.C.) y ejecutado cuando huía hacia el Éufrates.",
+      "imagen": "assets/img/retratos/retrato-145.jpg"
+    },
+    {
+      "periodo": "193–197 d.C.",
+      "nombre": "Clodio Albino",
+      "texto": "Gobernador de Britania, reconocido al principio como César por Septimio Severo. Al romper con él, cruzó a la Galia y fue derrotado y muerto en la batalla de Lugdunum (197 d.C.), el mayor choque entre ejércitos romanos hasta entonces.",
+      "imagen": "assets/img/retratos/retrato-146.jpg"
     },
     {
       "periodo": "193–211 d.C.",
@@ -7475,23 +7472,22 @@ window.ROMA_DATA = {
       "imagen": "assets/img/retratos/retrato-33.jpg"
     },
     {
+      "periodo": "337–340 d.C.",
+      "nombre": "Constantino II",
+      "texto": "Hijo mayor de Constantino I, recibió la Galia, Britania e Hispania. Reclamó la tutela sobre su hermano menor Constante e invadió Italia, pero cayó en una emboscada cerca de Aquilea a los tres años de reinado.",
+      "imagen": "assets/img/retratos/retrato-168.jpg"
+    },
+    {
+      "periodo": "337–350 d.C.",
+      "nombre": "Constante I",
+      "texto": "Recibió Italia, África e Iliria, y sumó los dominios de Constantino II tras vencerlo. Defensor del credo niceno, fue derrocado y asesinado por el usurpador Magnencio.",
+      "imagen": "assets/img/retratos/retrato-169.jpg"
+    },
+    {
       "periodo": "337–361 d.C.",
-      "nombre": "Los hijos de Constantino",
-      "texto": "El Imperio se repartió entre Constantino II, Constancio II y Constante, en conflicto entre sí. Constancio II quedó como único emperador tras la muerte de sus hermanos, en medio de disputas religiosas entre arrianos y niceos.",
-      "galeria": [
-        {
-          "imagen": "assets/img/retratos/retrato-168.jpg",
-          "label": "Constantino II"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-169.jpg",
-          "label": "Constante I"
-        },
-        {
-          "imagen": "assets/img/retratos/retrato-170.jpg",
-          "label": "Constancio II"
-        }
-      ]
+      "nombre": "Constancio II",
+      "texto": "Recibió Oriente y, muertos sus hermanos, quedó como único emperador. Combatió a persas y usurpadores, favoreció el arrianismo y elevó a su primo Juliano como César. Murió de enfermedad cuando marchaba a enfrentarse a él.",
+      "imagen": "assets/img/retratos/retrato-170.jpg"
     },
     {
       "periodo": "361–363 d.C.",
