@@ -2,7 +2,7 @@
 
 **Fecha:** 2026-09-09
 **Commits (todos pusheados a `origin/master`):**
-`f166f10`, `e2624f5`, `955e548`, `eaf012b`, `e05c1e9`, `e68cc94`, `38fe5af`, `21a5edb`, `34ea875`
+`f166f10`, `e2624f5`, `955e548`, `eaf012b`, `e05c1e9`, `e68cc94`, `38fe5af`, `21a5edb`, `34ea875`, `03d8d75`
 
 ## Punto de partida
 
@@ -85,10 +85,17 @@ Occidente y Bizancio no tenían ningún retrato. Cache-busting en `?v=81`.
 - Scripts `scratchpad/split_periods.py` + `split_periods2.py` + `crisis_discover.py` +
   `crisis_fetch.py`.
 
+### 8. Corrección: periodo de Julio Nepote (`03d8d75`, `?v=91`)
+
+- Imperio de Occidente: `periodo` de Julio Nepote **474–480 → 474–475 d.C.** (reinado
+  efectivo en Italia; el texto ya aclaraba que siguió reclamando el título desde Dalmacia
+  hasta el 480).
+
 ### Cache-busting
 
-`index.html`: `?v=81` → `?v=90` (82 s.II, 83 s.I, 84 imperio, 85 occ/biz, 86 Barletta,
-87 figuras República, 88 galería, 89 desdoble parcial, 90 desdoble total + limpieza).
+`index.html`: `?v=81` → `?v=91` (82 s.II, 83 s.I, 84 imperio, 85 occ/biz, 86 Barletta,
+87 figuras República, 88 galería, 89 desdoble parcial, 90 desdoble total + limpieza,
+91 fix Julio Nepote).
 
 ## Verificación
 
@@ -104,6 +111,7 @@ Todo commiteado y pusheado. Working tree limpio.
 - **Imperio:** 55 entradas, todas con retrato (ninguna con solo iniciales).
 - **Occidente / Bizancio:** las 91 entradas con retrato.
 - Carpeta `assets/img/retratos/`: 170 archivos, ≈14 MB. **Próximo libre: `retrato-171`.**
+- Cache-busting en `?v=91`.
 
 ## Pendiente / próximos pasos
 
