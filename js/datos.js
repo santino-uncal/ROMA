@@ -7576,7 +7576,7 @@ window.ROMA_DATA = {
       "imagen": "assets/img/retratos/retrato-46.jpg"
     },
     {
-      "periodo": "474–480 d.C.",
+      "periodo": "474–475 d.C.",
       "nombre": "Julio Nepote",
       "texto": "Impuesto por el Imperio de Oriente, gobernó apenas un año en Italia antes de ser depuesto por su propio magister militum, Orestes, quien coronó a su hijo Rómulo Augústulo. Nepote continuó reclamando el título imperial desde Dalmacia hasta su asesinato en el 480, por lo que algunos historiadores lo consideran el último emperador legítimo de Occidente.",
       "imagen": "assets/img/retratos/retrato-47.jpg"
