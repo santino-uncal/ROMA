@@ -7187,13 +7187,23 @@ window.ROMA_DATA = {
       "periodo": "27 a.C. – 14 d.C.",
       "nombre": "Augusto",
       "texto": "Primer emperador romano, tras derrotar a Marco Antonio y Cleopatra en Actio. Instauró el Principado, manteniendo formas republicanas mientras concentraba el poder real. Reformó el ejército, creó la Guardia Pretoriana, expandió las fronteras y sufrió la derrota de Teutoburgo (9 d.C.). Impulsó la Pax Romana y patrocinó a Virgilio, Horacio y Ovidio.",
-      "imagen": "assets/img/retratos/retrato-14.jpg"
+      "imagen": "assets/img/retratos/retrato-14.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Augusto.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Augusto (27 a.C.–14 d.C.): Hispania, la Galia, Italia, los Balcanes, Grecia, Anatolia y el Levante bajo dominio romano. Britania todavía no forma parte del Imperio: recién sería conquistada por Claudio en el 43 d.C."
+      }
     },
     {
       "periodo": "14–37 d.C.",
       "nombre": "Tiberio",
       "texto": "Hijastro y sucesor de Augusto, reservado y desconfiado. Consolidó las fronteras sin grandes expansiones. Se retiró a Capri, dejando el gobierno en manos de su prefecto Sejano, ejecutado en el 31 d.C. tras conspirar contra él.",
-      "imagen": "assets/img/retratos/retrato-15.jpg"
+      "imagen": "assets/img/retratos/retrato-15.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Tiberio.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Tiberio (14–37 d.C.), heredado prácticamente sin cambios de Augusto: las mismas fronteras que su predecesor, consolidadas sin nuevas conquistas. Britania sigue fuera del dominio romano."
+      }
     },
     {
       "periodo": "37–41 d.C.",
@@ -7205,13 +7215,23 @@ window.ROMA_DATA = {
       "periodo": "41–54 d.C.",
       "nombre": "Claudio",
       "texto": "Tío de Calígula, llegó al poder inesperadamente. Inició la conquista de Britania (43 d.C.), expandió la burocracia imperial y construyó el puerto de Ostia. Murió posiblemente envenenado por su esposa Agripina en favor de Nerón.",
-      "imagen": "assets/img/retratos/retrato-17.jpg"
+      "imagen": "assets/img/retratos/retrato-17.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Claudio.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Claudio (41–54 d.C.): se suma Britania, conquistada desde el 43 d.C., la gran novedad territorial de su reinado sobre las fronteras heredadas de sus predecesores."
+      }
     },
     {
       "periodo": "54–68 d.C.",
       "nombre": "Nerón",
       "texto": "Último de la dinastía Julio-Claudia. Comenzó bien bajo Séneca y Burro, pero derivó en tiranía: hizo asesinar a su madre Agripina y a su esposa Octavia. Roma sufrió el gran incendio del 64 d.C., tras el cual persiguió a los cristianos. Declarado enemigo público, se suicidó en el 68 d.C.",
-      "imagen": "assets/img/retratos/retrato-18.jpg"
+      "imagen": "assets/img/retratos/retrato-18.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Neron.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Nerón (54–68 d.C.), con las fronteras estables heredadas de Claudio, Britania incluida."
+      }
     },
     {
       "periodo": "68–69 d.C.",
@@ -7265,7 +7285,12 @@ window.ROMA_DATA = {
       "periodo": "117–138 d.C.",
       "nombre": "Adriano",
       "texto": "Adoptó una política más defensiva, consolidando fronteras; mandó construir el Muro de Adriano en Britania. Viajó extensamente y fue gran mecenas cultural, reconstruyendo el Panteón.",
-      "imagen": "assets/img/retratos/retrato-24.jpg"
+      "imagen": "assets/img/retratos/retrato-24.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Adriano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Adriano (117–138 d.C.), ya con Britania (donde levantó su famoso muro) y en las fronteras que se mantendrían estables, tras replegarse de las conquistas orientales de Trajano, hasta la Crisis del Siglo III."
+      }
     },
     {
       "periodo": "138–161 d.C.",
@@ -7283,7 +7308,12 @@ window.ROMA_DATA = {
       "periodo": "180–192 d.C.",
       "nombre": "Cómodo",
       "texto": "Rompió la tradición de adopción al heredar por sangre. Descuidó el gobierno, se obsesionó con presentarse como gladiador identificándose con Hércules. Fue asesinado en una conspiración palaciega en el 192 d.C.",
-      "imagen": "assets/img/retratos/retrato-27.jpg"
+      "imagen": "assets/img/retratos/retrato-27.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Comodo.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Cómodo (180–192 d.C.), con las fronteras estables del Alto Imperio, prácticamente sin cambios respecto a la época de Adriano y Marco Aurelio."
+      }
     },
     {
       "periodo": "193 d.C.",
@@ -7325,7 +7355,12 @@ window.ROMA_DATA = {
       "periodo": "218–222 d.C.",
       "nombre": "Heliogábalo",
       "texto": "Joven emperador sirio de comportamiento extravagante, que intentó imponer un culto solar sirio por encima de las divinidades romanas. Fue asesinado, junto a su madre, por la Guardia Pretoriana.",
-      "imagen": "assets/img/retratos/retrato-30.jpg"
+      "imagen": "assets/img/retratos/retrato-30.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Heliogabalo.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Heliogábalo (218–222 d.C.), todavía con las fronteras intactas del Alto Imperio, aunque la Crisis del Siglo III —que estallaría formalmente en 235— ya estaba cerca."
+      }
     },
     {
       "periodo": "222–235 d.C.",
@@ -7397,7 +7432,12 @@ window.ROMA_DATA = {
       "periodo": "253–260 d.C.",
       "nombre": "Valeriano",
       "texto": "Repartió el gobierno con su hijo Galieno y se reservó Oriente. Reanudó la persecución de los cristianos. Fue capturado por Sapor I en la batalla de Edesa —único emperador romano hecho prisionero por un enemigo— y murió en cautiverio.",
-      "imagen": "assets/img/retratos/retrato-157.jpg"
+      "imagen": "assets/img/retratos/retrato-157.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Valeriano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio partido en tres durante el reinado de Valeriano y Galieno: en rojo el núcleo romano (Italia, los Balcanes, Grecia y Anatolia), en verde el Imperio Galo secesionista (Britania, la Galia e Hispania) y en amarillo el reino de Palmira de Zenobia (Siria, Egipto y el Levante), independizado tras la captura de Valeriano por los persas en el 260 d.C."
+      }
     },
     {
       "periodo": "253–268 d.C.",
@@ -7409,7 +7449,12 @@ window.ROMA_DATA = {
       "periodo": "268–270 d.C.",
       "nombre": "Claudio II el Gótico",
       "texto": "Militar ilirio llegado al poder tras el asesinato de Galieno. Aplastó a los godos en la batalla de Naissus, victoria que le dio su sobrenombre. Murió de peste a los dos años, con fama de buen gobernante.",
-      "imagen": "assets/img/retratos/retrato-159.jpg"
+      "imagen": "assets/img/retratos/retrato-159.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Claudio II el Gotico.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio todavía fragmentado en tres bajo Claudio II el Gótico (268–270 d.C.): el núcleo romano en rojo, el Imperio Galo en verde y el reino de Palmira en amarillo, la misma división de la Crisis del Siglo III heredada de Galieno. Sería Aureliano quien los reunificaría."
+      }
     },
     {
       "periodo": "270 d.C.",
@@ -7421,7 +7466,12 @@ window.ROMA_DATA = {
       "periodo": "270–275 d.C.",
       "nombre": "Aureliano",
       "texto": "En cinco años reunificó el Imperio: venció a Zenobia de Palmira y recuperó el Imperio Galo, lo que le valió el título de restitutor orbis. Amuralló Roma, reformó la moneda y evacuó la Dacia. Fue asesinado en una conspiración de oficiales camino a Persia.",
-      "imagen": "assets/img/retratos/retrato-161.jpg"
+      "imagen": "assets/img/retratos/retrato-161.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Aureliano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio reunificado bajo Aureliano (270–275 d.C.), que en apenas cinco años recuperó el Imperio Galo y venció a Zenobia de Palmira, devolviendo a Roma sus fronteras completas, Britania incluida."
+      }
     },
     {
       "periodo": "275–276 d.C.",
