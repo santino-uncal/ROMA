@@ -45,11 +45,13 @@ emperador. Cache-busting en `?v=91`.
   que `getMapForEntry` (`js/app.js`) prioriza por sobre el cálculo por `HITOS_OCCIDENTE`
   cuando está presente.
 - `mapaEspecial` quedó asignado en `js/datos.js` a:
-  - **Honorio** (395–423) → `occidente-423.png` (fin de su reinado: Britania ya perdida,
-    resto del territorio intacto).
-  - **Constancio III** (421) y **Valentiniano III** (425–455) → `occidente-395-division.png`
-    (división roja/azul de 395; se aclara en el caption que es una referencia, no un mapa
-    exacto para esos años).
+  - **Honorio** (395–423) → `occidente-395-division.png` (división roja/azul de 395, al
+    asumir el trono).
+  - **Constancio III** (421) y **Valentiniano III** (425–455) → `occidente-423.png`
+    (Britania ya perdida, resto del territorio intacto; se aclara en el caption que es
+    una referencia, no un mapa exacto para esos años). *Corregido tras el cierre de la
+    fase: la asignación original tenía a Honorio con el 423 y a los otros dos con la
+    división de 395, al revés de como el usuario lo quería.*
   - **Petronio Máximo** (455) → `occidente-455.png`.
   - **Avito** (455–456) → `occidente-456.png` (mismo territorio que 455 salvo Córcega,
     Cerdeña y Sicilia, que pasan a los vándalos — comparación píxel a píxel con `PIL`

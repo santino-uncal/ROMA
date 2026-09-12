@@ -7521,9 +7521,9 @@ window.ROMA_DATA = {
       "texto": "Primer emperador exclusivo de Occidente tras la división del 395, dominado sucesivamente por sus generales Estilicón y Constancio. Durante su reinado, Roma fue saqueada por Alarico y los visigodos en el 410, primera vez en 800 años que la ciudad caía ante un enemigo extranjero. El control efectivo de Britania se perdió definitivamente.",
       "imagen": "assets/img/retratos/retrato-37.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-423.png",
+        "url": "assets/img/occidente-395-division.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio de Occidente hacia el 423 d.C., al final del reinado de Honorio: Britania ya está perdida, pero el resto del territorio (Galia, Hispania, Italia, Dalmacia y las islas) se mantiene bajo control romano."
+        "caption": "División administrativa del Imperio Romano en el 395 d.C., al asumir Honorio el trono de Occidente (rojo): Britania, la Galia, Hispania, Italia y el norte de África, frente al Imperio de Oriente (azul). Las fronteras reales fueron cambiando con las invasiones germánicas de las décadas siguientes."
       }
     },
     {
@@ -7532,9 +7532,9 @@ window.ROMA_DATA = {
       "texto": "General que había derrotado a varios usurpadores y estabilizado las fronteras, fue elevado a co-emperador por Honorio como recompensa y por su matrimonio con Gala Placidia, hermana del emperador. Murió repentinamente apenas siete meses después de su ascenso.",
       "imagen": "assets/img/retratos/retrato-38.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-395-division.png",
+        "url": "assets/img/occidente-423.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "División administrativa del Imperio Romano en el 395 d.C. entre Occidente (rojo) y Oriente (azul). No hay un mapa verificado específico para el breve reinado de Constancio III (421); se usa como referencia la división original, aunque para entonces Occidente ya había perdido el control efectivo de Britania."
+        "caption": "El Imperio de Occidente hacia el 423 d.C.: Britania ya está perdida, pero el resto del territorio (Galia, Hispania, Italia, Dalmacia y las islas) se mantiene bajo control romano. No hay un mapa verificado específico para el breve reinado de Constancio III (421); se usa este, el más cercano en el tiempo."
       }
     },
     {
@@ -7543,9 +7543,9 @@ window.ROMA_DATA = {
       "texto": "Hijo de Gala Placidia, ascendió siendo niño bajo la regencia de su madre y luego dependió del general Flavio Aecio, quien detuvo a Atila y los hunos en los Campos Cataláunicos (451). Asesinó personalmente a Aecio por celos de su poder, y fue asesinado a su vez por partidarios del general poco después.",
       "imagen": "assets/img/retratos/retrato-39.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-395-division.png",
+        "url": "assets/img/occidente-423.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "División administrativa del Imperio Romano en el 395 d.C. entre Occidente (rojo) y Oriente (azul). Se usa como referencia por falta de un mapa verificado específico para el reinado de Valentiniano III: para entonces Occidente ya había perdido Britania y buena parte de Hispania frente a vándalos, suevos y visigodos."
+        "caption": "El Imperio de Occidente hacia el 423 d.C.: Britania ya está perdida, pero el resto del territorio (Galia, Hispania, Italia, Dalmacia y las islas) se mantiene bajo control romano. Se usa como referencia por falta de un mapa verificado específico para el reinado de Valentiniano III (425–455): hacia el final ya se había perdido también buena parte de Hispania frente a vándalos y suevos."
       }
     },
     {
