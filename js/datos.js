@@ -7519,73 +7519,133 @@ window.ROMA_DATA = {
       "periodo": "395–423 d.C.",
       "nombre": "Honorio",
       "texto": "Primer emperador exclusivo de Occidente tras la división del 395, dominado sucesivamente por sus generales Estilicón y Constancio. Durante su reinado, Roma fue saqueada por Alarico y los visigodos en el 410, primera vez en 800 años que la ciudad caía ante un enemigo extranjero. El control efectivo de Britania se perdió definitivamente.",
-      "imagen": "assets/img/retratos/retrato-37.jpg"
+      "imagen": "assets/img/retratos/retrato-37.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/occidente-423.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio de Occidente hacia el 423 d.C., al final del reinado de Honorio: Britania ya está perdida, pero el resto del territorio (Galia, Hispania, Italia, Dalmacia y las islas) se mantiene bajo control romano."
+      }
     },
     {
       "periodo": "421 d.C.",
       "nombre": "Constancio III",
       "texto": "General que había derrotado a varios usurpadores y estabilizado las fronteras, fue elevado a co-emperador por Honorio como recompensa y por su matrimonio con Gala Placidia, hermana del emperador. Murió repentinamente apenas siete meses después de su ascenso.",
-      "imagen": "assets/img/retratos/retrato-38.jpg"
+      "imagen": "assets/img/retratos/retrato-38.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/occidente-395-division.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "División administrativa del Imperio Romano en el 395 d.C. entre Occidente (rojo) y Oriente (azul). No hay un mapa verificado específico para el breve reinado de Constancio III (421); se usa como referencia la división original, aunque para entonces Occidente ya había perdido el control efectivo de Britania."
+      }
     },
     {
       "periodo": "425–455 d.C.",
       "nombre": "Valentiniano III",
       "texto": "Hijo de Gala Placidia, ascendió siendo niño bajo la regencia de su madre y luego dependió del general Flavio Aecio, quien detuvo a Atila y los hunos en los Campos Cataláunicos (451). Asesinó personalmente a Aecio por celos de su poder, y fue asesinado a su vez por partidarios del general poco después.",
-      "imagen": "assets/img/retratos/retrato-39.jpg"
+      "imagen": "assets/img/retratos/retrato-39.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/occidente-395-division.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "División administrativa del Imperio Romano en el 395 d.C. entre Occidente (rojo) y Oriente (azul). Se usa como referencia por falta de un mapa verificado específico para el reinado de Valentiniano III: para entonces Occidente ya había perdido Britania y buena parte de Hispania frente a vándalos, suevos y visigodos."
+      }
     },
     {
       "periodo": "455 d.C.",
       "nombre": "Petronio Máximo",
       "texto": "Aristócrata que instigó el asesinato de Valentiniano III y usurpó el trono casándose a la fuerza con su viuda. Su reinado duró apenas semanas: intentó huir de Roma ante la llegada de los vándalos de Genserico y fue linchado por la multitud antes del segundo gran saqueo de la ciudad.",
-      "imagen": "assets/img/retratos/retrato-40.jpg"
+      "imagen": "assets/img/retratos/retrato-40.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/occidente-455.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio de Occidente en el 455 d.C.: aún conserva el sur de la Galia, parte de Hispania, Italia, Dalmacia y las islas de Córcega, Cerdeña y Sicilia, justo antes del saqueo vándalo de Roma."
+      }
     },
     {
       "periodo": "455–456 d.C.",
       "nombre": "Avito",
       "texto": "Aristócrata galo elevado al trono con el respaldo de los visigodos de Tolosa. Su falta de apoyo en Italia y su dependencia de tropas godas le generaron el rechazo del Senado romano; fue depuesto por el general Ricimero, quien a partir de entonces se convertiría en el verdadero árbitro del poder en Occidente.",
-      "imagen": "assets/img/retratos/retrato-41.jpg"
+      "imagen": "assets/img/retratos/retrato-41.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/occidente-456.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio de Occidente hacia el 456 d.C.: tras el saqueo de Roma por Genserico, los vándalos se apoderan de Córcega, Cerdeña y Sicilia, que dejan de estar bajo control romano."
+      }
     },
     {
       "periodo": "457–461 d.C.",
       "nombre": "Mayoriano",
       "texto": "Considerado el último emperador occidental capaz de intentar una recuperación real del imperio, reorganizó el ejército y preparó una campaña para reconquistar el norte de África vándalo, que fracasó al ser destruida su flota. El general Ricimero, que lo había impuesto, terminó depuesto y ejecutándolo.",
-      "imagen": "assets/img/retratos/retrato-42.jpg"
+      "imagen": "assets/img/retratos/retrato-42.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/occidente-457.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio de Occidente en el 457 d.C., al comienzo del reinado de Mayoriano: Hispania se ha perdido casi por completo frente a suevos y visigodos, mientras se conservan el sur de la Galia, Italia y Dalmacia."
+      }
     },
     {
       "periodo": "461–465 d.C.",
       "nombre": "Libio Severo",
       "texto": "Elevado al trono por Ricimero como emperador títere sin autoridad real ni reconocimiento del Imperio de Oriente. Su reinado careció de eventos militares o políticos relevantes; murió en circunstancias oscuras, posiblemente envenenado por el propio Ricimero.",
-      "imagen": "assets/img/retratos/retrato-43.jpg"
+      "imagen": "assets/img/retratos/retrato-43.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/occidente-461.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio de Occidente en el 461 d.C.: Mayoriano había recuperado el control de buena parte de Hispania antes de morir, pero la Galia se reduce a una estrecha franja costera ante el avance del reino visigodo de Tolosa."
+      }
     },
     {
       "periodo": "467–472 d.C.",
       "nombre": "Antemio",
       "texto": "General de origen griego, impuesto con el respaldo del emperador de Oriente León I para intentar restaurar la cooperación entre ambas mitades del imperio. Organizó junto a Oriente una gran expedición naval contra los vándalos que terminó en desastre. Entró en conflicto con Ricimero, que finalmente lo asedió en Roma, lo depuso y ejecutó.",
-      "imagen": "assets/img/retratos/retrato-44.jpg"
+      "imagen": "assets/img/retratos/retrato-44.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/occidente-461.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa verificado específico para el reinado de Antemio (467–472); se usa como referencia el territorio hacia el 461 d.C., el más cercano disponible: Italia, Dalmacia, una franja del sur de la Galia y buena parte de Hispania."
+      }
     },
     {
       "periodo": "472 d.C.",
       "nombre": "Olibrio",
       "texto": "Impuesto por Ricimero durante el asedio a Antemio, apenas gobernó unos meses antes de morir de causas naturales. Su breve reinado coincidió con la muerte del propio Ricimero, dejando un vacío de poder que sus sucesores, los generales germanos, ocuparían de inmediato.",
-      "imagen": "assets/img/retratos/retrato-45.jpg"
+      "imagen": "assets/img/retratos/retrato-45.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/occidente-461.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa verificado específico para el breve reinado de Olibrio (472); se usa como referencia el territorio hacia el 461 d.C., el más cercano disponible: Italia, Dalmacia, una franja del sur de la Galia y buena parte de Hispania."
+      }
     },
     {
       "periodo": "473–474 d.C.",
       "nombre": "Glicerio",
       "texto": "Elevado al trono por el general germano Gundobado, sobrino de Ricimero, sin reconocimiento del Imperio de Oriente. Fue depuesto sin violencia por Julio Nepote, enviado desde Constantinopla con el respaldo oriental, y terminó su vida como obispo.",
-      "imagen": "assets/img/retratos/retrato-46.jpg"
+      "imagen": "assets/img/retratos/retrato-46.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/occidente-461.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa verificado específico para el reinado de Glicerio (473–474); se usa como referencia el territorio hacia el 461 d.C., el más cercano disponible: Italia, Dalmacia, una franja del sur de la Galia y buena parte de Hispania."
+      }
     },
     {
       "periodo": "474–475 d.C.",
       "nombre": "Julio Nepote",
       "texto": "Impuesto por el Imperio de Oriente, gobernó apenas un año en Italia antes de ser depuesto por su propio magister militum, Orestes, quien coronó a su hijo Rómulo Augústulo. Nepote continuó reclamando el título imperial desde Dalmacia hasta su asesinato en el 480, por lo que algunos historiadores lo consideran el último emperador legítimo de Occidente.",
-      "imagen": "assets/img/retratos/retrato-47.jpg"
+      "imagen": "assets/img/retratos/retrato-47.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/occidente-474.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio de Occidente en el 474 d.C., bajo Julio Nepote: reducido prácticamente a Italia y Dalmacia, tras la pérdida definitiva de la Galia e Hispania frente a los visigodos de Eurico."
+      }
     },
     {
       "periodo": "475–476 d.C.",
       "nombre": "Rómulo Augústulo",
       "texto": "Colocado en el trono por su padre Orestes siendo apenas un adolescente, nunca fue reconocido por Constantinopla. En el 476, el general germano Odoacro depuso a Orestes y obligó a Rómulo Augústulo a abdicar, enviando las insignias imperiales a Constantinopla. Su caída marca tradicionalmente el fin del Imperio Romano de Occidente.",
-      "imagen": "assets/img/retratos/retrato-48.jpg"
+      "imagen": "assets/img/retratos/retrato-48.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/occidente-474.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio de Occidente hacia el 474–476 d.C., bajo Rómulo Augústulo: reducido prácticamente a Italia y Dalmacia, justo antes de su caída definitiva ante Odoacro."
+      }
     }
   ],
   "bizantino": [

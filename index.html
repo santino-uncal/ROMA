@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>La historia de Roma</title>
-<link rel="stylesheet" href="css/estilos.css?v=91">
+<link rel="stylesheet" href="css/estilos.css?v=97">
 </head>
 <body>
 <div class="wrap">
@@ -164,15 +164,15 @@
   </div>
 
   <div class="jumpbar" id="jumpbar" style="display:none;">
-    <p class="jump-range">509–27 a.C.</p>
-    <div class="jumpbar-row">
+    <p class="jump-range" id="jumpRange">509–27 a.C.</p>
+    <div class="jumpbar-row" id="jumpYearRow">
       <label for="jumpYear">Ir al año:</label>
       <input type="number" id="jumpYear" placeholder="ej: 218" min="27" max="509">
       <span class="jumpbar-era">a.C.</span>
       <button id="jumpBtn">Buscar</button>
     </div>
     <div class="jumpbar-row">
-      <label for="jumpConsul">Buscar cónsul:</label>
+      <label for="jumpConsul" id="jumpSearchLabel">Buscar cónsul:</label>
       <input type="text" id="jumpConsul" placeholder="ej: Julio César" autocomplete="off">
     </div>
     <div class="consul-results" id="consulResults"></div>
@@ -210,8 +210,8 @@
     </div>
   </div>
 </div>
-<script src="js/datos.js?v=91"></script>
-<script src="js/mapas.js?v=91"></script>
-<script src="js/app.js?v=91"></script>
+<script src="js/datos.js?v=97"></script>
+<script src="js/mapas.js?v=97"></script>
+<script src="js/app.js?v=97"></script>
 </body>
 </html>

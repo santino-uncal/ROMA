@@ -59,6 +59,10 @@
   }
 
   function getMapForEntry(era, item){
+    if(item.mapaEspecial){
+      const m = item.mapaEspecial;
+      return { url: m.url, credit: m.credit, caption: m.caption };
+    }
     let year, hitos;
     if(era === 'monarquia'){ year = parseStartYear(item.periodo); hitos = HITOS_MONARQUIA; }
     else if(era === 'republica'){ year = item.anio; hitos = HITOS_REPUBLICA; }
@@ -213,6 +217,14 @@
     }
   }
 
+  const SEARCH_LABELS = {
+    monarquia: { label:'Buscar rey:', placeholder:'ej: Rómulo' },
+    republica: { label:'Buscar cónsul:', placeholder:'ej: Julio César' },
+    imperio: { label:'Buscar emperador:', placeholder:'ej: Trajano' },
+    occidente: { label:'Buscar emperador:', placeholder:'ej: Honorio' },
+    bizantino: { label:'Buscar emperador:', placeholder:'ej: Justiniano' }
+  };
+
   function setEra(era){
     currentEra = era;
     currentIndex = 0;
@@ -222,11 +234,16 @@
       b.classList.toggle('active', b.dataset.era===era);
     });
     document.getElementById('spqrBtn').classList.toggle('active', spqrEras.includes(era));
-    document.getElementById('jumpbar').style.display = (era==='republica') ? 'flex' : 'none';
-    if(era!=='republica'){
-      const cr = document.getElementById('consulResults');
-      if(cr) cr.innerHTML = '';
-    }
+    document.getElementById('jumpbar').style.display = 'flex';
+    document.getElementById('jumpRange').style.display = (era==='republica') ? 'block' : 'none';
+    document.getElementById('jumpYearRow').style.display = (era==='republica') ? 'flex' : 'none';
+    const cfg = SEARCH_LABELS[era];
+    document.getElementById('jumpSearchLabel').textContent = cfg.label;
+    const searchInput = document.getElementById('jumpConsul');
+    searchInput.placeholder = cfg.placeholder;
+    searchInput.value = '';
+    const cr = document.getElementById('consulResults');
+    if(cr) cr.innerHTML = '';
     document.getElementById('eras').style.display = spqrEras.includes(era) ? 'flex' : 'none';
     document.getElementById('conflictsBox').style.display = spqrEras.includes(era) ? 'block' : 'none';
     document.getElementById('conflictsBoxOccidente').style.display = (era==='occidente') ? 'block' : 'none';
@@ -529,9 +546,84 @@
     });
   }
 
+  // ----- Buscador de reyes/emperadores (resto de eras) -----
+  const rulerIndexCache = {};
+  function buildRulerIndex(era){
+    return getList(era).map((item, idx)=> ({
+      name: item.nombre,
+      periodo: item.periodo,
+      imagen: item.imagen,
+      idx: idx
+    }));
+  }
+
+  function renderRulerResults(query, era){
+    const box = document.getElementById('consulResults');
+    box.innerHTML = '';
+    const q = foldText(query).trim();
+    if(q.length < 2) return;
+    if(!rulerIndexCache[era]) rulerIndexCache[era] = buildRulerIndex(era);
+    const matches = rulerIndexCache[era]
+      .filter(r=> foldText(r.name).indexOf(q) !== -1)
+      .slice(0, 25);
+    if(!matches.length){
+      const p = document.createElement('p');
+      p.className = 'consul-noresult';
+      p.textContent = 'Sin resultados para "' + query.trim() + '".';
+      box.appendChild(p);
+      return;
+    }
+    matches.forEach(r=>{
+      const row = document.createElement('div');
+      row.className = 'consul-result clickable';
+
+      const circle = document.createElement('span');
+      circle.className = 'portrait-circle';
+      if(r.imagen){
+        const img = document.createElement('img');
+        img.src = r.imagen;
+        img.alt = r.name;
+        img.onload = ()=>{ img.style.opacity = 1; };
+        img.onerror = ()=>{
+          img.remove();
+          circle.style.background = hashColor(r.name);
+          const s = document.createElement('span');
+          s.textContent = getInitials(r.name);
+          circle.appendChild(s);
+        };
+        circle.appendChild(img);
+      } else {
+        circle.style.background = hashColor(r.name);
+        const s = document.createElement('span');
+        s.textContent = getInitials(r.name);
+        circle.appendChild(s);
+      }
+      row.appendChild(circle);
+
+      const body = document.createElement('div');
+      body.className = 'consul-result-body';
+      const nm = document.createElement('span');
+      nm.className = 'consul-result-name';
+      nm.textContent = r.name;
+      body.appendChild(nm);
+
+      const per = document.createElement('span');
+      per.className = 'consul-result-latin';
+      per.textContent = r.periodo;
+      body.appendChild(per);
+
+      row.appendChild(body);
+      row.addEventListener('click', ()=> selectIndex(r.idx, true));
+      box.appendChild(row);
+    });
+  }
+
   const consulInput = document.getElementById('jumpConsul');
   if(consulInput){
-    consulInput.addEventListener('input', ()=> renderConsulResults(consulInput.value));
+    consulInput.addEventListener('input', ()=>{
+      if(currentEra === 'republica') renderConsulResults(consulInput.value);
+      else renderRulerResults(consulInput.value, currentEra);
+    });
   }
 
   // init

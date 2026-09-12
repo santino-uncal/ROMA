@@ -437,6 +437,8 @@
     border-radius:3px;
     text-align:left;
   }
+  .consul-result.clickable{ cursor:pointer; }
+  .consul-result.clickable:hover{ background:#f2e8d5; }
   .consul-result .portrait-circle{
     width:38px;
     height:38px;
