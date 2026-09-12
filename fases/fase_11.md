@@ -108,3 +108,27 @@ Probado en navegador: Constantino IV y León III muestran el mapa de referencia 
 (200 OK en la carga de imagen, caption visible).
 
 Cache-busting: `?v=99` → `?v=100`.
+
+## Tercera parte: ajustes puntuales pedidos por el usuario
+
+Dos correcciones más, a pedido explícito:
+
+- **Mauricio** (582–602 d.C.): pasa a reusar el mapa del emperador anterior, Tiberio II
+  Constantino (`bizantino-578.png`), en vez de caer en el hito genérico de Justiniano.
+- **Basilio II "el Matabúlgaros"** (976–1025 d.C.): pasa a usar el mapa de 1025
+  (`bizantino-1025.png`, antes asignado a Constantino VIII) en vez del de 976 — tiene más
+  sentido que el mapa de su máxima extensión territorial (tras anexar Bulgaria en 1018) se
+  lo lleve él y no su hermano, que simplemente lo heredó.
+- **Constantino VIII** (1025–1028 d.C.): se le quita el `mapaEspecial` (pierde el mapa de
+  1025 que se le da a Basilio II). Queda con el hito genérico `HITOS_BIZANTINO`, que para
+  ese rango (717–1203) ya es el mapa de Wikimedia "extensión bajo Basilio II, 1025 d.C." —
+  prácticamente el mismo contenido, así que no pierde precisión real.
+
+Con esto quedan 69 de 79 entradas con `mapaEspecial` propio (sin cambio en el total, solo
+se movió cuál mapa usa cada una).
+
+Probado en navegador: Mauricio carga `bizantino-578.png`, Basilio II carga
+`bizantino-1025.png`, Constantino VIII cae correctamente al hito genérico (mismo mapa de
+Basilio II vía Wikimedia).
+
+Cache-busting: `?v=100` → `?v=101`.

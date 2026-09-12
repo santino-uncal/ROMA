@@ -7764,7 +7764,12 @@ window.ROMA_DATA = {
       "periodo": "582–602 d.C.",
       "nombre": "Mauricio",
       "texto": "General exitoso que puso fin a la guerra con Persia en términos favorables, restaurando a Cosroes II en el trono persa. Sus reformas militares y económicas, incluidos recortes al ejército del Danubio, provocaron un motín liderado por el centurión Focas, que lo depuso y ejecutó junto a sus hijos.",
-      "imagen": "assets/img/retratos/retrato-60.jpg"
+      "imagen": "assets/img/retratos/retrato-60.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-578.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bizantino hacia el 582 d.C., al asumir Mauricio: mismo territorio heredado de Tiberio II Constantino (Balcanes, Anatolia, Italia y el norte de África), sin cambios significativos hasta que sus reformas militares y los recortes al ejército del Danubio provocaran el motín que terminó con su reinado."
+      }
     },
     {
       "periodo": "602–610 d.C.",
@@ -8102,21 +8107,16 @@ window.ROMA_DATA = {
       "texto": "Tras superar rebeliones internas de la aristocracia anatolia, dedicó décadas a una guerra de desgaste contra Bulgaria que culminó en su completa anexión (1018). Se dice que cegó a miles de prisioneros búlgaros, dejando uno de cada ciento con un ojo para guiar a los demás. Llevó al imperio a su máxima extensión territorial desde Heraclio.",
       "imagen": "assets/img/retratos/retrato-91.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-976.png",
+        "url": "assets/img/bizantino-1025.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 976 d.C., al asumir Basilio II: Anatolia, los Balcanes, Creta y el norte de Siria bajo control bizantino, en vísperas de la larga guerra que terminaría con la anexión completa de Bulgaria."
+        "caption": "El Imperio bizantino hacia el 1025 d.C., al morir Basilio II tras completar la anexión de Bulgaria (1018): la máxima extensión territorial del imperio desde Heraclio, con Anatolia, los Balcanes, Bulgaria, Creta, Chipre y el norte de Siria bajo control bizantino."
       }
     },
     {
       "periodo": "1025–1028 d.C.",
       "nombre": "Constantino VIII",
       "texto": "Hermano de Basilio II, había sido co-emperador nominal durante décadas antes de gobernar en solitario ya anciano. Su breve reinado se caracterizó por la indiferencia hacia los asuntos de estado y una notoria crueldad hacia posibles rivales.",
-      "imagen": "assets/img/retratos/retrato-92.jpg",
-      "mapaEspecial": {
-        "url": "assets/img/bizantino-1025.png",
-        "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 1025 d.C., al morir Basilio II: el imperio en su máxima extensión reciente, con Bulgaria recién anexada, Anatolia, los Balcanes, Creta, Chipre y el norte de Siria bajo control bizantino."
-      }
+      "imagen": "assets/img/retratos/retrato-92.jpg"
     },
     {
       "periodo": "1028–1034 d.C.",
