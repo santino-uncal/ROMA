@@ -1,7 +1,7 @@
 # Fase 12 — Fix de costa jaspeada por anti-aliasing en mapas pintados
 
 **Fecha:** 2026-09-12
-**Commits:** `5e8797b`, `d784426`, `4b42ae8`
+**Commits:** `5e8797b`, `d784426`, `4b42ae8`, `60fe3f1`, `2d22095`
 
 ## Punto de partida
 
@@ -53,14 +53,41 @@ sin motas, tanto en el borde tierra/territorio como en el borde territorio/mar.
   tres colores de territorio (rojo Roma, verde Imperio Galo, amarillo Imperio de
   Palmira) por la Crisis del Siglo III. Commit `4b42ae8`.
 
+## Segunda parte: integración en `js/datos.js`
+
+A pedido del usuario ("integrá los mapas SPQR en datos.js"), se agregó el campo
+`mapaEspecial` a las 10 entradas de `imperio` correspondientes (mismo mecanismo que
+`getMapForEntry` en `js/app.js` ya usa para Occidente y Bizantino desde la Fase 11), vía
+el mismo patrón de script Python con roundtrip JSON verificado antes de tocar nada.
+
+- **Augusto, Tiberio**: mapa sin Britania (recién sería conquistada por Claudio en el 43
+  d.C.).
+- **Claudio, Nerón, Adriano, Cómodo, Heliogábalo**: mapa con Britania ya incorporada,
+  fronteras estables del Alto Imperio.
+- **Valeriano, Claudio II el Gótico**: mapa de tres colores (rojo núcleo romano, verde
+  Imperio Galo con Britania/Galia/Hispania, amarillo reino de Palmira de Zenobia con
+  Siria/Egipto/Levante), reflejando la fragmentación de la Crisis del Siglo III.
+- **Aureliano**: mapa reunificado (todo en rojo, Britania incluida), tras recuperar el
+  Imperio Galo y vencer a Zenobia.
+
+Se comprobó visualmente que las 10 imágenes comparten la misma silueta base del Alto
+Imperio y que la única diferencia real entre ellas es la presencia/ausencia de Britania
+y, en los dos casos de la Crisis del Siglo III, la partición en tres colores — no hay
+diferencias en Dacia ni otras fronteras internas entre los mapas.
+
+Probado en navegador (servidor local `roma`, puerto 8777): Augusto, Valeriano y
+Aureliano cargan su mapa específico (200 OK) con el caption correcto.
+
+Cache-busting: `?v=102` → `?v=103`.
+
+Commit `2d22095`.
+
 ## Pendiente
 
-Ninguno de estos mapas está todavía integrado en `js/datos.js` vía `mapaEspecial` —
-esta fase fue exclusivamente el fix de la imagen en sí. La integración a las fichas del
-imperio romano (Augusto-Aureliano) queda para una próxima sesión, siguiendo el mismo
-patrón que Fase 11 usó para Bizantino.
+Ninguna otra entrada del Imperio (Calígula, Trajano, Marco Aurelio, Diocleciano, etc.)
+tiene mapa propio todavía — siguen con el hito genérico `HITOS_IMPERIO`. El usuario no
+pidió esto todavía; queda como posible trabajo futuro si sube más mapas.
 
 ## Estado al cerrar
 
-Todo commiteado (`5e8797b`, `d784426`, `4b42ae8`). No se tocó `index.html` ni
-`js/datos.js` en esta fase, así que no hizo falta cache-busting.
+Todo commiteado (`5e8797b`, `d784426`, `4b42ae8`, `60fe3f1`, `2d22095`).
