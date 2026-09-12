@@ -132,3 +132,20 @@ Probado en navegador: Mauricio carga `bizantino-578.png`, Basilio II carga
 Basilio II vía Wikimedia).
 
 Cache-busting: `?v=100` → `?v=101`.
+
+## Cuarta parte: Teodoro I Láscaris y Juan III Ducas Vatatzés
+
+El usuario marcó que estos dos también tenían para corregir (habían quedado sin
+`mapaEspecial`, cayendo en el hito genérico 1204–1453 con el mapa de Basilio II 1025 como
+referencia). Pidió puntualmente reusar el mismo mapa que **Alejo V Murzuflo**
+(`bizantino-1204.png`, el último mapa disponible antes de la Cuarta Cruzada) para ambos,
+con caption aclarando que es una referencia (el territorio real de Nicea era bastante
+menor al que muestra ese mapa).
+
+Con esto quedan 71 de 79 entradas con `mapaEspecial` propio. Las 8 restantes sin cambios:
+Justiniano I, Justino II, Constantino VIII, Romano III Argiro, Miguel IV, Miguel V, Zoe y
+Teodora, Constantino IX Monómaco.
+
+Probado en navegador: ambas entradas cargan `bizantino-1204.png` correctamente.
+
+Cache-busting: `?v=101` → `?v=102`.

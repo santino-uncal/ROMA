@@ -8328,13 +8328,23 @@ window.ROMA_DATA = {
       "periodo": "1205–1221 d.C.",
       "nombre": "Teodoro I Láscaris",
       "texto": "Yerno de Alejo III, organizó la resistencia griega en Anatolia occidental tras la caída de Constantinopla y fundó el Imperio de Nicea, el más importante de los estados sucesores bizantinos. Derrotó tanto a los latinos como a los selyúcidas, asegurando la supervivencia de la tradición imperial romana-griega.",
-      "imagen": "assets/img/retratos/retrato-114.jpg"
+      "imagen": "assets/img/retratos/retrato-114.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-1204.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para el Imperio de Nicea bajo Teodoro I Láscaris (1205–1221); se usa como referencia el territorio bizantino hacia el 1204 d.C. (el mismo mapa de Alejo V Murzuflo), el último disponible antes de la Cuarta Cruzada y la fragmentación del imperio en los estados sucesores. El territorio real de Nicea bajo Teodoro I era mucho menor, limitado al noroeste de Anatolia."
+      }
     },
     {
       "periodo": "1221–1254 d.C.",
       "nombre": "Juan III Ducas Vatatzés",
       "texto": "Bajo su gobierno, Nicea se convirtió en un estado próspero y bien administrado, recuperando gran parte de Tracia y Macedonia de manos latinas y búlgaras. Sentó las bases militares y económicas que permitirían la futura reconquista de Constantinopla.",
-      "imagen": "assets/img/retratos/retrato-115.jpg"
+      "imagen": "assets/img/retratos/retrato-115.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-1204.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para el Imperio de Nicea bajo Juan III Ducas Vatatzés (1221–1254); se usa como referencia el territorio bizantino hacia el 1204 d.C. (el mismo mapa de Alejo V Murzuflo), el último disponible antes de la fragmentación del imperio. Durante su largo reinado, Nicea recuperó buena parte de Tracia y Macedonia de manos latinas y búlgaras, aunque sin llegar a la extensión que muestra este mapa de referencia."
+      }
     },
     {
       "periodo": "1254–1258 d.C.",
