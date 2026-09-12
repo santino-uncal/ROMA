@@ -76,6 +76,35 @@ explícitamente:
 
 ## Estado al cerrar
 
-Pendiente de commitear y pushear. Los `.bmp` originales quedan sin trackear en
+Commiteado y pusheado (`503ab81`). Los `.bmp` originales quedan sin trackear en
 `assets/` (mismo criterio que con los mapas de Occidente: solo se versionan los `.png`
 procesados en `assets/img/`).
+
+## Segunda parte: revisión de las 34 entradas sin mapa propio
+
+A pedido del usuario ("revisá las 34 entradas que quedaron sin mapa propio"), se auditó
+cada una contra el hito genérico de `HITOS_BIZANTINO` que le tocaba (395–526 → mapa ~400
+d.C.; 527–716 → Justiniano 555 d.C.; 717–1203 y 1204–1453 → Basilio II 1025 d.C.) para ver
+qué tan anacrónico quedaba el mapa mostrado.
+
+- **10 entradas se dejaron sin cambios** por caer razonablemente cerca del año que
+  representa su hito, o por ser el gap intencional de Justino II: Justiniano I, Justino
+  II, Mauricio, Romano III Argiro, Miguel IV, Miguel V, Zoe y Teodora, Constantino IX
+  Monómaco, Teodoro I Láscaris, Juan III Ducas Vatatzés.
+- **24 entradas recibieron `mapaEspecial` reusando el mapa ya subido más cercano en el
+  tiempo** (mismo criterio que Antemio/Olibrio/Glicerio en Occidente, reusando el mapa de
+  461), con caption aclarando que es una referencia por falta de mapa propio: Constantino
+  IV y Leoncio (reusan 685), Anastasio II y Teodosio III (711), León III (741 — el peor
+  caso, antes saltaba directo al mapa de 1025, 300 años después), Estauracio, Miguel I
+  Rangabé y León V (802), Miguel II (829), León VI (867), Constantino VII (912), Juan I
+  Tzimisces (963), Miguel VI, Isaac I Comneno y Constantino X Ducas (1055), Romano IV
+  Diógenes (1071), Alejo I Comneno (1078), Manuel I Comneno (1118), Alejo II Comneno y
+  Andrónico I Comneno (1185), Juan IV Láscaris (1254), Andrónico II Paleólogo (1261), Juan
+  VII Paleólogo y Manuel II Paleólogo (1376).
+- Con esto, 69 de las 79 entradas de Bizantino tienen `mapaEspecial` propio (10 quedan con
+  el hito genérico, todos casos donde ya encaja razonablemente bien).
+
+Probado en navegador: Constantino IV y León III muestran el mapa de referencia correcto
+(200 OK en la carga de imagen, caption visible).
+
+Cache-busting: `?v=99` → `?v=100`.

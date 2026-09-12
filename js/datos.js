@@ -7814,7 +7814,12 @@ window.ROMA_DATA = {
       "periodo": "668–685 d.C.",
       "nombre": "Constantino IV",
       "texto": "Repelió el primer gran asedio árabe a Constantinopla (674–678) gracias al uso del temido fuego griego, un arma incendiaria de fórmula secreta. Convocó el Tercer Concilio de Constantinopla, que condenó el monotelismo y restauró la unidad doctrinal con Roma.",
-      "imagen": "assets/img/retratos/retrato-65.jpg"
+      "imagen": "assets/img/retratos/retrato-65.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-685.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para el reinado de Constantino IV (668–685); se usa como referencia el territorio hacia el 685 d.C. (el más cercano disponible, del inicio del reinado de Justiniano II): Anatolia, los Balcanes, Sicilia y el exarcado de Rávena, ya sin Egipto, Siria ni Palestina, perdidos frente a los árabes décadas antes."
+      }
     },
     {
       "periodo": "685–695 y 705–711 d.C.",
@@ -7831,7 +7836,12 @@ window.ROMA_DATA = {
       "periodo": "695–698 d.C.",
       "nombre": "Leoncio",
       "texto": "General que depuso y mutiló a Justiniano II, inaugurando el período conocido como la Anarquía de los Veinte Años. Perdió Cartago ante los árabes, lo que provocó un motín naval que lo derrocó a él mismo, siendo mutilado y encerrado en un monasterio.",
-      "imagen": "assets/img/retratos/retrato-67.jpg"
+      "imagen": "assets/img/retratos/retrato-67.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-685.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para el breve reinado de Leoncio (695–698); se usa como referencia el territorio hacia el 685 d.C., el más cercano disponible. Durante su reinado el imperio perdió Cartago y el resto del norte de África frente a los árabes, cambio que este mapa de referencia todavía no refleja."
+      }
     },
     {
       "periodo": "698–705 d.C.",
@@ -7859,19 +7869,34 @@ window.ROMA_DATA = {
       "periodo": "713–715 d.C.",
       "nombre": "Anastasio II",
       "texto": "Funcionario elevado al trono tras la caída de Filípico, intentó restaurar la ortodoxia calcedonia y reorganizar las defensas ante una inminente ofensiva árabe. Fue depuesto por el ejército de los temas de Opsikion, que impuso a Teodosio III.",
-      "imagen": "assets/img/retratos/retrato-70.jpg"
+      "imagen": "assets/img/retratos/retrato-70.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-711.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para el reinado de Anastasio II (713–715); se usa como referencia el territorio hacia el 711 d.C., el más cercano disponible: Anatolia, los Balcanes y una presencia menguante en Italia, ya sin el norte de África."
+      }
     },
     {
       "periodo": "715–717 d.C.",
       "nombre": "Teodosio III",
       "texto": "Funcionario de bajo rango proclamado emperador casi contra su voluntad por tropas amotinadas. Su breve e inestable reinado terminó cuando abdicó pacíficamente ante el avance del estratego León de los Anatólicos, retirándose a un monasterio.",
-      "imagen": "assets/img/retratos/retrato-71.jpg"
+      "imagen": "assets/img/retratos/retrato-71.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-711.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para el breve reinado de Teodosio III (715–717); se usa como referencia el territorio hacia el 711 d.C., el más cercano disponible, prácticamente sin cambios hasta el gran asedio árabe de Constantinopla que enfrentaría su sucesor León III."
+      }
     },
     {
       "periodo": "717–741 d.C.",
       "nombre": "León III \"el Isaurio\"",
       "texto": "Fundador de la dinastía isáurica, repelió el segundo gran asedio árabe a Constantinopla (717–718), salvando al imperio de una posible extinción. En el 726 inició la política de iconoclasia, prohibiendo el culto a las imágenes sagradas, lo que dividió profundamente a la sociedad bizantina.",
-      "imagen": "assets/img/retratos/retrato-72.jpg"
+      "imagen": "assets/img/retratos/retrato-72.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-741.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para el inicio del reinado de León III (717); se usa como referencia el territorio hacia el 741 d.C. (el final de su reinado, con Constantino V ya en el trono), el más cercano disponible: Anatolia y los Balcanes como núcleo del imperio tras repeler el gran asedio árabe de Constantinopla del 717–718."
+      }
     },
     {
       "periodo": "741–775 d.C.",
@@ -7932,25 +7957,45 @@ window.ROMA_DATA = {
       "periodo": "811 d.C.",
       "nombre": "Estauracio",
       "texto": "Hijo de Nicéforo I, resultó gravemente herido en la misma batalla donde murió su padre. Gobernó apenas unos meses desde su lecho antes de ser presionado a abdicar por su cuñado Miguel Rangabé, muriendo poco después.",
-      "imagen": "assets/img/retratos/retrato-78.jpg"
+      "imagen": "assets/img/retratos/retrato-78.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-802.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para el brevísimo reinado de Estauracio (811); se usa como referencia el territorio hacia el 802 d.C., heredado de su padre Nicéforo I, el más cercano disponible."
+      }
     },
     {
       "periodo": "811–813 d.C.",
       "nombre": "Miguel I Rangabé",
       "texto": "Cuñado de Estauracio, gobernó con marcada piedad religiosa pero escaso talento militar. Sufrió una humillante derrota ante los búlgaros de Krum en Versínicia, lo que precipitó su abdicación y retiro a un monasterio.",
-      "imagen": "assets/img/retratos/retrato-79.jpg"
+      "imagen": "assets/img/retratos/retrato-79.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-802.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para Miguel I Rangabé (811–813); se usa como referencia el territorio hacia el 802 d.C., el más cercano disponible: Anatolia y los Balcanes como núcleo del imperio, presionado por los búlgaros de Krum."
+      }
     },
     {
       "periodo": "813–820 d.C.",
       "nombre": "León V \"el Armenio\"",
       "texto": "General que asumió el trono tras la derrota de Miguel I y logró rechazar el asedio búlgaro de Krum sobre Constantinopla. Reintrodujo la política iconoclasta, argumentando que los emperadores iconódulos habían tenido reinados desastrosos. Fue asesinado en la iglesia de Santa Sofía durante la misa de Navidad.",
-      "imagen": "assets/img/retratos/retrato-80.jpg"
+      "imagen": "assets/img/retratos/retrato-80.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-802.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para León V (813–820); se usa como referencia el territorio hacia el 802 d.C., el más cercano disponible, sin grandes cambios territoriales pese a la reintroducción de la iconoclasia."
+      }
     },
     {
       "periodo": "820–829 d.C.",
       "nombre": "Miguel II \"el Tartamudo\"",
       "texto": "Fundador de la dinastía amoriana, enfrentó la gran revuelta de Tomás el Eslavo, que llegó a sitiar Constantinopla. Durante su reinado el imperio perdió Creta a manos de piratas andalusíes y comenzó la conquista árabe de Sicilia.",
-      "imagen": "assets/img/retratos/retrato-81.jpg"
+      "imagen": "assets/img/retratos/retrato-81.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-829.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para el inicio del reinado de Miguel II (820); se usa como referencia el territorio hacia el 829 d.C. (el final de su reinado, con Teófilo ya en el trono), el más cercano disponible: Anatolia y los Balcanes como núcleo, con la conquista árabe de Sicilia y Creta ya en marcha."
+      }
     },
     {
       "periodo": "829–842 d.C.",
@@ -7989,7 +8034,12 @@ window.ROMA_DATA = {
       "periodo": "886–912 d.C.",
       "nombre": "León VI \"el Sabio\"",
       "texto": "Erudito y legislador, completó la gran compilación legal conocida como las Basílicas. Su reinado sufrió el catastrófico saqueo árabe de Tesalónica (904) y una guerra con Bulgaria bajo el zar Simeón I. Su cuarto matrimonio, contraído para asegurar un heredero varón, generó un escándalo eclesiástico.",
-      "imagen": "assets/img/retratos/retrato-85.jpg"
+      "imagen": "assets/img/retratos/retrato-85.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-867.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para León VI (886–912); se usa como referencia el territorio hacia el 867 d.C., el más cercano disponible: Anatolia y los Balcanes como núcleo del imperio, con Sicilia cada vez más disputada frente a los árabes."
+      }
     },
     {
       "periodo": "912–913 d.C.",
@@ -8006,7 +8056,12 @@ window.ROMA_DATA = {
       "periodo": "913–959 d.C.",
       "nombre": "Constantino VII \"Porfirogéneta\"",
       "texto": "Pasó gran parte de su reinado eclipsado por corregentes, en especial el hábil almirante Romano I Lecapeno (920–944), su suegro. Más estudioso que gobernante, escribió tratados sobre administración, ceremonial y los pueblos vecinos, entre ellos el 'De Administrando Imperio', valiosa fuente histórica.",
-      "imagen": "assets/img/retratos/retrato-87.jpg"
+      "imagen": "assets/img/retratos/retrato-87.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-912.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para el largo reinado de Constantino VII (913–959); se usa como referencia el territorio hacia el 912 d.C., el más cercano disponible, correspondiente al inicio de su reinado bajo la regencia de su tío Alejandro."
+      }
     },
     {
       "periodo": "959–963 d.C.",
@@ -8034,7 +8089,12 @@ window.ROMA_DATA = {
       "periodo": "969–976 d.C.",
       "nombre": "Juan I Tzimisces",
       "texto": "Brillante general que llegó al trono tras asesinar a Nicéforo II. Derrotó al príncipe ruso Sviatoslav en Bulgaria y llevó las armas bizantinas hasta las puertas de Jerusalén contra los musulmanes. Murió repentinamente, quizás envenenado.",
-      "imagen": "assets/img/retratos/retrato-90.jpg"
+      "imagen": "assets/img/retratos/retrato-90.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-963.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para Juan I Tzimisces (969–976); se usa como referencia el territorio hacia el 963 d.C., el más cercano disponible, aunque durante su reinado el imperio siguió expandiéndose en Siria y los Balcanes tras derrotar a los rusos de Sviatoslav."
+      }
     },
     {
       "periodo": "976–1025 d.C.",
@@ -8103,25 +8163,45 @@ window.ROMA_DATA = {
       "periodo": "1056–1057 d.C.",
       "nombre": "Miguel VI",
       "texto": "Anciano funcionario elegido por Teodora, su desprecio hacia los generales del ejército de Asia Menor provocó una rebelión encabezada por Isaac Comneno. Abdicó tras ser derrotado, dando paso a una nueva dinastía militar.",
-      "imagen": "assets/img/retratos/retrato-99.jpg"
+      "imagen": "assets/img/retratos/retrato-99.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-1055.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para el brevísimo reinado de Miguel VI (1056–1057); se usa como referencia el territorio hacia el 1055 d.C., heredado de la dinastía macedonia, el más cercano disponible."
+      }
     },
     {
       "periodo": "1057–1059 d.C.",
       "nombre": "Isaac I Comneno",
       "texto": "General que encabezó la revuelta que derrocó a Miguel VI, fundó brevemente la dinastía Comnena. Intentó reformas fiscales y militares, pero enfermó gravemente y abdicó a favor de Constantino Ducas, retirándose a un monasterio.",
-      "imagen": "assets/img/retratos/retrato-100.jpg"
+      "imagen": "assets/img/retratos/retrato-100.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-1055.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para Isaac I Comneno (1057–1059); se usa como referencia el territorio hacia el 1055 d.C., el más cercano disponible, sin grandes cambios territoriales durante su breve reinado."
+      }
     },
     {
       "periodo": "1059–1067 d.C.",
       "nombre": "Constantino X Ducas",
       "texto": "Favoreció a la aristocracia civil y burocrática de Constantinopla en detrimento del ejército, reduciendo el gasto militar en un momento crítico. Durante su reinado los turcos selyúcidas y los normandos comenzaron a presionar seriamente las fronteras orientales e italianas.",
-      "imagen": "assets/img/retratos/retrato-101.jpg"
+      "imagen": "assets/img/retratos/retrato-101.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-1055.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para Constantino X Ducas (1059–1067); se usa como referencia el territorio hacia el 1055 d.C., el más cercano disponible, aunque hacia el final de su reinado ya empezaban a sentirse las presiones normandas y selyúcidas."
+      }
     },
     {
       "periodo": "1068–1071 d.C.",
       "nombre": "Romano IV Diógenes",
       "texto": "General elevado al trono por matrimonio con la viuda de Constantino X para enfrentar la amenaza selyúcida. Sufrió una catastrófica derrota y captura en la batalla de Manzikert (1071) frente al sultán Alp Arslan, desastre que abrió Anatolia a la colonización turca de forma irreversible.",
-      "imagen": "assets/img/retratos/retrato-102.jpg"
+      "imagen": "assets/img/retratos/retrato-102.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-1071.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El territorio bizantino hacia el 1071 d.C., año de la catastrófica derrota de Romano IV Diógenes en Manzikert, que abrió Anatolia a la colonización turca de forma irreversible. Se usa como referencia por no haber un mapa específico para el inicio de su reinado (1068)."
+      }
     },
     {
       "periodo": "1071–1078 d.C.",
@@ -8149,7 +8229,12 @@ window.ROMA_DATA = {
       "periodo": "1081–1118 d.C.",
       "nombre": "Alejo I Comneno",
       "texto": "Fundador de la restauración comnena, estabilizó un imperio al borde del colapso frente a normandos, pechenegos y turcos. Solicitó ayuda militar a Occidente, lo que derivó en la Primera Cruzada (1096), de resultados ambiguos para Bizancio. Reorganizó el sistema de tenencia de tierras y consolidó una nueva aristocracia militar.",
-      "imagen": "assets/img/retratos/retrato-105.jpg"
+      "imagen": "assets/img/retratos/retrato-105.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-1078.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para el inicio del reinado de Alejo I Comneno (1081); se usa como referencia el territorio hacia el 1078 d.C., el más cercano disponible: un imperio en crisis territorial tras Manzikert, que Alejo I lograría estabilizar frente a normandos, pechenegos y turcos."
+      }
     },
     {
       "periodo": "1118–1143 d.C.",
@@ -8166,19 +8251,34 @@ window.ROMA_DATA = {
       "periodo": "1143–1180 d.C.",
       "nombre": "Manuel I Comneno",
       "texto": "Ambicioso emperador que intervino activamente en Italia, Egipto y las Cruzadas, buscando restaurar la influencia bizantina en el Mediterráneo. Sufrió una severa derrota frente a los turcos selyúcidas en Miriocéfalo (1176), que marcó el fin de las esperanzas de reconquistar el interior de Anatolia.",
-      "imagen": "assets/img/retratos/retrato-107.jpg"
+      "imagen": "assets/img/retratos/retrato-107.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-1118.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para el reinado de Manuel I Comneno (1143–1180); se usa como referencia el territorio hacia el 1118 d.C., el más cercano disponible, aunque su costosa política exterior en Italia, Egipto y Oriente y la derrota de Miriocéfalo (1176) reducirían de hecho el control efectivo sobre Anatolia hacia el final de su reinado."
+      }
     },
     {
       "periodo": "1180–1183 d.C.",
       "nombre": "Alejo II Comneno",
       "texto": "Ascendió al trono siendo niño bajo la regencia de su madre, la princesa francesa María de Antioquía, cuyo favoritismo hacia los latinos generó fuerte resentimiento popular. Fue depuesto y asesinado por su tío Andrónico I.",
-      "imagen": "assets/img/retratos/retrato-108.jpg"
+      "imagen": "assets/img/retratos/retrato-108.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-1185.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para Alejo II Comneno (1180–1183); se usa como referencia el territorio hacia el 1185 d.C., el más cercano disponible."
+      }
     },
     {
       "periodo": "1183–1185 d.C.",
       "nombre": "Andrónico I Comneno",
       "texto": "Último emperador comneno, llegó al poder tras masacrar a los residentes latinos de Constantinopla y ejecutar a su sobrino Alejo II. Su gobierno de terror contra la aristocracia provocó una revuelta popular; fue capturado, torturado y linchado por la turba en el hipódromo.",
-      "imagen": "assets/img/retratos/retrato-109.jpg"
+      "imagen": "assets/img/retratos/retrato-109.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-1185.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para Andrónico I Comneno (1183–1185); se usa como referencia el territorio hacia el 1185 d.C. (el inicio del reinado de su sucesor Isaac II), el más cercano disponible."
+      }
     },
     {
       "periodo": "1185–1195 y 1203–1204 d.C.",
@@ -8251,7 +8351,12 @@ window.ROMA_DATA = {
       "periodo": "1258–1261 d.C.",
       "nombre": "Juan IV Láscaris",
       "texto": "Ascendió al trono siendo un niño bajo la regencia y luego corregencia de Miguel Paleólogo, quien terminó usurpando el poder por completo. Tras la reconquista de Constantinopla, Miguel VIII ordenó cegarlo para eliminarlo como rival, un acto que le valió la excomunión del patriarca.",
-      "imagen": "assets/img/retratos/retrato-117.jpg"
+      "imagen": "assets/img/retratos/retrato-117.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-1254.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para Juan IV Láscaris (1258–1261); se usa como referencia el territorio niceno hacia el 1254 d.C., heredado de su abuelo Juan III Vatatzés, justo antes de la reconquista de Constantinopla por su regente y luego usurpador Miguel VIII en 1261."
+      }
     },
     {
       "periodo": "1259–1282 d.C.",
@@ -8268,7 +8373,12 @@ window.ROMA_DATA = {
       "periodo": "1282–1328 d.C.",
       "nombre": "Andrónico II Paleólogo",
       "texto": "Repudió la unión con Roma y descuidó el poderío naval y militar del imperio, debilitando sus defensas. Contrató a la Compañía Catalana de mercenarios para luchar contra los turcos, pero un conflicto de pagos los convirtió en enemigos que devastaron Tracia y Grecia. Fue depuesto por su propio nieto tras una guerra civil.",
-      "imagen": "assets/img/retratos/retrato-119.jpg"
+      "imagen": "assets/img/retratos/retrato-119.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-1261.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para Andrónico II Paleólogo (1282–1328); se usa como referencia el territorio hacia el 1261 d.C., el más cercano disponible, heredado de la reconquista de Constantinopla por su padre Miguel VIII. Durante su largo reinado el imperio perdería buena parte de Anatolia frente a los turcos otomanos, cambio que este mapa de referencia no refleja."
+      }
     },
     {
       "periodo": "1328–1341 d.C.",
@@ -8318,13 +8428,23 @@ window.ROMA_DATA = {
       "periodo": "1390 d.C.",
       "nombre": "Juan VII Paleólogo",
       "texto": "Nieto de Juan V, protagonizó un fugaz golpe de estado contra su abuelo con apoyo genovés y otomano, gobernando apenas unos meses antes de ser desplazado nuevamente.",
-      "imagen": "assets/img/retratos/retrato-124.jpg"
+      "imagen": "assets/img/retratos/retrato-124.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-1376.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para el fugaz golpe de Juan VII Paleólogo (1390); se usa como referencia el territorio hacia el 1376 d.C., el más cercano disponible: un imperio ya reducido a Constantinopla y pocas plazas fuertes, semivasallo otomano."
+      }
     },
     {
       "periodo": "1391–1425 d.C.",
       "nombre": "Manuel II Paleólogo",
       "texto": "Gobernó un imperio reducido prácticamente a Constantinopla y algunas posesiones aisladas, vasallo de los sultanes otomanos. Viajó personalmente por Europa occidental buscando apoyo militar contra el avance otomano, sin obtener ayuda sustancial. La derrota otomana ante Tamerlán en Ankara (1402) le dio al imperio un respiro temporal.",
-      "imagen": "assets/img/retratos/retrato-125.jpg"
+      "imagen": "assets/img/retratos/retrato-125.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-1376.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "No hay un mapa específico para Manuel II Paleólogo (1391–1425); se usa como referencia el territorio hacia el 1376 d.C., el más cercano disponible: un imperio ya reducido a Constantinopla y pocas posesiones aisladas, vasallo de los sultanes otomanos."
+      }
     },
     {
       "periodo": "1425–1448 d.C.",
