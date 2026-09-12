@@ -1,7 +1,7 @@
 # Fase 10 — Buscador de reyes/emperadores en todas las eras + mapas por emperador en Occidente
 
 **Fecha:** 2026-09-11
-**Commit (pusheado a `origin/master`):** `78f1a34`
+**Commits (pusheados a `origin/master`):** `78f1a34`, `b503d24`
 
 ## Punto de partida
 
@@ -75,7 +75,7 @@ emperador. Cache-busting en `?v=91`.
 
 ## Estado al cerrar
 
-Todo commiteado (un solo commit, `78f1a34`) y pusheado a `origin/master`. Working tree
+Todo commiteado (`78f1a34` + fix `b503d24`) y pusheado a `origin/master`. Working tree
 limpio.
 
 - Buscador por nombre disponible en las 5 eras.
@@ -86,9 +86,14 @@ limpio.
 
 ## Pendiente / próximos pasos
 
+- **Próxima sesión: hacer con Imperio Bizantino lo mismo que con Occidente** — mapas
+  específicos por emperador vía `mapaEspecial`, siguiendo el mismo patrón (el usuario lo
+  pidió explícitamente al cerrar). Hoy Bizantino (395–1453 d.C., ~79 entradas) solo tiene
+  el buscador nuevo; el mapa sigue viniendo 100% de `HITOS_BIZANTINO` en `js/mapas.js`
+  (4 rangos muy amplios: 395–526, 527–716, 717–1203, 1204–1453). Revisar `assets/` por si
+  el usuario ya subió mapas sueltos ahí (es el patrón que usó toda esta fase, en vez de
+  decir el nombre del archivo) antes de preguntar qué años cubren.
 - Si el usuario sube más mapas sueltos a `assets/` (fuera de `assets/img/`), revisar ahí
   primero — es el patrón que usó toda esta fase en vez de decir el nombre del archivo.
 - Constancio III y Valentiniano III podrían recibir mapas propios más precisos si en
-  algún momento aparecen (hoy comparten el genérico de la división de 395).
-- Mismo tipo de mapas por gobernante podría extenderse a Bizantino si el usuario lo pide
-  (hoy Bizantino solo tiene el buscador nuevo, no mapas por emperador).
+  algún momento aparecen (hoy comparten el mapa de referencia de 423).
