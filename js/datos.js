@@ -7206,7 +7206,7 @@ window.ROMA_DATA = {
       "texto": "Comenzó con gran popularidad pero derivó, según la tradición, en un gobierno errático y cruel, con gastos desmedidos y crueldad hacia el Senado. Fue asesinado por su propia Guardia Pretoriana.",
       "imagen": "assets/img/retratos/retrato-16.jpg",
       "mapaEspecial": {
-        "url": "assets/img/SPQR Tiberio.png",
+        "url": "assets/img/SPQR Augusto.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bajo Tiberio (14–37 d.C.), heredado prácticamente sin cambios de Augusto: las mismas fronteras que su predecesor, consolidadas sin nuevas conquistas. Britania sigue fuera del dominio romano."
       }
@@ -7217,7 +7217,7 @@ window.ROMA_DATA = {
       "texto": "Tío de Calígula, llegó al poder inesperadamente. Inició la conquista de Britania (43 d.C.), expandió la burocracia imperial y construyó el puerto de Ostia. Murió posiblemente envenenado por su esposa Agripina en favor de Nerón.",
       "imagen": "assets/img/retratos/retrato-17.jpg",
       "mapaEspecial": {
-        "url": "assets/img/SPQR Tiberio.png",
+        "url": "assets/img/SPQR Augusto.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bajo Calígula (37–41 d.C.), con las mismas fronteras heredadas de Tiberio y Augusto: su breve y errático reinado no trajo cambios territoriales."
       }
@@ -7294,9 +7294,9 @@ window.ROMA_DATA = {
       "texto": "Gobernó de forma autoritaria, en conflicto creciente con el Senado. Llevó campañas en Germania y Dacia. Fue asesinado en una conspiración palaciega en el 96 d.C.",
       "imagen": "assets/img/retratos/retrato-21.jpg",
       "mapaEspecial": {
-        "url": "assets/img/SPQR Neron.png",
+        "url": "assets/img/SPQR Tito.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Tito (79–81 d.C.), sin cambios de fronteras respecto a su padre Vespasiano."
+        "caption": "El Imperio bajo Tito (79–81 d.C.), heredado sin cambios territoriales de su padre Vespasiano: su breve reinado, marcado por la erupción del Vesubio y la inauguración del Coliseo, no trajo modificaciones de fronteras."
       }
     },
     {
@@ -7371,7 +7371,7 @@ window.ROMA_DATA = {
       "texto": "Prefecto de la Ciudad, elevado al trono por los pretorianos tras el asesinato de Cómodo. Intentó restaurar la disciplina militar y sanear las finanzas, pero su rigor le enemistó con la Guardia, que lo asesinó a los tres meses.",
       "imagen": "assets/img/retratos/retrato-143.jpg",
       "mapaEspecial": {
-        "url": "assets/img/SPQR Comodo.png",
+        "url": "assets/img/SPQR Marco Aurelio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bajo Cómodo (180–192 d.C.), con las fronteras estables del Alto Imperio, prácticamente sin cambios respecto a la época de Adriano y Marco Aurelio."
       }
@@ -7382,7 +7382,7 @@ window.ROMA_DATA = {
       "texto": "Senador acaudalado que 'compró' el trono en una subasta de la Guardia Pretoriana tras la muerte de Pértinax. Sin apoyo del pueblo ni del ejército, el Senado lo condenó y fue ejecutado al acercarse Septimio Severo a Roma, tras nueve semanas de reinado.",
       "imagen": "assets/img/retratos/retrato-144.jpg",
       "mapaEspecial": {
-        "url": "assets/img/SPQR Comodo.png",
+        "url": "assets/img/SPQR Marco Aurelio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bajo Pértinax (193 d.C.), sin cambios territoriales respecto a Cómodo, durante su brevísimo reinado de tres meses."
       }
@@ -7393,7 +7393,7 @@ window.ROMA_DATA = {
       "texto": "Gobernador de Siria proclamado emperador por las legiones de Oriente. Fue derrotado por Septimio Severo en la batalla de Issos (194 d.C.) y ejecutado cuando huía hacia el Éufrates.",
       "imagen": "assets/img/retratos/retrato-145.jpg",
       "mapaEspecial": {
-        "url": "assets/img/SPQR Comodo.png",
+        "url": "assets/img/SPQR Marco Aurelio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bajo Didio Juliano (193 d.C.), con las mismas fronteras heredadas de la dinastía Antonina, durante su reinado de apenas nueve semanas."
       }
@@ -7404,7 +7404,7 @@ window.ROMA_DATA = {
       "texto": "Gobernador de Britania, reconocido al principio como César por Septimio Severo. Al romper con él, cruzó a la Galia y fue derrotado y muerto en la batalla de Lugdunum (197 d.C.), el mayor choque entre ejércitos romanos hasta entonces.",
       "imagen": "assets/img/retratos/retrato-146.jpg",
       "mapaEspecial": {
-        "url": "assets/img/SPQR Comodo.png",
+        "url": "assets/img/SPQR Marco Aurelio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bajo Pescenio Níger (193–194 d.C.), pretendiente oriental en la guerra civil del 193, sin cambios de fronteras respecto a sus predecesores."
       }
@@ -7415,7 +7415,7 @@ window.ROMA_DATA = {
       "texto": "De origen norteafricano, reforzó el poder militar del emperador sobre el Senado, aumentando el sueldo de las legiones. Llevó campañas en Partia y Britania, donde murió en York.",
       "imagen": "assets/img/retratos/retrato-28.jpg",
       "mapaEspecial": {
-        "url": "assets/img/SPQR Comodo.png",
+        "url": "assets/img/SPQR Marco Aurelio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bajo Clodio Albino (193–197 d.C.), pretendiente occidental en la guerra civil del 193, con las fronteras aún intactas del Alto Imperio."
       }
@@ -7426,7 +7426,7 @@ window.ROMA_DATA = {
       "texto": "Gobernó junto a su hermano Geta, a quien mandó asesinar. Se le recuerda por la Constitutio Antoniniana (212 d.C.), que otorgó la ciudadanía romana a casi todos los habitantes libres del Imperio. Fue asesinado por un oficial de su guardia.",
       "imagen": "assets/img/retratos/retrato-29.jpg",
       "mapaEspecial": {
-        "url": "assets/img/SPQR Comodo.png",
+        "url": "assets/img/SPQR Marco Aurelio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bajo Septimio Severo (193–211 d.C.), que reforzó el poder militar del emperador sin alterar sustancialmente las fronteras heredadas de los Antoninos."
       }
@@ -7437,7 +7437,7 @@ window.ROMA_DATA = {
       "texto": "Joven emperador sirio de comportamiento extravagante, que intentó imponer un culto solar sirio por encima de las divinidades romanas. Fue asesinado, junto a su madre, por la Guardia Pretoriana.",
       "imagen": "assets/img/retratos/retrato-30.jpg",
       "mapaEspecial": {
-        "url": "assets/img/SPQR Comodo.png",
+        "url": "assets/img/SPQR Marco Aurelio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bajo Caracalla (211–217 d.C.), con las mismas fronteras del Alto Imperio, poco antes de que la Crisis del Siglo III comenzara a gestarse."
       }
@@ -7791,7 +7791,7 @@ window.ROMA_DATA = {
       "texto": "Primer emperador exclusivo de Occidente tras la división del 395, dominado sucesivamente por sus generales Estilicón y Constancio. Durante su reinado, Roma fue saqueada por Alarico y los visigodos en el 410, primera vez en 800 años que la ciudad caía ante un enemigo extranjero. El control efectivo de Britania se perdió definitivamente.",
       "imagen": "assets/img/retratos/retrato-37.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-395-division.png",
+        "url": "assets/img/occidente-395-division-Honorio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "División administrativa del Imperio Romano en el 395 d.C., al asumir Honorio el trono de Occidente (rojo): Britania, la Galia, Hispania, Italia y el norte de África, frente al Imperio de Oriente (azul). Las fronteras reales fueron cambiando con las invasiones germánicas de las décadas siguientes."
       }
@@ -7802,7 +7802,7 @@ window.ROMA_DATA = {
       "texto": "General que había derrotado a varios usurpadores y estabilizado las fronteras, fue elevado a co-emperador por Honorio como recompensa y por su matrimonio con Gala Placidia, hermana del emperador. Murió repentinamente apenas siete meses después de su ascenso.",
       "imagen": "assets/img/retratos/retrato-38.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-423.png",
+        "url": "assets/img/occidente-423-Constancio III.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio de Occidente hacia el 423 d.C.: Britania ya está perdida, pero el resto del territorio (Galia, Hispania, Italia, Dalmacia y las islas) se mantiene bajo control romano. No hay un mapa verificado específico para el breve reinado de Constancio III (421); se usa este, el más cercano en el tiempo."
       }
@@ -7813,7 +7813,7 @@ window.ROMA_DATA = {
       "texto": "Hijo de Gala Placidia, ascendió siendo niño bajo la regencia de su madre y luego dependió del general Flavio Aecio, quien detuvo a Atila y los hunos en los Campos Cataláunicos (451). Asesinó personalmente a Aecio por celos de su poder, y fue asesinado a su vez por partidarios del general poco después.",
       "imagen": "assets/img/retratos/retrato-39.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-423.png",
+        "url": "assets/img/occidente-423-Constancio III.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio de Occidente hacia el 423 d.C.: Britania ya está perdida, pero el resto del territorio (Galia, Hispania, Italia, Dalmacia y las islas) se mantiene bajo control romano. Se usa como referencia por falta de un mapa verificado específico para el reinado de Valentiniano III (425–455): hacia el final ya se había perdido también buena parte de Hispania frente a vándalos y suevos."
       }
@@ -7824,7 +7824,7 @@ window.ROMA_DATA = {
       "texto": "Aristócrata que instigó el asesinato de Valentiniano III y usurpó el trono casándose a la fuerza con su viuda. Su reinado duró apenas semanas: intentó huir de Roma ante la llegada de los vándalos de Genserico y fue linchado por la multitud antes del segundo gran saqueo de la ciudad.",
       "imagen": "assets/img/retratos/retrato-40.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-395-division.png",
+        "url": "assets/img/occidente-395-division-Honorio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "División administrativa del Imperio Romano en el 395 d.C., al asumir Honorio el trono de Occidente (rojo): Britania, la Galia, Hispania, Italia y el norte de África, frente al Imperio de Oriente (azul). Las fronteras reales fueron cambiando con las invasiones germánicas de las décadas siguientes."
       }
@@ -7835,7 +7835,7 @@ window.ROMA_DATA = {
       "texto": "Aristócrata galo elevado al trono con el respaldo de los visigodos de Tolosa. Su falta de apoyo en Italia y su dependencia de tropas godas le generaron el rechazo del Senado romano; fue depuesto por el general Ricimero, quien a partir de entonces se convertiría en el verdadero árbitro del poder en Occidente.",
       "imagen": "assets/img/retratos/retrato-41.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-455.png",
+        "url": "assets/img/occidente-455-Valentiniano III.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio de Occidente en el 455 d.C.: aún conserva el sur de la Galia, parte de Hispania, Italia, Dalmacia y las islas de Córcega, Cerdeña y Sicilia, justo antes del saqueo vándalo de Roma."
       }
@@ -7846,7 +7846,7 @@ window.ROMA_DATA = {
       "texto": "Considerado el último emperador occidental capaz de intentar una recuperación real del imperio, reorganizó el ejército y preparó una campaña para reconquistar el norte de África vándalo, que fracasó al ser destruida su flota. El general Ricimero, que lo había impuesto, terminó depuesto y ejecutándolo.",
       "imagen": "assets/img/retratos/retrato-42.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-456.png",
+        "url": "assets/img/occidente-456-Avito.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio de Occidente hacia el 456 d.C.: tras el saqueo de Roma por Genserico, los vándalos se apoderan de Córcega, Cerdeña y Sicilia, que dejan de estar bajo control romano."
       }
@@ -7868,7 +7868,7 @@ window.ROMA_DATA = {
       "texto": "General de origen griego, impuesto con el respaldo del emperador de Oriente León I para intentar restaurar la cooperación entre ambas mitades del imperio. Organizó junto a Oriente una gran expedición naval contra los vándalos que terminó en desastre. Entró en conflicto con Ricimero, que finalmente lo asedió en Roma, lo depuso y ejecutó.",
       "imagen": "assets/img/retratos/retrato-44.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-461.png",
+        "url": "assets/img/occidente-461-Mayoriano.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa verificado específico para el reinado de Antemio (467–472); se usa como referencia el territorio hacia el 461 d.C., el más cercano disponible: Italia, Dalmacia, una franja del sur de la Galia y buena parte de Hispania."
       }
@@ -7879,7 +7879,7 @@ window.ROMA_DATA = {
       "texto": "Impuesto por Ricimero durante el asedio a Antemio, apenas gobernó unos meses antes de morir de causas naturales. Su breve reinado coincidió con la muerte del propio Ricimero, dejando un vacío de poder que sus sucesores, los generales germanos, ocuparían de inmediato.",
       "imagen": "assets/img/retratos/retrato-45.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-461.png",
+        "url": "assets/img/occidente-461-Mayoriano.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa verificado específico para el breve reinado de Olibrio (472); se usa como referencia el territorio hacia el 461 d.C., el más cercano disponible: Italia, Dalmacia, una franja del sur de la Galia y buena parte de Hispania."
       }
@@ -7890,7 +7890,7 @@ window.ROMA_DATA = {
       "texto": "Elevado al trono por el general germano Gundobado, sobrino de Ricimero, sin reconocimiento del Imperio de Oriente. Fue depuesto sin violencia por Julio Nepote, enviado desde Constantinopla con el respaldo oriental, y terminó su vida como obispo.",
       "imagen": "assets/img/retratos/retrato-46.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-461.png",
+        "url": "assets/img/occidente-461-Mayoriano.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa verificado específico para el reinado de Glicerio (473–474); se usa como referencia el territorio hacia el 461 d.C., el más cercano disponible: Italia, Dalmacia, una franja del sur de la Galia y buena parte de Hispania."
       }
@@ -7901,7 +7901,7 @@ window.ROMA_DATA = {
       "texto": "Impuesto por el Imperio de Oriente, gobernó apenas un año en Italia antes de ser depuesto por su propio magister militum, Orestes, quien coronó a su hijo Rómulo Augústulo. Nepote continuó reclamando el título imperial desde Dalmacia hasta su asesinato en el 480, por lo que algunos historiadores lo consideran el último emperador legítimo de Occidente.",
       "imagen": "assets/img/retratos/retrato-47.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-461.png",
+        "url": "assets/img/occidente-461-Mayoriano.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio de Occidente en el 461 d.C.: Mayoriano había recuperado el control de buena parte de Hispania antes de morir, pero la Galia se reduce a una estrecha franja costera ante el avance del reino visigodo de Tolosa."
       }
@@ -7912,7 +7912,7 @@ window.ROMA_DATA = {
       "texto": "Colocado en el trono por su padre Orestes siendo apenas un adolescente, nunca fue reconocido por Constantinopla. En el 476, el general germano Odoacro depuso a Orestes y obligó a Rómulo Augústulo a abdicar, enviando las insignias imperiales a Constantinopla. Su caída marca tradicionalmente el fin del Imperio Romano de Occidente.",
       "imagen": "assets/img/retratos/retrato-48.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-474.png",
+        "url": "assets/img/occidente-474-Glicerio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio de Occidente en el 474 d.C., bajo Julio Nepote: reducido prácticamente a Italia y Dalmacia, tras la pérdida definitiva de la Galia e Hispania frente a los visigodos de Eurico."
       }
@@ -7925,7 +7925,7 @@ window.ROMA_DATA = {
       "texto": "Hijo mayor de Teodosio I, primer emperador exclusivo de Oriente tras la división del 395. Gobernó bajo la fuerte influencia de sus ministros, en especial el prefecto Rufino y el eunuco Eutropio. Enfrentó la revuelta del godo Gainas y consolidó Constantinopla como sede permanente del poder oriental.",
       "imagen": "assets/img/retratos/retrato-49.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-395-division.png",
+        "url": "assets/img/occidente-395-division-Honorio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "División administrativa del Imperio Romano en el 395 d.C., al asumir Arcadio el trono de Oriente (azul): Tracia, Asia Menor, Siria, Egipto y los Balcanes, frente al Imperio de Occidente (rojo). Es la misma imagen usada para Honorio en Occidente, ya que muestra el reparto que separó definitivamente ambas mitades del imperio."
       }
@@ -7936,7 +7936,7 @@ window.ROMA_DATA = {
       "texto": "Subió al trono siendo niño; su hermana Pulqueria ejerció la regencia efectiva. Mandó construir las murallas Teodosianas, que protegerían Constantinopla durante mil años, y promulgó el Código Teodosiano, primera gran compilación de leyes imperiales cristianas. Pagó tributos a Atila para evitar la guerra con los hunos.",
       "imagen": "assets/img/retratos/retrato-50.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-395-division.png",
+        "url": "assets/img/occidente-395-division-Honorio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "Referencia: no hay un mapa verificado específico para Teodosio II. El territorio de Oriente (azul), heredado de la división del 395, se mantuvo prácticamente intacto durante su reinado; la principal amenaza fueron los tributos pagados a Atila y los hunos, no pérdidas territoriales."
       }
@@ -7947,7 +7947,7 @@ window.ROMA_DATA = {
       "texto": "Elevado al trono por su matrimonio con Pulqueria, se negó a seguir pagando tributo a los hunos. Convocó el Concilio de Calcedonia (451), que definió la doctrina de las dos naturalezas de Cristo y provocó el cisma con las iglesias miafisitas de Egipto y Siria.",
       "imagen": "assets/img/retratos/retrato-51.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-395-division.png",
+        "url": "assets/img/occidente-395-division-Honorio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "Referencia: territorio de Oriente (azul) heredado de la división del 395. Marciano se negó a seguir pagando tributo a los hunos, pero no hubo cambios territoriales significativos durante su breve reinado."
       }
@@ -7958,7 +7958,7 @@ window.ROMA_DATA = {
       "texto": "Primer emperador coronado por el patriarca de Constantinopla, marcando el inicio de esa tradición. Dependió militarmente del general germano Aspar hasta que logró liberarse de su tutela apoyándose en tropas isáuricas. Su costosa expedición naval contra los vándalos de Genserico en el 468 terminó en desastre.",
       "imagen": "assets/img/retratos/retrato-52.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-395-division.png",
+        "url": "assets/img/occidente-395-division-Honorio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "Referencia: territorio de Oriente (azul) heredado de la división del 395. Pese al desastroso ataque naval de León I contra los vándalos en el 468, el territorio propio de Oriente no sufrió pérdidas."
       }
@@ -7969,7 +7969,7 @@ window.ROMA_DATA = {
       "texto": "Nieto de León I, coronado siendo un niño de pocos años y muerto a los pocos meses de reinado, posiblemente por causas naturales. Su padre, el isaurio Zenón, había sido nombrado co-emperador y heredó el trono.",
       "imagen": "assets/img/retratos/retrato-53.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-395-division.png",
+        "url": "assets/img/occidente-395-division-Honorio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "Referencia: territorio de Oriente (azul) heredado de la división del 395. Reinado de apenas unos meses, sin cambios territoriales."
       }
@@ -7980,7 +7980,7 @@ window.ROMA_DATA = {
       "texto": "Isaurio de origen, fue depuesto brevemente por el usurpador Basilisco (475–476) y logró recuperar el trono. Presenció la caída del Imperio de Occidente en el 476, reconociendo nominalmente a Odoacro. Promulgó el Henotikon, un intento de conciliar a monofisitas y calcedonios que profundizó el cisma con Roma.",
       "imagen": "assets/img/retratos/retrato-54.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-395-division.png",
+        "url": "assets/img/occidente-395-division-Honorio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "Referencia: territorio de Oriente (azul) heredado de la división del 395. Zenón presenció la caída de Occidente en el 476, pero el territorio propio de Oriente se mantuvo estable."
       }
@@ -7991,7 +7991,7 @@ window.ROMA_DATA = {
       "texto": "Administrador eficiente que reformó el sistema fiscal, abolió el impuesto chrysargyron y dejó un enorme superávit en el tesoro. Su favoritismo hacia el monofisismo provocó revueltas populares y la rebelión del general Vitaliano. Sentó las bases económicas que Justiniano aprovecharía después.",
       "imagen": "assets/img/retratos/retrato-55.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-395-division.png",
+        "url": "assets/img/occidente-395-division-Honorio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "Referencia: territorio de Oriente (azul) heredado de la división del 395. Anastasio I dejó un enorme superávit fiscal, sin grandes cambios territoriales, sentando las bases económicas que Justiniano aprovecharía después."
       }
@@ -8002,7 +8002,7 @@ window.ROMA_DATA = {
       "texto": "Oficial de origen campesino que llegó a comandante de la guardia palatina y fue proclamado emperador ya anciano y analfabeto. Restauró la comunión con Roma, poniendo fin al Cisma Acaciano. Adoptó a su sobrino Justiniano y lo asoció al trono poco antes de morir.",
       "imagen": "assets/img/retratos/retrato-56.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-395-division.png",
+        "url": "assets/img/occidente-395-division-Honorio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "Referencia: territorio de Oriente (azul) heredado de la división del 395, prácticamente sin cambios hasta las campañas de reconquista de su sobrino y sucesor Justiniano I."
       }
@@ -8025,7 +8025,7 @@ window.ROMA_DATA = {
       "texto": "Elevado al trono como corregente por Justino II durante uno de sus arrebatos de lucidez, gobernó con generosidad hacia el pueblo, lo que vació las arcas heredadas. Continuó la guerra contra Persia y enfrentó las presiones de ávaros y eslavos en los Balcanes.",
       "imagen": "assets/img/retratos/retrato-59.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-395-division.png",
+        "url": "assets/img/occidente-395-division-Honorio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "División administrativa del Imperio Romano en el 395 d.C., al asumir Arcadio el trono de Oriente (azul): Tracia, Asia Menor, Siria, Egipto y los Balcanes, frente al Imperio de Occidente (rojo). Es la misma imagen usada para Honorio en Occidente, ya que muestra el reparto que separó definitivamente ambas mitades del imperio."
       }
@@ -8036,7 +8036,7 @@ window.ROMA_DATA = {
       "texto": "General exitoso que puso fin a la guerra con Persia en términos favorables, restaurando a Cosroes II en el trono persa. Sus reformas militares y económicas, incluidos recortes al ejército del Danubio, provocaron un motín liderado por el centurión Focas, que lo depuso y ejecutó junto a sus hijos.",
       "imagen": "assets/img/retratos/retrato-60.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-578.png",
+        "url": "assets/img/bizantino-578-Justino II.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 578 d.C., al asumir Tiberio II Constantino: se conservan los Balcanes, Anatolia, Italia (con el exarcado de Rávena) y posesiones en el sur de Hispania y el norte de África, aunque los lombardos ya presionaban el norte de Italia y la guerra con Persia consumía recursos."
       }
@@ -8047,7 +8047,7 @@ window.ROMA_DATA = {
       "texto": "Usurpador que llegó al trono tras el motín contra Mauricio, gobernó con terror y purgas sangrientas. Su incompetencia militar permitió que los persas de Cosroes II invadieran Siria y Anatolia. Fue derrocado y ejecutado por Heraclio, quien navegó desde Cartago para deponerlo.",
       "imagen": "assets/img/retratos/retrato-61.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-578.png",
+        "url": "assets/img/bizantino-578-Justino II.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 582 d.C., al asumir Mauricio: mismo territorio heredado de Tiberio II Constantino (Balcanes, Anatolia, Italia y el norte de África), sin cambios significativos hasta que sus reformas militares y los recortes al ejército del Danubio provocaran el motín que terminó con su reinado."
       }
@@ -8058,7 +8058,7 @@ window.ROMA_DATA = {
       "texto": "Enfrentó al imperio en su momento más crítico: los persas ocuparon Egipto, Siria y Jerusalén, llevándose la Vera Cruz. Reorganizó el ejército y lanzó una contraofensiva que derrotó definitivamente a Persia (628). La victoria fue efímera: las conquistas árabes islámicas le arrebataron Siria, Palestina y Egipto en la década de 630. Adoptó el griego como lengua oficial en lugar del latín.",
       "imagen": "assets/img/retratos/retrato-62.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-602.png",
+        "url": "assets/img/bizantino-602-Mauricio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 602 d.C., al usurpar el trono Focas: el territorio se mantiene similar al de décadas anteriores (Balcanes, Anatolia, Italia y el norte de África), pero el abandono de las defensas del Danubio abre la puerta a ávaros y eslavos, y la guerra con Persia se reanuda."
       }
@@ -8069,7 +8069,7 @@ window.ROMA_DATA = {
       "texto": "Hijos de Heraclio de distintos matrimonios, gobernaron brevemente en corregencia tras su muerte. Constantino III falleció al poco tiempo, posiblemente envenenado por instigación de la emperatriz Marina, madre de Heraclonas, lo que generó una crisis sucesoria.",
       "imagen": "assets/img/retratos/retrato-63.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-610.png",
+        "url": "assets/img/bizantino-610-Focas.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 610 d.C., al asumir Heraclio: todavía controla los Balcanes, Anatolia, Italia y el norte de África, justo antes de la gran invasión persa que le arrebataría Egipto, Siria y Palestina en la década siguiente."
       }
@@ -8080,7 +8080,7 @@ window.ROMA_DATA = {
       "texto": "Subió al trono siendo un adolescente tras la caída de Heraclonas. Trasladó su corte a Siracusa, en Sicilia, en un intento de reorganizar la defensa occidental frente al avance árabe por el Mediterráneo. Impulsó una fórmula de compromiso religioso (Typos) que no logró pacificar el debate monotelita. Fue asesinado en su baño por un chambelán.",
       "imagen": "assets/img/retratos/retrato-64.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-641.png",
+        "url": "assets/img/bizantino-641-Heraclio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 641 d.C., tras la muerte de Heraclio: ya perdidos Egipto, Siria y Palestina frente a la conquista árabe islámica, el imperio conserva Anatolia, los Balcanes y posesiones menguantes en Italia y el norte de África."
       }
@@ -8091,7 +8091,7 @@ window.ROMA_DATA = {
       "texto": "Repelió el primer gran asedio árabe a Constantinopla (674–678) gracias al uso del temido fuego griego, un arma incendiaria de fórmula secreta. Convocó el Tercer Concilio de Constantinopla, que condenó el monotelismo y restauró la unidad doctrinal con Roma.",
       "imagen": "assets/img/retratos/retrato-65.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-685.png",
+        "url": "assets/img/bizantino-685-Constantino IV.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para el reinado de Constantino IV (668–685); se usa como referencia el territorio hacia el 685 d.C. (el más cercano disponible, del inicio del reinado de Justiniano II): Anatolia, los Balcanes, Sicilia y el exarcado de Rávena, ya sin Egipto, Siria ni Palestina, perdidos frente a los árabes décadas antes."
       }
@@ -8102,7 +8102,7 @@ window.ROMA_DATA = {
       "texto": "Depuesto en el 695 por Leoncio, sufrió la mutilación de su nariz (de ahí su apodo) y fue exiliado a Crimea. Regresó al poder una década después con apoyo búlgaro y gobernó con una sed de venganza que le costó una segunda y definitiva caída, siendo ejecutado junto a su hijo.",
       "imagen": "assets/img/retratos/retrato-66.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-641.png",
+        "url": "assets/img/bizantino-641-Heraclio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 641 d.C., al asumir Constante II: ya perdidos Egipto, Siria y Palestina frente a la conquista árabe islámica, el imperio conserva Anatolia, los Balcanes y posesiones menguantes en Italia y el norte de África, que seguirían reduciéndose durante su reinado."
       }
@@ -8113,7 +8113,7 @@ window.ROMA_DATA = {
       "texto": "General que depuso y mutiló a Justiniano II, inaugurando el período conocido como la Anarquía de los Veinte Años. Perdió Cartago ante los árabes, lo que provocó un motín naval que lo derrocó a él mismo, siendo mutilado y encerrado en un monasterio.",
       "imagen": "assets/img/retratos/retrato-67.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-685.png",
+        "url": "assets/img/bizantino-685-Constantino IV.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para el breve reinado de Leoncio (695–698); se usa como referencia el territorio hacia el 685 d.C., el más cercano disponible. Durante su reinado el imperio perdió Cartago y el resto del norte de África frente a los árabes, cambio que este mapa de referencia todavía no refleja."
       }
@@ -8124,7 +8124,7 @@ window.ROMA_DATA = {
       "texto": "Almirante que llegó al poder tras el motín contra Leoncio. Reforzó las defensas de Anatolia frente a los árabes, pero fue depuesto y ejecutado cuando Justiniano II regresó del exilio con un ejército búlgaro.",
       "imagen": "assets/img/retratos/retrato-68.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-685.png",
+        "url": "assets/img/bizantino-685-Constantino IV.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 685 d.C., al asumir Justiniano II en su primer reinado: Anatolia, los Balcanes, Sicilia y el exarcado de Rávena bajo control bizantino, con el norte de África (Cartago) todavía en manos romanas por poco tiempo más."
       }
@@ -8135,7 +8135,7 @@ window.ROMA_DATA = {
       "texto": "Oficial de origen armenio que derrocó a Justiniano II con apoyo del ejército del Quersoneso. Reintrodujo el monotelismo, generando tensiones religiosas, y fue depuesto y cegado tras una nueva revuelta militar.",
       "imagen": "assets/img/retratos/retrato-69.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-698.png",
+        "url": "assets/img/bizantino-698-Leoncio.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 698 d.C.: Cartago y el resto del norte de África acaban de perderse definitivamente frente a los árabes, mientras Anatolia, los Balcanes y las posesiones italianas se mantienen."
       }
@@ -8146,7 +8146,7 @@ window.ROMA_DATA = {
       "texto": "Funcionario elevado al trono tras la caída de Filípico, intentó restaurar la ortodoxia calcedonia y reorganizar las defensas ante una inminente ofensiva árabe. Fue depuesto por el ejército de los temas de Opsikion, que impuso a Teodosio III.",
       "imagen": "assets/img/retratos/retrato-70.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-711.png",
+        "url": "assets/img/bizantino-711-Justiniano II.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para el reinado de Anastasio II (713–715); se usa como referencia el territorio hacia el 711 d.C., el más cercano disponible: Anatolia, los Balcanes y una presencia menguante en Italia, ya sin el norte de África."
       }
@@ -8157,7 +8157,7 @@ window.ROMA_DATA = {
       "texto": "Funcionario de bajo rango proclamado emperador casi contra su voluntad por tropas amotinadas. Su breve e inestable reinado terminó cuando abdicó pacíficamente ante el avance del estratego León de los Anatólicos, retirándose a un monasterio.",
       "imagen": "assets/img/retratos/retrato-71.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-711.png",
+        "url": "assets/img/bizantino-711-Justiniano II.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para el breve reinado de Teodosio III (715–717); se usa como referencia el territorio hacia el 711 d.C., el más cercano disponible, prácticamente sin cambios hasta el gran asedio árabe de Constantinopla que enfrentaría su sucesor León III."
       }
@@ -8168,7 +8168,7 @@ window.ROMA_DATA = {
       "texto": "Fundador de la dinastía isáurica, repelió el segundo gran asedio árabe a Constantinopla (717–718), salvando al imperio de una posible extinción. En el 726 inició la política de iconoclasia, prohibiendo el culto a las imágenes sagradas, lo que dividió profundamente a la sociedad bizantina.",
       "imagen": "assets/img/retratos/retrato-72.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-741.png",
+        "url": "assets/img/bizantino-741-Leon III.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para el inicio del reinado de León III (717); se usa como referencia el territorio hacia el 741 d.C. (el final de su reinado, con Constantino V ya en el trono), el más cercano disponible: Anatolia y los Balcanes como núcleo del imperio tras repeler el gran asedio árabe de Constantinopla del 717–718."
       }
@@ -8179,7 +8179,7 @@ window.ROMA_DATA = {
       "texto": "Hábil comandante militar que obtuvo victorias contra árabes y búlgaros, expandiendo las fronteras. Intensificó la persecución iconoclasta, convocando un concilio (754) que condenó el culto a las imágenes. Sus enemigos religiosos posteriores lo apodaron despectivamente 'el Estercolero'.",
       "imagen": "assets/img/retratos/retrato-73.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-711.png",
+        "url": "assets/img/bizantino-711-Justiniano II.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 711 d.C., ya sin el norte de África: el territorio se concentra en Anatolia, los Balcanes y una presencia menguante en Italia (Rávena, Nápoles, Sicilia)."
       }
@@ -8190,7 +8190,7 @@ window.ROMA_DATA = {
       "texto": "Hijo de Constantino V y de una princesa jázara, moderó la persecución iconoclasta respecto a su padre. Su esposa, la ateniense Irene, era secretamente veneradora de íconos, lo que anticipaba el giro religioso que vendría tras su muerte prematura.",
       "imagen": "assets/img/retratos/retrato-74.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-741.png",
+        "url": "assets/img/bizantino-741-Leon III.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 741 d.C., al asumir Constantino V: Anatolia y los Balcanes como núcleo del imperio, con Sicilia y algunas posesiones en el sur de Italia; el exarcado de Rávena caería ante los lombardos una década después (751)."
       }
@@ -8201,7 +8201,7 @@ window.ROMA_DATA = {
       "texto": "Ascendió al trono siendo niño bajo la regencia de su madre Irene, con quien mantuvo una relación de rivalidad por el poder. Al intentar gobernar por su cuenta fue depuesto por orden de su propia madre, quien lo hizo cegar brutalmente, causándole la muerte.",
       "imagen": "assets/img/retratos/retrato-75.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-775.png",
+        "url": "assets/img/bizantino-775-Constantino V.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 775 d.C., tras la pérdida definitiva de Rávena ante los lombardos (751): el territorio italiano se reduce a Sicilia, Nápoles y algunos puntos costeros, mientras Anatolia y los Balcanes siguen como núcleo del imperio."
       }
@@ -8212,7 +8212,7 @@ window.ROMA_DATA = {
       "texto": "Primera mujer en gobernar el imperio como soberana suprema, tras cegar a su hijo Constantino VI. Convocó el Segundo Concilio de Nicea (787), que restauró la veneración de los íconos y puso fin temporalmente a la primera fase de la iconoclasia. Fue depuesta por un golpe palaciego y murió en el exilio.",
       "imagen": "assets/img/retratos/retrato-76.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-780.png",
+        "url": "assets/img/bizantino-780-Leon IV.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 780 d.C.: Anatolia y los Balcanes (presionados por los búlgaros) como núcleo del imperio, con Sicilia y el sur de Italia como únicas posesiones occidentales relevantes."
       }
@@ -8223,7 +8223,7 @@ window.ROMA_DATA = {
       "texto": "Antiguo ministro de finanzas que depuso a Irene, reformó el sistema tributario con medidas muy impopulares. Murió en batalla contra el kan búlgaro Krum en Pliska, quien mandó convertir su cráneo en una copa para beber, según la tradición.",
       "imagen": "assets/img/retratos/retrato-77.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-797.png",
+        "url": "assets/img/bizantino-797-Constantino VI.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 797 d.C., al tomar Irene el poder en solitario: territorio similar al de las décadas anteriores, con Anatolia y los Balcanes como núcleo y Sicilia y el sur de Italia como posesiones occidentales."
       }
@@ -8234,7 +8234,7 @@ window.ROMA_DATA = {
       "texto": "Hijo de Nicéforo I, resultó gravemente herido en la misma batalla donde murió su padre. Gobernó apenas unos meses desde su lecho antes de ser presionado a abdicar por su cuñado Miguel Rangabé, muriendo poco después.",
       "imagen": "assets/img/retratos/retrato-78.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-802.png",
+        "url": "assets/img/bizantino-802-Irene de Atenas.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para el brevísimo reinado de Estauracio (811); se usa como referencia el territorio hacia el 802 d.C., heredado de su padre Nicéforo I, el más cercano disponible."
       }
@@ -8245,7 +8245,7 @@ window.ROMA_DATA = {
       "texto": "Cuñado de Estauracio, gobernó con marcada piedad religiosa pero escaso talento militar. Sufrió una humillante derrota ante los búlgaros de Krum en Versínicia, lo que precipitó su abdicación y retiro a un monasterio.",
       "imagen": "assets/img/retratos/retrato-79.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-802.png",
+        "url": "assets/img/bizantino-802-Irene de Atenas.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para Miguel I Rangabé (811–813); se usa como referencia el territorio hacia el 802 d.C., el más cercano disponible: Anatolia y los Balcanes como núcleo del imperio, presionado por los búlgaros de Krum."
       }
@@ -8256,7 +8256,7 @@ window.ROMA_DATA = {
       "texto": "General que asumió el trono tras la derrota de Miguel I y logró rechazar el asedio búlgaro de Krum sobre Constantinopla. Reintrodujo la política iconoclasta, argumentando que los emperadores iconódulos habían tenido reinados desastrosos. Fue asesinado en la iglesia de Santa Sofía durante la misa de Navidad.",
       "imagen": "assets/img/retratos/retrato-80.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-802.png",
+        "url": "assets/img/bizantino-802-Irene de Atenas.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para León V (813–820); se usa como referencia el territorio hacia el 802 d.C., el más cercano disponible, sin grandes cambios territoriales pese a la reintroducción de la iconoclasia."
       }
@@ -8267,7 +8267,7 @@ window.ROMA_DATA = {
       "texto": "Fundador de la dinastía amoriana, enfrentó la gran revuelta de Tomás el Eslavo, que llegó a sitiar Constantinopla. Durante su reinado el imperio perdió Creta a manos de piratas andalusíes y comenzó la conquista árabe de Sicilia.",
       "imagen": "assets/img/retratos/retrato-81.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-829.png",
+        "url": "assets/img/bizantino-829-Miguel II.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para el inicio del reinado de Miguel II (820); se usa como referencia el territorio hacia el 829 d.C. (el final de su reinado, con Teófilo ya en el trono), el más cercano disponible: Anatolia y los Balcanes como núcleo, con la conquista árabe de Sicilia y Creta ya en marcha."
       }
@@ -8278,7 +8278,7 @@ window.ROMA_DATA = {
       "texto": "Último emperador iconoclasta, conocido por su gusto por la arquitectura y la justicia personal, recorriendo las calles para escuchar quejas del pueblo. Sufrió duras derrotas frente a los árabes abasíes, que saquearon Amorio, ciudad natal de su dinastía.",
       "imagen": "assets/img/retratos/retrato-82.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-802.png",
+        "url": "assets/img/bizantino-802-Irene de Atenas.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 802 d.C., al deponer Nicéforo I a Irene: Anatolia y los Balcanes como núcleo del imperio, con Sicilia y algunas plazas del sur de Italia; la guerra con el kan búlgaro Krum, que le costaría la vida, aún no había estallado."
       }
@@ -8289,7 +8289,7 @@ window.ROMA_DATA = {
       "texto": "Ascendió siendo niño bajo la regencia de su madre Teodora, quien en el 843 restauró definitivamente la veneración de íconos, poniendo fin a la iconoclasia. Ya adulto, gobernó de forma disipada y fue asesinado por su antiguo copero y favorito, Basilio, que fundaría una nueva dinastía.",
       "imagen": "assets/img/retratos/retrato-83.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-829.png",
+        "url": "assets/img/bizantino-829-Miguel II.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 829 d.C., al asumir Teófilo: Anatolia y los Balcanes siguen como núcleo del imperio, aunque ya había comenzado la pérdida de Creta y el inicio de la conquista árabe de Sicilia."
       }
@@ -8300,7 +8300,7 @@ window.ROMA_DATA = {
       "texto": "De origen humilde, ascendió por su cercanía a Miguel III, a quien terminó asesinando para tomar el trono. Fundó la dinastía macedonia, que llevaría al imperio a su época de mayor esplendor. Reorganizó la legislación e inició campañas exitosas contra los paulicianos y en Italia.",
       "imagen": "assets/img/retratos/retrato-84.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-842.png",
+        "url": "assets/img/bizantino-842-Teofilo.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 842 d.C.: territorio similar al de Teófilo, con la conquista árabe de Sicilia ya en marcha y Creta perdida en manos de piratas andalusíes."
       }
@@ -8311,7 +8311,7 @@ window.ROMA_DATA = {
       "texto": "Erudito y legislador, completó la gran compilación legal conocida como las Basílicas. Su reinado sufrió el catastrófico saqueo árabe de Tesalónica (904) y una guerra con Bulgaria bajo el zar Simeón I. Su cuarto matrimonio, contraído para asegurar un heredero varón, generó un escándalo eclesiástico.",
       "imagen": "assets/img/retratos/retrato-85.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-867.png",
+        "url": "assets/img/bizantino-867-Miguel III.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para León VI (886–912); se usa como referencia el territorio hacia el 867 d.C., el más cercano disponible: Anatolia y los Balcanes como núcleo del imperio, con Sicilia cada vez más disputada frente a los árabes."
       }
@@ -8322,7 +8322,7 @@ window.ROMA_DATA = {
       "texto": "Hermano de León VI, gobernó brevemente y de forma poco memorable. Provocó una innecesaria ruptura con Bulgaria al negarse a renovar el tributo a Simeón I, dejando al imperio en una posición vulnerable a su muerte repentina.",
       "imagen": "assets/img/retratos/retrato-86.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-867.png",
+        "url": "assets/img/bizantino-867-Miguel III.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 867 d.C., al fundar Basilio I la dinastía macedonia: Anatolia y los Balcanes como núcleo, con Sicilia cada vez más disputada frente a los árabes y campañas de recuperación en el sur de Italia."
       }
@@ -8333,7 +8333,7 @@ window.ROMA_DATA = {
       "texto": "Pasó gran parte de su reinado eclipsado por corregentes, en especial el hábil almirante Romano I Lecapeno (920–944), su suegro. Más estudioso que gobernante, escribió tratados sobre administración, ceremonial y los pueblos vecinos, entre ellos el 'De Administrando Imperio', valiosa fuente histórica.",
       "imagen": "assets/img/retratos/retrato-87.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-912.png",
+        "url": "assets/img/bizantino-912-Leon VI.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para el largo reinado de Constantino VII (913–959); se usa como referencia el territorio hacia el 912 d.C., el más cercano disponible, correspondiente al inicio de su reinado bajo la regencia de su tío Alejandro."
       }
@@ -8344,7 +8344,7 @@ window.ROMA_DATA = {
       "texto": "Hijo de Constantino VII, delegó buena parte del gobierno en eunucos de la corte mientras se dedicaba al ocio. Su reinado vio la reconquista de Creta a manos árabes gracias al general Nicéforo Focas. Murió joven, posiblemente envenenado por su esposa Teófano.",
       "imagen": "assets/img/retratos/retrato-88.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-912.png",
+        "url": "assets/img/bizantino-912-Leon VI.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 912 d.C.: Anatolia y los Balcanes consolidados como núcleo del imperio bajo la dinastía macedonia, con Sicilia ya perdida casi por completo frente a los árabes."
       }
@@ -8355,7 +8355,7 @@ window.ROMA_DATA = {
       "texto": "Victorioso general convertido en emperador al casarse con la viuda Teófano, reconquistó Chipre, Cilicia y Antioquía de manos musulmanas. Su carácter austero y sus impopulares políticas fiscales le granjearon enemigos; fue asesinado en su propio dormitorio por su sobrino Juan Tzimisces, con la connivencia de Teófano.",
       "imagen": "assets/img/retratos/retrato-89.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-959.png",
+        "url": "assets/img/bizantino-959-Constantino VII.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 959 d.C.: territorio estable en Anatolia y los Balcanes, justo antes de que el general Nicéforo Focas reconquistara Creta de manos árabes durante este reinado."
       }
@@ -8366,7 +8366,7 @@ window.ROMA_DATA = {
       "texto": "Brillante general que llegó al trono tras asesinar a Nicéforo II. Derrotó al príncipe ruso Sviatoslav en Bulgaria y llevó las armas bizantinas hasta las puertas de Jerusalén contra los musulmanes. Murió repentinamente, quizás envenenado.",
       "imagen": "assets/img/retratos/retrato-90.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-963.png",
+        "url": "assets/img/bizantino-963-Romano II.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para Juan I Tzimisces (969–976); se usa como referencia el territorio hacia el 963 d.C., el más cercano disponible, aunque durante su reinado el imperio siguió expandiéndose en Siria y los Balcanes tras derrotar a los rusos de Sviatoslav."
       }
@@ -8377,7 +8377,7 @@ window.ROMA_DATA = {
       "texto": "Tras superar rebeliones internas de la aristocracia anatolia, dedicó décadas a una guerra de desgaste contra Bulgaria que culminó en su completa anexión (1018). Se dice que cegó a miles de prisioneros búlgaros, dejando uno de cada ciento con un ojo para guiar a los demás. Llevó al imperio a su máxima extensión territorial desde Heraclio.",
       "imagen": "assets/img/retratos/retrato-91.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-963.png",
+        "url": "assets/img/bizantino-963-Romano II.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 963 d.C., al asumir Nicéforo II Focas: además de Anatolia y los Balcanes, el imperio recupera Creta y pronto sumaría Chipre, Cilicia y Antioquía en sus campañas de reconquista."
       }
@@ -8424,7 +8424,7 @@ window.ROMA_DATA = {
       "texto": "Última representante de la dinastía macedonia, gobernó en solitario tras la muerte de Constantino IX ya anciana. Se negó a nombrar sucesor hasta el final, eligiendo en su lecho de muerte al burócrata Miguel Estratiótico.",
       "imagen": "assets/img/retratos/retrato-98.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1025.png",
+        "url": "assets/img/bizantino-1025-Basilio II.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 1025 d.C., al morir Basilio II tras completar la anexión de Bulgaria (1018): la máxima extensión territorial del imperio desde Heraclio, con Anatolia, los Balcanes, Bulgaria, Creta, Chipre y el norte de Siria bajo control bizantino."
       }
@@ -8435,7 +8435,7 @@ window.ROMA_DATA = {
       "texto": "Anciano funcionario elegido por Teodora, su desprecio hacia los generales del ejército de Asia Menor provocó una rebelión encabezada por Isaac Comneno. Abdicó tras ser derrotado, dando paso a una nueva dinastía militar.",
       "imagen": "assets/img/retratos/retrato-99.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1055.png",
+        "url": "assets/img/bizantino-1055-Constantino IX.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para el brevísimo reinado de Miguel VI (1056–1057); se usa como referencia el territorio hacia el 1055 d.C., heredado de la dinastía macedonia, el más cercano disponible."
       }
@@ -8446,7 +8446,7 @@ window.ROMA_DATA = {
       "texto": "General que encabezó la revuelta que derrocó a Miguel VI, fundó brevemente la dinastía Comnena. Intentó reformas fiscales y militares, pero enfermó gravemente y abdicó a favor de Constantino Ducas, retirándose a un monasterio.",
       "imagen": "assets/img/retratos/retrato-100.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1055.png",
+        "url": "assets/img/bizantino-1055-Constantino IX.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para Isaac I Comneno (1057–1059); se usa como referencia el territorio hacia el 1055 d.C., el más cercano disponible, sin grandes cambios territoriales durante su breve reinado."
       }
@@ -8457,7 +8457,7 @@ window.ROMA_DATA = {
       "texto": "Favoreció a la aristocracia civil y burocrática de Constantinopla en detrimento del ejército, reduciendo el gasto militar en un momento crítico. Durante su reinado los turcos selyúcidas y los normandos comenzaron a presionar seriamente las fronteras orientales e italianas.",
       "imagen": "assets/img/retratos/retrato-101.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1055.png",
+        "url": "assets/img/bizantino-1055-Constantino IX.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para Constantino X Ducas (1059–1067); se usa como referencia el territorio hacia el 1055 d.C., el más cercano disponible, aunque hacia el final de su reinado ya empezaban a sentirse las presiones normandas y selyúcidas."
       }
@@ -8468,7 +8468,7 @@ window.ROMA_DATA = {
       "texto": "General elevado al trono por matrimonio con la viuda de Constantino X para enfrentar la amenaza selyúcida. Sufrió una catastrófica derrota y captura en la batalla de Manzikert (1071) frente al sultán Alp Arslan, desastre que abrió Anatolia a la colonización turca de forma irreversible.",
       "imagen": "assets/img/retratos/retrato-102.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1071.png",
+        "url": "assets/img/bizantino-1071-Romano IV Diogenes.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El territorio bizantino hacia el 1071 d.C., año de la catastrófica derrota de Romano IV Diógenes en Manzikert, que abrió Anatolia a la colonización turca de forma irreversible. Se usa como referencia por no haber un mapa específico para el inicio de su reinado (1068)."
       }
@@ -8479,7 +8479,7 @@ window.ROMA_DATA = {
       "texto": "Hijo de Constantino X, gobernó durante la fragmentación territorial posterior a Manzikert, con generales rebeldes disputándose el poder mientras los turcos ocupaban Anatolia central. Fue depuesto por una revuelta militar y terminó sus días como monje.",
       "imagen": "assets/img/retratos/retrato-103.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1055.png",
+        "url": "assets/img/bizantino-1055-Constantino IX.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 1055 d.C., última soberana de la dinastía macedonia: territorio similar al heredado de Basilio II (Anatolia, Balcanes, Bulgaria, Creta, Chipre), aunque ya empezaban a sentirse las primeras presiones normandas en Italia y turcas en Oriente."
       }
@@ -8490,7 +8490,7 @@ window.ROMA_DATA = {
       "texto": "General anciano que depuso a Miguel VII, gobernó un imperio en crisis territorial y financiera, incapaz de contener las ambiciones de la aristocracia militar. Fue depuesto por el joven general Alejo Comneno.",
       "imagen": "assets/img/retratos/retrato-104.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1071.png",
+        "url": "assets/img/bizantino-1071-Romano IV Diogenes.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 1071 d.C., año de la catastrófica derrota de Manzikert: Anatolia empieza a perderse de forma irreversible frente a los turcos selyúcidas, mientras los normandos completan la conquista de las últimas posesiones bizantinas en el sur de Italia."
       }
@@ -8501,7 +8501,7 @@ window.ROMA_DATA = {
       "texto": "Fundador de la restauración comnena, estabilizó un imperio al borde del colapso frente a normandos, pechenegos y turcos. Solicitó ayuda militar a Occidente, lo que derivó en la Primera Cruzada (1096), de resultados ambiguos para Bizancio. Reorganizó el sistema de tenencia de tierras y consolidó una nueva aristocracia militar.",
       "imagen": "assets/img/retratos/retrato-105.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1078.png",
+        "url": "assets/img/bizantino-1078-Miguel VII Ducas.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para el inicio del reinado de Alejo I Comneno (1081); se usa como referencia el territorio hacia el 1078 d.C., el más cercano disponible: un imperio en crisis territorial tras Manzikert, que Alejo I lograría estabilizar frente a normandos, pechenegos y turcos."
       }
@@ -8512,7 +8512,7 @@ window.ROMA_DATA = {
       "texto": "Considerado uno de los emperadores más virtuosos y capaces de la dinastía, consolidó las fronteras en los Balcanes y Anatolia mediante campañas constantes. Recuperó territorio de manos turcas y normandas, gobernando con notable moderación y justicia.",
       "imagen": "assets/img/retratos/retrato-106.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1078.png",
+        "url": "assets/img/bizantino-1078-Miguel VII Ducas.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 1078 d.C.: buena parte de Anatolia central ya perdida frente a los turcos tras Manzikert, con generales rebeldes disputándose lo que queda del territorio en los Balcanes y la costa anatolia."
       }
@@ -8523,7 +8523,7 @@ window.ROMA_DATA = {
       "texto": "Ambicioso emperador que intervino activamente en Italia, Egipto y las Cruzadas, buscando restaurar la influencia bizantina en el Mediterráneo. Sufrió una severa derrota frente a los turcos selyúcidas en Miriocéfalo (1176), que marcó el fin de las esperanzas de reconquistar el interior de Anatolia.",
       "imagen": "assets/img/retratos/retrato-107.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1118.png",
+        "url": "assets/img/bizantino-1118-Alejo I Comneno.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para el reinado de Manuel I Comneno (1143–1180); se usa como referencia el territorio hacia el 1118 d.C., el más cercano disponible, aunque su costosa política exterior en Italia, Egipto y Oriente y la derrota de Miriocéfalo (1176) reducirían de hecho el control efectivo sobre Anatolia hacia el final de su reinado."
       }
@@ -8534,7 +8534,7 @@ window.ROMA_DATA = {
       "texto": "Ascendió al trono siendo niño bajo la regencia de su madre, la princesa francesa María de Antioquía, cuyo favoritismo hacia los latinos generó fuerte resentimiento popular. Fue depuesto y asesinado por su tío Andrónico I.",
       "imagen": "assets/img/retratos/retrato-108.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1185.png",
+        "url": "assets/img/bizantino-1185-Andronico I Comneno.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para Alejo II Comneno (1180–1183); se usa como referencia el territorio hacia el 1185 d.C., el más cercano disponible."
       }
@@ -8545,7 +8545,7 @@ window.ROMA_DATA = {
       "texto": "Último emperador comneno, llegó al poder tras masacrar a los residentes latinos de Constantinopla y ejecutar a su sobrino Alejo II. Su gobierno de terror contra la aristocracia provocó una revuelta popular; fue capturado, torturado y linchado por la turba en el hipódromo.",
       "imagen": "assets/img/retratos/retrato-109.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1185.png",
+        "url": "assets/img/bizantino-1185-Andronico I Comneno.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para Andrónico I Comneno (1183–1185); se usa como referencia el territorio hacia el 1185 d.C. (el inicio del reinado de su sucesor Isaac II), el más cercano disponible."
       }
@@ -8556,7 +8556,7 @@ window.ROMA_DATA = {
       "texto": "Aristócrata que encabezó la revuelta contra Andrónico I, su reinado sufrió la pérdida de Bulgaria, que recuperó su independencia. Fue depuesto y cegado por su propio hermano Alejo III, aunque regresó brevemente al trono en 1203 con ayuda de la Cuarta Cruzada.",
       "imagen": "assets/img/retratos/retrato-110.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1118.png",
+        "url": "assets/img/bizantino-1118-Alejo I Comneno.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 1118 d.C., al asumir Juan II Comneno: territorio recuperado en parte por Alejo I tras la Primera Cruzada, con los Balcanes consolidados y una franja costera de Anatolia bajo control bizantino."
       }
@@ -8567,7 +8567,7 @@ window.ROMA_DATA = {
       "texto": "Depuso y cegó a su hermano Isaac II para tomar el trono, gobernando con notoria ineficacia administrativa y fiscal mientras el imperio se debilitaba. Huyó de Constantinopla al llegar la Cuarta Cruzada en apoyo del hijo de Isaac II.",
       "imagen": "assets/img/retratos/retrato-111.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1185.png",
+        "url": "assets/img/bizantino-1185-Andronico I Comneno.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 1185 d.C., al derrocar Isaac II Ángelo a Andrónico I: los Balcanes y una franja costera de Anatolia se mantienen bajo control bizantino, aunque Bulgaria recuperaría su independencia poco después. La misma imagen se usa para su breve restauración en 1203 con apoyo de la Cuarta Cruzada."
       }
@@ -8578,7 +8578,7 @@ window.ROMA_DATA = {
       "texto": "Hijo de Isaac II, había solicitado la ayuda de la Cuarta Cruzada para restaurar a su padre en el trono, prometiendo a cambio enormes sumas de dinero y la unión de las iglesias. Incapaz de cumplir sus promesas, fue depuesto y estrangulado por Alejo Murzuflo.",
       "imagen": "assets/img/retratos/retrato-112.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1195.png",
+        "url": "assets/img/bizantino-1195-Isaac II Angelo.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 1195 d.C., al derrocar Alejo III a su hermano Isaac II: territorio similar al de años anteriores (Balcanes y costa de Anatolia), ya debilitado por la ineficacia administrativa y fiscal que marcaría su reinado."
       }
@@ -8589,7 +8589,7 @@ window.ROMA_DATA = {
       "texto": "Noble que depuso a Alejo IV e intentó organizar la defensa de Constantinopla frente a los cruzados, ya sin recursos ni tiempo. La ciudad cayó y fue brutalmente saqueada en abril de 1204, poniendo fin temporal al Imperio Bizantino y dando origen a los estados sucesores de Nicea, Epiro y Trebisonda, junto con el Imperio Latino instaurado por los cruzados.",
       "imagen": "assets/img/retratos/retrato-113.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1203.png",
+        "url": "assets/img/bizantino-1203-Alejo III Angelo.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 1203 d.C., al ser restaurado Isaac II junto a su hijo Alejo IV con apoyo de la Cuarta Cruzada: territorio ya reducido y en crisis, apenas meses antes del saqueo de Constantinopla de 1204."
       }
@@ -8600,7 +8600,7 @@ window.ROMA_DATA = {
       "texto": "Yerno de Alejo III, organizó la resistencia griega en Anatolia occidental tras la caída de Constantinopla y fundó el Imperio de Nicea, el más importante de los estados sucesores bizantinos. Derrotó tanto a los latinos como a los selyúcidas, asegurando la supervivencia de la tradición imperial romana-griega.",
       "imagen": "assets/img/retratos/retrato-114.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1204.png",
+        "url": "assets/img/bizantino-1204-Alejo V Murzuflo.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para el Imperio de Nicea bajo Teodoro I Láscaris (1205–1221); se usa como referencia el territorio bizantino hacia el 1204 d.C. (el mismo mapa de Alejo V Murzuflo), el último disponible antes de la Cuarta Cruzada y la fragmentación del imperio en los estados sucesores. El territorio real de Nicea bajo Teodoro I era mucho menor, limitado al noroeste de Anatolia."
       }
@@ -8611,7 +8611,7 @@ window.ROMA_DATA = {
       "texto": "Bajo su gobierno, Nicea se convirtió en un estado próspero y bien administrado, recuperando gran parte de Tracia y Macedonia de manos latinas y búlgaras. Sentó las bases militares y económicas que permitirían la futura reconquista de Constantinopla.",
       "imagen": "assets/img/retratos/retrato-115.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1204.png",
+        "url": "assets/img/bizantino-1204-Alejo V Murzuflo.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para el Imperio de Nicea bajo Juan III Ducas Vatatzés (1221–1254); se usa como referencia el territorio bizantino hacia el 1204 d.C. (el mismo mapa de Alejo V Murzuflo), el último disponible antes de la fragmentación del imperio. Durante su largo reinado, Nicea recuperó buena parte de Tracia y Macedonia de manos latinas y búlgaras, aunque sin llegar a la extensión que muestra este mapa de referencia."
       }
@@ -8622,7 +8622,7 @@ window.ROMA_DATA = {
       "texto": "Culto y de salud frágil, continuó fortaleciendo el estado de Nicea heredado de su padre, aunque su reinado fue breve. Su desconfianza hacia la aristocracia lo llevó a apoyarse en funcionarios de origen humilde, generando tensiones en la corte.",
       "imagen": "assets/img/retratos/retrato-116.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1204.png",
+        "url": "assets/img/bizantino-1204-Alejo V Murzuflo.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 1204 d.C., último momento antes del saqueo cruzado de Constantinopla: el territorio que quedaba se fragmentaría de inmediato en los estados sucesores de Nicea, Epiro y Trebisonda, además del Imperio Latino cruzado."
       }
@@ -8633,7 +8633,7 @@ window.ROMA_DATA = {
       "texto": "Ascendió al trono siendo un niño bajo la regencia y luego corregencia de Miguel Paleólogo, quien terminó usurpando el poder por completo. Tras la reconquista de Constantinopla, Miguel VIII ordenó cegarlo para eliminarlo como rival, un acto que le valió la excomunión del patriarca.",
       "imagen": "assets/img/retratos/retrato-117.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1254.png",
+        "url": "assets/img/bizantino-1254-Juan III Ducas Vatatzes.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para Juan IV Láscaris (1258–1261); se usa como referencia el territorio niceno hacia el 1254 d.C., heredado de su abuelo Juan III Vatatzés, justo antes de la reconquista de Constantinopla por su regente y luego usurpador Miguel VIII en 1261."
       }
@@ -8644,7 +8644,7 @@ window.ROMA_DATA = {
       "texto": "Usurpó el trono niceno y, en 1261, reconquistó Constantinopla casi sin lucha, restaurando el Imperio Bizantino y fundando la dinastía Paleóloga, la última de su historia. Buscó protección diplomática ante Occidente aceptando la Unión de Lyon (1274) con Roma, medida muy impopular entre su propio clero y pueblo.",
       "imagen": "assets/img/retratos/retrato-118.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1254.png",
+        "url": "assets/img/bizantino-1254-Juan III Ducas Vatatzes.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio de Nicea hacia el 1254 d.C., al asumir Teodoro II Láscaris: territorio heredado de su padre Juan III Vatatzés, con buena parte de Tracia y Macedonia recuperadas de manos latinas y búlgaras, antes de la reconquista final de Constantinopla en 1261."
       }
@@ -8655,7 +8655,7 @@ window.ROMA_DATA = {
       "texto": "Repudió la unión con Roma y descuidó el poderío naval y militar del imperio, debilitando sus defensas. Contrató a la Compañía Catalana de mercenarios para luchar contra los turcos, pero un conflicto de pagos los convirtió en enemigos que devastaron Tracia y Grecia. Fue depuesto por su propio nieto tras una guerra civil.",
       "imagen": "assets/img/retratos/retrato-119.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1261.png",
+        "url": "assets/img/bizantino-1261-Juan VI Lascaris.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para Andrónico II Paleólogo (1282–1328); se usa como referencia el territorio hacia el 1261 d.C., el más cercano disponible, heredado de la reconquista de Constantinopla por su padre Miguel VIII. Durante su largo reinado el imperio perdería buena parte de Anatolia frente a los turcos otomanos, cambio que este mapa de referencia no refleja."
       }
@@ -8666,7 +8666,7 @@ window.ROMA_DATA = {
       "texto": "Llegó al trono tras derrocar a su abuelo en una guerra civil, intentó revitalizar militarmente al imperio con apoyo de su hábil ministro Juan Cantacuceno. Sufrió la pérdida progresiva de territorios en Anatolia frente al emirato otomano en ascenso.",
       "imagen": "assets/img/retratos/retrato-120.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1261.png",
+        "url": "assets/img/bizantino-1261-Juan VI Lascaris.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El territorio bizantino inmediatamente después de la reconquista de Constantinopla en 1261: Miguel VIII restaura el Imperio Bizantino en la ciudad, sumando Tracia y el noroeste de Anatolia al núcleo niceno, aunque mucho menor que en épocas anteriores."
       }
@@ -8677,7 +8677,7 @@ window.ROMA_DATA = {
       "texto": "Su largo reinado estuvo marcado por una devastadora guerra civil contra su antiguo regente Juan VI Cantacuceno y por la creciente dependencia militar de mercenarios otomanos, que aprovecharon para establecerse permanentemente en Europa (Galípoli, 1354). Terminó como vasallo tributario del sultán otomano.",
       "imagen": "assets/img/retratos/retrato-121.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1328.png",
+        "url": "assets/img/bizantino-1328-Andronico II Paleologo.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 1328 d.C., al derrocar Andrónico III a su abuelo Andrónico II: territorio ya muy reducido en los Balcanes y una franja menguante de Anatolia occidental, frente al avance del emirato otomano."
       }
@@ -8688,7 +8688,7 @@ window.ROMA_DATA = {
       "texto": "Regente y luego rival de Juan V en una destructiva guerra civil, recurrió a mercenarios turcos otomanos como aliados, facilitando su primer asentamiento permanente en suelo europeo. Terminó abdicando y retirándose a un monasterio, donde escribió una valiosa historia de su época.",
       "imagen": "assets/img/retratos/retrato-122.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1341.png",
+        "url": "assets/img/bizantino-1341-Andronico III Paleologo.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 1341 d.C., al asumir Juan V siendo niño: territorio reducido a Constantinopla, Tracia, Tesalónica y algunas posesiones en el Egeo, en vísperas de la devastadora guerra civil con Juan VI Cantacuceno."
       }
@@ -8699,7 +8699,7 @@ window.ROMA_DATA = {
       "texto": "Hijo de Juan V, se rebeló contra su padre con apoyo genovés y otomano, usurpando el trono por un breve período antes de ser depuesto nuevamente por Juan V con ayuda veneciana.",
       "imagen": "assets/img/retratos/retrato-123.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1347.png",
+        "url": "assets/img/bizantino-1347-Juan VI Cantacuceno.png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 1347 d.C., regente y luego rival de Juan V: territorio ya fragmentado tras la guerra civil, con los otomanos a punto de establecerse permanentemente en suelo europeo (Galípoli, 1354) gracias a su alianza con Cantacuceno."
       }
@@ -8710,7 +8710,7 @@ window.ROMA_DATA = {
       "texto": "Nieto de Juan V, protagonizó un fugaz golpe de estado contra su abuelo con apoyo genovés y otomano, gobernando apenas unos meses antes de ser desplazado nuevamente.",
       "imagen": "assets/img/retratos/retrato-124.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1376.png",
+        "url": "assets/img/bizantino-1376-Andronico IV y Juan V .png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para el fugaz golpe de Juan VII Paleólogo (1390); se usa como referencia el territorio hacia el 1376 d.C., el más cercano disponible: un imperio ya reducido a Constantinopla y pocas plazas fuertes, semivasallo otomano."
       }
@@ -8721,7 +8721,7 @@ window.ROMA_DATA = {
       "texto": "Gobernó un imperio reducido prácticamente a Constantinopla y algunas posesiones aisladas, vasallo de los sultanes otomanos. Viajó personalmente por Europa occidental buscando apoyo militar contra el avance otomano, sin obtener ayuda sustancial. La derrota otomana ante Tamerlán en Ankara (1402) le dio al imperio un respiro temporal.",
       "imagen": "assets/img/retratos/retrato-125.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1376.png",
+        "url": "assets/img/bizantino-1376-Andronico IV y Juan V .png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para Manuel II Paleólogo (1391–1425); se usa como referencia el territorio hacia el 1376 d.C., el más cercano disponible: un imperio ya reducido a Constantinopla y pocas posesiones aisladas, vasallo de los sultanes otomanos."
       }
@@ -8732,7 +8732,7 @@ window.ROMA_DATA = {
       "texto": "Buscando desesperadamente ayuda militar occidental, viajó a Italia y firmó la Unión de Florencia (1439) con la Iglesia católica, aceptando la primacía papal a cambio de una cruzada de socorro. La unión fue rechazada por gran parte del clero y pueblo bizantino, y la prometida cruzada fue aplastada en Varna (1444).",
       "imagen": "assets/img/retratos/retrato-126.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1376.png",
+        "url": "assets/img/bizantino-1376-Andronico IV y Juan V .png",
         "credit": "Imagen provista por el usuario",
         "caption": "El Imperio bizantino hacia el 1376 d.C., al usurpar Andrónico IV el trono de su padre Juan V con apoyo genovés y otomano: territorio reducido a Constantinopla y unas pocas plazas fuertes, ya como semivasallo de los turcos otomanos."
       }
@@ -8743,7 +8743,7 @@ window.ROMA_DATA = {
       "texto": "Último emperador romano de Constantinopla, organizó una desesperada defensa de la ciudad, en gran inferioridad numérica, frente al asedio del sultán otomano Mehmed II. Murió combatiendo en las murallas el 29 de mayo de 1453, día de la caída de Constantinopla, que puso fin definitivo a mil años de Imperio Romano de Oriente.",
       "imagen": "assets/img/retratos/retrato-127.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1425.png",
+        "url": "assets/img/bizantino-1425-Manuel II Paleologo.png",
         "credit": "Imagen provista por el usuario",
         "caption": "No hay un mapa específico para el brevísimo reinado de Constantino XI (1449–1453); se usa como referencia el territorio hacia 1425, ya reducido a Constantinopla y sus alrededores más el despotado de Morea. Para cuando asumió Constantino XI el territorio era aún menor, prácticamente solo la propia capital, hasta su caída ante los otomanos en 1453."
       }
