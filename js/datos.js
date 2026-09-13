@@ -7187,12 +7187,7 @@ window.ROMA_DATA = {
       "periodo": "27 a.C. – 14 d.C.",
       "nombre": "Augusto",
       "texto": "Primer emperador romano, tras derrotar a Marco Antonio y Cleopatra en Actio. Instauró el Principado, manteniendo formas republicanas mientras concentraba el poder real. Reformó el ejército, creó la Guardia Pretoriana, expandió las fronteras y sufrió la derrota de Teutoburgo (9 d.C.). Impulsó la Pax Romana y patrocinó a Virgilio, Horacio y Ovidio.",
-      "imagen": "assets/img/retratos/retrato-14.jpg",
-      "mapaEspecial": {
-        "url": "assets/img/SPQR Augusto.png",
-        "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Augusto (27 a.C.–14 d.C.): Hispania, la Galia, Italia, los Balcanes, Grecia, Anatolia y el Levante bajo dominio romano. Britania todavía no forma parte del Imperio: recién sería conquistada por Claudio en el 43 d.C."
-      }
+      "imagen": "assets/img/retratos/retrato-14.jpg"
     },
     {
       "periodo": "14–37 d.C.",
@@ -7200,9 +7195,9 @@ window.ROMA_DATA = {
       "texto": "Hijastro y sucesor de Augusto, reservado y desconfiado. Consolidó las fronteras sin grandes expansiones. Se retiró a Capri, dejando el gobierno en manos de su prefecto Sejano, ejecutado en el 31 d.C. tras conspirar contra él.",
       "imagen": "assets/img/retratos/retrato-15.jpg",
       "mapaEspecial": {
-        "url": "assets/img/SPQR Tiberio.png",
+        "url": "assets/img/SPQR Augusto.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Tiberio (14–37 d.C.), heredado prácticamente sin cambios de Augusto: las mismas fronteras que su predecesor, consolidadas sin nuevas conquistas. Britania sigue fuera del dominio romano."
+        "caption": "El Imperio bajo Augusto (27 a.C.–14 d.C.): Hispania, la Galia, Italia, los Balcanes, Grecia, Anatolia y el Levante bajo dominio romano. Britania todavía no forma parte del Imperio: recién sería conquistada por Claudio en el 43 d.C."
       }
     },
     {
@@ -7213,7 +7208,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Tiberio.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Calígula (37–41 d.C.), con las mismas fronteras heredadas de Tiberio y Augusto: su breve y errático reinado no trajo cambios territoriales."
+        "caption": "El Imperio bajo Tiberio (14–37 d.C.), heredado prácticamente sin cambios de Augusto: las mismas fronteras que su predecesor, consolidadas sin nuevas conquistas. Britania sigue fuera del dominio romano."
       }
     },
     {
@@ -7222,9 +7217,9 @@ window.ROMA_DATA = {
       "texto": "Tío de Calígula, llegó al poder inesperadamente. Inició la conquista de Britania (43 d.C.), expandió la burocracia imperial y construyó el puerto de Ostia. Murió posiblemente envenenado por su esposa Agripina en favor de Nerón.",
       "imagen": "assets/img/retratos/retrato-17.jpg",
       "mapaEspecial": {
-        "url": "assets/img/SPQR Claudio.png",
+        "url": "assets/img/SPQR Tiberio.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Claudio (41–54 d.C.): se suma Britania, conquistada desde el 43 d.C., la gran novedad territorial de su reinado sobre las fronteras heredadas de sus predecesores."
+        "caption": "El Imperio bajo Calígula (37–41 d.C.), con las mismas fronteras heredadas de Tiberio y Augusto: su breve y errático reinado no trajo cambios territoriales."
       }
     },
     {
@@ -7233,9 +7228,9 @@ window.ROMA_DATA = {
       "texto": "Último de la dinastía Julio-Claudia. Comenzó bien bajo Séneca y Burro, pero derivó en tiranía: hizo asesinar a su madre Agripina y a su esposa Octavia. Roma sufrió el gran incendio del 64 d.C., tras el cual persiguió a los cristianos. Declarado enemigo público, se suicidó en el 68 d.C.",
       "imagen": "assets/img/retratos/retrato-18.jpg",
       "mapaEspecial": {
-        "url": "assets/img/SPQR Neron.png",
+        "url": "assets/img/SPQR Claudio.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Nerón (54–68 d.C.), con las fronteras estables heredadas de Claudio, Britania incluida."
+        "caption": "El Imperio bajo Claudio (41–54 d.C.): se suma Britania, conquistada desde el 43 d.C., la gran novedad territorial de su reinado sobre las fronteras heredadas de sus predecesores."
       }
     },
     {
@@ -7246,7 +7241,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Neron.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Galba (68–69 d.C.), heredado sin cambios territoriales de Nerón, en medio del caos del año de los cuatro emperadores."
+        "caption": "El Imperio bajo Nerón (54–68 d.C.), con las fronteras estables heredadas de Claudio, Britania incluida."
       }
     },
     {
@@ -7257,7 +7252,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Neron.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Otón (69 d.C.), con las mismas fronteras de sus predecesores julio-claudios: su reinado, de apenas tres meses en plena guerra civil, no alteró las fronteras."
+        "caption": "El Imperio bajo Galba (68–69 d.C.), heredado sin cambios territoriales de Nerón, en medio del caos del año de los cuatro emperadores."
       }
     },
     {
@@ -7268,7 +7263,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Neron.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Vitelio (69 d.C.), sin cambios territoriales respecto a sus rivales en el año de los cuatro emperadores."
+        "caption": "El Imperio bajo Otón (69 d.C.), con las mismas fronteras de sus predecesores julio-claudios: su reinado, de apenas tres meses en plena guerra civil, no alteró las fronteras."
       }
     },
     {
@@ -7279,7 +7274,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Neron.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Vespasiano (69–79 d.C.), que restauró la estabilidad tras la guerra civil manteniendo las fronteras heredadas de la dinastía Julio-Claudia."
+        "caption": "El Imperio bajo Vitelio (69 d.C.), sin cambios territoriales respecto a sus rivales en el año de los cuatro emperadores."
       }
     },
     {
@@ -7290,7 +7285,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Neron.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Tito (79–81 d.C.), sin cambios de fronteras respecto a su padre Vespasiano."
+        "caption": "El Imperio bajo Vespasiano (69–79 d.C.), que restauró la estabilidad tras la guerra civil manteniendo las fronteras heredadas de la dinastía Julio-Claudia."
       }
     },
     {
@@ -7301,7 +7296,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Neron.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Domiciano (81–96 d.C.), con campañas en Germania y Dacia que no alteraron sustancialmente las fronteras heredadas de los Flavios."
+        "caption": "El Imperio bajo Tito (79–81 d.C.), sin cambios de fronteras respecto a su padre Vespasiano."
       }
     },
     {
@@ -7312,7 +7307,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Neron.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Nerva (96–98 d.C.), con las mismas fronteras de sus predecesores durante su breve reinado de transición."
+        "caption": "El Imperio bajo Domiciano (81–96 d.C.), con campañas en Germania y Dacia que no alteraron sustancialmente las fronteras heredadas de los Flavios."
       }
     },
     {
@@ -7321,9 +7316,9 @@ window.ROMA_DATA = {
       "texto": "Primer emperador de origen provincial (hispano). Bajo su gobierno el Imperio alcanzó su máxima extensión territorial, con la conquista de Dacia y campañas en Partia. Impulsó grandes obras públicas, como su Foro y Columna.",
       "imagen": "assets/img/retratos/retrato-23.jpg",
       "mapaEspecial": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Roman_Empire_Trajan_117AD.png",
-        "credit": "Tataryn, Wikimedia Commons (CC BY-SA 3.0)",
-        "caption": "El Imperio bajo Trajano (98–117 d.C.) en su máxima extensión territorial de toda la historia romana, tras la conquista de Dacia y las campañas en Partia, Armenia y Mesopotamia."
+        "url": "assets/img/SPQR Neron.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Nerva (96–98 d.C.), con las mismas fronteras de sus predecesores durante su breve reinado de transición."
       }
     },
     {
@@ -7332,9 +7327,9 @@ window.ROMA_DATA = {
       "texto": "Adoptó una política más defensiva, consolidando fronteras; mandó construir el Muro de Adriano en Britania. Viajó extensamente y fue gran mecenas cultural, reconstruyendo el Panteón.",
       "imagen": "assets/img/retratos/retrato-24.jpg",
       "mapaEspecial": {
-        "url": "assets/img/SPQR Adriano.png",
-        "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Adriano (117–138 d.C.), ya con Britania (donde levantó su famoso muro) y en las fronteras que se mantendrían estables, tras replegarse de las conquistas orientales de Trajano, hasta la Crisis del Siglo III."
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Roman_Empire_Trajan_117AD.png",
+        "credit": "Tataryn, Wikimedia Commons (CC BY-SA 3.0)",
+        "caption": "El Imperio bajo Trajano (98–117 d.C.) en su máxima extensión territorial de toda la historia romana, tras la conquista de Dacia y las campañas en Partia, Armenia y Mesopotamia."
       }
     },
     {
@@ -7345,7 +7340,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Adriano.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Antonino Pío (138–161 d.C.), con las fronteras estabilizadas por Adriano, en el reinado más pacífico del Alto Imperio."
+        "caption": "El Imperio bajo Adriano (117–138 d.C.), ya con Britania (donde levantó su famoso muro) y en las fronteras que se mantendrían estables, tras replegarse de las conquistas orientales de Trajano, hasta la Crisis del Siglo III."
       }
     },
     {
@@ -7356,7 +7351,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Adriano.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Marco Aurelio (161–180 d.C.), con las mismas fronteras heredadas de Adriano y Antonino Pío, pese a las guerras defensivas contra marcomanos y partos."
+        "caption": "El Imperio bajo Antonino Pío (138–161 d.C.), con las fronteras estabilizadas por Adriano, en el reinado más pacífico del Alto Imperio."
       }
     },
     {
@@ -7365,9 +7360,9 @@ window.ROMA_DATA = {
       "texto": "Rompió la tradición de adopción al heredar por sangre. Descuidó el gobierno, se obsesionó con presentarse como gladiador identificándose con Hércules. Fue asesinado en una conspiración palaciega en el 192 d.C.",
       "imagen": "assets/img/retratos/retrato-27.jpg",
       "mapaEspecial": {
-        "url": "assets/img/SPQR Comodo.png",
+        "url": "assets/img/SPQR Adriano.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Cómodo (180–192 d.C.), con las fronteras estables del Alto Imperio, prácticamente sin cambios respecto a la época de Adriano y Marco Aurelio."
+        "caption": "El Imperio bajo Marco Aurelio (161–180 d.C.), con las mismas fronteras heredadas de Adriano y Antonino Pío, pese a las guerras defensivas contra marcomanos y partos."
       }
     },
     {
@@ -7378,7 +7373,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Comodo.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Pértinax (193 d.C.), sin cambios territoriales respecto a Cómodo, durante su brevísimo reinado de tres meses."
+        "caption": "El Imperio bajo Cómodo (180–192 d.C.), con las fronteras estables del Alto Imperio, prácticamente sin cambios respecto a la época de Adriano y Marco Aurelio."
       }
     },
     {
@@ -7389,7 +7384,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Comodo.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Didio Juliano (193 d.C.), con las mismas fronteras heredadas de la dinastía Antonina, durante su reinado de apenas nueve semanas."
+        "caption": "El Imperio bajo Pértinax (193 d.C.), sin cambios territoriales respecto a Cómodo, durante su brevísimo reinado de tres meses."
       }
     },
     {
@@ -7400,7 +7395,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Comodo.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Pescenio Níger (193–194 d.C.), pretendiente oriental en la guerra civil del 193, sin cambios de fronteras respecto a sus predecesores."
+        "caption": "El Imperio bajo Didio Juliano (193 d.C.), con las mismas fronteras heredadas de la dinastía Antonina, durante su reinado de apenas nueve semanas."
       }
     },
     {
@@ -7411,7 +7406,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Comodo.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Clodio Albino (193–197 d.C.), pretendiente occidental en la guerra civil del 193, con las fronteras aún intactas del Alto Imperio."
+        "caption": "El Imperio bajo Pescenio Níger (193–194 d.C.), pretendiente oriental en la guerra civil del 193, sin cambios de fronteras respecto a sus predecesores."
       }
     },
     {
@@ -7422,7 +7417,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Comodo.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Septimio Severo (193–211 d.C.), que reforzó el poder militar del emperador sin alterar sustancialmente las fronteras heredadas de los Antoninos."
+        "caption": "El Imperio bajo Clodio Albino (193–197 d.C.), pretendiente occidental en la guerra civil del 193, con las fronteras aún intactas del Alto Imperio."
       }
     },
     {
@@ -7433,7 +7428,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Comodo.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Caracalla (211–217 d.C.), con las mismas fronteras del Alto Imperio, poco antes de que la Crisis del Siglo III comenzara a gestarse."
+        "caption": "El Imperio bajo Septimio Severo (193–211 d.C.), que reforzó el poder militar del emperador sin alterar sustancialmente las fronteras heredadas de los Antoninos."
       }
     },
     {
@@ -7442,9 +7437,9 @@ window.ROMA_DATA = {
       "texto": "Joven emperador sirio de comportamiento extravagante, que intentó imponer un culto solar sirio por encima de las divinidades romanas. Fue asesinado, junto a su madre, por la Guardia Pretoriana.",
       "imagen": "assets/img/retratos/retrato-30.jpg",
       "mapaEspecial": {
-        "url": "assets/img/SPQR Heliogabalo.png",
+        "url": "assets/img/SPQR Comodo.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Heliogábalo (218–222 d.C.), todavía con las fronteras intactas del Alto Imperio, aunque la Crisis del Siglo III —que estallaría formalmente en 235— ya estaba cerca."
+        "caption": "El Imperio bajo Caracalla (211–217 d.C.), con las mismas fronteras del Alto Imperio, poco antes de que la Crisis del Siglo III comenzara a gestarse."
       }
     },
     {
@@ -7455,7 +7450,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Heliogabalo.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Alejandro Severo (222–235 d.C.), último de los Severos, con las fronteras aún intactas heredadas de Heliogábalo, en vísperas de la Crisis del Siglo III que desataría su asesinato."
+        "caption": "El Imperio bajo Heliogábalo (218–222 d.C.), todavía con las fronteras intactas del Alto Imperio, aunque la Crisis del Siglo III —que estallaría formalmente en 235— ya estaba cerca."
       }
     },
     {
@@ -7466,7 +7461,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Heliogabalo.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Maximino el Tracio (235–238 d.C.), con las fronteras todavía sin fracturar al inicio de la Crisis del Siglo III."
+        "caption": "El Imperio bajo Alejandro Severo (222–235 d.C.), último de los Severos, con las fronteras aún intactas heredadas de Heliogábalo, en vísperas de la Crisis del Siglo III que desataría su asesinato."
       }
     },
     {
@@ -7477,7 +7472,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Heliogabalo.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Gordiano I (238 d.C.), sin cambios territoriales durante su fugaz reinado de menos de un mes en la revuelta africana."
+        "caption": "El Imperio bajo Maximino el Tracio (235–238 d.C.), con las fronteras todavía sin fracturar al inicio de la Crisis del Siglo III."
       }
     },
     {
@@ -7488,7 +7483,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Heliogabalo.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Gordiano II (238 d.C.), coemperador junto a su padre durante la breve revuelta africana, sin alteraciones de frontera."
+        "caption": "El Imperio bajo Gordiano I (238 d.C.), sin cambios territoriales durante su fugaz reinado de menos de un mes en la revuelta africana."
       }
     },
     {
@@ -7499,7 +7494,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Heliogabalo.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Pupieno (238 d.C.), elegido por el Senado junto a Balbino, con las fronteras todavía intactas del Alto Imperio."
+        "caption": "El Imperio bajo Gordiano II (238 d.C.), coemperador junto a su padre durante la breve revuelta africana, sin alteraciones de frontera."
       }
     },
     {
@@ -7510,7 +7505,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Heliogabalo.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Balbino (238 d.C.), coemperador de Pupieno, sin cambios de fronteras durante su breve y turbulento reinado conjunto."
+        "caption": "El Imperio bajo Pupieno (238 d.C.), elegido por el Senado junto a Balbino, con las fronteras todavía intactas del Alto Imperio."
       }
     },
     {
@@ -7521,7 +7516,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Heliogabalo.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Gordiano III (238–244 d.C.), con las fronteras aún estables pese a las crecientes presiones externas de la Crisis del Siglo III."
+        "caption": "El Imperio bajo Balbino (238 d.C.), coemperador de Pupieno, sin cambios de fronteras durante su breve y turbulento reinado conjunto."
       }
     },
     {
@@ -7532,7 +7527,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Heliogabalo.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Filipo el Árabe (244–249 d.C.), que celebró el milenario de Roma con las fronteras todavía sin fracturar."
+        "caption": "El Imperio bajo Gordiano III (238–244 d.C.), con las fronteras aún estables pese a las crecientes presiones externas de la Crisis del Siglo III."
       }
     },
     {
@@ -7543,7 +7538,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Heliogabalo.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Decio (249–251 d.C.), aún con las fronteras heredadas, poco antes de la creciente presión gótica en el Danubio que le costaría la vida."
+        "caption": "El Imperio bajo Filipo el Árabe (244–249 d.C.), que celebró el milenario de Roma con las fronteras todavía sin fracturar."
       }
     },
     {
@@ -7554,7 +7549,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Heliogabalo.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Treboniano Galo (251–253 d.C.), que pactó una paz humillante con los godos sin ceder territorio formalmente."
+        "caption": "El Imperio bajo Decio (249–251 d.C.), aún con las fronteras heredadas, poco antes de la creciente presión gótica en el Danubio que le costaría la vida."
       }
     },
     {
@@ -7565,7 +7560,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Heliogabalo.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Emiliano (253 d.C.), con las fronteras aún unificadas, en los meses previos a la fractura del Imperio bajo Valeriano y Galieno."
+        "caption": "El Imperio bajo Treboniano Galo (251–253 d.C.), que pactó una paz humillante con los godos sin ceder territorio formalmente."
       }
     },
     {
@@ -7574,9 +7569,9 @@ window.ROMA_DATA = {
       "texto": "Repartió el gobierno con su hijo Galieno y se reservó Oriente. Reanudó la persecución de los cristianos. Fue capturado por Sapor I en la batalla de Edesa —único emperador romano hecho prisionero por un enemigo— y murió en cautiverio.",
       "imagen": "assets/img/retratos/retrato-157.jpg",
       "mapaEspecial": {
-        "url": "assets/img/SPQR Valeriano.png",
+        "url": "assets/img/SPQR Heliogabalo.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio partido en tres durante el reinado de Valeriano y Galieno: en rojo el núcleo romano (Italia, los Balcanes, Grecia y Anatolia), en verde el Imperio Galo secesionista (Britania, la Galia e Hispania) y en amarillo el reino de Palmira de Zenobia (Siria, Egipto y el Levante), independizado tras la captura de Valeriano por los persas en el 260 d.C."
+        "caption": "El Imperio bajo Emiliano (253 d.C.), con las fronteras aún unificadas, en los meses previos a la fractura del Imperio bajo Valeriano y Galieno."
       }
     },
     {
@@ -7587,7 +7582,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Valeriano.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Galieno (253–268 d.C.), gobernando en solitario tras la captura de su padre Valeriano, con el Imperio todavía partido en tres: el núcleo romano, el Imperio Galo y el reino de Palmira."
+        "caption": "El Imperio partido en tres durante el reinado de Valeriano y Galieno: en rojo el núcleo romano (Italia, los Balcanes, Grecia y Anatolia), en verde el Imperio Galo secesionista (Britania, la Galia e Hispania) y en amarillo el reino de Palmira de Zenobia (Siria, Egipto y el Levante), independizado tras la captura de Valeriano por los persas en el 260 d.C."
       }
     },
     {
@@ -7596,9 +7591,9 @@ window.ROMA_DATA = {
       "texto": "Militar ilirio llegado al poder tras el asesinato de Galieno. Aplastó a los godos en la batalla de Naissus, victoria que le dio su sobrenombre. Murió de peste a los dos años, con fama de buen gobernante.",
       "imagen": "assets/img/retratos/retrato-159.jpg",
       "mapaEspecial": {
-        "url": "assets/img/SPQR Claudio II el Gotico.png",
+        "url": "assets/img/SPQR Valeriano.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio todavía fragmentado en tres bajo Claudio II el Gótico (268–270 d.C.): el núcleo romano en rojo, el Imperio Galo en verde y el reino de Palmira en amarillo, la misma división de la Crisis del Siglo III heredada de Galieno. Sería Aureliano quien los reunificaría."
+        "caption": "El Imperio bajo Galieno (253–268 d.C.), gobernando en solitario tras la captura de su padre Valeriano, con el Imperio todavía partido en tres: el núcleo romano, el Imperio Galo y el reino de Palmira."
       }
     },
     {
@@ -7609,7 +7604,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Claudio II el Gotico.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Quintilo (270 d.C.), todavía fragmentado en tres tras la muerte de su hermano Claudio II, en las pocas semanas antes de que Aureliano lo reunificara."
+        "caption": "El Imperio todavía fragmentado en tres bajo Claudio II el Gótico (268–270 d.C.): el núcleo romano en rojo, el Imperio Galo en verde y el reino de Palmira en amarillo, la misma división de la Crisis del Siglo III heredada de Galieno. Sería Aureliano quien los reunificaría."
       }
     },
     {
@@ -7618,9 +7613,9 @@ window.ROMA_DATA = {
       "texto": "En cinco años reunificó el Imperio: venció a Zenobia de Palmira y recuperó el Imperio Galo, lo que le valió el título de restitutor orbis. Amuralló Roma, reformó la moneda y evacuó la Dacia. Fue asesinado en una conspiración de oficiales camino a Persia.",
       "imagen": "assets/img/retratos/retrato-161.jpg",
       "mapaEspecial": {
-        "url": "assets/img/SPQR Aureliano.png",
+        "url": "assets/img/SPQR Claudio II el Gotico.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio reunificado bajo Aureliano (270–275 d.C.), que en apenas cinco años recuperó el Imperio Galo y venció a Zenobia de Palmira, devolviendo a Roma sus fronteras completas, Britania incluida."
+        "caption": "El Imperio bajo Quintilo (270 d.C.), todavía fragmentado en tres tras la muerte de su hermano Claudio II, en las pocas semanas antes de que Aureliano lo reunificara."
       }
     },
     {
@@ -7631,7 +7626,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Aureliano.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Tácito (275–276 d.C.), con las fronteras reunificadas por Aureliano todavía intactas."
+        "caption": "El Imperio reunificado bajo Aureliano (270–275 d.C.), que en apenas cinco años recuperó el Imperio Galo y venció a Zenobia de Palmira, devolviendo a Roma sus fronteras completas, Britania incluida."
       }
     },
     {
@@ -7642,7 +7637,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Aureliano.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Floriano (276 d.C.), sin cambios de fronteras respecto a Aureliano durante su brevísimo reinado de unos ochenta días."
+        "caption": "El Imperio bajo Tácito (275–276 d.C.), con las fronteras reunificadas por Aureliano todavía intactas."
       }
     },
     {
@@ -7653,7 +7648,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Aureliano.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Probo (276–282 d.C.), que expulsó a los germanos que habían cruzado el Rin y el Danubio sin alterar las fronteras reunificadas por Aureliano."
+        "caption": "El Imperio bajo Floriano (276 d.C.), sin cambios de fronteras respecto a Aureliano durante su brevísimo reinado de unos ochenta días."
       }
     },
     {
@@ -7664,7 +7659,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Aureliano.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Caro (282–283 d.C.), con las mismas fronteras heredadas de Aureliano, ampliadas brevemente por su campaña victoriosa contra Persia."
+        "caption": "El Imperio bajo Probo (276–282 d.C.), que expulsó a los germanos que habían cruzado el Rin y el Danubio sin alterar las fronteras reunificadas por Aureliano."
       }
     },
     {
@@ -7675,7 +7670,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Aureliano.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Carino (283–285 d.C.), con las fronteras occidentales todavía sin cambios respecto a Aureliano."
+        "caption": "El Imperio bajo Caro (282–283 d.C.), con las mismas fronteras heredadas de Aureliano, ampliadas brevemente por su campaña victoriosa contra Persia."
       }
     },
     {
@@ -7686,7 +7681,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Aureliano.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Numeriano (283–284 d.C.), con las fronteras orientales sin cambios respecto a Aureliano, tras la retirada del ejército de la campaña pérsica de su padre Caro."
+        "caption": "El Imperio bajo Carino (283–285 d.C.), con las fronteras occidentales todavía sin cambios respecto a Aureliano."
       }
     },
     {
@@ -7697,7 +7692,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Aureliano.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Diocleciano (284–305 d.C.), que puso fin a la Crisis del Siglo III con la Tetrarquía sin alterar las fronteras exteriores heredadas de Aureliano."
+        "caption": "El Imperio bajo Numeriano (283–284 d.C.), con las fronteras orientales sin cambios respecto a Aureliano, tras la retirada del ejército de la campaña pérsica de su padre Caro."
       }
     },
     {
@@ -7708,7 +7703,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Aureliano.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Constantino I (306–337 d.C.), reunificado bajo un único emperador, con las mismas fronteras exteriores heredadas de la Tetrarquía y, en última instancia, de Aureliano."
+        "caption": "El Imperio bajo Diocleciano (284–305 d.C.), que puso fin a la Crisis del Siglo III con la Tetrarquía sin alterar las fronteras exteriores heredadas de Aureliano."
       }
     },
     {
@@ -7719,7 +7714,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Aureliano.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Constantino II (337–340 d.C.), que gobernó la Galia, Britania e Hispania como parte del reparto entre los hijos de Constantino I, sin cambios en las fronteras exteriores."
+        "caption": "El Imperio bajo Constantino I (306–337 d.C.), reunificado bajo un único emperador, con las mismas fronteras exteriores heredadas de la Tetrarquía y, en última instancia, de Aureliano."
       }
     },
     {
@@ -7730,7 +7725,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Aureliano.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Constante I (337–350 d.C.), con las fronteras exteriores sin cambios pese a la reunificación de la mitad occidental tras vencer a su hermano Constantino II."
+        "caption": "El Imperio bajo Constantino II (337–340 d.C.), que gobernó la Galia, Britania e Hispania como parte del reparto entre los hijos de Constantino I, sin cambios en las fronteras exteriores."
       }
     },
     {
@@ -7741,7 +7736,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Aureliano.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Constancio II (337–361 d.C.), único emperador tras la muerte de sus hermanos, con las fronteras exteriores todavía sin cambios respecto a Aureliano y la Tetrarquía."
+        "caption": "El Imperio bajo Constante I (337–350 d.C.), con las fronteras exteriores sin cambios pese a la reunificación de la mitad occidental tras vencer a su hermano Constantino II."
       }
     },
     {
@@ -7752,7 +7747,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Aureliano.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Juliano el Apóstata (361–363 d.C.), con las fronteras exteriores sin cambios, poco antes de morir en campaña contra los persas sasánidas."
+        "caption": "El Imperio bajo Constancio II (337–361 d.C.), único emperador tras la muerte de sus hermanos, con las fronteras exteriores todavía sin cambios respecto a Aureliano y la Tetrarquía."
       }
     },
     {
@@ -7774,7 +7769,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Aureliano.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Valentiniano I y Valente (364–378 d.C.), dividido en su administración entre Occidente y Oriente pero todavía sin fronteras exteriores alteradas, hasta el desastre de Adrianópolis (378 d.C.) y la entrada de los godos."
+        "caption": "El Imperio bajo Juliano el Apóstata (361–363 d.C.), con las fronteras exteriores sin cambios, poco antes de morir en campaña contra los persas sasánidas."
       }
     },
     {
@@ -7785,7 +7780,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/SPQR Aureliano.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bajo Teodosio I (379–395 d.C.), último en gobernar el Imperio unificado, con las fronteras exteriores heredadas de sus predecesores: a su muerte se dividiría definitivamente entre sus hijos Honorio y Arcadio."
+        "caption": "El Imperio bajo Valentiniano I y Valente (364–378 d.C.), dividido en su administración entre Occidente y Oriente pero todavía sin fronteras exteriores alteradas, hasta el desastre de Adrianópolis (378 d.C.) y la entrada de los godos."
       }
     }
   ],
@@ -7829,9 +7824,9 @@ window.ROMA_DATA = {
       "texto": "Aristócrata que instigó el asesinato de Valentiniano III y usurpó el trono casándose a la fuerza con su viuda. Su reinado duró apenas semanas: intentó huir de Roma ante la llegada de los vándalos de Genserico y fue linchado por la multitud antes del segundo gran saqueo de la ciudad.",
       "imagen": "assets/img/retratos/retrato-40.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-455.png",
+        "url": "assets/img/occidente-395-division.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio de Occidente en el 455 d.C.: aún conserva el sur de la Galia, parte de Hispania, Italia, Dalmacia y las islas de Córcega, Cerdeña y Sicilia, justo antes del saqueo vándalo de Roma."
+        "caption": "División administrativa del Imperio Romano en el 395 d.C., al asumir Honorio el trono de Occidente (rojo): Britania, la Galia, Hispania, Italia y el norte de África, frente al Imperio de Oriente (azul). Las fronteras reales fueron cambiando con las invasiones germánicas de las décadas siguientes."
       }
     },
     {
@@ -7840,9 +7835,9 @@ window.ROMA_DATA = {
       "texto": "Aristócrata galo elevado al trono con el respaldo de los visigodos de Tolosa. Su falta de apoyo en Italia y su dependencia de tropas godas le generaron el rechazo del Senado romano; fue depuesto por el general Ricimero, quien a partir de entonces se convertiría en el verdadero árbitro del poder en Occidente.",
       "imagen": "assets/img/retratos/retrato-41.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-456.png",
+        "url": "assets/img/occidente-455.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio de Occidente hacia el 456 d.C.: tras el saqueo de Roma por Genserico, los vándalos se apoderan de Córcega, Cerdeña y Sicilia, que dejan de estar bajo control romano."
+        "caption": "El Imperio de Occidente en el 455 d.C.: aún conserva el sur de la Galia, parte de Hispania, Italia, Dalmacia y las islas de Córcega, Cerdeña y Sicilia, justo antes del saqueo vándalo de Roma."
       }
     },
     {
@@ -7851,9 +7846,9 @@ window.ROMA_DATA = {
       "texto": "Considerado el último emperador occidental capaz de intentar una recuperación real del imperio, reorganizó el ejército y preparó una campaña para reconquistar el norte de África vándalo, que fracasó al ser destruida su flota. El general Ricimero, que lo había impuesto, terminó depuesto y ejecutándolo.",
       "imagen": "assets/img/retratos/retrato-42.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-457.png",
+        "url": "assets/img/occidente-456.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio de Occidente en el 457 d.C., al comienzo del reinado de Mayoriano: Hispania se ha perdido casi por completo frente a suevos y visigodos, mientras se conservan el sur de la Galia, Italia y Dalmacia."
+        "caption": "El Imperio de Occidente hacia el 456 d.C.: tras el saqueo de Roma por Genserico, los vándalos se apoderan de Córcega, Cerdeña y Sicilia, que dejan de estar bajo control romano."
       }
     },
     {
@@ -7862,9 +7857,9 @@ window.ROMA_DATA = {
       "texto": "Elevado al trono por Ricimero como emperador títere sin autoridad real ni reconocimiento del Imperio de Oriente. Su reinado careció de eventos militares o políticos relevantes; murió en circunstancias oscuras, posiblemente envenenado por el propio Ricimero.",
       "imagen": "assets/img/retratos/retrato-43.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-461.png",
+        "url": "assets/img/occidente-457.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio de Occidente en el 461 d.C.: Mayoriano había recuperado el control de buena parte de Hispania antes de morir, pero la Galia se reduce a una estrecha franja costera ante el avance del reino visigodo de Tolosa."
+        "caption": "El Imperio de Occidente en el 457 d.C., al comienzo del reinado de Mayoriano: Hispania se ha perdido casi por completo frente a suevos y visigodos, mientras se conservan el sur de la Galia, Italia y Dalmacia."
       }
     },
     {
@@ -7906,9 +7901,9 @@ window.ROMA_DATA = {
       "texto": "Impuesto por el Imperio de Oriente, gobernó apenas un año en Italia antes de ser depuesto por su propio magister militum, Orestes, quien coronó a su hijo Rómulo Augústulo. Nepote continuó reclamando el título imperial desde Dalmacia hasta su asesinato en el 480, por lo que algunos historiadores lo consideran el último emperador legítimo de Occidente.",
       "imagen": "assets/img/retratos/retrato-47.jpg",
       "mapaEspecial": {
-        "url": "assets/img/occidente-474.png",
+        "url": "assets/img/occidente-461.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio de Occidente en el 474 d.C., bajo Julio Nepote: reducido prácticamente a Italia y Dalmacia, tras la pérdida definitiva de la Galia e Hispania frente a los visigodos de Eurico."
+        "caption": "El Imperio de Occidente en el 461 d.C.: Mayoriano había recuperado el control de buena parte de Hispania antes de morir, pero la Galia se reduce a una estrecha franja costera ante el avance del reino visigodo de Tolosa."
       }
     },
     {
@@ -7919,7 +7914,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/occidente-474.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio de Occidente hacia el 474–476 d.C., bajo Rómulo Augústulo: reducido prácticamente a Italia y Dalmacia, justo antes de su caída definitiva ante Odoacro."
+        "caption": "El Imperio de Occidente en el 474 d.C., bajo Julio Nepote: reducido prácticamente a Italia y Dalmacia, tras la pérdida definitiva de la Galia e Hispania frente a los visigodos de Eurico."
       }
     }
   ],
@@ -8030,9 +8025,9 @@ window.ROMA_DATA = {
       "texto": "Elevado al trono como corregente por Justino II durante uno de sus arrebatos de lucidez, gobernó con generosidad hacia el pueblo, lo que vació las arcas heredadas. Continuó la guerra contra Persia y enfrentó las presiones de ávaros y eslavos en los Balcanes.",
       "imagen": "assets/img/retratos/retrato-59.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-578.png",
+        "url": "assets/img/occidente-395-division.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 578 d.C., al asumir Tiberio II Constantino: se conservan los Balcanes, Anatolia, Italia (con el exarcado de Rávena) y posesiones en el sur de Hispania y el norte de África, aunque los lombardos ya presionaban el norte de Italia y la guerra con Persia consumía recursos."
+        "caption": "División administrativa del Imperio Romano en el 395 d.C., al asumir Arcadio el trono de Oriente (azul): Tracia, Asia Menor, Siria, Egipto y los Balcanes, frente al Imperio de Occidente (rojo). Es la misma imagen usada para Honorio en Occidente, ya que muestra el reparto que separó definitivamente ambas mitades del imperio."
       }
     },
     {
@@ -8043,7 +8038,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/bizantino-578.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 582 d.C., al asumir Mauricio: mismo territorio heredado de Tiberio II Constantino (Balcanes, Anatolia, Italia y el norte de África), sin cambios significativos hasta que sus reformas militares y los recortes al ejército del Danubio provocaran el motín que terminó con su reinado."
+        "caption": "El Imperio bizantino hacia el 578 d.C., al asumir Tiberio II Constantino: se conservan los Balcanes, Anatolia, Italia (con el exarcado de Rávena) y posesiones en el sur de Hispania y el norte de África, aunque los lombardos ya presionaban el norte de Italia y la guerra con Persia consumía recursos."
       }
     },
     {
@@ -8052,9 +8047,9 @@ window.ROMA_DATA = {
       "texto": "Usurpador que llegó al trono tras el motín contra Mauricio, gobernó con terror y purgas sangrientas. Su incompetencia militar permitió que los persas de Cosroes II invadieran Siria y Anatolia. Fue derrocado y ejecutado por Heraclio, quien navegó desde Cartago para deponerlo.",
       "imagen": "assets/img/retratos/retrato-61.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-602.png",
+        "url": "assets/img/bizantino-578.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 602 d.C., al usurpar el trono Focas: el territorio se mantiene similar al de décadas anteriores (Balcanes, Anatolia, Italia y el norte de África), pero el abandono de las defensas del Danubio abre la puerta a ávaros y eslavos, y la guerra con Persia se reanuda."
+        "caption": "El Imperio bizantino hacia el 582 d.C., al asumir Mauricio: mismo territorio heredado de Tiberio II Constantino (Balcanes, Anatolia, Italia y el norte de África), sin cambios significativos hasta que sus reformas militares y los recortes al ejército del Danubio provocaran el motín que terminó con su reinado."
       }
     },
     {
@@ -8063,9 +8058,9 @@ window.ROMA_DATA = {
       "texto": "Enfrentó al imperio en su momento más crítico: los persas ocuparon Egipto, Siria y Jerusalén, llevándose la Vera Cruz. Reorganizó el ejército y lanzó una contraofensiva que derrotó definitivamente a Persia (628). La victoria fue efímera: las conquistas árabes islámicas le arrebataron Siria, Palestina y Egipto en la década de 630. Adoptó el griego como lengua oficial en lugar del latín.",
       "imagen": "assets/img/retratos/retrato-62.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-610.png",
+        "url": "assets/img/bizantino-602.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 610 d.C., al asumir Heraclio: todavía controla los Balcanes, Anatolia, Italia y el norte de África, justo antes de la gran invasión persa que le arrebataría Egipto, Siria y Palestina en la década siguiente."
+        "caption": "El Imperio bizantino hacia el 602 d.C., al usurpar el trono Focas: el territorio se mantiene similar al de décadas anteriores (Balcanes, Anatolia, Italia y el norte de África), pero el abandono de las defensas del Danubio abre la puerta a ávaros y eslavos, y la guerra con Persia se reanuda."
       }
     },
     {
@@ -8074,9 +8069,9 @@ window.ROMA_DATA = {
       "texto": "Hijos de Heraclio de distintos matrimonios, gobernaron brevemente en corregencia tras su muerte. Constantino III falleció al poco tiempo, posiblemente envenenado por instigación de la emperatriz Marina, madre de Heraclonas, lo que generó una crisis sucesoria.",
       "imagen": "assets/img/retratos/retrato-63.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-641.png",
+        "url": "assets/img/bizantino-610.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 641 d.C., tras la muerte de Heraclio: ya perdidos Egipto, Siria y Palestina frente a la conquista árabe islámica, el imperio conserva Anatolia, los Balcanes y posesiones menguantes en Italia y el norte de África."
+        "caption": "El Imperio bizantino hacia el 610 d.C., al asumir Heraclio: todavía controla los Balcanes, Anatolia, Italia y el norte de África, justo antes de la gran invasión persa que le arrebataría Egipto, Siria y Palestina en la década siguiente."
       }
     },
     {
@@ -8087,7 +8082,7 @@ window.ROMA_DATA = {
       "mapaEspecial": {
         "url": "assets/img/bizantino-641.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 641 d.C., al asumir Constante II: ya perdidos Egipto, Siria y Palestina frente a la conquista árabe islámica, el imperio conserva Anatolia, los Balcanes y posesiones menguantes en Italia y el norte de África, que seguirían reduciéndose durante su reinado."
+        "caption": "El Imperio bizantino hacia el 641 d.C., tras la muerte de Heraclio: ya perdidos Egipto, Siria y Palestina frente a la conquista árabe islámica, el imperio conserva Anatolia, los Balcanes y posesiones menguantes en Italia y el norte de África."
       }
     },
     {
@@ -8107,9 +8102,9 @@ window.ROMA_DATA = {
       "texto": "Depuesto en el 695 por Leoncio, sufrió la mutilación de su nariz (de ahí su apodo) y fue exiliado a Crimea. Regresó al poder una década después con apoyo búlgaro y gobernó con una sed de venganza que le costó una segunda y definitiva caída, siendo ejecutado junto a su hijo.",
       "imagen": "assets/img/retratos/retrato-66.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-685.png",
+        "url": "assets/img/bizantino-641.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 685 d.C., al asumir Justiniano II en su primer reinado: Anatolia, los Balcanes, Sicilia y el exarcado de Rávena bajo control bizantino, con el norte de África (Cartago) todavía en manos romanas por poco tiempo más."
+        "caption": "El Imperio bizantino hacia el 641 d.C., al asumir Constante II: ya perdidos Egipto, Siria y Palestina frente a la conquista árabe islámica, el imperio conserva Anatolia, los Balcanes y posesiones menguantes en Italia y el norte de África, que seguirían reduciéndose durante su reinado."
       }
     },
     {
@@ -8129,9 +8124,9 @@ window.ROMA_DATA = {
       "texto": "Almirante que llegó al poder tras el motín contra Leoncio. Reforzó las defensas de Anatolia frente a los árabes, pero fue depuesto y ejecutado cuando Justiniano II regresó del exilio con un ejército búlgaro.",
       "imagen": "assets/img/retratos/retrato-68.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-698.png",
+        "url": "assets/img/bizantino-685.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 698 d.C.: Cartago y el resto del norte de África acaban de perderse definitivamente frente a los árabes, mientras Anatolia, los Balcanes y las posesiones italianas se mantienen."
+        "caption": "El Imperio bizantino hacia el 685 d.C., al asumir Justiniano II en su primer reinado: Anatolia, los Balcanes, Sicilia y el exarcado de Rávena bajo control bizantino, con el norte de África (Cartago) todavía en manos romanas por poco tiempo más."
       }
     },
     {
@@ -8140,9 +8135,9 @@ window.ROMA_DATA = {
       "texto": "Oficial de origen armenio que derrocó a Justiniano II con apoyo del ejército del Quersoneso. Reintrodujo el monotelismo, generando tensiones religiosas, y fue depuesto y cegado tras una nueva revuelta militar.",
       "imagen": "assets/img/retratos/retrato-69.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-711.png",
+        "url": "assets/img/bizantino-698.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 711 d.C., ya sin el norte de África: el territorio se concentra en Anatolia, los Balcanes y una presencia menguante en Italia (Rávena, Nápoles, Sicilia)."
+        "caption": "El Imperio bizantino hacia el 698 d.C.: Cartago y el resto del norte de África acaban de perderse definitivamente frente a los árabes, mientras Anatolia, los Balcanes y las posesiones italianas se mantienen."
       }
     },
     {
@@ -8184,9 +8179,9 @@ window.ROMA_DATA = {
       "texto": "Hábil comandante militar que obtuvo victorias contra árabes y búlgaros, expandiendo las fronteras. Intensificó la persecución iconoclasta, convocando un concilio (754) que condenó el culto a las imágenes. Sus enemigos religiosos posteriores lo apodaron despectivamente 'el Estercolero'.",
       "imagen": "assets/img/retratos/retrato-73.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-741.png",
+        "url": "assets/img/bizantino-711.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 741 d.C., al asumir Constantino V: Anatolia y los Balcanes como núcleo del imperio, con Sicilia y algunas posesiones en el sur de Italia; el exarcado de Rávena caería ante los lombardos una década después (751)."
+        "caption": "El Imperio bizantino hacia el 711 d.C., ya sin el norte de África: el territorio se concentra en Anatolia, los Balcanes y una presencia menguante en Italia (Rávena, Nápoles, Sicilia)."
       }
     },
     {
@@ -8195,9 +8190,9 @@ window.ROMA_DATA = {
       "texto": "Hijo de Constantino V y de una princesa jázara, moderó la persecución iconoclasta respecto a su padre. Su esposa, la ateniense Irene, era secretamente veneradora de íconos, lo que anticipaba el giro religioso que vendría tras su muerte prematura.",
       "imagen": "assets/img/retratos/retrato-74.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-775.png",
+        "url": "assets/img/bizantino-741.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 775 d.C., tras la pérdida definitiva de Rávena ante los lombardos (751): el territorio italiano se reduce a Sicilia, Nápoles y algunos puntos costeros, mientras Anatolia y los Balcanes siguen como núcleo del imperio."
+        "caption": "El Imperio bizantino hacia el 741 d.C., al asumir Constantino V: Anatolia y los Balcanes como núcleo del imperio, con Sicilia y algunas posesiones en el sur de Italia; el exarcado de Rávena caería ante los lombardos una década después (751)."
       }
     },
     {
@@ -8206,9 +8201,9 @@ window.ROMA_DATA = {
       "texto": "Ascendió al trono siendo niño bajo la regencia de su madre Irene, con quien mantuvo una relación de rivalidad por el poder. Al intentar gobernar por su cuenta fue depuesto por orden de su propia madre, quien lo hizo cegar brutalmente, causándole la muerte.",
       "imagen": "assets/img/retratos/retrato-75.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-780.png",
+        "url": "assets/img/bizantino-775.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 780 d.C.: Anatolia y los Balcanes (presionados por los búlgaros) como núcleo del imperio, con Sicilia y el sur de Italia como únicas posesiones occidentales relevantes."
+        "caption": "El Imperio bizantino hacia el 775 d.C., tras la pérdida definitiva de Rávena ante los lombardos (751): el territorio italiano se reduce a Sicilia, Nápoles y algunos puntos costeros, mientras Anatolia y los Balcanes siguen como núcleo del imperio."
       }
     },
     {
@@ -8217,9 +8212,9 @@ window.ROMA_DATA = {
       "texto": "Primera mujer en gobernar el imperio como soberana suprema, tras cegar a su hijo Constantino VI. Convocó el Segundo Concilio de Nicea (787), que restauró la veneración de los íconos y puso fin temporalmente a la primera fase de la iconoclasia. Fue depuesta por un golpe palaciego y murió en el exilio.",
       "imagen": "assets/img/retratos/retrato-76.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-797.png",
+        "url": "assets/img/bizantino-780.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 797 d.C., al tomar Irene el poder en solitario: territorio similar al de las décadas anteriores, con Anatolia y los Balcanes como núcleo y Sicilia y el sur de Italia como posesiones occidentales."
+        "caption": "El Imperio bizantino hacia el 780 d.C.: Anatolia y los Balcanes (presionados por los búlgaros) como núcleo del imperio, con Sicilia y el sur de Italia como únicas posesiones occidentales relevantes."
       }
     },
     {
@@ -8228,9 +8223,9 @@ window.ROMA_DATA = {
       "texto": "Antiguo ministro de finanzas que depuso a Irene, reformó el sistema tributario con medidas muy impopulares. Murió en batalla contra el kan búlgaro Krum en Pliska, quien mandó convertir su cráneo en una copa para beber, según la tradición.",
       "imagen": "assets/img/retratos/retrato-77.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-802.png",
+        "url": "assets/img/bizantino-797.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 802 d.C., al deponer Nicéforo I a Irene: Anatolia y los Balcanes como núcleo del imperio, con Sicilia y algunas plazas del sur de Italia; la guerra con el kan búlgaro Krum, que le costaría la vida, aún no había estallado."
+        "caption": "El Imperio bizantino hacia el 797 d.C., al tomar Irene el poder en solitario: territorio similar al de las décadas anteriores, con Anatolia y los Balcanes como núcleo y Sicilia y el sur de Italia como posesiones occidentales."
       }
     },
     {
@@ -8283,9 +8278,9 @@ window.ROMA_DATA = {
       "texto": "Último emperador iconoclasta, conocido por su gusto por la arquitectura y la justicia personal, recorriendo las calles para escuchar quejas del pueblo. Sufrió duras derrotas frente a los árabes abasíes, que saquearon Amorio, ciudad natal de su dinastía.",
       "imagen": "assets/img/retratos/retrato-82.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-829.png",
+        "url": "assets/img/bizantino-802.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 829 d.C., al asumir Teófilo: Anatolia y los Balcanes siguen como núcleo del imperio, aunque ya había comenzado la pérdida de Creta y el inicio de la conquista árabe de Sicilia."
+        "caption": "El Imperio bizantino hacia el 802 d.C., al deponer Nicéforo I a Irene: Anatolia y los Balcanes como núcleo del imperio, con Sicilia y algunas plazas del sur de Italia; la guerra con el kan búlgaro Krum, que le costaría la vida, aún no había estallado."
       }
     },
     {
@@ -8294,9 +8289,9 @@ window.ROMA_DATA = {
       "texto": "Ascendió siendo niño bajo la regencia de su madre Teodora, quien en el 843 restauró definitivamente la veneración de íconos, poniendo fin a la iconoclasia. Ya adulto, gobernó de forma disipada y fue asesinado por su antiguo copero y favorito, Basilio, que fundaría una nueva dinastía.",
       "imagen": "assets/img/retratos/retrato-83.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-842.png",
+        "url": "assets/img/bizantino-829.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 842 d.C.: territorio similar al de Teófilo, con la conquista árabe de Sicilia ya en marcha y Creta perdida en manos de piratas andalusíes."
+        "caption": "El Imperio bizantino hacia el 829 d.C., al asumir Teófilo: Anatolia y los Balcanes siguen como núcleo del imperio, aunque ya había comenzado la pérdida de Creta y el inicio de la conquista árabe de Sicilia."
       }
     },
     {
@@ -8305,9 +8300,9 @@ window.ROMA_DATA = {
       "texto": "De origen humilde, ascendió por su cercanía a Miguel III, a quien terminó asesinando para tomar el trono. Fundó la dinastía macedonia, que llevaría al imperio a su época de mayor esplendor. Reorganizó la legislación e inició campañas exitosas contra los paulicianos y en Italia.",
       "imagen": "assets/img/retratos/retrato-84.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-867.png",
+        "url": "assets/img/bizantino-842.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 867 d.C., al fundar Basilio I la dinastía macedonia: Anatolia y los Balcanes como núcleo, con Sicilia cada vez más disputada frente a los árabes y campañas de recuperación en el sur de Italia."
+        "caption": "El Imperio bizantino hacia el 842 d.C.: territorio similar al de Teófilo, con la conquista árabe de Sicilia ya en marcha y Creta perdida en manos de piratas andalusíes."
       }
     },
     {
@@ -8327,9 +8322,9 @@ window.ROMA_DATA = {
       "texto": "Hermano de León VI, gobernó brevemente y de forma poco memorable. Provocó una innecesaria ruptura con Bulgaria al negarse a renovar el tributo a Simeón I, dejando al imperio en una posición vulnerable a su muerte repentina.",
       "imagen": "assets/img/retratos/retrato-86.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-912.png",
+        "url": "assets/img/bizantino-867.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 912 d.C.: Anatolia y los Balcanes consolidados como núcleo del imperio bajo la dinastía macedonia, con Sicilia ya perdida casi por completo frente a los árabes."
+        "caption": "El Imperio bizantino hacia el 867 d.C., al fundar Basilio I la dinastía macedonia: Anatolia y los Balcanes como núcleo, con Sicilia cada vez más disputada frente a los árabes y campañas de recuperación en el sur de Italia."
       }
     },
     {
@@ -8349,9 +8344,9 @@ window.ROMA_DATA = {
       "texto": "Hijo de Constantino VII, delegó buena parte del gobierno en eunucos de la corte mientras se dedicaba al ocio. Su reinado vio la reconquista de Creta a manos árabes gracias al general Nicéforo Focas. Murió joven, posiblemente envenenado por su esposa Teófano.",
       "imagen": "assets/img/retratos/retrato-88.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-959.png",
+        "url": "assets/img/bizantino-912.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 959 d.C.: territorio estable en Anatolia y los Balcanes, justo antes de que el general Nicéforo Focas reconquistara Creta de manos árabes durante este reinado."
+        "caption": "El Imperio bizantino hacia el 912 d.C.: Anatolia y los Balcanes consolidados como núcleo del imperio bajo la dinastía macedonia, con Sicilia ya perdida casi por completo frente a los árabes."
       }
     },
     {
@@ -8360,9 +8355,9 @@ window.ROMA_DATA = {
       "texto": "Victorioso general convertido en emperador al casarse con la viuda Teófano, reconquistó Chipre, Cilicia y Antioquía de manos musulmanas. Su carácter austero y sus impopulares políticas fiscales le granjearon enemigos; fue asesinado en su propio dormitorio por su sobrino Juan Tzimisces, con la connivencia de Teófano.",
       "imagen": "assets/img/retratos/retrato-89.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-963.png",
+        "url": "assets/img/bizantino-959.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 963 d.C., al asumir Nicéforo II Focas: además de Anatolia y los Balcanes, el imperio recupera Creta y pronto sumaría Chipre, Cilicia y Antioquía en sus campañas de reconquista."
+        "caption": "El Imperio bizantino hacia el 959 d.C.: territorio estable en Anatolia y los Balcanes, justo antes de que el general Nicéforo Focas reconquistara Creta de manos árabes durante este reinado."
       }
     },
     {
@@ -8382,9 +8377,9 @@ window.ROMA_DATA = {
       "texto": "Tras superar rebeliones internas de la aristocracia anatolia, dedicó décadas a una guerra de desgaste contra Bulgaria que culminó en su completa anexión (1018). Se dice que cegó a miles de prisioneros búlgaros, dejando uno de cada ciento con un ojo para guiar a los demás. Llevó al imperio a su máxima extensión territorial desde Heraclio.",
       "imagen": "assets/img/retratos/retrato-91.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1025.png",
+        "url": "assets/img/bizantino-963.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 1025 d.C., al morir Basilio II tras completar la anexión de Bulgaria (1018): la máxima extensión territorial del imperio desde Heraclio, con Anatolia, los Balcanes, Bulgaria, Creta, Chipre y el norte de Siria bajo control bizantino."
+        "caption": "El Imperio bizantino hacia el 963 d.C., al asumir Nicéforo II Focas: además de Anatolia y los Balcanes, el imperio recupera Creta y pronto sumaría Chipre, Cilicia y Antioquía en sus campañas de reconquista."
       }
     },
     {
@@ -8429,9 +8424,9 @@ window.ROMA_DATA = {
       "texto": "Última representante de la dinastía macedonia, gobernó en solitario tras la muerte de Constantino IX ya anciana. Se negó a nombrar sucesor hasta el final, eligiendo en su lecho de muerte al burócrata Miguel Estratiótico.",
       "imagen": "assets/img/retratos/retrato-98.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1055.png",
+        "url": "assets/img/bizantino-1025.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 1055 d.C., última soberana de la dinastía macedonia: territorio similar al heredado de Basilio II (Anatolia, Balcanes, Bulgaria, Creta, Chipre), aunque ya empezaban a sentirse las primeras presiones normandas en Italia y turcas en Oriente."
+        "caption": "El Imperio bizantino hacia el 1025 d.C., al morir Basilio II tras completar la anexión de Bulgaria (1018): la máxima extensión territorial del imperio desde Heraclio, con Anatolia, los Balcanes, Bulgaria, Creta, Chipre y el norte de Siria bajo control bizantino."
       }
     },
     {
@@ -8484,9 +8479,9 @@ window.ROMA_DATA = {
       "texto": "Hijo de Constantino X, gobernó durante la fragmentación territorial posterior a Manzikert, con generales rebeldes disputándose el poder mientras los turcos ocupaban Anatolia central. Fue depuesto por una revuelta militar y terminó sus días como monje.",
       "imagen": "assets/img/retratos/retrato-103.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1071.png",
+        "url": "assets/img/bizantino-1055.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 1071 d.C., año de la catastrófica derrota de Manzikert: Anatolia empieza a perderse de forma irreversible frente a los turcos selyúcidas, mientras los normandos completan la conquista de las últimas posesiones bizantinas en el sur de Italia."
+        "caption": "El Imperio bizantino hacia el 1055 d.C., última soberana de la dinastía macedonia: territorio similar al heredado de Basilio II (Anatolia, Balcanes, Bulgaria, Creta, Chipre), aunque ya empezaban a sentirse las primeras presiones normandas en Italia y turcas en Oriente."
       }
     },
     {
@@ -8495,9 +8490,9 @@ window.ROMA_DATA = {
       "texto": "General anciano que depuso a Miguel VII, gobernó un imperio en crisis territorial y financiera, incapaz de contener las ambiciones de la aristocracia militar. Fue depuesto por el joven general Alejo Comneno.",
       "imagen": "assets/img/retratos/retrato-104.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1078.png",
+        "url": "assets/img/bizantino-1071.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 1078 d.C.: buena parte de Anatolia central ya perdida frente a los turcos tras Manzikert, con generales rebeldes disputándose lo que queda del territorio en los Balcanes y la costa anatolia."
+        "caption": "El Imperio bizantino hacia el 1071 d.C., año de la catastrófica derrota de Manzikert: Anatolia empieza a perderse de forma irreversible frente a los turcos selyúcidas, mientras los normandos completan la conquista de las últimas posesiones bizantinas en el sur de Italia."
       }
     },
     {
@@ -8517,9 +8512,9 @@ window.ROMA_DATA = {
       "texto": "Considerado uno de los emperadores más virtuosos y capaces de la dinastía, consolidó las fronteras en los Balcanes y Anatolia mediante campañas constantes. Recuperó territorio de manos turcas y normandas, gobernando con notable moderación y justicia.",
       "imagen": "assets/img/retratos/retrato-106.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1118.png",
+        "url": "assets/img/bizantino-1078.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 1118 d.C., al asumir Juan II Comneno: territorio recuperado en parte por Alejo I tras la Primera Cruzada, con los Balcanes consolidados y una franja costera de Anatolia bajo control bizantino."
+        "caption": "El Imperio bizantino hacia el 1078 d.C.: buena parte de Anatolia central ya perdida frente a los turcos tras Manzikert, con generales rebeldes disputándose lo que queda del territorio en los Balcanes y la costa anatolia."
       }
     },
     {
@@ -8561,9 +8556,9 @@ window.ROMA_DATA = {
       "texto": "Aristócrata que encabezó la revuelta contra Andrónico I, su reinado sufrió la pérdida de Bulgaria, que recuperó su independencia. Fue depuesto y cegado por su propio hermano Alejo III, aunque regresó brevemente al trono en 1203 con ayuda de la Cuarta Cruzada.",
       "imagen": "assets/img/retratos/retrato-110.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1185.png",
+        "url": "assets/img/bizantino-1118.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 1185 d.C., al derrocar Isaac II Ángelo a Andrónico I: los Balcanes y una franja costera de Anatolia se mantienen bajo control bizantino, aunque Bulgaria recuperaría su independencia poco después. La misma imagen se usa para su breve restauración en 1203 con apoyo de la Cuarta Cruzada."
+        "caption": "El Imperio bizantino hacia el 1118 d.C., al asumir Juan II Comneno: territorio recuperado en parte por Alejo I tras la Primera Cruzada, con los Balcanes consolidados y una franja costera de Anatolia bajo control bizantino."
       }
     },
     {
@@ -8572,9 +8567,9 @@ window.ROMA_DATA = {
       "texto": "Depuso y cegó a su hermano Isaac II para tomar el trono, gobernando con notoria ineficacia administrativa y fiscal mientras el imperio se debilitaba. Huyó de Constantinopla al llegar la Cuarta Cruzada en apoyo del hijo de Isaac II.",
       "imagen": "assets/img/retratos/retrato-111.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1195.png",
+        "url": "assets/img/bizantino-1185.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 1195 d.C., al derrocar Alejo III a su hermano Isaac II: territorio similar al de años anteriores (Balcanes y costa de Anatolia), ya debilitado por la ineficacia administrativa y fiscal que marcaría su reinado."
+        "caption": "El Imperio bizantino hacia el 1185 d.C., al derrocar Isaac II Ángelo a Andrónico I: los Balcanes y una franja costera de Anatolia se mantienen bajo control bizantino, aunque Bulgaria recuperaría su independencia poco después. La misma imagen se usa para su breve restauración en 1203 con apoyo de la Cuarta Cruzada."
       }
     },
     {
@@ -8583,9 +8578,9 @@ window.ROMA_DATA = {
       "texto": "Hijo de Isaac II, había solicitado la ayuda de la Cuarta Cruzada para restaurar a su padre en el trono, prometiendo a cambio enormes sumas de dinero y la unión de las iglesias. Incapaz de cumplir sus promesas, fue depuesto y estrangulado por Alejo Murzuflo.",
       "imagen": "assets/img/retratos/retrato-112.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1203.png",
+        "url": "assets/img/bizantino-1195.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 1203 d.C., al ser restaurado Isaac II junto a su hijo Alejo IV con apoyo de la Cuarta Cruzada: territorio ya reducido y en crisis, apenas meses antes del saqueo de Constantinopla de 1204."
+        "caption": "El Imperio bizantino hacia el 1195 d.C., al derrocar Alejo III a su hermano Isaac II: territorio similar al de años anteriores (Balcanes y costa de Anatolia), ya debilitado por la ineficacia administrativa y fiscal que marcaría su reinado."
       }
     },
     {
@@ -8594,9 +8589,9 @@ window.ROMA_DATA = {
       "texto": "Noble que depuso a Alejo IV e intentó organizar la defensa de Constantinopla frente a los cruzados, ya sin recursos ni tiempo. La ciudad cayó y fue brutalmente saqueada en abril de 1204, poniendo fin temporal al Imperio Bizantino y dando origen a los estados sucesores de Nicea, Epiro y Trebisonda, junto con el Imperio Latino instaurado por los cruzados.",
       "imagen": "assets/img/retratos/retrato-113.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1204.png",
+        "url": "assets/img/bizantino-1203.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 1204 d.C., último momento antes del saqueo cruzado de Constantinopla: el territorio que quedaba se fragmentaría de inmediato en los estados sucesores de Nicea, Epiro y Trebisonda, además del Imperio Latino cruzado."
+        "caption": "El Imperio bizantino hacia el 1203 d.C., al ser restaurado Isaac II junto a su hijo Alejo IV con apoyo de la Cuarta Cruzada: territorio ya reducido y en crisis, apenas meses antes del saqueo de Constantinopla de 1204."
       }
     },
     {
@@ -8627,9 +8622,9 @@ window.ROMA_DATA = {
       "texto": "Culto y de salud frágil, continuó fortaleciendo el estado de Nicea heredado de su padre, aunque su reinado fue breve. Su desconfianza hacia la aristocracia lo llevó a apoyarse en funcionarios de origen humilde, generando tensiones en la corte.",
       "imagen": "assets/img/retratos/retrato-116.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1254.png",
+        "url": "assets/img/bizantino-1204.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio de Nicea hacia el 1254 d.C., al asumir Teodoro II Láscaris: territorio heredado de su padre Juan III Vatatzés, con buena parte de Tracia y Macedonia recuperadas de manos latinas y búlgaras, antes de la reconquista final de Constantinopla en 1261."
+        "caption": "El Imperio bizantino hacia el 1204 d.C., último momento antes del saqueo cruzado de Constantinopla: el territorio que quedaba se fragmentaría de inmediato en los estados sucesores de Nicea, Epiro y Trebisonda, además del Imperio Latino cruzado."
       }
     },
     {
@@ -8649,9 +8644,9 @@ window.ROMA_DATA = {
       "texto": "Usurpó el trono niceno y, en 1261, reconquistó Constantinopla casi sin lucha, restaurando el Imperio Bizantino y fundando la dinastía Paleóloga, la última de su historia. Buscó protección diplomática ante Occidente aceptando la Unión de Lyon (1274) con Roma, medida muy impopular entre su propio clero y pueblo.",
       "imagen": "assets/img/retratos/retrato-118.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1261.png",
+        "url": "assets/img/bizantino-1254.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El territorio bizantino inmediatamente después de la reconquista de Constantinopla en 1261: Miguel VIII restaura el Imperio Bizantino en la ciudad, sumando Tracia y el noroeste de Anatolia al núcleo niceno, aunque mucho menor que en épocas anteriores."
+        "caption": "El Imperio de Nicea hacia el 1254 d.C., al asumir Teodoro II Láscaris: territorio heredado de su padre Juan III Vatatzés, con buena parte de Tracia y Macedonia recuperadas de manos latinas y búlgaras, antes de la reconquista final de Constantinopla en 1261."
       }
     },
     {
@@ -8671,9 +8666,9 @@ window.ROMA_DATA = {
       "texto": "Llegó al trono tras derrocar a su abuelo en una guerra civil, intentó revitalizar militarmente al imperio con apoyo de su hábil ministro Juan Cantacuceno. Sufrió la pérdida progresiva de territorios en Anatolia frente al emirato otomano en ascenso.",
       "imagen": "assets/img/retratos/retrato-120.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1328.png",
+        "url": "assets/img/bizantino-1261.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 1328 d.C., al derrocar Andrónico III a su abuelo Andrónico II: territorio ya muy reducido en los Balcanes y una franja menguante de Anatolia occidental, frente al avance del emirato otomano."
+        "caption": "El territorio bizantino inmediatamente después de la reconquista de Constantinopla en 1261: Miguel VIII restaura el Imperio Bizantino en la ciudad, sumando Tracia y el noroeste de Anatolia al núcleo niceno, aunque mucho menor que en épocas anteriores."
       }
     },
     {
@@ -8682,9 +8677,9 @@ window.ROMA_DATA = {
       "texto": "Su largo reinado estuvo marcado por una devastadora guerra civil contra su antiguo regente Juan VI Cantacuceno y por la creciente dependencia militar de mercenarios otomanos, que aprovecharon para establecerse permanentemente en Europa (Galípoli, 1354). Terminó como vasallo tributario del sultán otomano.",
       "imagen": "assets/img/retratos/retrato-121.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1341.png",
+        "url": "assets/img/bizantino-1328.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 1341 d.C., al asumir Juan V siendo niño: territorio reducido a Constantinopla, Tracia, Tesalónica y algunas posesiones en el Egeo, en vísperas de la devastadora guerra civil con Juan VI Cantacuceno."
+        "caption": "El Imperio bizantino hacia el 1328 d.C., al derrocar Andrónico III a su abuelo Andrónico II: territorio ya muy reducido en los Balcanes y una franja menguante de Anatolia occidental, frente al avance del emirato otomano."
       }
     },
     {
@@ -8693,9 +8688,9 @@ window.ROMA_DATA = {
       "texto": "Regente y luego rival de Juan V en una destructiva guerra civil, recurrió a mercenarios turcos otomanos como aliados, facilitando su primer asentamiento permanente en suelo europeo. Terminó abdicando y retirándose a un monasterio, donde escribió una valiosa historia de su época.",
       "imagen": "assets/img/retratos/retrato-122.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1347.png",
+        "url": "assets/img/bizantino-1341.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 1347 d.C., regente y luego rival de Juan V: territorio ya fragmentado tras la guerra civil, con los otomanos a punto de establecerse permanentemente en suelo europeo (Galípoli, 1354) gracias a su alianza con Cantacuceno."
+        "caption": "El Imperio bizantino hacia el 1341 d.C., al asumir Juan V siendo niño: territorio reducido a Constantinopla, Tracia, Tesalónica y algunas posesiones en el Egeo, en vísperas de la devastadora guerra civil con Juan VI Cantacuceno."
       }
     },
     {
@@ -8704,9 +8699,9 @@ window.ROMA_DATA = {
       "texto": "Hijo de Juan V, se rebeló contra su padre con apoyo genovés y otomano, usurpando el trono por un breve período antes de ser depuesto nuevamente por Juan V con ayuda veneciana.",
       "imagen": "assets/img/retratos/retrato-123.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1376.png",
+        "url": "assets/img/bizantino-1347.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 1376 d.C., al usurpar Andrónico IV el trono de su padre Juan V con apoyo genovés y otomano: territorio reducido a Constantinopla y unas pocas plazas fuertes, ya como semivasallo de los turcos otomanos."
+        "caption": "El Imperio bizantino hacia el 1347 d.C., regente y luego rival de Juan V: territorio ya fragmentado tras la guerra civil, con los otomanos a punto de establecerse permanentemente en suelo europeo (Galípoli, 1354) gracias a su alianza con Cantacuceno."
       }
     },
     {
@@ -8737,9 +8732,9 @@ window.ROMA_DATA = {
       "texto": "Buscando desesperadamente ayuda militar occidental, viajó a Italia y firmó la Unión de Florencia (1439) con la Iglesia católica, aceptando la primacía papal a cambio de una cruzada de socorro. La unión fue rechazada por gran parte del clero y pueblo bizantino, y la prometida cruzada fue aplastada en Varna (1444).",
       "imagen": "assets/img/retratos/retrato-126.jpg",
       "mapaEspecial": {
-        "url": "assets/img/bizantino-1425.png",
+        "url": "assets/img/bizantino-1376.png",
         "credit": "Imagen provista por el usuario",
-        "caption": "El Imperio bizantino hacia el 1425 d.C., al asumir Juan VIII: territorio reducido casi por completo a Constantinopla y alrededores, más el despotado de Morea en el Peloponeso, vasallo de los sultanes otomanos."
+        "caption": "El Imperio bizantino hacia el 1376 d.C., al usurpar Andrónico IV el trono de su padre Juan V con apoyo genovés y otomano: territorio reducido a Constantinopla y unas pocas plazas fuertes, ya como semivasallo de los turcos otomanos."
       }
     },
     {
