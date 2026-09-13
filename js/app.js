@@ -50,6 +50,50 @@
     return lastMarker === 'a.C.' ? -year : year;
   }
 
+  function parsePeriodoRange(periodo){
+    // Caso "27 a.C. – 14 d.C.": cada numero trae su propio sufijo.
+    let m = periodo.match(/^(\d+)\s*(a\.C\.|d\.C\.)\s*[–-]\s*(\d+)\s*(a\.C\.|d\.C\.)/);
+    if(m){
+      const y1 = parseInt(m[1], 10), y2 = parseInt(m[3], 10);
+      return {
+        start: m[2]==='a.C.' ? -y1 : y1,
+        end: m[4]==='a.C.' ? -y2 : y2
+      };
+    }
+    // Caso con un solo sufijo para todo el rango, o un unico año.
+    const nums = periodo.match(/\d+/g);
+    if(!nums) return null;
+    const markers = periodo.match(/a\.C\.|d\.C\./g);
+    const marker = markers ? markers[markers.length-1] : 'd.C.';
+    const sign = marker==='a.C.' ? -1 : 1;
+    const y1 = sign * parseInt(nums[0], 10);
+    const y2 = nums.length>1 ? sign * parseInt(nums[1], 10) : y1;
+    return { start: y1, end: y2 };
+  }
+
+  function getItemYearRange(era, item){
+    if(era==='republica') return { start:item.anio, end:item.anio };
+    return parsePeriodoRange(item.periodo) || { start:0, end:0 };
+  }
+
+  function jumpToYearGeneric(era, target){
+    const list = getList(era);
+    let idx = list.findIndex(it=>{
+      const r = getItemYearRange(era, it);
+      return target >= r.start && target <= r.end;
+    });
+    if(idx===-1){
+      let best = 0, bestDiff = Infinity;
+      list.forEach((it, i)=>{
+        const r = getItemYearRange(era, it);
+        const d = target < r.start ? r.start-target : (target > r.end ? target-r.end : 0);
+        if(d<bestDiff){ bestDiff=d; best=i; }
+      });
+      idx = best;
+    }
+    selectIndex(idx, true);
+  }
+
   function findHito(hitos, year){
     if(year===null) return null;
     for(const h of hitos){
@@ -73,6 +117,74 @@
     const h = findHito(hitos, year);
     if(!h) return null;
     return { url: h.mapa.url, credit: h.mapa.credit, caption: h.caption };
+  }
+
+  const RULER_GROUPS = {
+    imperio: [
+      { names:['Galba','Otón','Vitelio','Vespasiano'], label:'Año de los cuatro emperadores (69 d.C.)' },
+      { names:['Pértinax','Didio Juliano','Pescenio Níger','Clodio Albino','Septimio Severo'], label:'Año de los cinco emperadores (193 d.C.)' },
+      { names:['Maximino el Tracio','Gordiano I','Gordiano II','Pupieno','Balbino','Gordiano III'], label:'Año de los seis emperadores (238 d.C.)' }
+    ]
+  };
+
+  function findGroupRanges(list, groups){
+    const ranges = [];
+    groups.forEach(g=>{
+      const n = g.names.length;
+      for(let i=0; i+n<=list.length; i++){
+        let match = true;
+        for(let k=0; k<n; k++){
+          if(list[i+k].nombre !== g.names[k]){ match = false; break; }
+        }
+        if(match){ ranges.push({ start:i, end:i+n-1, label:g.label }); break; }
+      }
+    });
+    return ranges;
+  }
+
+  // Curva de llave horizontal entre dos puntos, con el pico apuntando hacia arriba.
+  function makeCurlyBracePath(x1, y1, x2, y2, w, q){
+    const dx = x1-x2, dy = y1-y2;
+    const len = Math.sqrt(dx*dx + dy*dy) || 1;
+    const ux = dx/len, uy = dy/len;
+    const qx1 = x1 + q*w*uy, qy1 = y1 - q*w*ux;
+    const qx2 = (x1 - 0.25*len*ux) + (1-q)*w*uy, qy2 = (y1 - 0.25*len*uy) - (1-q)*w*ux;
+    const tx1 = (x1 - 0.5*len*ux) + w*uy, ty1 = (y1 - 0.5*len*uy) - w*ux;
+    const qx3 = x2 + q*w*uy, qy3 = y2 - q*w*ux;
+    const qx4 = (x1 - 0.75*len*ux) + (1-q)*w*uy, qy4 = (y1 - 0.75*len*uy) - (1-q)*w*ux;
+    return `M ${x1} ${y1} Q ${qx1} ${qy1} ${qx2} ${qy2} T ${tx1} ${ty1} `+
+           `M ${x2} ${y2} Q ${qx3} ${qy3} ${qx4} ${qy4} T ${tx1} ${ty1}`;
+  }
+
+  function renderGroupBraces(rail, ranges){
+    const svgNS = 'http://www.w3.org/2000/svg';
+    const ticks = rail.querySelectorAll('.tick');
+    const totalWidth = rail.scrollWidth;
+    const H = 64;
+    const svg = document.createElementNS(svgNS,'svg');
+    svg.setAttribute('class','rail-groups-svg');
+    svg.setAttribute('width', totalWidth);
+    svg.setAttribute('height', H);
+    svg.setAttribute('viewBox', `0 0 ${totalWidth} ${H}`);
+    ranges.forEach(r=>{
+      const t1 = ticks[r.start], t2 = ticks[r.end];
+      if(!t1 || !t2) return;
+      const x1 = t1.offsetLeft + 8;
+      const x2 = t2.offsetLeft + t2.offsetWidth - 8;
+      const yBase = H - 10;
+      const path = document.createElementNS(svgNS,'path');
+      path.setAttribute('class','rail-brace-path');
+      path.setAttribute('d', makeCurlyBracePath(x1, yBase, x2, yBase, -16, 0.5));
+      svg.appendChild(path);
+      const text = document.createElementNS(svgNS,'text');
+      text.setAttribute('class','rail-brace-label');
+      text.setAttribute('x', (x1+x2)/2);
+      text.setAttribute('y', 14);
+      text.setAttribute('text-anchor','middle');
+      text.textContent = r.label;
+      svg.appendChild(text);
+    });
+    rail.insertBefore(svg, rail.firstChild);
   }
 
   function renderRail(){
@@ -103,6 +215,11 @@
       t.addEventListener('click', ()=>{ selectIndex(idx, true); });
       rail.appendChild(t);
     });
+
+    const groups = RULER_GROUPS[currentEra];
+    const ranges = groups ? findGroupRanges(list, groups) : [];
+    rail.classList.toggle('has-groups', ranges.length > 0);
+    if(ranges.length) renderGroupBraces(rail, ranges);
   }
 
   const AVATAR_COLORS = ['#8a1f2b','#5c1a2b','#6a2280','#1f5c4d','#8a6d3b','#3d5a80','#7a3b12','#4b3f72'];
@@ -225,6 +342,41 @@
     bizantino: { label:'Buscar emperador:', placeholder:'ej: Justiniano' }
   };
 
+  const YEAR_JUMP_CFG = {
+    monarquia: { rangeLabel:'753–509 a.C.', placeholder:'ej: 600',
+      options:[{ value:'aC', label:'a.C.', min:509, max:753 }] },
+    republica: { rangeLabel:'509–27 a.C.', placeholder:'ej: 218',
+      options:[{ value:'aC', label:'a.C.', min:27, max:509 }] },
+    imperio: { rangeLabel:'27 a.C. – 395 d.C.', placeholder:'ej: 117',
+      options:[
+        { value:'dC', label:'d.C.', min:1, max:395 },
+        { value:'aC', label:'a.C.', min:1, max:27 }
+      ] },
+    occidente: { rangeLabel:'395–476 d.C.', placeholder:'ej: 450',
+      options:[{ value:'dC', label:'d.C.', min:395, max:476 }] },
+    bizantino: { rangeLabel:'395–1453 d.C.', placeholder:'ej: 1000',
+      options:[{ value:'dC', label:'d.C.', min:395, max:1453 }] }
+  };
+
+  const SPQR_CONFLICT_TITLES = {
+    monarquia: { phrase:'de la Monarquía', range:'753–509 a.C.' },
+    republica: { phrase:'de la República', range:'509–27 a.C.' },
+    imperio: { phrase:'del Imperio', range:'27 a.C. – 395 d.C.' }
+  };
+
+  function currentYearOption(){
+    const cfg = YEAR_JUMP_CFG[currentEra];
+    const sel = document.getElementById('jumpYearSuffix');
+    return cfg.options.find(o=> o.value===sel.value) || cfg.options[0];
+  }
+
+  function applyYearOptionBounds(){
+    const opt = currentYearOption();
+    const input = document.getElementById('jumpYear');
+    input.min = opt.min;
+    input.max = opt.max;
+  }
+
   function setEra(era){
     currentEra = era;
     currentIndex = 0;
@@ -235,19 +387,49 @@
     });
     document.getElementById('spqrBtn').classList.toggle('active', spqrEras.includes(era));
     document.getElementById('jumpbar').style.display = 'flex';
-    document.getElementById('jumpRange').style.display = (era==='republica') ? 'block' : 'none';
-    document.getElementById('jumpYearRow').style.display = (era==='republica') ? 'flex' : 'none';
+    document.getElementById('jumpRange').style.display = 'block';
+    document.getElementById('jumpYearRow').style.display = 'flex';
     const cfg = SEARCH_LABELS[era];
     document.getElementById('jumpSearchLabel').textContent = cfg.label;
     const searchInput = document.getElementById('jumpConsul');
     searchInput.placeholder = cfg.placeholder;
     searchInput.value = '';
+
+    const yearCfg = YEAR_JUMP_CFG[era];
+    document.getElementById('jumpRange').textContent = yearCfg.rangeLabel;
+    const yearInput = document.getElementById('jumpYear');
+    yearInput.placeholder = yearCfg.placeholder;
+    yearInput.value = '';
+    const suffixSel = document.getElementById('jumpYearSuffix');
+    suffixSel.innerHTML = '';
+    yearCfg.options.forEach(o=>{
+      const opt = document.createElement('option');
+      opt.value = o.value;
+      opt.textContent = o.label;
+      suffixSel.appendChild(opt);
+    });
+    applyYearOptionBounds();
     const cr = document.getElementById('consulResults');
     if(cr) cr.innerHTML = '';
     document.getElementById('eras').style.display = spqrEras.includes(era) ? 'flex' : 'none';
     document.getElementById('conflictsBox').style.display = spqrEras.includes(era) ? 'block' : 'none';
     document.getElementById('conflictsBoxOccidente').style.display = (era==='occidente') ? 'block' : 'none';
     document.getElementById('conflictsBoxBizantino').style.display = (era==='bizantino') ? 'block' : 'none';
+    document.getElementById('civilWarsBox').style.display = spqrEras.includes(era) ? 'block' : 'none';
+    document.getElementById('civilWarsBoxOccidente').style.display = (era==='occidente') ? 'block' : 'none';
+    document.getElementById('civilWarsBoxBizantino').style.display = (era==='bizantino') ? 'block' : 'none';
+
+    if(spqrEras.includes(era)){
+      const cfg = SPQR_CONFLICT_TITLES[era];
+      document.querySelectorAll('#conflictsBox .conflicts-era').forEach(el=>{
+        el.style.display = (el.dataset.era===era) ? '' : 'none';
+      });
+      document.querySelectorAll('#civilWarsBox .conflicts-era').forEach(el=>{
+        el.style.display = (el.dataset.era===era) ? '' : 'none';
+      });
+      document.querySelector('#conflictsBox summary').textContent = '⚔ Conflictos bélicos ' + cfg.phrase + ' (' + cfg.range + ')';
+      document.querySelector('#civilWarsBox summary').textContent = '⚔ Rebeliones y guerras civiles ' + cfg.phrase + ' (' + cfg.range + ')';
+    }
     document.body.classList.toggle('byz-theme', era==='bizantino');
     renderRail();
     renderCard();
@@ -270,33 +452,43 @@
     if(currentIndex<list.length-1) selectIndex(currentIndex+1, true);
   });
 
+  document.addEventListener('keydown', (e)=>{
+    if(e.key!=='ArrowLeft' && e.key!=='ArrowRight') return;
+    const tag = (e.target && e.target.tagName || '').toLowerCase();
+    if(tag==='input' || tag==='textarea' || tag==='select') return;
+    e.preventDefault();
+    if(e.key==='ArrowRight') document.getElementById('nextBtn').click();
+    else document.getElementById('prevBtn').click();
+  });
+
   document.getElementById('jumpBtn').addEventListener('click', ()=>{
     const val = parseInt(document.getElementById('jumpYear').value, 10);
     if(isNaN(val)) return;
-    const target = -val;
-    const list = DATA.republica;
-    let idx = list.findIndex(it=>it.anio===target);
-    if(idx===-1){
-      // find closest
-      let best=0, bestDiff=Infinity;
-      list.forEach((it,i)=>{
-        const d = Math.abs(it.anio-target);
-        if(d<bestDiff){bestDiff=d; best=i;}
-      });
-      idx = best;
-    }
-    selectIndex(idx, true);
+    const opt = currentYearOption();
+    const target = (opt.value==='aC') ? -val : val;
+    jumpToYearGeneric(currentEra, target);
+  });
+  document.getElementById('jumpYearSuffix').addEventListener('change', ()=>{
+    applyYearOptionBounds();
+    document.getElementById('jumpYear').value = '';
   });
   document.getElementById('jumpYear').addEventListener('keydown', (e)=>{
     if(e.key==='Enter'){ document.getElementById('jumpBtn').click(); return; }
     if(e.key!=='ArrowUp' && e.key!=='ArrowDown') return;
     e.preventDefault();
     const input = e.target;
+    const opt = currentYearOption();
+    const isBC = opt.value==='aC';
+    const forward = (e.key==='ArrowUp');
     let val = input.value==='' ? null : parseInt(input.value, 10);
-    if(e.key==='ArrowUp'){
-      val = (val===null) ? 509 : Math.max(27, val-1);
+    if(isBC){
+      val = forward
+        ? ((val===null) ? opt.max : Math.max(opt.min, val-1))
+        : ((val===null) ? opt.min : Math.min(opt.max, val+1));
     } else {
-      val = (val===null) ? 27 : Math.min(509, val+1);
+      val = forward
+        ? ((val===null) ? opt.min : Math.min(opt.max, val+1))
+        : ((val===null) ? opt.max : Math.max(opt.min, val-1));
     }
     input.value = val;
   });
@@ -471,6 +663,14 @@
     if(idx!==-1) selectIndex(idx, true);
   }
 
+  function clearSearch(){
+    const input = document.getElementById('jumpConsul');
+    if(input) input.value = '';
+    const box = document.getElementById('consulResults');
+    if(box) box.innerHTML = '';
+    resultActiveIdx = -1;
+  }
+
   function renderConsulResults(query){
     const box = document.getElementById('consulResults');
     box.innerHTML = '';
@@ -537,7 +737,7 @@
         b.type = 'button';
         b.className = 'consul-year-btn';
         b.textContent = yearLabel(y);
-        b.addEventListener('click', ()=> jumpToYear(y));
+        b.addEventListener('click', ()=>{ jumpToYear(y); clearSearch(); });
         years.appendChild(b);
       });
       body.appendChild(years);
@@ -613,16 +813,53 @@
       body.appendChild(per);
 
       row.appendChild(body);
-      row.addEventListener('click', ()=> selectIndex(r.idx, true));
+      row.addEventListener('click', ()=>{ selectIndex(r.idx, true); clearSearch(); });
       box.appendChild(row);
     });
+  }
+
+  let resultActiveIdx = -1;
+  function getSearchResultItems(){
+    return Array.from(document.querySelectorAll('#consulResults .consul-result.clickable, #consulResults .consul-year-btn'));
+  }
+  function setActiveResult(idx){
+    const items = getSearchResultItems();
+    items.forEach(el=> el.classList.remove('result-active'));
+    if(idx<0 || idx>=items.length){ resultActiveIdx = -1; return; }
+    resultActiveIdx = idx;
+    const el = items[idx];
+    el.classList.add('result-active');
+    el.scrollIntoView({block:'nearest'});
   }
 
   const consulInput = document.getElementById('jumpConsul');
   if(consulInput){
     consulInput.addEventListener('input', ()=>{
+      resultActiveIdx = -1;
       if(currentEra === 'republica') renderConsulResults(consulInput.value);
       else renderRulerResults(consulInput.value, currentEra);
+    });
+    consulInput.addEventListener('keydown', (e)=>{
+      if(e.key==='ArrowDown'){
+        const items = getSearchResultItems();
+        if(!items.length) return;
+        e.preventDefault();
+        setActiveResult((resultActiveIdx+1) % items.length);
+      } else if(e.key==='ArrowUp'){
+        const items = getSearchResultItems();
+        if(!items.length) return;
+        e.preventDefault();
+        setActiveResult(resultActiveIdx<=0 ? items.length-1 : resultActiveIdx-1);
+      } else if(e.key==='Enter'){
+        const items = getSearchResultItems();
+        if(!items.length) return;
+        e.preventDefault();
+        items[resultActiveIdx>=0 ? resultActiveIdx : 0].click();
+      } else if(e.key==='Escape'){
+        consulInput.value = '';
+        document.getElementById('consulResults').innerHTML = '';
+        resultActiveIdx = -1;
+      }
     });
   }
 

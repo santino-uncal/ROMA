@@ -4,34 +4,39 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>La historia de Roma</title>
-<link rel="stylesheet" href="css/estilos.css?v=102">
+<link rel="stylesheet" href="css/estilos.css?v=107">
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <p class="subtitle">Línea de tiempo interactiva — de Rómulo a la caída de Constantinopla</p>
-    <p class="eyebrow">Ab urbe condita</p>
-    <div class="title-row">
-      <button class="top-btn spqr" id="spqrBtn">
-        <img src="assets/img/spqr-aguila.png" alt="Águila de Júpiter, símbolo de Roma">
-        <span class="top-btn-label">SPQR</span>
-      </button>
-      <span class="title-divider"></span>
-      <button class="top-btn occ" data-era="occidente">
-        <img src="assets/img/estandarte-occidente.jpg" alt="Estandarte del Imperio Romano de Occidente">
-        <span class="top-btn-label">Imperio de Occidente</span>
-      </button>
-      <span class="title-divider"></span>
-      <button class="top-btn byz" data-era="bizantino">
-        <img src="assets/img/aguila-bicefala.png" alt="Águila bicéfala, símbolo del Imperio Bizantino">
-        <span class="top-btn-label">Imperio Bizantino</span>
-      </button>
-    </div>
-  </header>
+  <div class="header-flanked">
+    <img class="header-flank-icon" src="assets/img/Estandarte.png" alt="Estandarte de la legión romana con el águila de Júpiter">
+    <header>
+      <p class="subtitle">Línea de tiempo interactiva — de Rómulo a la caída de Constantinopla</p>
+      <p class="eyebrow">Ab urbe condita</p>
+      <div class="title-row">
+        <button class="top-btn spqr" id="spqrBtn">
+          <img src="assets/img/spqr-aguila.png" alt="Águila de Júpiter, símbolo de Roma">
+          <span class="top-btn-label">SPQR</span>
+        </button>
+        <span class="title-divider"></span>
+        <button class="top-btn occ" data-era="occidente">
+          <img src="assets/img/estandarte-occidente.jpg" alt="Estandarte del Imperio Romano de Occidente">
+          <span class="top-btn-label">Imperio de Occidente</span>
+        </button>
+        <span class="title-divider"></span>
+        <button class="top-btn byz" data-era="bizantino">
+          <img src="assets/img/aguila-bicefala.png" alt="Águila bicéfala, símbolo del Imperio Bizantino">
+          <span class="top-btn-label">Imperio Bizantino</span>
+        </button>
+      </div>
+    </header>
+    <img class="header-flank-icon" src="assets/img/cruz.png" alt="Cruz cristiana">
+  </div>
 
   <details class="conflicts-box" id="conflictsBox">
     <summary>⚔ Conflictos bélicos de Roma (753 a.C. – 395 d.C.)</summary>
     <div class="conflicts-inner">
+      <div class="conflicts-era" data-era="monarquia">
       <h4>Monarquía (753–509 a.C.)</h4>
       <table class="conflicts-table">
         <tr><th>Conflicto</th><th>Inicio</th><th>Fin</th><th>Ganancia territorial</th></tr>
@@ -40,7 +45,9 @@
         <tr><td>Guerras contra los pueblos latinos (Anco Marcio)</td><td class="years">642 a.C.</td><td class="years">617 a.C.</td><td>Territorio hasta la desembocadura del Tíber; fundación de Ostia</td></tr>
         <tr><td>Guerras contra etruscos y sabinos (últimos reyes)</td><td class="years">616 a.C.</td><td class="years">509 a.C.</td><td>Consolidación del Lacio bajo dominio romano</td></tr>
       </table>
+      </div>
 
+      <div class="conflicts-era" data-era="republica">
       <h4>República (509–27 a.C.)</h4>
       <table class="conflicts-table">
         <tr><th>Conflicto</th><th>Inicio</th><th>Fin</th><th>Ganancia territorial</th></tr>
@@ -83,7 +90,9 @@
         <tr><td>Guerra contra Sexto Pompeyo</td><td class="years">42 a.C.</td><td class="years">36 a.C.</td><td>Sicilia recuperada por Octavio</td></tr>
         <tr><td>Guerra final (Octavio vs. Marco Antonio y Cleopatra)</td><td class="years">32 a.C.</td><td class="years">30 a.C.</td><td>Egipto anexado como provincia; fin de la República</td></tr>
       </table>
+      </div>
 
+      <div class="conflicts-era" data-era="imperio">
       <h4>Imperio (27 a.C. – 395 d.C.)</h4>
       <table class="conflicts-table">
         <tr><th>Conflicto</th><th>Inicio</th><th>Fin</th><th>Ganancia territorial</th></tr>
@@ -106,6 +115,80 @@
         <tr><td>Guerra civil de Constantino contra Licinio</td><td class="years">316 d.C.</td><td class="years">324 d.C.</td><td>Ninguna; reunificación del Imperio bajo un solo emperador</td></tr>
         <tr><td>Batalla de Adrianópolis (contra los godos)</td><td class="years">378 d.C.</td><td class="years">378 d.C.</td><td>Pérdida de control sobre los godos, asentados como foederati en los Balcanes</td></tr>
       </table>
+      </div>
+    </div>
+  </details>
+
+  <details class="conflicts-box" id="civilWarsBox">
+    <summary>⚔ Rebeliones y guerras civiles de Roma (753 a.C. – 395 d.C.)</summary>
+    <div class="conflicts-inner">
+      <div class="conflicts-era" data-era="monarquia">
+      <h4>Monarquía (753–509 a.C.)</h4>
+      <h5>Rebeliones</h5>
+      <table class="conflicts-table">
+        <tr><th>Conflicto</th><th>Inicio</th><th>Fin</th><th>Resultado</th></tr>
+        <tr><td>Conjura de los hijos de Anco Marcio contra Tarquinio Prisco</td><td class="years">579 a.C.</td><td class="years">579 a.C.</td><td>Tarquinio muere asesinado; le sucede Servio Tulio</td></tr>
+        <tr><td>Golpe de Tarquinio el Soberbio y Tulia contra Servio Tulio</td><td class="years">535 a.C.</td><td class="years">535 a.C.</td><td>Servio Tulio asesinado; Tarquinio el Soberbio toma el trono</td></tr>
+        <tr><td>Revuelta contra Tarquinio el Soberbio (violación de Lucrecia)</td><td class="years">509 a.C.</td><td class="years">509 a.C.</td><td>Expulsión de los reyes; fin de la Monarquía e inicio de la República</td></tr>
+      </table>
+      <p class="conflicts-note">No se registran guerras civiles propiamente dichas en este período (sin ejércitos rivales organizados).</p>
+      </div>
+
+      <div class="conflicts-era" data-era="republica">
+      <h4>República (509–27 a.C.)</h4>
+      <h5>Guerras civiles</h5>
+      <table class="conflicts-table">
+        <tr><th>Conflicto</th><th>Inicio</th><th>Fin</th><th>Resultado</th></tr>
+        <tr><td>Primera guerra civil (Mario vs. Sila)</td><td class="years">88 a.C.</td><td class="years">82 a.C.</td><td>Victoria de Sila; dictadura y proscripciones</td></tr>
+        <tr><td>Guerra Civil de César contra Pompeyo</td><td class="years">49 a.C.</td><td class="years">45 a.C.</td><td>Victoria de César; dictadura vitalicia</td></tr>
+        <tr><td>Guerra Civil (Segundo Triunvirato vs. cesaricidas)</td><td class="years">44 a.C.</td><td class="years">42 a.C.</td><td>Derrota de Bruto y Casio en Filipos</td></tr>
+        <tr><td>Guerra contra Sexto Pompeyo</td><td class="years">42 a.C.</td><td class="years">36 a.C.</td><td>Derrota y muerte de Sexto Pompeyo</td></tr>
+        <tr><td>Guerra de Perusia</td><td class="years">41 a.C.</td><td class="years">40 a.C.</td><td>Octavio derrota a Lucio Antonio</td></tr>
+        <tr><td>Guerra final (Octavio vs. Marco Antonio y Cleopatra)</td><td class="years">32 a.C.</td><td class="years">30 a.C.</td><td>Victoria de Octavio; fin de la República</td></tr>
+      </table>
+      <h5>Rebeliones</h5>
+      <table class="conflicts-table">
+        <tr><th>Conflicto</th><th>Inicio</th><th>Fin</th><th>Resultado</th></tr>
+        <tr><td>Primera secesión de la plebe</td><td class="years">494 a.C.</td><td class="years">494 a.C.</td><td>Creación del tribunado de la plebe</td></tr>
+        <tr><td>Conjura de Espurio Casio (aspiración a la realeza)</td><td class="years">485 a.C.</td><td class="years">485 a.C.</td><td>Casio ejecutado por el Senado</td></tr>
+        <tr><td>Segunda secesión de la plebe (caída del Decenvirato)</td><td class="years">449 a.C.</td><td class="years">449 a.C.</td><td>Fin del segundo decenvirato; se confirman las Leyes de las XII Tablas</td></tr>
+        <tr><td>Conjura de Espurio Melio (aspiración a la realeza)</td><td class="years">439 a.C.</td><td class="years">439 a.C.</td><td>Melio muerto por orden del dictador Cincinato</td></tr>
+        <tr><td>Tercera secesión de la plebe</td><td class="years">342 a.C.</td><td class="years">342 a.C.</td><td>Reformas Genucias; acceso plebeyo garantizado al consulado</td></tr>
+        <tr><td>Cuarta secesión de la plebe (Lex Hortensia)</td><td class="years">287 a.C.</td><td class="years">287 a.C.</td><td>Fin del Conflicto de los Órdenes; los plebiscitos obtienen fuerza de ley</td></tr>
+        <tr><td>Guerra Social (itálica)</td><td class="years">91 a.C.</td><td class="years">88 a.C.</td><td>Ciudadanía romana extendida a los aliados itálicos</td></tr>
+        <tr><td>Conjura de Catilina</td><td class="years">63 a.C.</td><td class="years">62 a.C.</td><td>Conjura descubierta por Cicerón; Catilina muere en batalla</td></tr>
+      </table>
+      </div>
+
+      <div class="conflicts-era" data-era="imperio">
+      <h4>Imperio (27 a.C. – 395 d.C.)</h4>
+      <h5>Guerras civiles</h5>
+      <table class="conflicts-table">
+        <tr><th>Conflicto</th><th>Inicio</th><th>Fin</th><th>Resultado</th></tr>
+        <tr><td>Guerra Civil del Año de los Cuatro Emperadores</td><td class="years">68 d.C.</td><td class="years">69 d.C.</td><td>Vespasiano se impone; nueva dinastía Flavia</td></tr>
+        <tr><td>Guerra Civil (Año de los Cinco Emperadores)</td><td class="years">193 d.C.</td><td class="years">197 d.C.</td><td>Victoria de Septimio Severo; nueva dinastía Severa</td></tr>
+        <tr><td>Crisis del Siglo III (usurpaciones militares)</td><td class="years">235 d.C.</td><td class="years">284 d.C.</td><td>Fragmentación del Imperio; reunificado por Aureliano y Diocleciano</td></tr>
+        <tr><td>Guerra Civil de Constantino (Puente Milvio)</td><td class="years">312 d.C.</td><td class="years">312 d.C.</td><td>Constantino derrota a Majencio; control de Occidente</td></tr>
+        <tr><td>Guerra Civil de Constantino contra Licinio</td><td class="years">316 d.C.</td><td class="years">324 d.C.</td><td>Constantino reunifica el Imperio bajo su único mando</td></tr>
+        <tr><td>Usurpación de Magnencio contra Constancio II</td><td class="years">350 d.C.</td><td class="years">353 d.C.</td><td>Magnencio derrotado; se suicida</td></tr>
+        <tr><td>Usurpación de Procopio contra Valente</td><td class="years">365 d.C.</td><td class="years">366 d.C.</td><td>Procopio capturado y ejecutado</td></tr>
+        <tr><td>Usurpación de Magno Máximo</td><td class="years">383 d.C.</td><td class="years">388 d.C.</td><td>Derrotado por Teodosio I y ejecutado</td></tr>
+        <tr><td>Guerra Civil contra Eugenio (batalla del Frígido)</td><td class="years">392 d.C.</td><td class="years">394 d.C.</td><td>Teodosio I vence; último emperador en gobernar el Imperio unificado</td></tr>
+      </table>
+      <h5>Rebeliones</h5>
+      <table class="conflicts-table">
+        <tr><th>Conflicto</th><th>Inicio</th><th>Fin</th><th>Resultado</th></tr>
+        <tr><td>Revuelta de Panonia e Ilírico (Bellum Batonianum)</td><td class="years">6 d.C.</td><td class="years">9 d.C.</td><td>Sofocada tras un gran esfuerzo militar; Panonia e Iliria aseguradas</td></tr>
+        <tr><td>Motín de las legiones del Rin y Panonia</td><td class="years">14 d.C.</td><td class="years">14 d.C.</td><td>Sofocado por Germánico y Druso; sin cambio de poder</td></tr>
+        <tr><td>Conjuración de Sejano</td><td class="years">31 d.C.</td><td class="years">31 d.C.</td><td>Sejano ejecutado por orden de Tiberio</td></tr>
+        <tr><td>Revuelta de Escriboniano contra Claudio</td><td class="years">42 d.C.</td><td class="years">42 d.C.</td><td>Sofocada en pocos días; Escriboniano se suicida</td></tr>
+        <tr><td>Revuelta de Boudica en Britania</td><td class="years">60 d.C.</td><td class="years">61 d.C.</td><td>Sofocada por Suetonio Paulino</td></tr>
+        <tr><td>Conjura de Pisón contra Nerón</td><td class="years">65 d.C.</td><td class="years">65 d.C.</td><td>Conjura descubierta; ejecuciones masivas (incluido Séneca)</td></tr>
+        <tr><td>Revuelta de los bátavos (Civilis)</td><td class="years">69 d.C.</td><td class="years">70 d.C.</td><td>Sofocada por Cerial; los bátavos permanecen aliados de Roma</td></tr>
+        <tr><td>Revuelta de Saturnino en Germania</td><td class="years">89 d.C.</td><td class="years">89 d.C.</td><td>Sofocada por Domiciano</td></tr>
+        <tr><td>Usurpación de Avidio Casio</td><td class="years">175 d.C.</td><td class="years">175 d.C.</td><td>Asesinado por sus propios oficiales</td></tr>
+      </table>
+      </div>
     </div>
   </details>
 
@@ -122,6 +205,29 @@
         <tr><td>Saqueo de Roma por Genserico (vándalos)</td><td class="years">455 d.C.</td><td class="years">455 d.C.</td><td>Ninguna anexión; segundo saqueo de la ciudad</td></tr>
         <tr><td>Expedición fallida contra los vándalos</td><td class="years">468 d.C.</td><td class="years">468 d.C.</td><td>Fracaso; pérdida definitiva de esperanzas de recuperar África</td></tr>
         <tr><td>Caída del Imperio de Occidente (Odoacro depone a Rómulo Augústulo)</td><td class="years">476 d.C.</td><td class="years">476 d.C.</td><td>Italia pasa a manos de Odoacro; fin del Imperio de Occidente</td></tr>
+      </table>
+    </div>
+  </details>
+
+  <details class="conflicts-box" id="civilWarsBoxOccidente" style="display:none;">
+    <summary>⚔ Rebeliones y guerras civiles del Imperio de Occidente (395–476 d.C.)</summary>
+    <div class="conflicts-inner">
+      <h4>Imperio de Occidente (395–476 d.C.)</h4>
+      <h5>Guerras civiles</h5>
+      <table class="conflicts-table">
+        <tr><th>Conflicto</th><th>Inicio</th><th>Fin</th><th>Resultado</th></tr>
+        <tr><td>Usurpación de Constantino III en Britania y la Galia</td><td class="years">407 d.C.</td><td class="years">411 d.C.</td><td>Capturado y ejecutado por orden de Honorio</td></tr>
+        <tr><td>Usurpación de Jovino en la Galia</td><td class="years">411 d.C.</td><td class="years">413 d.C.</td><td>Derrotado con apoyo visigodo; ejecutado</td></tr>
+        <tr><td>Usurpación de Juan (Ioannes)</td><td class="years">423 d.C.</td><td class="years">425 d.C.</td><td>Derrocado; Valentiniano III impuesto con apoyo de Oriente</td></tr>
+      </table>
+      <h5>Rebeliones</h5>
+      <table class="conflicts-table">
+        <tr><th>Conflicto</th><th>Inicio</th><th>Fin</th><th>Resultado</th></tr>
+        <tr><td>Revueltas de los bagaudas en la Galia</td><td class="years">435 d.C.</td><td class="years">437 d.C.</td><td>Sofocadas parcialmente por Aecio</td></tr>
+        <tr><td>Asesinato de Aecio por Valentiniano III</td><td class="years">454 d.C.</td><td class="years">454 d.C.</td><td>Valentiniano III asesinado a su vez meses después por partidarios de Aecio</td></tr>
+        <tr><td>Golpes de estado de Ricimero (deposición de emperadores)</td><td class="years">456 d.C.</td><td class="years">472 d.C.</td><td>Sucesivos emperadores títere depuestos o asesinados (Avito, Mayoriano, Antemio)</td></tr>
+        <tr><td>Golpe de Orestes contra Julio Nepote</td><td class="years">475 d.C.</td><td class="years">475 d.C.</td><td>Orestes corona a su hijo Rómulo Augústulo</td></tr>
+        <tr><td>Revuelta de Odoacro contra Orestes</td><td class="years">476 d.C.</td><td class="years">476 d.C.</td><td>Orestes ejecutado; Rómulo Augústulo depuesto, fin del Imperio de Occidente</td></tr>
       </table>
     </div>
   </details>
@@ -157,6 +263,38 @@
     </div>
   </details>
 
+  <details class="conflicts-box" id="civilWarsBoxBizantino" style="display:none;">
+    <summary>⚔ Rebeliones y guerras civiles del Imperio Bizantino (395–1453 d.C.)</summary>
+    <div class="conflicts-inner">
+      <h4>Imperio Bizantino (395–1453 d.C.)</h4>
+      <h5>Guerras civiles</h5>
+      <table class="conflicts-table">
+        <tr><th>Conflicto</th><th>Inicio</th><th>Fin</th><th>Resultado</th></tr>
+        <tr><td>Revuelta de los Heraclii contra Focas</td><td class="years">608 d.C.</td><td class="years">610 d.C.</td><td>Focas depuesto y ejecutado; Heraclio proclamado emperador</td></tr>
+        <tr><td>Restauración y venganza de Justiniano II</td><td class="years">705 d.C.</td><td class="years">705 d.C.</td><td>Recupera el trono con apoyo búlgaro; ejecuta a sus rivales</td></tr>
+        <tr><td>Usurpación de Artabasdo contra Constantino V</td><td class="years">741 d.C.</td><td class="years">743 d.C.</td><td>Constantino V recupera el trono; Artabasdo cegado</td></tr>
+        <tr><td>Revuelta de Tomás el Eslavo contra Miguel II</td><td class="years">821 d.C.</td><td class="years">823 d.C.</td><td>Sofocada; Tomás capturado y ejecutado</td></tr>
+        <tr><td>Revuelta de Bardas Esclero y Bardas Focas contra Basilio II</td><td class="years">976 d.C.</td><td class="years">989 d.C.</td><td>Sofocada con ayuda de la Rus de Kiev</td></tr>
+        <tr><td>Rivalidad entre Nicea, Epiro y Trebisonda por el trono bizantino</td><td class="years">1204 d.C.</td><td class="years">1261 d.C.</td><td>Nicea se impone y recupera Constantinopla</td></tr>
+        <tr><td>Guerra civil entre Juan V y Juan VI Cantacuceno</td><td class="years">1341 d.C.</td><td class="years">1347 d.C.</td><td>Victoria de Juan VI, luego co-emperador junto a Juan V</td></tr>
+        <tr><td>Guerra civil entre Juan V y Andrónico IV/Juan VII</td><td class="years">1373 d.C.</td><td class="years">1390 d.C.</td><td>Sucesivas deposiciones y restauraciones; el imperio queda muy debilitado</td></tr>
+      </table>
+      <h5>Rebeliones</h5>
+      <table class="conflicts-table">
+        <tr><th>Conflicto</th><th>Inicio</th><th>Fin</th><th>Resultado</th></tr>
+        <tr><td>Revuelta de Gainas</td><td class="years">399 d.C.</td><td class="years">400 d.C.</td><td>Sofocada; Gainas muere huyendo</td></tr>
+        <tr><td>Motín de Nika contra Justiniano I</td><td class="years">532 d.C.</td><td class="years">532 d.C.</td><td>Sofocado por Belisario; miles de muertos, Justiniano se mantiene en el trono</td></tr>
+        <tr><td>Primer derrocamiento de Justiniano II (revuelta de Leoncio)</td><td class="years">695 d.C.</td><td class="years">695 d.C.</td><td>Justiniano II mutilado y exiliado</td></tr>
+        <tr><td>Derrocamiento de Leoncio por Tiberio III</td><td class="years">698 d.C.</td><td class="years">698 d.C.</td><td>Leoncio depuesto y recluido en un monasterio</td></tr>
+        <tr><td>Revuelta que derroca definitivamente a Justiniano II</td><td class="years">711 d.C.</td><td class="years">711 d.C.</td><td>Justiniano II capturado y ejecutado</td></tr>
+        <tr><td>Asesinato de Miguel III y usurpación de Basilio I</td><td class="years">867 d.C.</td><td class="years">867 d.C.</td><td>Basilio I funda la dinastía macedonia</td></tr>
+        <tr><td>Usurpación de Andrónico I Comneno (reinado de terror)</td><td class="years">1182 d.C.</td><td class="years">1185 d.C.</td><td>Derrocado y linchado por el pueblo de Constantinopla</td></tr>
+        <tr><td>Derrocamiento de Isaac II por Alejo III</td><td class="years">1195 d.C.</td><td class="years">1195 d.C.</td><td>Isaac II cegado y encarcelado</td></tr>
+        <tr><td>Golpe de Alejo V Murzuflo contra Alejo IV</td><td class="years">1204 d.C.</td><td class="years">1204 d.C.</td><td>Facilita el saqueo de Constantinopla por la Cuarta Cruzada</td></tr>
+      </table>
+    </div>
+  </details>
+
   <div class="eras" id="eras">
     <button class="era-btn" data-era="monarquia">Monarquía<span class="era-sub">753–509 a.C.</span></button>
     <button class="era-btn" data-era="republica">República<span class="era-sub">509–27 a.C.</span></button>
@@ -168,7 +306,7 @@
     <div class="jumpbar-row" id="jumpYearRow">
       <label for="jumpYear">Ir al año:</label>
       <input type="number" id="jumpYear" placeholder="ej: 218" min="27" max="509">
-      <span class="jumpbar-era">a.C.</span>
+      <select id="jumpYearSuffix" class="jumpbar-era"></select>
       <button id="jumpBtn">Buscar</button>
     </div>
     <div class="jumpbar-row">
@@ -212,6 +350,6 @@
 </div>
 <script src="js/datos.js?v=111"></script>
 <script src="js/mapas.js?v=103"></script>
-<script src="js/app.js?v=102"></script>
+<script src="js/app.js?v=108"></script>
 </body>
 </html>
