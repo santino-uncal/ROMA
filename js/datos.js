@@ -8396,31 +8396,56 @@ window.ROMA_DATA = {
       "periodo": "1025–1028 d.C.",
       "nombre": "Constantino VIII",
       "texto": "Hermano de Basilio II, había sido co-emperador nominal durante décadas antes de gobernar en solitario ya anciano. Su breve reinado se caracterizó por la indiferencia hacia los asuntos de estado y una notoria crueldad hacia posibles rivales.",
-      "imagen": "assets/img/retratos/retrato-92.jpg"
+      "imagen": "assets/img/retratos/retrato-92.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-1025-Basilio II.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bizantino hacia el 1025 d.C., al asumir Constantino VIII: mismo territorio heredado de su hermano Basilio II en su máxima extensión desde Heraclio (Anatolia, los Balcanes, Bulgaria, Creta, Chipre y el norte de Siria), sin cambios durante su breve e indiferente reinado."
+      }
     },
     {
       "periodo": "1028–1034 d.C.",
       "nombre": "Romano III Argiro",
       "texto": "Elevado al trono por matrimonio con la porfirogéneta Zoe, hija de Constantino VIII, intentó emular las glorias militares de Basilio II sin éxito, sufriendo una derrota en Siria. Murió en circunstancias sospechosas, posiblemente ahogado por instigación de Zoe.",
-      "imagen": "assets/img/retratos/retrato-93.jpg"
+      "imagen": "assets/img/retratos/retrato-93.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-1025-Basilio II.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bizantino hacia el 1028 d.C., al asumir Romano III Argiro: mismo territorio heredado de Basilio II, aunque su intento de emular las glorias militares de su predecesor terminó en derrota frente a los árabes en Siria."
+      }
     },
     {
       "periodo": "1034–1041 d.C.",
       "nombre": "Miguel IV \"el Paflagonio\"",
       "texto": "Amante y luego esposo de Zoe tras la muerte de Romano III, sufría de epilepsia y dependió de su hermano, el eunuco Juan el Orfanotrofo, para administrar el imperio. Logró sofocar una gran revuelta en Bulgaria antes de morir por su enfermedad.",
-      "imagen": "assets/img/retratos/retrato-94.jpg"
+      "imagen": "assets/img/retratos/retrato-94.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-1025-Basilio II.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bizantino hacia el 1034 d.C., al asumir Miguel IV: mismo territorio heredado de Basilio II, que logró conservar sofocando una gran revuelta en Bulgaria durante su reinado."
+      }
     },
     {
       "periodo": "1041–1042 d.C.",
       "nombre": "Miguel V \"Calafates\"",
       "texto": "Sobrino adoptivo de Zoe, cometió el error fatal de intentar desterrarla poco después de asumir el trono. La indignación popular provocó un levantamiento en Constantinopla que lo derrocó, siendo cegado y enviado a un monasterio.",
-      "imagen": "assets/img/retratos/retrato-95.jpg"
+      "imagen": "assets/img/retratos/retrato-95.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-1025-Basilio II.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bizantino hacia el 1041 d.C., al asumir Miguel V: mismo territorio heredado de Basilio II, sin cambios en su brevísimo reinado de apenas unos meses antes de ser derrocado y cegado."
+      }
     },
     {
       "periodo": "1042 d.C.",
       "nombre": "Zoe y Teodora",
       "texto": "Las dos hijas de Constantino VIII, ya ancianas, gobernaron brevemente juntas como emperatrices tras la caída de Miguel V, único episodio de corregencia femenina en la historia bizantina. Zoe pronto eligió un tercer esposo, Constantino Monómaco, para compartir el trono.",
-      "imagen": "assets/img/retratos/retrato-96.jpg"
+      "imagen": "assets/img/retratos/retrato-96.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/bizantino-1025-Basilio II.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bizantino hacia el 1042 d.C., al gobernar juntas Zoe y Teodora: mismo territorio heredado de Basilio II, sin cambios durante su brevísima corregencia."
+      }
     },
     {
       "periodo": "1042–1055 d.C.",
