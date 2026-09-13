@@ -2,10 +2,6 @@
    Estas constantes quedan en el ambito global y las usa js/app.js. */
 // ===== Hitos territoriales: mapas históricos reales de Wikimedia Commons =====
 
-const CONQUISTA_ITALIA = {
-  url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roman%20conquest%20of%20Italy.PNG?width=700',
-  credit: 'Javierfv1212, dominio público — Wikimedia Commons'
-};
 const SEPTIMONTIUM_ROMULO = {
   url: 'assets/img/septimontium-romulo.png',
   credit: 'Mapa del Septimontium bajo Rómulo (imagen provista por el usuario)'
@@ -14,14 +10,31 @@ const SEPTIMONTIUM_REYES = {
   url: 'assets/img/septimontium-reyes-posteriores.png',
   credit: 'Mapa del Septimontium ampliado (imagen provista por el usuario)'
 };
-const REPUBLICA_60AC = {
-  url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roman%20republic,%20territory%2060%20BC.svg?width=700',
-  credit: 'Ifly6, CC BY-SA — Wikimedia Commons'
-};
-const REPUBLICA_44AC = {
-  url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roman%20republic,%20territory%2044%20BC.svg?width=700',
-  credit: 'Ifly6, CC BY-SA — Wikimedia Commons'
-};
+const REP_509_500 = { url: 'assets/509 - 500.png', credit: 'Imagen provista por el usuario' };
+const REP_499_435 = { url: 'assets/499 - 435.png', credit: 'Imagen provista por el usuario' };
+const REP_434_341 = { url: 'assets/434 - 341.png', credit: 'Imagen provista por el usuario' };
+const REP_341_335 = { url: 'assets/341-335.png', credit: 'Imagen provista por el usuario' };
+const REP_335_304 = { url: 'assets/335 - 304.png', credit: 'Imagen provista por el usuario' };
+const REP_304_298 = { url: 'assets/304 - 298.png', credit: 'Imagen provista por el usuario' };
+const REP_298_296 = { url: 'assets/298 - 296.png', credit: 'Imagen provista por el usuario' };
+const REP_296_290 = { url: 'assets/296 - 290.png', credit: 'Imagen provista por el usuario' };
+const REP_290_272 = { url: 'assets/290 - 272.png', credit: 'Imagen provista por el usuario' };
+const REP_272_241 = { url: 'assets/272 - 241.png', credit: 'Imagen provista por el usuario' };
+const REP_241_228 = { url: 'assets/241-228.png', credit: 'Imagen provista por el usuario' };
+const REP_228_201 = { url: 'assets/228-201.png', credit: 'Imagen provista por el usuario' };
+const REP_201_178 = { url: 'assets/201-178.png', credit: 'Imagen provista por el usuario' };
+const REP_178_146 = { url: 'assets/178-146.png', credit: 'Imagen provista por el usuario' };
+const REP_146_133 = { url: 'assets/146-133.png', credit: 'Imagen provista por el usuario' };
+const REP_133_129 = { url: 'assets/133-129.png', credit: 'Imagen provista por el usuario' };
+const REP_129_105 = { url: 'assets/129-105.png', credit: 'Imagen provista por el usuario' };
+const REP_105_85 = { url: 'assets/105-85.png', credit: 'Imagen provista por el usuario' };
+const REP_85_80 = { url: 'assets/85-80.png', credit: 'Imagen provista por el usuario' };
+const REP_80_72 = { url: 'assets/80 - 72.png', credit: 'Imagen provista por el usuario' };
+const REP_72_63 = { url: 'assets/72-63.png', credit: 'Imagen provista por el usuario' };
+const REP_63_50 = { url: 'assets/63-50.png', credit: 'Imagen provista por el usuario' };
+const REP_50_47 = { url: 'assets/50-47.png', credit: 'Imagen provista por el usuario' };
+const REP_47_31 = { url: 'assets/47-31.png', credit: 'Imagen provista por el usuario' };
+const REP_31_27 = { url: 'assets/31-27.png', credit: 'Imagen provista por el usuario' };
 const IMPERIO_TRAJANO = {
   url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roman%20Empire%20Trajan%20117AD.png?width=700',
   credit: 'Wikimedia Commons (dominio del mapa: extensión bajo Trajano, 117 d.C.)'
@@ -53,26 +66,56 @@ const HITOS_MONARQUIA = [
 ];
 
 const HITOS_REPUBLICA = [
-  { desde:-509, hasta:-339, mapa:CONQUISTA_ITALIA,
-    caption:'Color "500 BC" (el más oscuro): Roma controla solo la ciudad y el Lacio cercano, en guerra intermitente con etruscos y latinos vecinos.' },
-  { desde:-338, hasta:-299, mapa:CONQUISTA_ITALIA,
-    caption:'Color rojo ("338 BC"): tras la Guerra Latina, Roma disuelve la Liga Latina y domina el Lacio y Campania.' },
-  { desde:-298, hasta:-291, mapa:CONQUISTA_ITALIA,
-    caption:'Color rosa ("298 BC"): inicio de la Tercera Guerra Samnita, con Roma expandiéndose hacia el centro de Italia.' },
-  { desde:-290, hasta:-273, mapa:CONQUISTA_ITALIA,
-    caption:'Color naranja ("290 BC"): fin de la Tercera Guerra Samnita, Roma domina buena parte de Italia central.' },
-  { desde:-272, hasta:-265, mapa:CONQUISTA_ITALIA,
-    caption:'Color naranja claro ("272 BC"): tras vencer a Pirro, Roma controla toda la Italia peninsular.' },
-  { desde:-264, hasta:-219, mapa:CONQUISTA_ITALIA,
-    caption:'Color amarillo ("264 BC"): inicio de la Primera Guerra Púnica, con Roma ya dueña de toda Italia y expandiéndose a Sicilia.' },
-  { desde:-218, hasta:-201, mapa:CONQUISTA_ITALIA,
-    caption:'Color verde ("218 BC"): inicio de la Segunda Guerra Púnica, con Aníbal invadiendo Italia. Roma ya controla Sicilia, Cerdeña y Córcega.' },
-  { desde:-200, hasta:-92, mapa:REPUBLICA_60AC,
-    caption:'No hay un mapa real año por año para este tramo; se usa como referencia el mapa verificado más cercano (territorio hacia el 60 a.C.). Entre el 200 y el 92 a.C. Roma fue incorporando progresivamente Hispania, Macedonia, Grecia y el norte de África tras las guerras púnicas y macedónicas.' },
-  { desde:-91, hasta:-60, mapa:REPUBLICA_60AC,
-    caption:'Territorio romano hacia el 60 a.C.: tras las conquistas de Pompeyo en Oriente (Siria, Ponto) y el fin de la Guerra Social, el dominio romano cubre casi todo el Mediterráneo.' },
-  { desde:-59, hasta:-27, mapa:REPUBLICA_44AC,
-    caption:'Territorio romano hacia el 44 a.C., ya con la Galia conquistada por César. Se mantuvo prácticamente igual durante las guerras civiles finales hasta la anexión de Egipto en el 30 a.C.' }
+  { desde:-509, hasta:-500, mapa:REP_509_500,
+    caption:'Los primeros años de la República: Roma controla apenas la ciudad y el Lacio inmediato, en conflicto con los etruscos de Lars Porsena y los pueblos latinos y sabinos vecinos.' },
+  { desde:-499, hasta:-435, mapa:REP_499_435,
+    caption:'Roma consolida su posición en el Lacio tras la batalla del lago Regilo (496 a.C.) y la Liga Latina; luchas constantes contra volscos, ecuos y sabinos, mientras crece la tensión con la vecina Veyes.' },
+  { desde:-434, hasta:-341, mapa:REP_434_341,
+    caption:'Se libran las guerras contra Veyes, que cae en el 396 a.C. tras un largo asedio; poco después Roma sufre el saqueo galo de Breno (390 a.C.) pero se recupera y libra la Primera Guerra Samnita.' },
+  { desde:-341, hasta:-335, mapa:REP_341_335,
+    caption:'Tras la Primera Guerra Samnita, estalla la Guerra Latina (340-338 a.C.): Roma vence a sus antiguos aliados y disuelve la Liga Latina en el 338 a.C., anexando directamente buena parte del Lacio.' },
+  { desde:-335, hasta:-304, mapa:REP_335_304,
+    caption:'Segunda Guerra Samnita (326-304 a.C.): Roma se expande hacia Campania y el centro de Italia, pese al desastre inicial de las Horcas Caudinas (321 a.C.).' },
+  { desde:-304, hasta:-298, mapa:REP_304_298,
+    caption:'Breve paz con los samnitas tras el final de la Segunda Guerra Samnita; se construye la Vía Apia (312 a.C.) y Roma consolida el territorio conquistado en Campania.' },
+  { desde:-298, hasta:-296, mapa:REP_298_296,
+    caption:'Estalla la Tercera Guerra Samnita: samnitas, galos, etruscos y umbros se coaligan contra Roma, que resiste el empuje conjunto en el centro de Italia.' },
+  { desde:-296, hasta:-290, mapa:REP_296_290,
+    caption:'Roma derrota a la coalición itálica en Sentino (295 a.C.) y pone fin a la Tercera Guerra Samnita en el 290 a.C., dominando ya la mayor parte de Italia central.' },
+  { desde:-290, hasta:-272, mapa:REP_290_272,
+    caption:'Guerra Pírrica (280-275 a.C.): Pirro de Epiro desembarca en el sur de Italia en apoyo de Tarento, pero es finalmente derrotado; Tarento cae en el 272 a.C. y Roma domina toda la península itálica.' },
+  { desde:-272, hasta:-241, mapa:REP_272_241,
+    caption:'Con Italia peninsular bajo su control, Roma libra la Primera Guerra Púnica (264-241 a.C.) contra Cartago por el dominio de Sicilia, que termina anexando como su primera provincia.' },
+  { desde:-241, hasta:-228, mapa:REP_241_228,
+    caption:'Entre guerras, Roma aprovecha una revuelta de mercenarios para arrebatarle a Cartago Cerdeña y Córcega (238 a.C.) e inicia las Guerras Ilirias contra la piratería en el Adriático.' },
+  { desde:-228, hasta:-201, mapa:REP_228_201,
+    caption:'Segunda Guerra Púnica (218-201 a.C.): Aníbal cruza los Alpes e invade Italia, pero Roma resiste y termina venciendo en Zama, expulsando a Cartago de Hispania.' },
+  { desde:-201, hasta:-178, mapa:REP_201_178,
+    caption:'Tras derrotar a Cartago, Roma se enfrenta a Macedonia (Segunda Guerra Macedónica, 200-197 a.C.) y comienza a establecerse en Hispania y el Adriático oriental.' },
+  { desde:-178, hasta:-146, mapa:REP_178_146,
+    caption:'Tercera Guerra Macedónica (171-168 a.C.) y destrucción de Corinto y Cartago en el 146 a.C.: Macedonia y Acaya se convierten en provincias y Cartago desaparece tras la Tercera Guerra Púnica.' },
+  { desde:-146, hasta:-133, mapa:REP_146_133,
+    caption:'Tras la caída de Cartago y Corinto, Roma somete la resistencia numantina en Hispania (133 a.C.) y recibe en herencia el reino de Pérgamo de manos de Atalo III.' },
+  { desde:-133, hasta:-129, mapa:REP_133_129,
+    caption:'Se organiza la nueva provincia de Asia a partir del legado de Atalo III de Pérgamo, mientras en Roma comienzan las reformas agrarias de los hermanos Graco.' },
+  { desde:-129, hasta:-105, mapa:REP_129_105,
+    caption:'Roma funda la provincia de Galia Narbonense en el sur de las Galias (121 a.C.) y se involucra en la Guerra de Yugurta en Numidia, al tiempo que crece la amenaza de cimbrios y teutones.' },
+  { desde:-105, hasta:-85, mapa:REP_105_85,
+    caption:'Reformas militares de Mario, victoria sobre cimbrios y teutones, la Guerra Social (91-88 a.C.) que otorga la ciudadanía a los itálicos, y el estallido de la Primera Guerra Mitridática.' },
+  { desde:-85, hasta:-80, mapa:REP_85_80,
+    caption:'Fin de la Primera Guerra Mitridática (paz de Dárdano, 85 a.C.) y guerra civil de Sila, que marcha sobre Roma e impone su dictadura (82-79 a.C.).' },
+  { desde:-80, hasta:-72, mapa:REP_80_72,
+    caption:'Guerra Sertoriana en Hispania, estallido de la revuelta de esclavos liderada por Espartaco (73 a.C.) y Tercera Guerra Mitridática en Oriente.' },
+  { desde:-72, hasta:-63, mapa:REP_72_63,
+    caption:'Craso y Pompeyo aplastan la revuelta de Espartaco (71 a.C.); Pompeyo limpia el Mediterráneo de piratas y anexa Siria y el Ponto, mientras en Roma se descubre la conjura de Catilina (63 a.C.).' },
+  { desde:-63, hasta:-50, mapa:REP_63_50,
+    caption:'Primer Triunvirato de Pompeyo, Craso y César; este último conquista toda la Galia (58-50 a.C.) mientras Craso muere en Carras frente a los partos (53 a.C.).' },
+  { desde:-50, hasta:-47, mapa:REP_50_47,
+    caption:'César cruza el Rubicón (49 a.C.) desatando la guerra civil contra Pompeyo, a quien derrota en Farsalia (48 a.C.); Pompeyo es asesinado en Egipto y César libra la guerra alejandrina.' },
+  { desde:-47, hasta:-31, mapa:REP_47_31,
+    caption:'Dictadura y asesinato de César (44 a.C.), Segundo Triunvirato y nuevas guerras civiles entre Octavio, Antonio y Lépido, que culminan en la batalla naval de Actio (31 a.C.).' },
+  { desde:-31, hasta:-27, mapa:REP_31_27,
+    caption:'Tras Actio, Octavio anexa Egipto (30 a.C.) y queda como único dueño del poder; en el 27 a.C. el Senado le otorga el título de Augusto, marcando el inicio simbólico del Imperio.' }
 ];
 
 const HITOS_IMPERIO = [
