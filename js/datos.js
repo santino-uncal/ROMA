@@ -7209,7 +7209,12 @@ window.ROMA_DATA = {
       "periodo": "37–41 d.C.",
       "nombre": "Calígula",
       "texto": "Comenzó con gran popularidad pero derivó, según la tradición, en un gobierno errático y cruel, con gastos desmedidos y crueldad hacia el Senado. Fue asesinado por su propia Guardia Pretoriana.",
-      "imagen": "assets/img/retratos/retrato-16.jpg"
+      "imagen": "assets/img/retratos/retrato-16.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Tiberio.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Calígula (37–41 d.C.), con las mismas fronteras heredadas de Tiberio y Augusto: su breve y errático reinado no trajo cambios territoriales."
+      }
     },
     {
       "periodo": "41–54 d.C.",
@@ -7237,49 +7242,89 @@ window.ROMA_DATA = {
       "periodo": "68–69 d.C.",
       "nombre": "Galba",
       "texto": "Gobernador de Hispania Tarraconense, proclamado emperador tras la caída de Nerón. Su severidad fiscal y la negativa a pagar el donativo prometido a los pretorianos lo hicieron impopular enseguida; fue asesinado en el Foro a los pocos meses.",
-      "imagen": "assets/img/retratos/retrato-140.jpg"
+      "imagen": "assets/img/retratos/retrato-140.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Neron.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Galba (68–69 d.C.), heredado sin cambios territoriales de Nerón, en medio del caos del año de los cuatro emperadores."
+      }
     },
     {
       "periodo": "69 d.C.",
       "nombre": "Otón",
       "texto": "Antiguo compañero de Nerón, instigó el asesinato de Galba y fue aclamado por la Guardia Pretoriana. Derrotado por las legiones germánicas de Vitelio en la primera batalla de Bedriacum, se suicidó tras unos tres meses de reinado.",
-      "imagen": "assets/img/retratos/retrato-141.jpg"
+      "imagen": "assets/img/retratos/retrato-141.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Neron.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Otón (69 d.C.), con las mismas fronteras de sus predecesores julio-claudios: su reinado, de apenas tres meses en plena guerra civil, no alteró las fronteras."
+      }
     },
     {
       "periodo": "69 d.C.",
       "nombre": "Vitelio",
       "texto": "Proclamado por las legiones del Rin. Llegó al poder al vencer a Otón, pero su gobierno fue corto y disipado. Las tropas orientales de Vespasiano lo derrotaron en la segunda batalla de Bedriacum; fue linchado en Roma en diciembre del 69.",
-      "imagen": "assets/img/retratos/retrato-142.jpg"
+      "imagen": "assets/img/retratos/retrato-142.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Neron.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Vitelio (69 d.C.), sin cambios territoriales respecto a sus rivales en el año de los cuatro emperadores."
+      }
     },
     {
       "periodo": "69–79 d.C.",
       "nombre": "Vespasiano",
       "texto": "Restauró la estabilidad tras el caos. Sofocó la Gran Revuelta Judía (completada por su hijo Tito con la destrucción del Templo de Jerusalén en el 70 d.C.). Reforzó las finanzas e inició la construcción del Coliseo.",
-      "imagen": "assets/img/retratos/retrato-19.jpg"
+      "imagen": "assets/img/retratos/retrato-19.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Neron.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Vespasiano (69–79 d.C.), que restauró la estabilidad tras la guerra civil manteniendo las fronteras heredadas de la dinastía Julio-Claudia."
+      }
     },
     {
       "periodo": "79–81 d.C.",
       "nombre": "Tito",
       "texto": "Inauguró el Coliseo. Su reinado estuvo marcado por la erupción del Vesubio (79 d.C.), que sepultó Pompeya y Herculano, y un gran incendio en Roma. Murió joven, con imagen de gobernante querido.",
-      "imagen": "assets/img/retratos/retrato-20.jpg"
+      "imagen": "assets/img/retratos/retrato-20.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Neron.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Tito (79–81 d.C.), sin cambios de fronteras respecto a su padre Vespasiano."
+      }
     },
     {
       "periodo": "81–96 d.C.",
       "nombre": "Domiciano",
       "texto": "Gobernó de forma autoritaria, en conflicto creciente con el Senado. Llevó campañas en Germania y Dacia. Fue asesinado en una conspiración palaciega en el 96 d.C.",
-      "imagen": "assets/img/retratos/retrato-21.jpg"
+      "imagen": "assets/img/retratos/retrato-21.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Neron.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Domiciano (81–96 d.C.), con campañas en Germania y Dacia que no alteraron sustancialmente las fronteras heredadas de los Flavios."
+      }
     },
     {
       "periodo": "96–98 d.C.",
       "nombre": "Nerva",
       "texto": "Elegido por el Senado tras el asesinato de Domiciano, instauró la práctica de adoptar como sucesor al candidato más capaz, adoptando a Trajano.",
-      "imagen": "assets/img/retratos/retrato-22.jpg"
+      "imagen": "assets/img/retratos/retrato-22.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Neron.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Nerva (96–98 d.C.), con las mismas fronteras de sus predecesores durante su breve reinado de transición."
+      }
     },
     {
       "periodo": "98–117 d.C.",
       "nombre": "Trajano",
       "texto": "Primer emperador de origen provincial (hispano). Bajo su gobierno el Imperio alcanzó su máxima extensión territorial, con la conquista de Dacia y campañas en Partia. Impulsó grandes obras públicas, como su Foro y Columna.",
-      "imagen": "assets/img/retratos/retrato-23.jpg"
+      "imagen": "assets/img/retratos/retrato-23.jpg",
+      "mapaEspecial": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Roman_Empire_Trajan_117AD.png",
+        "credit": "Tataryn, Wikimedia Commons (CC BY-SA 3.0)",
+        "caption": "El Imperio bajo Trajano (98–117 d.C.) en su máxima extensión territorial de toda la historia romana, tras la conquista de Dacia y las campañas en Partia, Armenia y Mesopotamia."
+      }
     },
     {
       "periodo": "117–138 d.C.",
@@ -7296,13 +7341,23 @@ window.ROMA_DATA = {
       "periodo": "138–161 d.C.",
       "nombre": "Antonino Pío",
       "texto": "Reinado excepcionalmente pacífico y estable, sin grandes guerras ni crisis internas, con fama de gobernante justo y prudente.",
-      "imagen": "assets/img/retratos/retrato-25.jpg"
+      "imagen": "assets/img/retratos/retrato-25.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Adriano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Antonino Pío (138–161 d.C.), con las fronteras estabilizadas por Adriano, en el reinado más pacífico del Alto Imperio."
+      }
     },
     {
       "periodo": "161–180 d.C.",
       "nombre": "Marco Aurelio",
       "texto": "Filósofo estoico, autor de las Meditaciones. Gobernó (con Lucio Vero al inicio) en medio de guerras defensivas contra partos, marcomanos y germanos, y una grave peste. Su sucesión por su hijo Cómodo suele marcar el inicio del declive del Alto Imperio.",
-      "imagen": "assets/img/retratos/retrato-26.jpg"
+      "imagen": "assets/img/retratos/retrato-26.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Adriano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Marco Aurelio (161–180 d.C.), con las mismas fronteras heredadas de Adriano y Antonino Pío, pese a las guerras defensivas contra marcomanos y partos."
+      }
     },
     {
       "periodo": "180–192 d.C.",
@@ -7319,37 +7374,67 @@ window.ROMA_DATA = {
       "periodo": "193 d.C.",
       "nombre": "Pértinax",
       "texto": "Prefecto de la Ciudad, elevado al trono por los pretorianos tras el asesinato de Cómodo. Intentó restaurar la disciplina militar y sanear las finanzas, pero su rigor le enemistó con la Guardia, que lo asesinó a los tres meses.",
-      "imagen": "assets/img/retratos/retrato-143.jpg"
+      "imagen": "assets/img/retratos/retrato-143.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Comodo.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Pértinax (193 d.C.), sin cambios territoriales respecto a Cómodo, durante su brevísimo reinado de tres meses."
+      }
     },
     {
       "periodo": "193 d.C.",
       "nombre": "Didio Juliano",
       "texto": "Senador acaudalado que 'compró' el trono en una subasta de la Guardia Pretoriana tras la muerte de Pértinax. Sin apoyo del pueblo ni del ejército, el Senado lo condenó y fue ejecutado al acercarse Septimio Severo a Roma, tras nueve semanas de reinado.",
-      "imagen": "assets/img/retratos/retrato-144.jpg"
+      "imagen": "assets/img/retratos/retrato-144.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Comodo.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Didio Juliano (193 d.C.), con las mismas fronteras heredadas de la dinastía Antonina, durante su reinado de apenas nueve semanas."
+      }
     },
     {
       "periodo": "193–194 d.C.",
       "nombre": "Pescenio Níger",
       "texto": "Gobernador de Siria proclamado emperador por las legiones de Oriente. Fue derrotado por Septimio Severo en la batalla de Issos (194 d.C.) y ejecutado cuando huía hacia el Éufrates.",
-      "imagen": "assets/img/retratos/retrato-145.jpg"
+      "imagen": "assets/img/retratos/retrato-145.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Comodo.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Pescenio Níger (193–194 d.C.), pretendiente oriental en la guerra civil del 193, sin cambios de fronteras respecto a sus predecesores."
+      }
     },
     {
       "periodo": "193–197 d.C.",
       "nombre": "Clodio Albino",
       "texto": "Gobernador de Britania, reconocido al principio como César por Septimio Severo. Al romper con él, cruzó a la Galia y fue derrotado y muerto en la batalla de Lugdunum (197 d.C.), el mayor choque entre ejércitos romanos hasta entonces.",
-      "imagen": "assets/img/retratos/retrato-146.jpg"
+      "imagen": "assets/img/retratos/retrato-146.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Comodo.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Clodio Albino (193–197 d.C.), pretendiente occidental en la guerra civil del 193, con las fronteras aún intactas del Alto Imperio."
+      }
     },
     {
       "periodo": "193–211 d.C.",
       "nombre": "Septimio Severo",
       "texto": "De origen norteafricano, reforzó el poder militar del emperador sobre el Senado, aumentando el sueldo de las legiones. Llevó campañas en Partia y Britania, donde murió en York.",
-      "imagen": "assets/img/retratos/retrato-28.jpg"
+      "imagen": "assets/img/retratos/retrato-28.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Comodo.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Septimio Severo (193–211 d.C.), que reforzó el poder militar del emperador sin alterar sustancialmente las fronteras heredadas de los Antoninos."
+      }
     },
     {
       "periodo": "211–217 d.C.",
       "nombre": "Caracalla",
       "texto": "Gobernó junto a su hermano Geta, a quien mandó asesinar. Se le recuerda por la Constitutio Antoniniana (212 d.C.), que otorgó la ciudadanía romana a casi todos los habitantes libres del Imperio. Fue asesinado por un oficial de su guardia.",
-      "imagen": "assets/img/retratos/retrato-29.jpg"
+      "imagen": "assets/img/retratos/retrato-29.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Comodo.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Caracalla (211–217 d.C.), con las mismas fronteras del Alto Imperio, poco antes de que la Crisis del Siglo III comenzara a gestarse."
+      }
     },
     {
       "periodo": "218–222 d.C.",
@@ -7366,67 +7451,122 @@ window.ROMA_DATA = {
       "periodo": "222–235 d.C.",
       "nombre": "Alejandro Severo",
       "texto": "Último de la dinastía Severa, gobernó bajo fuerte influencia de su madre Julia Mamea. Su asesinato en una revuelta militar en Germania marcó el inicio de la Crisis del Siglo III.",
-      "imagen": "assets/img/retratos/retrato-31.jpg"
+      "imagen": "assets/img/retratos/retrato-31.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Heliogabalo.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Alejandro Severo (222–235 d.C.), último de los Severos, con las fronteras aún intactas heredadas de Heliogábalo, en vísperas de la Crisis del Siglo III que desataría su asesinato."
+      }
     },
     {
       "periodo": "235–238 d.C.",
       "nombre": "Maximino el Tracio",
       "texto": "Primer emperador surgido de la tropa sin pasar por el Senado, tras el asesinato de Alejandro Severo. De origen humilde, gobernó desde el frente del Danubio y el Rin y nunca entró en Roma. La presión fiscal desató la revuelta de África; fue asesinado por sus soldados mientras sitiaba Aquilea.",
-      "imagen": "assets/img/retratos/retrato-147.jpg"
+      "imagen": "assets/img/retratos/retrato-147.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Heliogabalo.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Maximino el Tracio (235–238 d.C.), con las fronteras todavía sin fracturar al inicio de la Crisis del Siglo III."
+      }
     },
     {
       "periodo": "238 d.C.",
       "nombre": "Gordiano I",
       "texto": "Procónsul de África, octogenario, proclamado junto a su hijo durante la revuelta contra Maximino. Se suicidó al conocer la muerte de su hijo en combate, tras poco más de tres semanas de reinado.",
-      "imagen": "assets/img/retratos/retrato-148.jpg"
+      "imagen": "assets/img/retratos/retrato-148.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Heliogabalo.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Gordiano I (238 d.C.), sin cambios territoriales durante su fugaz reinado de menos de un mes en la revuelta africana."
+      }
     },
     {
       "periodo": "238 d.C.",
       "nombre": "Gordiano II",
       "texto": "Hijo de Gordiano I y coemperador durante la revuelta africana. Murió en combate frente a Cartago contra las tropas leales a Maximino, casi al mismo tiempo que su padre.",
-      "imagen": "assets/img/retratos/retrato-149.jpg"
+      "imagen": "assets/img/retratos/retrato-149.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Heliogabalo.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Gordiano II (238 d.C.), coemperador junto a su padre durante la breve revuelta africana, sin alteraciones de frontera."
+      }
     },
     {
       "periodo": "238 d.C.",
       "nombre": "Pupieno",
       "texto": "Elegido por el Senado junto a Balbino para hacer frente a Maximino; dirigió la defensa militar en el norte de Italia. Caído Maximino, la desconfianza entre ambos augustos permitió que la Guardia Pretoriana los asesinara a los tres meses.",
-      "imagen": "assets/img/retratos/retrato-150.jpg"
+      "imagen": "assets/img/retratos/retrato-150.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Heliogabalo.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Pupieno (238 d.C.), elegido por el Senado junto a Balbino, con las fronteras todavía intactas del Alto Imperio."
+      }
     },
     {
       "periodo": "238 d.C.",
       "nombre": "Balbino",
       "texto": "Senador elevado al trono junto a Pupieno, a cargo del gobierno civil en Roma. No logró controlar a la Guardia Pretoriana, que lo asesinó junto a su colega tras un breve reinado conjunto.",
-      "imagen": "assets/img/retratos/retrato-151.jpg"
+      "imagen": "assets/img/retratos/retrato-151.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Heliogabalo.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Balbino (238 d.C.), coemperador de Pupieno, sin cambios de fronteras durante su breve y turbulento reinado conjunto."
+      }
     },
     {
       "periodo": "238–244 d.C.",
       "nombre": "Gordiano III",
       "texto": "Nieto de Gordiano I, proclamado con trece años una vez muertos los demás pretendientes. Gobernó bajo la tutela del prefecto Timesiteo. Murió en campaña contra los persas sasánidas, probablemente asesinado por instigación de su sucesor.",
-      "imagen": "assets/img/retratos/retrato-152.jpg"
+      "imagen": "assets/img/retratos/retrato-152.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Heliogabalo.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Gordiano III (238–244 d.C.), con las fronteras aún estables pese a las crecientes presiones externas de la Crisis del Siglo III."
+      }
     },
     {
       "periodo": "244–249 d.C.",
       "nombre": "Filipo el Árabe",
       "texto": "Prefecto del pretorio que accedió al trono tras la muerte de Gordiano III. Pactó la paz con Persia y presidió los juegos del milenario de Roma (248 d.C.). Murió en combate contra el usurpador Decio cerca de Verona.",
-      "imagen": "assets/img/retratos/retrato-153.jpg"
+      "imagen": "assets/img/retratos/retrato-153.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Heliogabalo.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Filipo el Árabe (244–249 d.C.), que celebró el milenario de Roma con las fronteras todavía sin fracturar."
+      }
     },
     {
       "periodo": "249–251 d.C.",
       "nombre": "Decio",
       "texto": "Enviado por Filipo al Danubio, fue proclamado por sus tropas. Ordenó la primera persecución general y sistemática de los cristianos. Murió con su hijo en la batalla de Abrito frente a los godos: primer emperador caído en combate ante un enemigo extranjero.",
-      "imagen": "assets/img/retratos/retrato-154.jpg"
+      "imagen": "assets/img/retratos/retrato-154.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Heliogabalo.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Decio (249–251 d.C.), aún con las fronteras heredadas, poco antes de la creciente presión gótica en el Danubio que le costaría la vida."
+      }
     },
     {
       "periodo": "251–253 d.C.",
       "nombre": "Treboniano Galo",
       "texto": "Aclamado por el ejército del Danubio tras el desastre de Abrito. Firmó una paz humillante con los godos y afrontó una gran peste. Sus soldados lo asesinaron al pasarse al usurpador Emiliano.",
-      "imagen": "assets/img/retratos/retrato-155.jpg"
+      "imagen": "assets/img/retratos/retrato-155.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Heliogabalo.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Treboniano Galo (251–253 d.C.), que pactó una paz humillante con los godos sin ceder territorio formalmente."
+      }
     },
     {
       "periodo": "253 d.C.",
       "nombre": "Emiliano",
       "texto": "Gobernador de Mesia proclamado tras una victoria sobre los godos. Marchó sobre Italia y derrotó a Treboniano Galo, pero sus propias tropas lo mataron a los tres meses al acercarse el ejército de Valeriano.",
-      "imagen": "assets/img/retratos/retrato-156.jpg"
+      "imagen": "assets/img/retratos/retrato-156.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Heliogabalo.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Emiliano (253 d.C.), con las fronteras aún unificadas, en los meses previos a la fractura del Imperio bajo Valeriano y Galieno."
+      }
     },
     {
       "periodo": "253–260 d.C.",
@@ -7443,7 +7583,12 @@ window.ROMA_DATA = {
       "periodo": "253–268 d.C.",
       "nombre": "Galieno",
       "texto": "Gobernó solo tras la captura de su padre, en el punto más grave de la crisis: el Imperio se partió en tres con el Imperio Galo y el reino de Palmira. Reformó la caballería y apartó a los senadores del mando militar. Fue asesinado por sus oficiales ante los muros de Milán.",
-      "imagen": "assets/img/retratos/retrato-158.jpg"
+      "imagen": "assets/img/retratos/retrato-158.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Valeriano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Galieno (253–268 d.C.), gobernando en solitario tras la captura de su padre Valeriano, con el Imperio todavía partido en tres: el núcleo romano, el Imperio Galo y el reino de Palmira."
+      }
     },
     {
       "periodo": "268–270 d.C.",
@@ -7460,7 +7605,12 @@ window.ROMA_DATA = {
       "periodo": "270 d.C.",
       "nombre": "Quintilo",
       "texto": "Hermano de Claudio II, proclamado por el Senado a su muerte. Al alzarse Aureliano con el grueso del ejército, murió a las pocas semanas, por suicidio o a manos de su tropa.",
-      "imagen": "assets/img/retratos/retrato-160.jpg"
+      "imagen": "assets/img/retratos/retrato-160.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Claudio II el Gotico.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Quintilo (270 d.C.), todavía fragmentado en tres tras la muerte de su hermano Claudio II, en las pocas semanas antes de que Aureliano lo reunificara."
+      }
     },
     {
       "periodo": "270–275 d.C.",
@@ -7477,91 +7627,166 @@ window.ROMA_DATA = {
       "periodo": "275–276 d.C.",
       "nombre": "Tácito",
       "texto": "Senador de edad avanzada elegido tras un interregno, en el último intento del Senado de designar emperador. Combatió a los godos en Asia Menor y murió a los pocos meses, por enfermedad o asesinato.",
-      "imagen": "assets/img/retratos/retrato-162.jpg"
+      "imagen": "assets/img/retratos/retrato-162.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Aureliano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Tácito (275–276 d.C.), con las fronteras reunificadas por Aureliano todavía intactas."
+      }
     },
     {
       "periodo": "276 d.C.",
       "nombre": "Floriano",
       "texto": "Hermano de Tácito, se proclamó a su muerte sin sanción del Senado. Enfrentado a Probo en Cilicia, fue asesinado por sus propios soldados tras unos ochenta días.",
-      "imagen": "assets/img/retratos/retrato-163.jpg"
+      "imagen": "assets/img/retratos/retrato-163.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Aureliano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Floriano (276 d.C.), sin cambios de fronteras respecto a Aureliano durante su brevísimo reinado de unos ochenta días."
+      }
     },
     {
       "periodo": "276–282 d.C.",
       "nombre": "Probo",
       "texto": "General ilirio que dedicó su reinado a expulsar a los germanos que habían cruzado el Rin y el Danubio y a repoblar las provincias arrasadas. Empleó a las legiones en obras públicas, lo que le enemistó con la tropa: fue asesinado por sus soldados en Sirmio.",
-      "imagen": "assets/img/retratos/retrato-164.jpg"
+      "imagen": "assets/img/retratos/retrato-164.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Aureliano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Probo (276–282 d.C.), que expulsó a los germanos que habían cruzado el Rin y el Danubio sin alterar las fronteras reunificadas por Aureliano."
+      }
     },
     {
       "periodo": "282–283 d.C.",
       "nombre": "Caro",
       "texto": "Prefecto del pretorio proclamado por el ejército, sin pedir la confirmación del Senado. Lanzó una campaña victoriosa contra Persia y tomó Ctesifonte, pero murió en el camino, según las fuentes fulminado por un rayo.",
-      "imagen": "assets/img/retratos/retrato-165.jpg"
+      "imagen": "assets/img/retratos/retrato-165.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Aureliano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Caro (282–283 d.C.), con las mismas fronteras heredadas de Aureliano, ampliadas brevemente por su campaña victoriosa contra Persia."
+      }
     },
     {
       "periodo": "283–285 d.C.",
       "nombre": "Carino",
       "texto": "Hijo mayor de Caro, quedó al frente de Occidente. Derrotó a Diocleciano en el río Margus, pero fue asesinado por sus propios oficiales en plena victoria, dejando el trono al vencedor.",
-      "imagen": "assets/img/retratos/retrato-166.jpg"
+      "imagen": "assets/img/retratos/retrato-166.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Aureliano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Carino (283–285 d.C.), con las fronteras occidentales todavía sin cambios respecto a Aureliano."
+      }
     },
     {
       "periodo": "283–284 d.C.",
       "nombre": "Numeriano",
       "texto": "Hijo menor de Caro, gobernó Oriente y dirigió la retirada del ejército tras la muerte de su padre. Murió en circunstancias oscuras durante la marcha; el hallazgo de su cadáver llevó a las tropas a proclamar a Diocleciano.",
-      "imagen": "assets/img/retratos/retrato-167.jpg"
+      "imagen": "assets/img/retratos/retrato-167.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Aureliano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Numeriano (283–284 d.C.), con las fronteras orientales sin cambios respecto a Aureliano, tras la retirada del ejército de la campaña pérsica de su padre Caro."
+      }
     },
     {
       "periodo": "284–305 d.C.",
       "nombre": "Diocleciano",
       "texto": "Puso fin a la Crisis del Siglo III con la Tetrarquía, dividiendo el gobierno entre dos Augustos y dos Césares. Reformó economía, ejército y administración, y lanzó la última y más severa persecución contra los cristianos. Único emperador en abdicar voluntariamente.",
-      "imagen": "assets/img/retratos/retrato-32.jpg"
+      "imagen": "assets/img/retratos/retrato-32.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Aureliano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Diocleciano (284–305 d.C.), que puso fin a la Crisis del Siglo III con la Tetrarquía sin alterar las fronteras exteriores heredadas de Aureliano."
+      }
     },
     {
       "periodo": "306–337 d.C.",
       "nombre": "Constantino I",
       "texto": "Se impuso como único emperador tras vencer a Majencio en el Puente Milvio (312 d.C.). Con el Edicto de Milán (313 d.C.) estableció la tolerancia hacia el cristianismo. Fundó Constantinopla (330 d.C.) sobre el antiguo Bizancio.",
-      "imagen": "assets/img/retratos/retrato-33.jpg"
+      "imagen": "assets/img/retratos/retrato-33.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Aureliano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Constantino I (306–337 d.C.), reunificado bajo un único emperador, con las mismas fronteras exteriores heredadas de la Tetrarquía y, en última instancia, de Aureliano."
+      }
     },
     {
       "periodo": "337–340 d.C.",
       "nombre": "Constantino II",
       "texto": "Hijo mayor de Constantino I, recibió la Galia, Britania e Hispania. Reclamó la tutela sobre su hermano menor Constante e invadió Italia, pero cayó en una emboscada cerca de Aquilea a los tres años de reinado.",
-      "imagen": "assets/img/retratos/retrato-168.jpg"
+      "imagen": "assets/img/retratos/retrato-168.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Aureliano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Constantino II (337–340 d.C.), que gobernó la Galia, Britania e Hispania como parte del reparto entre los hijos de Constantino I, sin cambios en las fronteras exteriores."
+      }
     },
     {
       "periodo": "337–350 d.C.",
       "nombre": "Constante I",
       "texto": "Recibió Italia, África e Iliria, y sumó los dominios de Constantino II tras vencerlo. Defensor del credo niceno, fue derrocado y asesinado por el usurpador Magnencio.",
-      "imagen": "assets/img/retratos/retrato-169.jpg"
+      "imagen": "assets/img/retratos/retrato-169.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Aureliano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Constante I (337–350 d.C.), con las fronteras exteriores sin cambios pese a la reunificación de la mitad occidental tras vencer a su hermano Constantino II."
+      }
     },
     {
       "periodo": "337–361 d.C.",
       "nombre": "Constancio II",
       "texto": "Recibió Oriente y, muertos sus hermanos, quedó como único emperador. Combatió a persas y usurpadores, favoreció el arrianismo y elevó a su primo Juliano como César. Murió de enfermedad cuando marchaba a enfrentarse a él.",
-      "imagen": "assets/img/retratos/retrato-170.jpg"
+      "imagen": "assets/img/retratos/retrato-170.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Aureliano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Constancio II (337–361 d.C.), único emperador tras la muerte de sus hermanos, con las fronteras exteriores todavía sin cambios respecto a Aureliano y la Tetrarquía."
+      }
     },
     {
       "periodo": "361–363 d.C.",
       "nombre": "Juliano el Apóstata",
       "texto": "Último emperador pagano: intentó revertir el ascenso del cristianismo y restaurar los cultos tradicionales, sin recurrir a la persecución violenta. Murió en combate contra los persas sasánidas.",
-      "imagen": "assets/img/retratos/retrato-34.jpg"
+      "imagen": "assets/img/retratos/retrato-34.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Aureliano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Juliano el Apóstata (361–363 d.C.), con las fronteras exteriores sin cambios, poco antes de morir en campaña contra los persas sasánidas."
+      }
     },
     {
       "periodo": "363–364 d.C.",
       "nombre": "Joviano",
       "texto": "Restauró el cristianismo como religión favorecida del Estado. Reinado brevísimo: murió pocos meses después, posiblemente por intoxicación accidental.",
-      "imagen": "assets/img/retratos/retrato-35.jpg"
+      "imagen": "assets/img/retratos/retrato-35.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Aureliano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "Referencia: no hay un mapa específico para el breve reinado de Joviano (363–364 d.C.); se usa como referencia el territorio de Aureliano, aunque Joviano cedió a Persia el Alto Tigris y Nísibis para poder retirar a salvo al ejército romano tras la muerte de Juliano."
+      }
     },
     {
       "periodo": "364–378 d.C.",
       "nombre": "Valentiniano I y Valente",
       "texto": "Valentiniano I gobernó Occidente defendiendo el Rin y el Danubio; su hermano Valente gobernó Oriente. Valente permitió el ingreso de los godos al Imperio, pero el maltrato romano provocó una rebelión que culminó en el desastre de Adrianópolis (378 d.C.), donde murió Valente.",
-      "imagen": "assets/img/retratos/retrato-128.jpg"
+      "imagen": "assets/img/retratos/retrato-128.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Aureliano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Valentiniano I y Valente (364–378 d.C.), dividido en su administración entre Occidente y Oriente pero todavía sin fronteras exteriores alteradas, hasta el desastre de Adrianópolis (378 d.C.) y la entrada de los godos."
+      }
     },
     {
       "periodo": "379–395 d.C.",
       "nombre": "Teodosio I \"el Grande\"",
       "texto": "Nombrado emperador de Oriente tras Adrianópolis, pacificó a los godos como aliados (foederati). Último emperador en gobernar todo el Imperio unificado, tras vencer a los usurpadores Magno Máximo y Eugenio. Convirtió al cristianismo niceno en religión oficial y única del Estado (Edicto de Tesalónica, 380 d.C.). Murió en Milán en enero del 395 d.C., dividiendo el Imperio entre sus hijos Honorio (Occidente) y Arcadio (Oriente), división que ya nunca se reunificaría.",
-      "imagen": "assets/img/retratos/retrato-36.jpg"
+      "imagen": "assets/img/retratos/retrato-36.jpg",
+      "mapaEspecial": {
+        "url": "assets/img/SPQR Aureliano.png",
+        "credit": "Imagen provista por el usuario",
+        "caption": "El Imperio bajo Teodosio I (379–395 d.C.), último en gobernar el Imperio unificado, con las fronteras exteriores heredadas de sus predecesores: a su muerte se dividiría definitivamente entre sus hijos Honorio y Arcadio."
+      }
     }
   ],
   "occidente": [
