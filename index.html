@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>La historia de Roma</title>
-<link rel="stylesheet" href="css/estilos.css?v=107">
+<link rel="stylesheet" href="css/estilos.css?v=113">
 </head>
 <body>
 <div class="wrap">
@@ -30,7 +30,61 @@
         </button>
       </div>
     </header>
-    <img class="header-flank-icon" src="assets/img/cruz.png" alt="Cruz cristiana">
+    <img class="header-flank-icon cruz-icon" id="cruzBtn" src="assets/img/cruz.png" alt="Cruz cristiana — tocar para ver la historia del cristianismo en Roma" tabindex="0" role="button" aria-haspopup="dialog">
+  </div>
+
+  <div class="modal-overlay" id="cruzModalOverlay">
+    <div class="modal-box" id="cruzModalBox" role="dialog" aria-modal="true" aria-labelledby="cruzModalTitle">
+      <button class="modal-close" id="cruzModalClose" aria-label="Cerrar">✕</button>
+      <h3 id="cruzModalTitle">✝ El cristianismo en Roma</h3>
+      <div class="modal-body">
+        <div class="modal-row">
+          <p><strong>Orígenes y persecuciones (s. I–III d.C.):</strong> el cristianismo surge en Judea bajo Tiberio y se
+          expande por el Mediterráneo gracias a la <em>Pax Romana</em> y a las redes comerciales del Imperio. Al negarse
+          a rendir culto al emperador, los cristianos son vistos como una amenaza para la unidad religiosa del Estado.
+          Nerón los culpa del incendio de Roma en el 64 d.C.; siguen persecuciones bajo Domiciano, Decio, Valeriano y,
+          la más dura de todas, la <strong>Gran Persecución de Diocleciano</strong> (303–311 d.C.).</p>
+          <figure class="modal-figure-group">
+            <img class="modal-figure" src="assets/img/diocleciano.jfif" alt="Diocleciano">
+            <figcaption>Diocleciano</figcaption>
+          </figure>
+        </div>
+
+        <div class="modal-row">
+          <figure class="modal-figure-group">
+            <img class="modal-figure" src="assets/img/Constantino el Grande.png" alt="Constantino el Grande">
+            <figcaption>Constantino el Grande</figcaption>
+          </figure>
+          <p><strong>Tolerancia y legalización (s. IV d.C.):</strong> en el 311, el emperador Galerio publica un edicto
+          de tolerancia en su lecho de muerte. En el 313, Constantino I y Licinio firman el
+          <strong>Edicto de Milán</strong>, que otorga libertad de culto a los cristianos en todo el Imperio.
+          Constantino, tras su victoria en el Puente Milvio (312 d.C.) bajo el signo <em>"in hoc signo vinces"</em>.
+          <span class="latin-trans">("Con este signo vencerás")</span>
+          Así, se convierte en el gran protector de la nueva fe.</p>
+        </div>
+
+        <p><strong>Concilios y unidad doctrinal:</strong> en el 325 d.C., Constantino convoca el
+        <strong>Concilio de Nicea</strong> para resolver la controversia arriana y fijar el Credo niceno. Nuevos
+        concilios (Constantinopla 381, Éfeso 431, Calcedonia 451) siguen definiendo la doctrina cristiana.</p>
+
+        <div class="modal-row">
+          <figure class="modal-figure-group">
+            <img class="modal-figure" src="assets/img/Teodosio el Grande.jfif" alt="Teodosio el Grande">
+            <figcaption>Teodosio el Grande</figcaption>
+          </figure>
+          <p><strong>Religión de Estado (380 d.C.):</strong> con el <strong>Edicto de Tesalónica</strong>, Teodosio I
+          proclama al cristianismo niceno como religión oficial del Imperio Romano. Poco después se prohíben los cultos
+          paganos y se cierran templos como el Serapeum de Alejandría (391 d.C.).</p>
+        </div>
+
+        <div class="modal-row">
+          <p><strong>Legado en Oriente:</strong> tras la caída de Roma en el 476 d.C., el cristianismo ortodoxo
+          permanece como pilar del Imperio Bizantino, con el emperador como protector de la Iglesia y Constantinopla
+          como su gran centro espiritual hasta la caída de la ciudad en 1453.</p>
+          <img class="modal-figure" src="assets/img/cruz ortodoxa.png" alt="Cruz ortodoxa">
+        </div>
+      </div>
+    </div>
   </div>
 
   <details class="conflicts-box" id="conflictsBox">
@@ -350,6 +404,6 @@
 </div>
 <script src="js/datos.js?v=111"></script>
 <script src="js/mapas.js?v=103"></script>
-<script src="js/app.js?v=108"></script>
+<script src="js/app.js?v=109"></script>
 </body>
 </html>

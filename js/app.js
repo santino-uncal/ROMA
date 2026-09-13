@@ -444,6 +444,22 @@
   });
   document.getElementById('spqrBtn').addEventListener('click', ()=> setEra(lastSpqrEra));
 
+  // ----- Modal informativo de la cruz cristiana -----
+  const cruzOverlay = document.getElementById('cruzModalOverlay');
+  function openCruzModal(){ cruzOverlay.classList.add('open'); }
+  function closeCruzModal(){ cruzOverlay.classList.remove('open'); }
+  document.getElementById('cruzBtn').addEventListener('click', openCruzModal);
+  document.getElementById('cruzBtn').addEventListener('keydown', (e)=>{
+    if(e.key==='Enter' || e.key===' '){ e.preventDefault(); openCruzModal(); }
+  });
+  document.getElementById('cruzModalClose').addEventListener('click', closeCruzModal);
+  cruzOverlay.addEventListener('click', (e)=>{
+    if(e.target===cruzOverlay) closeCruzModal();
+  });
+  document.addEventListener('keydown', (e)=>{
+    if(e.key==='Escape' && cruzOverlay.classList.contains('open')) closeCruzModal();
+  });
+
   document.getElementById('prevBtn').addEventListener('click', ()=>{
     if(currentIndex>0) selectIndex(currentIndex-1, true);
   });
