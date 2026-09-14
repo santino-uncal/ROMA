@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>La historia de Roma</title>
-<link rel="stylesheet" href="css/estilos.css?v=113">
+<link rel="stylesheet" href="css/estilos.css?v=117">
 </head>
 <body>
 <div class="wrap">
   <div class="header-flanked">
-    <img class="header-flank-icon" src="assets/img/Estandarte.png" alt="Estandarte de la legión romana con el águila de Júpiter">
+    <img class="header-flank-icon estandarte-icon" id="estandarteBtn" src="assets/img/Estandarte.png" alt="Estandarte de la legión romana con el águila de Júpiter — tocar para ver la historia del águila legionaria" tabindex="0" role="button" aria-haspopup="dialog">
     <header>
       <p class="subtitle">Línea de tiempo interactiva — de Rómulo a la caída de Constantinopla</p>
       <p class="eyebrow">Ab urbe condita</p>
@@ -84,6 +84,76 @@
           <img class="modal-figure" src="assets/img/cruz ortodoxa.png" alt="Cruz ortodoxa">
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="estandarteModalOverlay">
+    <div class="modal-box" id="estandarteModalBox" role="dialog" aria-modal="true" aria-labelledby="estandarteModalTitle">
+      <button class="modal-close" id="estandarteModalClose" aria-label="Cerrar">✕</button>
+      <h3 id="estandarteModalTitle">🦅 El águila de la legión</h3>
+      <div class="modal-body">
+        <p><strong>Antes de Mario (siglo IV–II a.C.):</strong> cada manípulo de la legión llevaba su propio
+        <em>signum</em>, coronado por la figura de un animal — el lobo, el minotauro, el caballo, el jabalí o el
+        águila — que servía de punto de referencia en la batalla y de objeto de culto para sus soldados.</p>
+
+        <div class="modal-row">
+          <p><strong>La reforma de Mario (104 a.C.):</strong> el cónsul Cayo Mario unifica los estandartes de la
+          legión bajo un único símbolo, el <em>aquila</em> de plata (más tarde de oro), portado por el
+          <em>aquilifer</em>, el abanderado de mayor rango entre los suboficiales. El águila se convierte en el
+          alma de la legión: se le rinden honores casi religiosos y su pérdida es la mayor deshonra posible.</p>
+          <figure class="modal-figure-group">
+            <img class="modal-figure" src="assets/img/retratos/retrato-129.jpg" alt="Cayo Mario">
+            <figcaption>Cayo Mario</figcaption>
+          </figure>
+        </div>
+
+        <div class="modal-row">
+          <figure class="modal-figure-group">
+            <img class="modal-figure" src="assets/img/retratos/retrato-132.jpg" alt="Marco Licinio Craso">
+            <figcaption>Marco Licinio Craso</figcaption>
+          </figure>
+          <p><strong>Carrhae (53 a.C.) y Teutoburgo (9 d.C.):</strong> Marco Licinio Craso pierde tres águilas
+          ante los partos en el desastre de Carrhae. Más de medio siglo después, tres legiones enteras — la XVII,
+          la XVIII y la XIX — son aniquiladas junto a sus estandartes por los germanos de Arminio en el bosque de
+          Teutoburgo, la peor derrota militar del Alto Imperio: esas legiones nunca vuelven a existir.</p>
+        </div>
+
+        <div class="modal-row">
+          <p><strong>La recuperación (20 a.C. – 41 d.C.):</strong> Augusto obtiene por vía diplomática la
+          devolución de las águilas de Craso en el 20 a.C. y lo celebra como un gran triunfo, acuñando monedas
+          con la leyenda <em>SIGNIS RECEPTIS</em> ("estandartes recuperados") y erigiendo un templo a Marte Ultor
+          para guardarlas. De las águilas perdidas en Teutoburgo, Germánico recupera dos entre el 15 y el 16 d.C.;
+          la tercera solo se recobra en el 41 d.C., bajo Claudio.</p>
+          <figure class="modal-figure-group">
+            <img class="modal-figure" src="assets/img/retratos/retrato-14.jpg" alt="Augusto">
+            <figcaption>Augusto</figcaption>
+          </figure>
+        </div>
+
+        <div class="modal-row">
+          <img class="modal-figure" src="assets/img/spqr-aguila.png" alt="Águila de Júpiter, símbolo de Roma">
+          <p><strong>Un símbolo que perdura:</strong> el águila legionaria queda fijada como emblema de poder
+          imperial mucho después de Roma: la retoman el Sacro Imperio Romano Germánico, el Imperio napoleónico y,
+          hasta hoy, escudos y emblemas militares de medio mundo — el ave que custodiaba cada legión romana sigue
+          siendo, dos mil años después, sinónimo de autoridad soberana.</p>
+        </div>
+
+        <p><strong>El emblema propio de cada legión:</strong> además de la <em>aquila</em>, común a todas, cada
+        legión conservaba un segundo símbolo distintivo — pintado en los escudos, grabado en ladrillos o acuñado
+        en sus monedas — heredado de su fundador, su primera campaña o el signo zodiacal bajo el que fue
+        reclutada. Estos son los emblemas documentados de las legiones del Alto Imperio:</p>
+        <figure class="legiones-figure">
+          <img class="legiones-img" id="legionesImg" src="assets/img/legiones-emblemas.jpg?v=5" alt="Cuadro con los emblemas de las legiones romanas del Alto Imperio — tocar para ampliar" tabindex="0" role="button" aria-haspopup="dialog">
+          <figcaption>Tocá la imagen para ampliarla</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay lightbox-overlay" id="legionesLightboxOverlay">
+    <div class="lightbox-content">
+      <button class="modal-close" id="legionesLightboxClose" aria-label="Cerrar">✕</button>
+      <img src="assets/img/legiones-emblemas.jpg?v=5" alt="Cuadro con los emblemas de las legiones romanas del Alto Imperio">
     </div>
   </div>
 
@@ -404,6 +474,6 @@
 </div>
 <script src="js/datos.js?v=111"></script>
 <script src="js/mapas.js?v=103"></script>
-<script src="js/app.js?v=109"></script>
+<script src="js/app.js?v=111"></script>
 </body>
 </html>

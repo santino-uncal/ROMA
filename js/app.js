@@ -460,6 +460,38 @@
     if(e.key==='Escape' && cruzOverlay.classList.contains('open')) closeCruzModal();
   });
 
+  // ----- Modal informativo del águila legionaria -----
+  const estandarteOverlay = document.getElementById('estandarteModalOverlay');
+  function openEstandarteModal(){ estandarteOverlay.classList.add('open'); }
+  function closeEstandarteModal(){ estandarteOverlay.classList.remove('open'); }
+  document.getElementById('estandarteBtn').addEventListener('click', openEstandarteModal);
+  document.getElementById('estandarteBtn').addEventListener('keydown', (e)=>{
+    if(e.key==='Enter' || e.key===' '){ e.preventDefault(); openEstandarteModal(); }
+  });
+  document.getElementById('estandarteModalClose').addEventListener('click', closeEstandarteModal);
+  estandarteOverlay.addEventListener('click', (e)=>{
+    if(e.target===estandarteOverlay) closeEstandarteModal();
+  });
+  document.addEventListener('keydown', (e)=>{
+    if(e.key==='Escape' && estandarteOverlay.classList.contains('open') && !legionesLightbox.classList.contains('open')) closeEstandarteModal();
+  });
+
+  // ----- Lightbox de la lámina de legiones -----
+  const legionesLightbox = document.getElementById('legionesLightboxOverlay');
+  function openLegionesLightbox(){ legionesLightbox.classList.add('open'); }
+  function closeLegionesLightbox(){ legionesLightbox.classList.remove('open'); }
+  document.getElementById('legionesImg').addEventListener('click', openLegionesLightbox);
+  document.getElementById('legionesImg').addEventListener('keydown', (e)=>{
+    if(e.key==='Enter' || e.key===' '){ e.preventDefault(); openLegionesLightbox(); }
+  });
+  document.getElementById('legionesLightboxClose').addEventListener('click', closeLegionesLightbox);
+  legionesLightbox.addEventListener('click', (e)=>{
+    if(e.target===legionesLightbox) closeLegionesLightbox();
+  });
+  document.addEventListener('keydown', (e)=>{
+    if(e.key==='Escape' && legionesLightbox.classList.contains('open')) closeLegionesLightbox();
+  });
+
   document.getElementById('prevBtn').addEventListener('click', ()=>{
     if(currentIndex>0) selectIndex(currentIndex-1, true);
   });
