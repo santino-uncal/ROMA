@@ -476,6 +476,70 @@
     if(e.key==='Escape' && estandarteOverlay.classList.contains('open') && !legionesLightbox.classList.contains('open')) closeEstandarteModal();
   });
 
+  // ----- Modal informativo de la administración romana -----
+  const adminOverlay = document.getElementById('adminModalOverlay');
+  function openAdminModal(){ adminOverlay.classList.add('open'); }
+  function closeAdminModal(){ adminOverlay.classList.remove('open'); }
+  document.getElementById('adminBtn').addEventListener('click', openAdminModal);
+  document.getElementById('adminBtn').addEventListener('keydown', (e)=>{
+    if(e.key==='Enter' || e.key===' '){ e.preventDefault(); openAdminModal(); }
+  });
+  document.getElementById('adminModalClose').addEventListener('click', closeAdminModal);
+  adminOverlay.addEventListener('click', (e)=>{
+    if(e.target===adminOverlay) closeAdminModal();
+  });
+  document.addEventListener('keydown', (e)=>{
+    if(e.key==='Escape' && adminOverlay.classList.contains('open') && !provinciasLightbox.classList.contains('open') && !tetrarquiaLightbox.classList.contains('open')) closeAdminModal();
+  });
+
+  // ----- Modal informativo del paganismo romano -----
+  const paganOverlay = document.getElementById('paganModalOverlay');
+  function openPaganModal(){ paganOverlay.classList.add('open'); }
+  function closePaganModal(){ paganOverlay.classList.remove('open'); }
+  document.getElementById('paganBtn').addEventListener('click', openPaganModal);
+  document.getElementById('paganBtn').addEventListener('keydown', (e)=>{
+    if(e.key==='Enter' || e.key===' '){ e.preventDefault(); openPaganModal(); }
+  });
+  document.getElementById('paganModalClose').addEventListener('click', closePaganModal);
+  paganOverlay.addEventListener('click', (e)=>{
+    if(e.target===paganOverlay) closePaganModal();
+  });
+  document.addEventListener('keydown', (e)=>{
+    if(e.key==='Escape' && paganOverlay.classList.contains('open')) closePaganModal();
+  });
+
+  // ----- Lightbox del mapa de provincias -----
+  const provinciasLightbox = document.getElementById('provinciasLightboxOverlay');
+  function openProvinciasLightbox(){ provinciasLightbox.classList.add('open'); }
+  function closeProvinciasLightbox(){ provinciasLightbox.classList.remove('open'); }
+  document.getElementById('provinciasImg').addEventListener('click', openProvinciasLightbox);
+  document.getElementById('provinciasImg').addEventListener('keydown', (e)=>{
+    if(e.key==='Enter' || e.key===' '){ e.preventDefault(); openProvinciasLightbox(); }
+  });
+  document.getElementById('provinciasLightboxClose').addEventListener('click', closeProvinciasLightbox);
+  provinciasLightbox.addEventListener('click', (e)=>{
+    if(e.target===provinciasLightbox) closeProvinciasLightbox();
+  });
+  document.addEventListener('keydown', (e)=>{
+    if(e.key==='Escape' && provinciasLightbox.classList.contains('open')) closeProvinciasLightbox();
+  });
+
+  // ----- Lightbox del mapa de la Tetrarquía -----
+  const tetrarquiaLightbox = document.getElementById('tetrarquiaLightboxOverlay');
+  function openTetrarquiaLightbox(){ tetrarquiaLightbox.classList.add('open'); }
+  function closeTetrarquiaLightbox(){ tetrarquiaLightbox.classList.remove('open'); }
+  document.getElementById('tetrarquiaImg').addEventListener('click', openTetrarquiaLightbox);
+  document.getElementById('tetrarquiaImg').addEventListener('keydown', (e)=>{
+    if(e.key==='Enter' || e.key===' '){ e.preventDefault(); openTetrarquiaLightbox(); }
+  });
+  document.getElementById('tetrarquiaLightboxClose').addEventListener('click', closeTetrarquiaLightbox);
+  tetrarquiaLightbox.addEventListener('click', (e)=>{
+    if(e.target===tetrarquiaLightbox) closeTetrarquiaLightbox();
+  });
+  document.addEventListener('keydown', (e)=>{
+    if(e.key==='Escape' && tetrarquiaLightbox.classList.contains('open')) closeTetrarquiaLightbox();
+  });
+
   // ----- Lightbox de la lámina de legiones -----
   const legionesLightbox = document.getElementById('legionesLightboxOverlay');
   function openLegionesLightbox(){ legionesLightbox.classList.add('open'); }

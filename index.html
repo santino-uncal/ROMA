@@ -4,11 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>La historia de Roma</title>
-<link rel="stylesheet" href="css/estilos.css?v=117">
+<link rel="stylesheet" href="css/estilos.css?v=122">
 </head>
 <body>
 <div class="wrap">
   <div class="header-flanked">
+    <img class="header-flank-icon admin-icon" id="adminBtn" src="assets/img/administracion.webp?v=2" alt="Edificio de gobierno — tocar para ver la historia de la administración romana" tabindex="0" role="button" aria-haspopup="dialog">
     <img class="header-flank-icon estandarte-icon" id="estandarteBtn" src="assets/img/Estandarte.png" alt="Estandarte de la legión romana con el águila de Júpiter — tocar para ver la historia del águila legionaria" tabindex="0" role="button" aria-haspopup="dialog">
     <header>
       <p class="subtitle">Línea de tiempo interactiva — de Rómulo a la caída de Constantinopla</p>
@@ -31,6 +32,7 @@
       </div>
     </header>
     <img class="header-flank-icon cruz-icon" id="cruzBtn" src="assets/img/cruz.png" alt="Cruz cristiana — tocar para ver la historia del cristianismo en Roma" tabindex="0" role="button" aria-haspopup="dialog">
+    <img class="header-flank-icon pagan-icon" id="paganBtn" src="assets/img/aquila.png" alt="Águila de Júpiter — tocar para ver un resumen del paganismo en Roma" tabindex="0" role="button" aria-haspopup="dialog">
   </div>
 
   <div class="modal-overlay" id="cruzModalOverlay">
@@ -147,6 +149,125 @@
           <figcaption>Tocá la imagen para ampliarla</figcaption>
         </figure>
       </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="adminModalOverlay">
+    <div class="modal-box" id="adminModalBox" role="dialog" aria-modal="true" aria-labelledby="adminModalTitle">
+      <button class="modal-close" id="adminModalClose" aria-label="Cerrar">✕</button>
+      <h3 id="adminModalTitle">🏛 La administración del Estado romano</h3>
+      <div class="modal-body">
+        <div class="modal-row">
+          <p><strong>La República y el cursus honorum:</strong> el poder se reparte entre magistraturas anuales y
+          colegiadas — cuestores, ediles, pretores y, en la cúspide, los dos cónsules — que todo romano ambicioso
+          recorre en orden dentro del <em>cursus honorum</em>. El <strong>Senado</strong>, compuesto por exmagistrados,
+          no legisla pero domina la política real a través de su autoridad (<em>auctoritas</em>) sobre finanzas,
+          guerra y provincias, mientras las asambleas populares (comitia) votan las leyes y eligen a los magistrados.</p>
+          <figure class="modal-figure-group">
+            <img class="modal-figure" src="assets/img/retratos/retrato-06.jpg" alt="Servio Tulio">
+            <figcaption>Servio Tulio</figcaption>
+          </figure>
+        </div>
+
+        <p><strong>La reforma censitaria de Servio Tulio (s. VI a.C.):</strong> ya bajo la Monarquía, el rey Servio
+        Tulio organiza a la ciudadanía en clases según su riqueza y crea los <em>comitia centuriata</em>, sentando
+        las bases del sistema censal que la República hereda para repartir derechos políticos, impuestos y el
+        servicio militar.</p>
+
+        <div class="modal-row">
+          <figure class="modal-figure-group">
+            <img class="modal-figure" src="assets/img/retratos/retrato-14.jpg" alt="Augusto">
+            <figcaption>Augusto</figcaption>
+          </figure>
+          <p><strong>El Principado (27 a.C.):</strong> Augusto conserva la fachada republicana pero crea una
+          administración paralela al servicio del emperador: divide las provincias en <em>imperiales</em>
+          (fronterizas, con ejército, gobernadas por legados suyos) y <em>senatoriales</em> (pacificadas, a cargo de
+          procónsules), y arma una burocracia propia de prefectos — el <em>praefectus praetorio</em>, el
+          <em>praefectus urbi</em> y el <em>praefectus annonae</em> — apoyada en libertos y caballeros (equites) leales
+          a su persona antes que al Senado.</p>
+        </div>
+
+        <div class="modal-row">
+          <p><strong>La Tetrarquía de Diocleciano (284 d.C.):</strong> tras la Crisis del Siglo III, Diocleciano
+          reconstruye el Estado dividiendo el gobierno entre dos Augustos y dos Césares, multiplica el número de
+          provincias — ahora agrupadas en <em>diócesis</em> — y separa el mando civil del militar en cada una, para
+          que ningún gobernador vuelva a reunir suficiente poder como para proclamarse emperador.</p>
+          <figure class="modal-figure-group">
+            <img class="modal-figure" src="assets/img/retratos/retrato-32.jpg" alt="Diocleciano">
+            <figcaption>Diocleciano</figcaption>
+          </figure>
+          <figure class="modal-map-figure">
+            <img id="tetrarquiaImg" src="assets/img/tetrarquia-romana.webp?v=2" alt="Mapa de las cuatro prefecturas de la Tetrarquía (Constancio, Maximiano, Galerio y Diocleciano) con sus diócesis y residencias imperiales — tocar para ampliar" tabindex="0" role="button" aria-haspopup="dialog">
+            <figcaption>Las cuatro prefecturas de la Tetrarquía</figcaption>
+          </figure>
+        </div>
+
+        <div class="modal-row">
+          <p><strong>Legado en Bizancio:</strong> el Imperio de Oriente lleva esta lógica un paso más allá con el
+          <strong>sistema de temas</strong> (<em>themata</em>), grandes distritos donde un único <em>estratego</em>
+          vuelve a unir el mando militar y el civil bajo control directo del emperador, la respuesta bizantina a
+          siglos de invasiones que exigían una administración capaz de reaccionar rápido en cada frontera.</p>
+        </div>
+
+        <figure class="legiones-figure">
+          <p class="figure-subtitle">Provincias romanas y sus tipos</p>
+          <img class="legiones-img" id="provinciasImg" src="assets/img/provincias-imperio.webp" alt="Mapa del Imperio romano en 117 d.C. con sus provincias senatoriales, imperiales y los estados satélites — tocar para ampliar" tabindex="0" role="button" aria-haspopup="dialog">
+          <figcaption>Tocá la imagen para ampliarla</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="paganModalOverlay">
+    <div class="modal-box" id="paganModalBox" role="dialog" aria-modal="true" aria-labelledby="paganModalTitle">
+      <button class="modal-close" id="paganModalClose" aria-label="Cerrar">✕</button>
+      <h3 id="paganModalTitle">⚡ El paganismo romano</h3>
+      <div class="modal-body">
+        <p><strong>Un politeísmo cívico:</strong> los romanos veneran a una amplia familia de dioses antropomorfos
+        que, por <em>interpretatio graeca</em>, se identifican con los griegos — Júpiter con Zeus, Juno con Hera,
+        Minerva con Atenea — encabezados por la <strong>Tríada Capitolina</strong> (Júpiter, Juno y Minerva), a la
+        que se suman Marte, Venus, Neptuno y decenas de divinidades menores. La relación con ellos es ante todo
+        contractual: <em>do ut des</em> <span class="latin-trans">("doy para que des")</span>, un intercambio de
+        ofrendas por favores.</p>
+
+        <div class="modal-row">
+          <figure class="modal-figure-group">
+            <img class="modal-figure" src="assets/img/retratos/retrato-02.jpg" alt="Numa Pompilio">
+            <figcaption>Numa Pompilio</figcaption>
+          </figure>
+          <p><strong>Religión de Estado:</strong> el rey Numa Pompilio funda el andamiaje institucional que dura
+          toda la historia romana: el <em>pontifex maximus</em> y su colegio de pontífices custodian el calendario
+          y los ritos oficiales, los augures interpretan la voluntad divina en el vuelo de las aves, y las vírgenes
+          vestales mantienen encendido el fuego sagrado de Vesta, garantía simbólica de la continuidad de Roma.</p>
+        </div>
+
+        <p><strong>Culto doméstico:</strong> en cada hogar, el <em>paterfamilias</em> oficia de sacerdote ante los
+        <strong>Lares</strong> y <strong>Penates</strong>, dioses protectores de la familia y la despensa, y ante el
+        <em>Genio</em>, el espíritu propio de cada varón que se venera en vida. Es una religión sin dogma ni libro
+        sagrado: lo que cuenta es el ritual correcto, no la creencia interior.</p>
+
+        <p><strong>Culto imperial:</strong> con Augusto, el emperador se asocia en vida a su <em>Genio</em> y, tras
+        la muerte, el Senado puede divinizarlo formalmente (<em>consecratio</em>), sumando un nuevo <em>divus</em>
+        al panteón y reforzando la lealtad política a través de la religión.</p>
+
+        <p><strong>El ocaso:</strong> el breve intento de Juliano el Apóstata de restaurar los cultos tradicionales
+        (361–363 d.C.) no revierte el avance del cristianismo, y en el 391 d.C. Teodosio I prohíbe por ley todo
+        culto pagano, cerrando templos y apagando, tras más de mil años, el fuego de Vesta.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay lightbox-overlay" id="provinciasLightboxOverlay">
+    <div class="lightbox-content">
+      <button class="modal-close" id="provinciasLightboxClose" aria-label="Cerrar">✕</button>
+      <img src="assets/img/provincias-imperio.webp" alt="Mapa del Imperio romano en 117 d.C. con sus provincias senatoriales, imperiales y los estados satélites">
+    </div>
+  </div>
+
+  <div class="modal-overlay lightbox-overlay" id="tetrarquiaLightboxOverlay">
+    <div class="lightbox-content">
+      <button class="modal-close" id="tetrarquiaLightboxClose" aria-label="Cerrar">✕</button>
+      <img src="assets/img/tetrarquia-romana.webp?v=2" alt="Mapa de las cuatro prefecturas de la Tetrarquía (Constancio, Maximiano, Galerio y Diocleciano) con sus diócesis y residencias imperiales">
     </div>
   </div>
 
@@ -474,6 +595,6 @@
 </div>
 <script src="js/datos.js?v=111"></script>
 <script src="js/mapas.js?v=103"></script>
-<script src="js/app.js?v=111"></script>
+<script src="js/app.js?v=115"></script>
 </body>
 </html>
