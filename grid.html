@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grid Imperial</title>
+<link rel="stylesheet" href="css/estilos.css?v=122">
+<link rel="stylesheet" href="css/romandle.css?v=1">
+<link rel="stylesheet" href="css/grid.css?v=1">
+</head>
+<body>
+<div class="wrap romandle-wrap grid-wrap">
+
+  <header class="romandle-header">
+    <a class="romandle-back" href="index.html">&larr; Volver a la línea de tiempo</a>
+    <h1 class="romandle-title">GRID IMPERIAL</h1>
+    <p class="romandle-subtitle">Encontrá un emperador para cada cruce de fila y columna.</p>
+    <p class="romandle-subtitle">
+      <a class="romandle-back" href="romandle.html">🎲 Romandle</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="imperator.html">❓ Guess the Imperator</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="silueta.html">🗺️ Silueta Imperial</a>
+    </p>
+  </header>
+
+  <div class="romandle-toolbar">
+    <span class="romandle-mode-label" id="gridModeLabel">Grilla del día</span>
+    <button class="romandle-btn secondary" id="gridRandomBtn" type="button">🎲 Jugar al azar</button>
+    <button class="romandle-btn secondary" id="gridHelpBtn" type="button" aria-haspopup="dialog">❓ Cómo se juega</button>
+  </div>
+
+  <p class="romandle-message" id="gridMessage" role="status" aria-live="polite"></p>
+
+  <div class="grid-table-wrap">
+    <table class="grid-table" id="gridTable"></table>
+  </div>
+
+</div>
+
+<div class="modal-overlay" id="gridResultOverlay">
+  <div class="modal-box romandle-result-box" id="gridResultBox" role="dialog" aria-modal="true" aria-labelledby="gridResultTitle">
+    <button class="modal-close" id="gridResultClose" aria-label="Cerrar">✕</button>
+    <div id="gridResultContent"></div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="gridHelpOverlay">
+  <div class="modal-box" id="gridHelpBox" role="dialog" aria-modal="true" aria-labelledby="gridHelpTitle">
+    <button class="modal-close" id="gridHelpClose" aria-label="Cerrar">✕</button>
+    <h3 id="gridHelpTitle">Cómo se juega Grid Imperial</h3>
+    <div class="modal-body">
+      <p>Cada fila y cada columna tiene una condición (era, dinastía, siglo, cómo terminó su reinado, o algún dato puntual como "tuvo a Dacia como provincia"). Tocá una celda vacía y escribí el nombre de un emperador que cumpla <strong>las dos condiciones</strong> del cruce.</p>
+      <p>Cada emperador sólo se puede usar <strong>una vez</strong> en toda la grilla. No hay límite de intentos, pero al final se cuenta cuántos fallaste — cuanto menos, mejor.</p>
+      <p>La grilla del día es la misma para todos y cambia a la medianoche. Con "Jugar al azar" podés practicar con grillas nuevas sin límite.</p>
+    </div>
+  </div>
+</div>
+
+<script src="js/datos.js"></script>
+<script src="js/grid.js"></script>
+</body>
+</html>

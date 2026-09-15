@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Romandle — adiviná al emperador</title>
+<link rel="stylesheet" href="css/estilos.css?v=122">
+<link rel="stylesheet" href="css/romandle.css?v=1">
+</head>
+<body>
+<div class="wrap romandle-wrap">
+
+  <header class="romandle-header">
+    <a class="romandle-back" href="index.html">&larr; Volver a la línea de tiempo</a>
+    <h1 class="romandle-title">ROMANDLE</h1>
+    <p class="romandle-subtitle">Adiviná el nombre del emperador, letra por letra.</p>
+    <p class="romandle-subtitle">
+      <a class="romandle-back" href="imperator.html">❓ Guess the Imperator</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="grid.html">🔳 Grid Imperial</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="silueta.html">🗺️ Silueta Imperial</a>
+    </p>
+  </header>
+
+  <div class="romandle-toolbar">
+    <span class="romandle-mode-label" id="romandleModeLabel">Emperador del día</span>
+    <button class="romandle-btn secondary" id="romandleRandomBtn" type="button">🎲 Jugar al azar</button>
+    <button class="romandle-btn secondary" id="romandleHelpBtn" type="button" aria-haspopup="dialog">❓ Cómo se juega</button>
+  </div>
+
+  <p class="romandle-message" id="romandleMessage" role="status" aria-live="polite"></p>
+
+  <div class="romandle-grid" id="romandleGrid"></div>
+
+  <form class="romandle-guess-row" id="romandleForm" autocomplete="off">
+    <div class="romandle-input-wrap">
+      <input type="text" id="romandleInput" class="romandle-input" placeholder="Escribí el nombre de un emperador…" autocomplete="off" aria-label="Nombre del emperador">
+      <div class="romandle-suggestions" id="romandleSuggestions"></div>
+    </div>
+    <button class="romandle-btn" id="romandleSubmitBtn" type="submit">Adivinar</button>
+  </form>
+
+  <div class="romandle-keyboard" id="romandleKeyboard"></div>
+
+</div>
+
+<div class="modal-overlay" id="romandleResultOverlay">
+  <div class="modal-box romandle-result-box" id="romandleResultBox" role="dialog" aria-modal="true" aria-labelledby="romandleResultTitle">
+    <button class="modal-close" id="romandleResultClose" aria-label="Cerrar">✕</button>
+    <div id="romandleResultContent"></div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="romandleHelpOverlay">
+  <div class="modal-box" id="romandleHelpBox" role="dialog" aria-modal="true" aria-labelledby="romandleHelpTitle">
+    <button class="modal-close" id="romandleHelpClose" aria-label="Cerrar">✕</button>
+    <h3 id="romandleHelpTitle">Cómo se juega Romandle</h3>
+    <div class="modal-body">
+      <p>Cada día hay un <strong>emperador romano secreto</strong> (del Imperio, de Occidente o de Bizancio — nunca un rey de la Monarquía ni un cónsul de la República). Tenés que adivinar su nombre letra por letra, en 6 intentos.</p>
+      <ul class="romandle-help-list">
+        <li><span class="romandle-help-swatch" style="background:#5c7a4a"></span> Verde: la letra está y en esa posición exacta.</li>
+        <li><span class="romandle-help-swatch" style="background:var(--oro)"></span> Dorado: la letra está en el nombre, pero en otra posición.</li>
+        <li><span class="romandle-help-swatch" style="background:var(--piedra)"></span> Piedra: la letra no está en el nombre.</li>
+      </ul>
+      <p>Los espacios, tildes y apodos entre comillas (como "el Grande") no cuentan: sólo importan las letras del nombre. Escribí un nombre en el buscador — tiene que ser el de un emperador con la misma cantidad de letras que el secreto — y elegilo de la lista o apretá Enter.</p>
+      <p>El emperador del día es el mismo para todos y cambia a la medianoche. Con "Jugar al azar" podés practicar con secretos sin límite.</p>
+    </div>
+  </div>
+</div>
+
+<script src="js/datos.js"></script>
+<script src="js/romandle.js"></script>
+</body>
+</html>

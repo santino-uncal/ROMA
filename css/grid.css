@@ -1,0 +1,106 @@
+/* Grid Imperial: grilla 3x3 estilo "immaculate grid" */
+
+.grid-wrap{ max-width: 760px; }
+
+.grid-table-wrap{
+  overflow-x: auto;
+  margin-bottom: 18px;
+}
+.grid-table{
+  border-collapse: separate;
+  border-spacing: 6px;
+  margin: 0 auto;
+}
+.grid-header{
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--purpura-dark);
+  background: var(--pergamino2);
+  border: 1px solid var(--bronce);
+  border-radius: 6px;
+  padding: 8px 6px;
+  width: 130px;
+  max-width: 130px;
+}
+.grid-header-row{ text-align: right; }
+
+.grid-cell{
+  width: 130px;
+  height: 130px;
+  border: 2px solid var(--bronce);
+  border-radius: 6px;
+  background: #fbf6ec;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  padding: 4px;
+}
+.grid-cell.empty{ cursor: pointer; transition: background 0.15s; }
+.grid-cell.empty:hover{ background: var(--pergamino2); }
+.grid-cell.filled{ background: var(--pergamino2); border-color: var(--oro); }
+.grid-cell.active{ border-color: var(--purpura); overflow: visible; z-index: 5; }
+
+.grid-cell-answer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.grid-cell-answer img{
+  width: 54px;
+  height: 54px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--oro);
+}
+.grid-cell-answer span{
+  font-size: 11.5px;
+  line-height: 1.2;
+  color: var(--tinta);
+}
+
+.grid-cell-input-wrap{ position: relative; width: 100%; }
+.grid-cell-input{
+  width: 100%;
+  padding: 8px 6px;
+  border: 1px solid var(--bronce);
+  border-radius: 4px;
+  background: #fff;
+  font-size: 12.5px;
+  text-align: center;
+}
+.grid-suggestions{
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 220px;
+  max-width: 60vw;
+  z-index: 30;
+  text-align: left;
+}
+
+.grid-result-list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 0 0 16px;
+}
+.grid-result-item{
+  background: #fbf6ec;
+  border: 1px solid var(--bronce);
+  border-radius: 4px;
+  padding: 8px 6px;
+  font-size: 11.5px;
+  line-height: 1.4;
+}
+.grid-result-item strong{ color: var(--purpura-dark); }
+.grid-result-item span{ color: var(--tinta-suave); font-style: italic; }
+
+@media (max-width: 700px){
+  .grid-header, .grid-cell{ width: 92px; max-width: 92px; height: 100px; font-size: 10.5px; }
+  .grid-cell-answer img{ width: 40px; height: 40px; }
+  .grid-cell-answer span{ font-size: 10px; }
+  .grid-result-list{ grid-template-columns: 1fr; }
+}

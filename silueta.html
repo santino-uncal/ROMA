@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Silueta Imperial</title>
+<link rel="stylesheet" href="css/estilos.css?v=122">
+<link rel="stylesheet" href="css/romandle.css?v=1">
+<link rel="stylesheet" href="css/silueta.css?v=1">
+</head>
+<body>
+<div class="wrap romandle-wrap silueta-wrap">
+
+  <header class="romandle-header">
+    <a class="romandle-back" href="index.html">&larr; Volver a la línea de tiempo</a>
+    <h1 class="romandle-title">SILUETA IMPERIAL</h1>
+    <p class="romandle-subtitle">Adiviná la provincia romana por su forma.</p>
+    <p class="romandle-subtitle">
+      <a class="romandle-back" href="romandle.html">🎲 Romandle</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="imperator.html">❓ Guess the Imperator</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="grid.html">🔳 Grid Imperial</a>
+    </p>
+  </header>
+
+  <div class="romandle-toolbar">
+    <span class="romandle-mode-label" id="siluetaModeLabel">Provincia del día</span>
+    <button class="romandle-btn secondary" id="siluetaRandomBtn" type="button">🎲 Jugar al azar</button>
+    <button class="romandle-btn secondary" id="siluetaDifficultyBtn" type="button">🌍 Modo fácil</button>
+    <button class="romandle-btn secondary" id="siluetaHelpBtn" type="button" aria-haspopup="dialog">❓ Cómo se juega</button>
+  </div>
+
+  <p class="romandle-message" id="siluetaMessage" role="status" aria-live="polite"></p>
+
+  <div class="silueta-attempts" id="siluetaAttempts"></div>
+
+  <div class="silueta-box">
+    <img id="siluetaImg" src="" alt="Silueta de la provincia a adivinar">
+  </div>
+
+  <div class="silueta-hints" id="siluetaHints"></div>
+
+  <form class="romandle-guess-row" id="siluetaForm" autocomplete="off">
+    <div class="romandle-input-wrap">
+      <input type="text" id="siluetaInput" class="romandle-input" placeholder="Escribí el nombre de una provincia…" autocomplete="off" aria-label="Nombre de la provincia">
+      <div class="romandle-suggestions" id="siluetaSuggestions"></div>
+    </div>
+    <button class="romandle-btn" id="siluetaSubmitBtn" type="submit">Adivinar</button>
+  </form>
+
+  <div id="siluetaQuestionZone"></div>
+
+</div>
+
+<div class="modal-overlay" id="siluetaResultOverlay">
+  <div class="modal-box romandle-result-box" id="siluetaResultBox" role="dialog" aria-modal="true" aria-labelledby="siluetaResultTitle">
+    <button class="modal-close" id="siluetaResultClose" aria-label="Cerrar">✕</button>
+    <div id="siluetaResultContent"></div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="siluetaHelpOverlay">
+  <div class="modal-box" id="siluetaHelpBox" role="dialog" aria-modal="true" aria-labelledby="siluetaHelpTitle">
+    <button class="modal-close" id="siluetaHelpClose" aria-label="Cerrar">✕</button>
+    <h3 id="siluetaHelpTitle">Cómo se juega Silueta Imperial</h3>
+    <div class="modal-body">
+      <p>Aparece la <strong>silueta negra</strong> de una provincia romana. Tenés <strong>3 intentos</strong> para adivinar cuál es, escribiendo el nombre en el buscador.</p>
+      <p>Cada intento fallido revela una pista: primero la región del Imperio, después la inicial del nombre.</p>
+      <p>Al resolver la silueta (la adivines o no), viene una pregunta sobre esa provincia, elegida al azar entre varias posibles:</p>
+      <ul class="romandle-help-list">
+        <li><strong>Modo fácil:</strong> pregunta sobre el país actual que ocupa ese territorio (por ejemplo, su capital moderna).</li>
+        <li><strong>Modo difícil:</strong> pregunta sobre la provincia romana en sí (si era senatorial o imperial).</li>
+      </ul>
+      <p>La provincia del día es la misma para todos y cambia a la medianoche. Con "Jugar al azar" podés practicar sin límite.</p>
+    </div>
+  </div>
+</div>
+
+<script src="js/datos.js"></script>
+<script src="js/provincias-data.js"></script>
+<script src="js/silueta.js"></script>
+</body>
+</html>

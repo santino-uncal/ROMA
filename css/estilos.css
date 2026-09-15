@@ -279,6 +279,35 @@
     font-style: italic;
     margin: 0 0 10px;
   }
+  .romandle-links{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap: 10px;
+    margin: 0 0 14px;
+  }
+  .romandle-link{
+    display:inline-block;
+    max-width: min(340px, 88vw);
+    margin: 0;
+    padding: 6px 16px;
+    border: 1px solid var(--bronce);
+    border-radius: 20px;
+    background: var(--pergamino2);
+    color: var(--purpura-dark);
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    transition: background 0.2s, box-shadow 0.2s, color 0.2s;
+  }
+  .romandle-link:hover, .romandle-link:focus-visible{
+    background: var(--oro);
+    color: #fff;
+    box-shadow: 0 0 8px var(--oro);
+  }
   .title-row{
     display:flex;
     align-items:center;
@@ -331,6 +360,7 @@
     .top-btn img{ height:60px; }
     .top-btn .top-btn-label{ font-size:10px; }
     .title-divider{ height:60px; }
+    .romandle-links{ flex-direction: column; align-items: center; }
   }
 
   /* Conflictos bélicos (sección colapsable, arriba de la barra de eras) */

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guess the Imperator</title>
+<link rel="stylesheet" href="css/estilos.css?v=122">
+<link rel="stylesheet" href="css/romandle.css?v=1">
+<link rel="stylesheet" href="css/imperator.css?v=1">
+</head>
+<body>
+<div class="wrap romandle-wrap imperator-wrap">
+
+  <header class="romandle-header">
+    <a class="romandle-back" href="index.html">&larr; Volver a la línea de tiempo</a>
+    <h1 class="romandle-title">GUESS THE IMPERATOR</h1>
+    <p class="romandle-subtitle">Hacé preguntas, descartá candidatos y adiviná qué emperador es.</p>
+    <p class="romandle-subtitle">
+      <a class="romandle-back" href="romandle.html">🎲 Romandle</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="grid.html">🔳 Grid Imperial</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="silueta.html">🗺️ Silueta Imperial</a>
+    </p>
+  </header>
+
+  <div class="romandle-toolbar">
+    <span class="romandle-mode-label" id="imperatorModeLabel">Emperador del día</span>
+    <button class="romandle-btn secondary" id="imperatorRandomBtn" type="button">🎲 Jugar al azar</button>
+    <button class="romandle-btn secondary" id="imperatorDifficultyBtn" type="button">🙈 Modo difícil</button>
+    <button class="romandle-btn secondary" id="imperatorHelpBtn" type="button" aria-haspopup="dialog">❓ Cómo se juega</button>
+  </div>
+  <p class="imperator-difficulty-note" id="imperatorDifficultyNote"></p>
+
+  <p class="romandle-message" id="imperatorMessage" role="status" aria-live="polite"></p>
+  <p class="imperator-count" id="imperatorCount"></p>
+
+  <div class="imperator-layout">
+    <div class="imperator-panel">
+      <h4>Preguntas</h4>
+      <div class="imperator-questions" id="imperatorQuestions"></div>
+      <h4>Respuestas</h4>
+      <div class="imperator-answers" id="imperatorAnswers"></div>
+    </div>
+    <div class="imperator-grid-wrap">
+      <div class="imperator-grid" id="imperatorGrid"></div>
+    </div>
+  </div>
+
+  <form class="romandle-guess-row" id="imperatorForm" autocomplete="off">
+    <div class="romandle-input-wrap">
+      <input type="text" id="imperatorInput" class="romandle-input" placeholder="O escribí directamente tu palpito…" autocomplete="off" aria-label="Nombre del emperador">
+      <div class="romandle-suggestions" id="imperatorSuggestions"></div>
+    </div>
+    <button class="romandle-btn" id="imperatorSubmitBtn" type="submit">Adivinar</button>
+  </form>
+
+</div>
+
+<div class="modal-overlay" id="imperatorResultOverlay">
+  <div class="modal-box romandle-result-box" id="imperatorResultBox" role="dialog" aria-modal="true" aria-labelledby="imperatorResultTitle">
+    <button class="modal-close" id="imperatorResultClose" aria-label="Cerrar">✕</button>
+    <div id="imperatorResultContent"></div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="imperatorHelpOverlay">
+  <div class="modal-box" id="imperatorHelpBox" role="dialog" aria-modal="true" aria-labelledby="imperatorHelpTitle">
+    <button class="modal-close" id="imperatorHelpClose" aria-label="Cerrar">✕</button>
+    <h3 id="imperatorHelpTitle">Cómo se juega Guess the Imperator</h3>
+    <div class="modal-body">
+      <p>Cada día hay un <strong>emperador romano secreto</strong> (del Imperio, de Occidente o de Bizancio). Arriba tenés a los 146 candidatos posibles.</p>
+      <ul class="romandle-help-list">
+        <li>Elegí preguntas del panel: cada una te revela un dato del secreto (era, dinastía, siglo, duración del reinado, cómo terminó, inicial del nombre).</li>
+        <li>Cada respuesta descarta automáticamente en la grilla a todos los candidatos que no la cumplen.</li>
+        <li>En cualquier momento podés arriesgar un nombre: tocá una foto de la grilla o escribilo abajo. Si es incorrecto, ese candidato queda marcado y descartado.</li>
+      </ul>
+      <p>No hay límite de preguntas ni de intentos, pero al final se muestra cuántos usaste — cuanto menos, mejor. El emperador del día cambia a la medianoche; con "Jugar al azar" podés practicar sin límite.</p>
+      <p><strong>Modo difícil:</strong> las mismas preguntas y respuestas, pero sin la grilla de candidatos ni el contador — tenés que llevar la cuenta de memoria (o con lápiz y papel) y adivinar escribiendo el nombre.</p>
+    </div>
+  </div>
+</div>
+
+<script src="js/datos.js"></script>
+<script src="js/imperator.js"></script>
+</body>
+</html>
