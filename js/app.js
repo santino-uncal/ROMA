@@ -448,7 +448,7 @@
       politicaBtn.alt = 'Oradores en atriles con banderas de facción — tocar para ver la historia de la política bizantina';
       document.getElementById('estandarteModalTitle').textContent = '🦅 El ejército de Bizancio';
     } else if(era==='occidente'){
-      paganBtn.style.display = '';
+      paganBtn.style.display = 'none';
       cruzBtn.src = 'assets/img/cruz.png';
       cruzBtn.alt = 'Cruz cristiana — tocar para ver la historia del cristianismo en Roma';
       adminBtn.alt = 'Edificio de gobierno — tocar para ver la historia de la administración del Imperio de Occidente';
