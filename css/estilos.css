@@ -40,6 +40,104 @@
   }
   .wrap{max-width:1000px;margin:0 auto;padding:28px 20px 80px;}
 
+  .start-screen{
+    min-height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 40px 20px;
+  }
+  .start-box{
+    max-width: 780px;
+    width: 100%;
+    background: #fbf6ec;
+    border: 1px solid var(--bronce);
+    border-radius: 6px;
+    padding: 36px 40px 40px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  .start-eyebrow{
+    letter-spacing: 0.35em;
+    font-size: 12px;
+    color: var(--purpura);
+    text-transform: uppercase;
+    margin: 0 0 8px;
+    font-family: Georgia, serif;
+  }
+  .start-title{
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 34px;
+    font-weight: normal;
+    letter-spacing: 0.02em;
+    margin: 0 0 10px;
+    color: var(--purpura-dark);
+  }
+  .start-subtitle{
+    color: var(--tinta-suave);
+    font-size: 15px;
+    font-style: italic;
+    margin: 0 0 26px;
+    padding-bottom: 22px;
+    border-bottom: 3px double var(--bronce);
+  }
+  .start-story{
+    text-align: left;
+    margin: 0 0 30px;
+  }
+  .start-story-text p{
+    font-size: 14.5px;
+    line-height: 1.72;
+    color: var(--tinta);
+    margin: 0 0 14px;
+  }
+  .start-story-text p:last-child{ margin-bottom: 0; }
+  .start-cta{
+    font-family: 'Cinzel', Georgia, serif;
+    color: var(--purpura-dark);
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    margin: 0 0 16px;
+  }
+  .start-choices{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+  }
+  .start-choice{
+    background: var(--pergamino);
+    border: 1px solid var(--bronce);
+    border-radius: 6px;
+    padding: 14px 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    font-family: inherit;
+    transition: background 0.2s, box-shadow 0.2s;
+  }
+  .start-choice:hover, .start-choice:focus-visible{
+    background: var(--pergamino2);
+    box-shadow: 0 0 8px var(--oro);
+  }
+  .start-choice-title{
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 14px;
+    color: var(--purpura-dark);
+    letter-spacing: 0.03em;
+  }
+  .start-choice-sub{
+    font-size: 11.5px;
+    color: var(--tinta-suave);
+    font-style: italic;
+  }
+  @media (max-width: 480px){
+    .start-box{ padding: 24px 18px 28px; }
+    .start-title{ font-size: 24px; }
+    .start-choices{ grid-template-columns: 1fr 1fr; }
+  }
+
   .header-flanked{
     display:flex;
     align-items:center;
@@ -61,14 +159,16 @@
     filter: drop-shadow(0 1px 2px rgba(0,0,0,0.2));
     opacity: 0.9;
   }
-  .cruz-icon, .estandarte-icon, .admin-icon, .pagan-icon{
+  .cruz-icon, .estandarte-icon, .admin-icon, .pagan-icon, .economia-icon, .politica-icon{
     cursor: pointer;
     transition: opacity 0.2s, filter 0.2s;
   }
   .cruz-icon:hover, .cruz-icon:focus-visible,
   .estandarte-icon:hover, .estandarte-icon:focus-visible,
   .admin-icon:hover, .admin-icon:focus-visible,
-  .pagan-icon:hover, .pagan-icon:focus-visible{
+  .pagan-icon:hover, .pagan-icon:focus-visible,
+  .economia-icon:hover, .economia-icon:focus-visible,
+  .politica-icon:hover, .politica-icon:focus-visible{
     opacity: 1;
     filter: drop-shadow(0 1px 2px rgba(0,0,0,0.2)) drop-shadow(0 0 6px var(--oro));
   }
@@ -272,6 +372,12 @@
     text-transform: uppercase;
     margin: 0 0 8px;
     font-family: Georgia, serif;
+    cursor: pointer;
+    display: inline-block;
+    transition: color 0.2s;
+  }
+  .eyebrow:hover, .eyebrow:focus-visible{
+    color: var(--oro);
   }
   .subtitle{
     color: var(--tinta-suave);

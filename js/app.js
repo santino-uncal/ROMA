@@ -444,21 +444,21 @@
   });
   document.getElementById('spqrBtn').addEventListener('click', ()=> setEra(lastSpqrEra));
 
-  // ----- Menú desplegable de Juegos -----
-  const juegosBtn = document.getElementById('juegosBtn');
-  const juegosMenu = document.getElementById('juegosMenu');
-  juegosBtn.addEventListener('click', (e)=>{
+  // ----- Menú desplegable de Juegos (pantalla de inicio) -----
+  const startJuegosBtn = document.getElementById('startJuegosBtn');
+  const startJuegosMenu = document.getElementById('startJuegosMenu');
+  startJuegosBtn.addEventListener('click', (e)=>{
     e.stopPropagation();
-    const isOpen = juegosMenu.classList.toggle('open');
-    juegosBtn.classList.toggle('open', isOpen);
-    juegosBtn.setAttribute('aria-expanded', String(isOpen));
+    const isOpen = startJuegosMenu.classList.toggle('open');
+    startJuegosBtn.classList.toggle('open', isOpen);
+    startJuegosBtn.setAttribute('aria-expanded', String(isOpen));
   });
   document.addEventListener('click', (e)=>{
-    if(!juegosMenu.classList.contains('open')) return;
-    if(juegosMenu.contains(e.target) || juegosBtn.contains(e.target)) return;
-    juegosMenu.classList.remove('open');
-    juegosBtn.classList.remove('open');
-    juegosBtn.setAttribute('aria-expanded', 'false');
+    if(!startJuegosMenu.classList.contains('open')) return;
+    if(startJuegosMenu.contains(e.target) || startJuegosBtn.contains(e.target)) return;
+    startJuegosMenu.classList.remove('open');
+    startJuegosBtn.classList.remove('open');
+    startJuegosBtn.setAttribute('aria-expanded', 'false');
   });
 
   // ----- Modal informativo de la cruz cristiana -----
@@ -523,6 +523,54 @@
   });
   document.addEventListener('keydown', (e)=>{
     if(e.key==='Escape' && paganOverlay.classList.contains('open')) closePaganModal();
+  });
+
+  // ----- Modal informativo de la economía romana -----
+  const economiaOverlay = document.getElementById('economiaModalOverlay');
+  function openEconomiaModal(){ economiaOverlay.classList.add('open'); }
+  function closeEconomiaModal(){ economiaOverlay.classList.remove('open'); }
+  document.getElementById('economiaBtn').addEventListener('click', openEconomiaModal);
+  document.getElementById('economiaBtn').addEventListener('keydown', (e)=>{
+    if(e.key==='Enter' || e.key===' '){ e.preventDefault(); openEconomiaModal(); }
+  });
+  document.getElementById('economiaModalClose').addEventListener('click', closeEconomiaModal);
+  economiaOverlay.addEventListener('click', (e)=>{
+    if(e.target===economiaOverlay) closeEconomiaModal();
+  });
+  document.addEventListener('keydown', (e)=>{
+    if(e.key==='Escape' && economiaOverlay.classList.contains('open') && !carreterasLightbox.classList.contains('open')) closeEconomiaModal();
+  });
+
+  // ----- Lightbox del mapa de rutas del Imperio -----
+  const carreterasLightbox = document.getElementById('carreterasLightboxOverlay');
+  function openCarreterasLightbox(){ carreterasLightbox.classList.add('open'); }
+  function closeCarreterasLightbox(){ carreterasLightbox.classList.remove('open'); }
+  document.getElementById('carreterasImg').addEventListener('click', openCarreterasLightbox);
+  document.getElementById('carreterasImg').addEventListener('keydown', (e)=>{
+    if(e.key==='Enter' || e.key===' '){ e.preventDefault(); openCarreterasLightbox(); }
+  });
+  document.getElementById('carreterasLightboxClose').addEventListener('click', closeCarreterasLightbox);
+  carreterasLightbox.addEventListener('click', (e)=>{
+    if(e.target===carreterasLightbox) closeCarreterasLightbox();
+  });
+  document.addEventListener('keydown', (e)=>{
+    if(e.key==='Escape' && carreterasLightbox.classList.contains('open')) closeCarreterasLightbox();
+  });
+
+  // ----- Modal informativo de la política romana -----
+  const politicaOverlay = document.getElementById('politicaModalOverlay');
+  function openPoliticaModal(){ politicaOverlay.classList.add('open'); }
+  function closePoliticaModal(){ politicaOverlay.classList.remove('open'); }
+  document.getElementById('politicaBtn').addEventListener('click', openPoliticaModal);
+  document.getElementById('politicaBtn').addEventListener('keydown', (e)=>{
+    if(e.key==='Enter' || e.key===' '){ e.preventDefault(); openPoliticaModal(); }
+  });
+  document.getElementById('politicaModalClose').addEventListener('click', closePoliticaModal);
+  politicaOverlay.addEventListener('click', (e)=>{
+    if(e.target===politicaOverlay) closePoliticaModal();
+  });
+  document.addEventListener('keydown', (e)=>{
+    if(e.key==='Escape' && politicaOverlay.classList.contains('open')) closePoliticaModal();
   });
 
   // ----- Lightbox del mapa de provincias -----
@@ -994,4 +1042,28 @@
 
   // init
   setEra('monarquia');
+
+  // ----- Pantalla de inicio -----
+  const startScreen = document.getElementById('startScreen');
+  const mainWrap = document.getElementById('mainWrap');
+  function goToEra(era){
+    startScreen.style.display = 'none';
+    mainWrap.style.display = '';
+    setEra(era);
+    window.scrollTo(0,0);
+  }
+  document.querySelectorAll('.start-choice').forEach(btn=>{
+    btn.addEventListener('click', ()=> goToEra(btn.dataset.era));
+  });
+
+  function goToStart(){
+    mainWrap.style.display = 'none';
+    startScreen.style.display = '';
+    window.scrollTo(0,0);
+  }
+  const backToStartBtn = document.getElementById('backToStartBtn');
+  backToStartBtn.addEventListener('click', goToStart);
+  backToStartBtn.addEventListener('keydown', (e)=>{
+    if(e.key==='Enter' || e.key===' '){ e.preventDefault(); goToStart(); }
+  });
 })();

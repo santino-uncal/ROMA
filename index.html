@@ -7,31 +7,90 @@
 <link rel="stylesheet" href="css/estilos.css?v=123">
 </head>
 <body>
-<div class="wrap">
+<div class="start-screen" id="startScreen">
+  <div class="start-box">
+    <p class="start-eyebrow">Ab urbe condita</p>
+    <h1 class="start-title">La historia de Roma</h1>
+    <p class="start-subtitle">Línea de tiempo interactiva — de Rómulo a la caída de Constantinopla</p>
+
+    <div class="title-row games-row">
+      <button class="top-btn games" id="startJuegosBtn" aria-haspopup="true" aria-expanded="false">
+        <span class="top-btn-emoji" aria-hidden="true">🎮</span>
+        <span class="top-btn-label">Juegos</span>
+      </button>
+    </div>
+    <div class="romandle-links" id="startJuegosMenu">
+      <a class="romandle-link" href="romandle.html">🎲 Jugar Romandle — adiviná al emperador</a>
+      <a class="romandle-link" href="imperator.html">❓ Guess the Imperator — adiviná con preguntas</a>
+      <a class="romandle-link" href="grid.html">🔳 Grid Imperial — completá la grilla 3×3</a>
+      <a class="romandle-link" href="silueta.html">🗺️ Silueta Imperial — adiviná la provincia</a>
+      <a class="romandle-link" href="silueta-oculta.html">🕶️ Silueta Oculta — adiviná al emperador oculto</a>
+      <a class="romandle-link" href="secuencia.html">📜 Secuencia Imperial — ordená los hechos históricos</a>
+      <a class="romandle-link" href="orbita.html">🪐 Órbita Romana — adiviná al emperador con pistas</a>
+      <a class="romandle-link" href="legion.html">🦅 La Legión — adiviná la legión por su emblema</a>
+      <a class="romandle-link" href="mas-o-menos.html">📈 Más o Menos Años — racha de más o menos</a>
+      <a class="romandle-link" href="guerra.html">⚔️ La Guerra — adiviná la guerra romana</a>
+    </div>
+
+    <div class="start-story">
+      <div class="start-story-text">
+        <p>Cuenta la leyenda que Rea Silvia, hija del rey Numitor de Alba Longa, es obligada a hacerse
+        vestal para que nunca tenga hijos que le disputen el trono a su tío Amulio, usurpador de Numitor.
+        Pero el dios Marte la deja embarazada de gemelos —Rómulo y Remo— y Amulio, para deshacerse de ellos,
+        ordena arrojarlos al río Tíber.</p>
+
+        <p>La cesta con los bebés encalla al pie del monte Palatino. Una loba los encuentra y los amamanta
+        en la cueva del Lupercal, hasta que el pastor Fáustulo los descubre y los cría junto a su esposa,
+        Acca Larentia. Ya adultos, los hermanos conocen su verdadero origen, matan a Amulio y devuelven el
+        trono a su abuelo Numitor.</p>
+
+        <p>Rómulo y Remo deciden entonces fundar su propia ciudad, pero no logran ponerse de acuerdo sobre
+        el lugar: Remo prefiere el Aventino, Rómulo el Palatino. Consultan a los dioses por augurio —Remo ve
+        seis buitres, Rómulo doce— y Rómulo traza con un arado el límite sagrado de su futura ciudad sobre
+        el Palatino. Cuando Remo salta burlándose sobre esa línea, Rómulo lo mata.</p>
+
+        <p>El 21 de abril del 753 a.C., Rómulo funda Roma y se convierte en su primer rey. Abre un asilo en
+        el Capitolio para atraer fugitivos de los pueblos vecinos como primeros ciudadanos, y organiza el
+        rapto de las sabinas para conseguirles esposas. Así nace, entre el mito y la violencia fundacional,
+        la ciudad que un día gobernará el Mediterráneo entero.</p>
+      </div>
+    </div>
+
+    <p class="start-cta">Elegí por dónde empezar tu recorrido:</p>
+    <div class="start-choices" id="startChoices">
+      <button class="start-choice" data-era="monarquia">
+        <span class="start-choice-title">Monarquía</span>
+        <span class="start-choice-sub">753–509 a.C.</span>
+      </button>
+      <button class="start-choice" data-era="republica">
+        <span class="start-choice-title">República</span>
+        <span class="start-choice-sub">509–27 a.C.</span>
+      </button>
+      <button class="start-choice" data-era="imperio">
+        <span class="start-choice-title">Imperio</span>
+        <span class="start-choice-sub">27 a.C.–395 d.C.</span>
+      </button>
+      <button class="start-choice" data-era="occidente">
+        <span class="start-choice-title">Imperio de Occidente</span>
+        <span class="start-choice-sub">395–476 d.C.</span>
+      </button>
+      <button class="start-choice" data-era="bizantino">
+        <span class="start-choice-title">Imperio Bizantino</span>
+        <span class="start-choice-sub">395–1453 d.C.</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="wrap" id="mainWrap" style="display:none;">
   <div class="header-flanked">
     <img class="header-flank-icon admin-icon" id="adminBtn" src="assets/img/administracion.webp?v=2" alt="Edificio de gobierno — tocar para ver la historia de la administración romana" tabindex="0" role="button" aria-haspopup="dialog">
     <img class="header-flank-icon estandarte-icon" id="estandarteBtn" src="assets/img/Estandarte.png" alt="Estandarte de la legión romana con el águila de Júpiter — tocar para ver la historia del águila legionaria" tabindex="0" role="button" aria-haspopup="dialog">
+    <img class="header-flank-icon economia-icon" id="economiaBtn" src="assets/img/Economia.png" alt="Moneda y gráfico de crecimiento — tocar para ver la historia de la economía romana y sus rutas comerciales" tabindex="0" role="button" aria-haspopup="dialog">
+    <img class="header-flank-icon politica-icon" id="politicaBtn" src="assets/img/Politica.png" alt="Oradores en atriles con banderas de facción — tocar para ver la historia de la política romana" tabindex="0" role="button" aria-haspopup="dialog">
     <header>
       <p class="subtitle">Línea de tiempo interactiva — de Rómulo a la caída de Constantinopla</p>
-      <p class="eyebrow">Ab urbe condita</p>
-      <div class="title-row games-row">
-        <button class="top-btn games" id="juegosBtn" aria-haspopup="true" aria-expanded="false">
-          <span class="top-btn-emoji" aria-hidden="true">🎮</span>
-          <span class="top-btn-label">Juegos</span>
-        </button>
-      </div>
-      <div class="romandle-links" id="juegosMenu">
-        <a class="romandle-link" href="romandle.html">🎲 Jugar Romandle — adiviná al emperador</a>
-        <a class="romandle-link" href="imperator.html">❓ Guess the Imperator — adiviná con preguntas</a>
-        <a class="romandle-link" href="grid.html">🔳 Grid Imperial — completá la grilla 3×3</a>
-        <a class="romandle-link" href="silueta.html">🗺️ Silueta Imperial — adiviná la provincia</a>
-        <a class="romandle-link" href="silueta-oculta.html">🕶️ Silueta Oculta — adiviná al emperador oculto</a>
-        <a class="romandle-link" href="secuencia.html">📜 Secuencia Imperial — ordená los hechos históricos</a>
-        <a class="romandle-link" href="orbita.html">🪐 Órbita Romana — adiviná al emperador con pistas</a>
-        <a class="romandle-link" href="legion.html">🦅 La Legión — adiviná la legión por su emblema</a>
-        <a class="romandle-link" href="mas-o-menos.html">📈 Más o Menos Años — racha de más o menos</a>
-        <a class="romandle-link" href="guerra.html">⚔️ La Guerra — adiviná la guerra romana</a>
-      </div>
+      <p class="eyebrow" id="backToStartBtn" tabindex="0" role="button" title="Volver a la pantalla de inicio">Ab urbe condita</p>
       <div class="title-row">
         <button class="top-btn spqr" id="spqrBtn">
           <img src="assets/img/spqr-aguila.png" alt="Águila de Júpiter, símbolo de Roma">
@@ -271,6 +330,97 @@
         <p><strong>El ocaso:</strong> el breve intento de Juliano el Apóstata de restaurar los cultos tradicionales
         (361–363 d.C.) no revierte el avance del cristianismo, y en el 391 d.C. Teodosio I prohíbe por ley todo
         culto pagano, cerrando templos y apagando, tras más de mil años, el fuego de Vesta.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="economiaModalOverlay">
+    <div class="modal-box" id="economiaModalBox" role="dialog" aria-modal="true" aria-labelledby="economiaModalTitle">
+      <button class="modal-close" id="economiaModalClose" aria-label="Cerrar">✕</button>
+      <h3 id="economiaModalTitle">💰 La economía romana</h3>
+      <div class="modal-body">
+        <p><strong>La agricultura, motor principal:</strong> la inmensa mayoría de la población vive del campo.
+        Las conquistas alimentan grandes <em>latifundios</em> trabajados por mano de obra esclava, mientras Egipto
+        y el norte de África se convierten en el granero del Imperio, sosteniendo la <em>annona</em>, el reparto
+        gratuito o subsidiado de trigo a la plebe de Roma.</p>
+
+        <p><strong>Comercio y moneda:</strong> el Mediterráneo —el <em>mare nostrum</em>— funciona como una gran
+        autopista de agua por la que circulan aceite, vino, grano, textiles, mármol y hasta especias llegadas desde
+        la India. Una moneda imperial única, el <em>denario</em> y luego el <em>sestercio</em>, respaldada por el
+        Estado, permite comerciar a la misma escala desde Britania hasta Siria; puertos como Ostia y gremios de
+        mercaderes (<em>collegia</em>) organizan ese tráfico constante de mercancías.</p>
+
+        <p><strong>Impuestos y fisco:</strong> las provincias pagan el <em>tributum</em> sobre la tierra y las
+        personas, y aduanas internas (<em>portoria</em>) gravan el paso de mercancías entre regiones. En la
+        República estos cobros se arriendan a particulares, los <em>publicani</em>; con el Imperio, procuradores
+        al servicio directo del emperador toman su lugar, financiando así al ejército y a las grandes obras
+        públicas.</p>
+
+        <div class="modal-row">
+          <p><strong>Las rutas del Imperio:</strong> más de 80.000 km de calzadas empedradas —pensadas primero
+          para mover legiones con rapidez a cualquier frontera— terminan siendo el sistema circulatorio de toda
+          la economía y la administración. Estaciones de posta (<em>mansiones</em> y <em>mutationes</em>) jalonan
+          el camino, y el <em>cursus publicus</em> creado por Augusto permite relevar caballos y mensajeros para
+          que una orden o una noticia cruce el Imperio en pocos días. Todas parten, simbólicamente, del
+          <em>Miliario de Oro</em> en el Foro de Roma: de ahí la idea de que "todos los caminos llevan a Roma".</p>
+        </div>
+
+        <figure class="legiones-figure">
+          <p class="figure-subtitle">Las rutas del Imperio</p>
+          <img class="legiones-img" id="carreterasImg" src="assets/img/Carreteras.webp" alt="Mapa de la red de calzadas romanas que conectaba Roma con las provincias del Imperio — tocar para ampliar" tabindex="0" role="button" aria-haspopup="dialog">
+          <figcaption>Tocá la imagen para ampliarla</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay lightbox-overlay" id="carreterasLightboxOverlay">
+    <div class="lightbox-content">
+      <button class="modal-close" id="carreterasLightboxClose" aria-label="Cerrar">✕</button>
+      <img src="assets/img/Carreteras.webp" alt="Mapa de la red de calzadas romanas que conectaba Roma con las provincias del Imperio">
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="politicaModalOverlay">
+    <div class="modal-box" id="politicaModalBox" role="dialog" aria-modal="true" aria-labelledby="politicaModalTitle">
+      <button class="modal-close" id="politicaModalClose" aria-label="Cerrar">✕</button>
+      <h3 id="politicaModalTitle">👑 La política romana</h3>
+      <div class="modal-body">
+        <p><strong>Patricios y plebeyos:</strong> la Roma temprana vive tironeada por el <em>conflicto de los
+        órdenes</em>: los plebeyos se retiran en bloque de la ciudad (<em>secessio plebis</em>) para forzar
+        concesiones, y así arrancan el <strong>tribunado de la plebe</strong>, con poder de veto (<em>intercessio</em>)
+        y sus personas declaradas sacrosantas. Las Doce Tablas (450 a.C.) fijan por escrito la ley para todos, y
+        la <em>lex Hortensia</em> (287 a.C.) termina de igualar el peso político al dar fuerza de ley a los
+        plebiscitos incluso sin aval del Senado.</p>
+
+        <p><strong>Populares y optimates:</strong> hacia el final de la República, la política se parte en dos
+        corrientes: los <em>optimates</em>, que defienden el peso tradicional del Senado, y los <em>populares</em>,
+        que buscan apoyo directo en las asambleas. La reforma agraria de los hermanos <strong>Tiberio y Cayo
+        Graco</strong> y su asesinato (133 y 121 a.C.) marcan el momento en que la violencia política entra para
+        quedarse en la vida pública romana.</p>
+
+        <p><strong>De Sila a César:</strong> Sila marcha sobre Roma con su propio ejército y purga a sus rivales
+        con listas de proscripción, un precedente que normaliza el uso de la fuerza para ganar el poder. Décadas
+        después, el <strong>primer triunvirato</strong> —César, Pompeyo y Craso— se reparte el control del Estado
+        por fuera de los cauces legales; César cruza el Rubicón en el 49 a.C. desatando la guerra civil, y es
+        asesinado por un grupo de senadores en los Idus de Marzo del 44 a.C., el último intento de salvar la
+        República por la fuerza.</p>
+
+        <p><strong>El segundo triunvirato y el fin de la República:</strong> Octavio, Marco Antonio y Lépido
+        vuelven a repartirse el poder y a purgar opositores, hasta que la victoria de Octavio sobre Antonio y
+        Cleopatra en Accio (31 a.C.) lo deja como único dueño del Estado: al año siguiente el Senado le concede
+        el título de <strong>Augusto</strong>, y la República queda enterrada bajo la fachada del Principado.</p>
+
+        <p><strong>El juego político del Imperio:</strong> bajo los emperadores, la política real ya no se
+        decide en el foro sino en la lealtad del ejército y de la Guardia Pretoriana. El Año de los Cuatro
+        Emperadores (69 d.C.) y la subasta pública del trono por los pretorianos (193 d.C.) muestran lo frágil
+        que sigue siendo una sucesión imperial que nunca llega a fijarse por ley.</p>
+
+        <p><strong>Bizancio, política de palacio:</strong> en Oriente el poder se juega puertas adentro de la
+        corte: eunucos en los cargos más altos por no poder fundar una dinastía propia, matrimonios dinásticos
+        para legitimar a un usurpador, y la "nacida en púrpura" como marca de legitimidad. Cegar a un rival
+        reemplaza a la ejecución como forma de apartarlo del trono sin cometer el pecado cristiano de matar a un
+        emperador ungido.</p>
       </div>
     </div>
   </div>
