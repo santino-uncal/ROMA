@@ -1,0 +1,127 @@
+/* Órbita Romana: identificar a todos los gobernantes de una categoría, orbitando alrededor de ella */
+
+.orbita-wrap{ max-width: 680px; }
+
+.orbita-fact-item{ flex-direction: column; align-items: flex-start; gap: 3px; }
+.orbita-result-header{ display: flex; gap: 8px; }
+.orbita-result-fact{ font-size: 11px; color: var(--tinta-suave); font-style: italic; line-height: 1.4; }
+
+.orbita-stage{
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 1 / 1;
+  margin: 10px auto 24px;
+  --radius: clamp(120px, 31vw, 210px);
+  --orbit-duration: 70s;
+}
+
+.orbita-center{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 44%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  text-align: center;
+  z-index: 2;
+}
+.orbita-center-icon{
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  opacity: 0.85;
+}
+.orbita-center-label{
+  font-family: 'Cinzel', Georgia, serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--purpura-dark);
+}
+.orbita-center-progress{
+  font-size: 11.5px;
+  color: var(--tinta-suave);
+}
+
+/* Órbita real: tres capas anidadas.
+   1) .orbita-node-orbit gira 360° sin parar (el "brazo" invisible).
+   2) .orbita-node-offset lo separa del centro una distancia fija (--radius).
+   3) .orbita-node gira en sentido contrario a la misma velocidad, así el contenido
+      queda siempre derecho aunque el círculo esté dando la vuelta. */
+.orbita-node-orbit{
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 0; height: 0;
+  animation: orbita-spin var(--orbit-duration) linear infinite;
+}
+.orbita-node-offset{
+  position: absolute;
+  top: 0; left: 0;
+  transform: translateX(var(--radius));
+}
+.orbita-node{
+  position: absolute;
+  top: 0; left: 0;
+  width: 108px;
+  height: 108px;
+  margin: -54px 0 0 -54px;
+  animation: orbita-spin-reverse var(--orbit-duration) linear infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  background: var(--pergamino2);
+  border: 2px solid var(--bronce);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+  padding: 8px;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--tinta);
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+@keyframes orbita-spin{ from{ transform: rotate(0deg); } to{ transform: rotate(360deg); } }
+@keyframes orbita-spin-reverse{ from{ transform: rotate(0deg); } to{ transform: rotate(-360deg); } }
+@media (prefers-reduced-motion: reduce){
+  .orbita-node-orbit, .orbita-node{ animation: none; }
+}
+.orbita-node.unsolved:hover{ background: var(--piedra); }
+.orbita-node.solved{
+  cursor: default;
+  background: #e7efe1;
+  border-color: #44603a;
+  padding: 6px;
+}
+.orbita-node.revealed{
+  cursor: default;
+  background: #f3e3e6;
+  border-color: var(--purpura-dark);
+  padding: 6px;
+}
+.orbita-node img{
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--oro);
+  margin-bottom: 4px;
+}
+.orbita-node-name{
+  font-size: 10.5px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+@media (max-width: 560px){
+  .orbita-stage{ --radius: clamp(98px, 34vw, 155px); }
+  .orbita-node{ width: 86px; height: 86px; margin: -43px 0 0 -43px; font-size: 10px; padding: 6px; }
+  .orbita-node img{ width: 34px; height: 34px; }
+  .orbita-node-name{ font-size: 9px; }
+  .orbita-center-icon{ width: 42px; height: 42px; }
+  .orbita-center-label{ font-size: 11px; }
+}

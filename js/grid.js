@@ -485,7 +485,7 @@
     const r = Math.floor(activeCell / 3);
     const c = activeCell % 3;
     if(rows[r].test(match) && cols[c].test(match)){
-      cellAnswers[activeCell] = { key: match.key, nombre: match.nombre, imagen: match.imagen };
+      cellAnswers[activeCell] = { key: match.key, nombre: match.nombre, imagen: match.imagen, texto: match.texto };
       usedKeys.add(match.key);
       activeCell = -1;
       setMessage('');
@@ -531,8 +531,11 @@
         const idx = r * 3 + c;
         const row = document.createElement('div');
         row.className = 'grid-result-item';
+        const texto = cellAnswers[idx].texto || '';
+        const snippet = texto.length > 90 ? texto.slice(0, 87) + '…' : texto;
         row.innerHTML = '<strong>' + cellAnswers[idx].nombre + '</strong><br>' +
-          '<span>' + rows[r].label + ' × ' + cols[c].label + '</span>';
+          '<span>' + rows[r].label + ' × ' + cols[c].label + '</span>' +
+          (snippet ? '<br><span class="grid-result-fact">' + snippet + '</span>' : '');
         list.appendChild(row);
       }
     }

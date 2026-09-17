@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Legión</title>
+<link rel="stylesheet" href="css/estilos.css?v=123">
+<link rel="stylesheet" href="css/romandle.css?v=1">
+<link rel="stylesheet" href="css/silueta.css?v=1">
+<link rel="stylesheet" href="css/legion.css?v=1">
+</head>
+<body>
+<div class="wrap romandle-wrap silueta-wrap legion-wrap">
+
+  <header class="romandle-header">
+    <a class="romandle-back" href="index.html">&larr; Volver a la línea de tiempo</a>
+    <h1 class="romandle-title">LA LEGIÓN</h1>
+    <p class="romandle-subtitle">El emblema de una legión romana, sin su nombre. ¿Cuál es?</p>
+    <p class="romandle-subtitle">
+      <a class="romandle-back" href="romandle.html">🎲 Romandle</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="imperator.html">❓ Guess the Imperator</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="grid.html">🔳 Grid Imperial</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="silueta.html">🗺️ Silueta Imperial</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="silueta-oculta.html">🕶️ Silueta Oculta</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="secuencia.html">📜 Secuencia Imperial</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="orbita.html">🪐 Órbita Romana</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="mas-o-menos.html">📈 Más o Menos Años</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="guerra.html">⚔️ La Guerra</a>
+    </p>
+  </header>
+
+  <div class="romandle-toolbar">
+    <span class="romandle-mode-label" id="legionModeLabel">Legión del día</span>
+    <button class="romandle-btn secondary" id="legionRandomBtn" type="button">🎲 Jugar al azar</button>
+    <button class="romandle-btn secondary" id="legionHintBtn" type="button">💡 Ayuda</button>
+    <button class="romandle-btn secondary" id="legionHelpBtn" type="button" aria-haspopup="dialog">❓ Cómo se juega</button>
+  </div>
+
+  <p class="romandle-message" id="legionMessage" role="status" aria-live="polite"></p>
+
+  <div class="silueta-attempts" id="legionAttempts"></div>
+
+  <div class="legion-box">
+    <img id="legionImg" src="" alt="Emblema de una legión romana, sin su nombre">
+  </div>
+
+  <div class="silueta-hints" id="legionHints"></div>
+
+  <form class="romandle-guess-row" id="legionForm" autocomplete="off">
+    <div class="romandle-input-wrap">
+      <input type="text" id="legionInput" class="romandle-input" placeholder="Escribí el nombre (cognomen) de la legión…" autocomplete="off" aria-label="Nombre de la legión">
+    </div>
+    <button class="romandle-btn" id="legionSubmitBtn" type="submit">Adivinar</button>
+  </form>
+
+  <div id="legionQuestionZone"></div>
+
+</div>
+
+<div class="modal-overlay" id="legionResultOverlay">
+  <div class="modal-box romandle-result-box" id="legionResultBox" role="dialog" aria-modal="true" aria-labelledby="legionResultTitle">
+    <button class="modal-close" id="legionResultClose" aria-label="Cerrar">✕</button>
+    <div id="legionResultContent"></div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="legionHelpOverlay">
+  <div class="modal-box" id="legionHelpBox" role="dialog" aria-modal="true" aria-labelledby="legionHelpTitle">
+    <button class="modal-close" id="legionHelpClose" aria-label="Cerrar">✕</button>
+    <h3 id="legionHelpTitle">Cómo se juega La Legión</h3>
+    <div class="modal-body">
+      <p>Aparece el emblema real de una <strong>legión romana</strong>: se ve su número ("LEG·N") y el animal
+      (o figura) que la representaba, pero su nombre (cognomen) está tapado. Tenés <strong>5 intentos</strong> para
+      adivinarlo, escribiéndolo vos mismo en el buscador (alcanza con el cognomen, por ejemplo "Fretensis" para la
+      Legio X Fretensis) — no hay una lista de nombres posibles para elegir.</p>
+      <p>Si te trabás, "💡 Ayuda" te da una pista (hasta <strong>3 veces</strong> por partida): primero la inicial
+      del cognomen, después cuántas palabras tiene, y por último su forma con la mayoría de las letras tapadas.</p>
+      <p>Al resolverse (la adivines o no), llegan tres preguntas sobre esa legión: si tenía un apodo informal además
+      de su nombre oficial, en qué batalla luchó, y si la ganó o no.</p>
+      <p>La legión del día es la misma para todos y cambia a la medianoche. Con "Jugar al azar" podés practicar sin
+      límite.</p>
+    </div>
+  </div>
+</div>
+
+<script src="js/legion.js"></script>
+</body>
+</html>

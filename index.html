@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>La historia de Roma</title>
-<link rel="stylesheet" href="css/estilos.css?v=122">
+<link rel="stylesheet" href="css/estilos.css?v=123">
 </head>
 <body>
 <div class="wrap">
@@ -14,11 +14,23 @@
     <header>
       <p class="subtitle">Línea de tiempo interactiva — de Rómulo a la caída de Constantinopla</p>
       <p class="eyebrow">Ab urbe condita</p>
-      <div class="romandle-links">
+      <div class="title-row games-row">
+        <button class="top-btn games" id="juegosBtn" aria-haspopup="true" aria-expanded="false">
+          <span class="top-btn-emoji" aria-hidden="true">🎮</span>
+          <span class="top-btn-label">Juegos</span>
+        </button>
+      </div>
+      <div class="romandle-links" id="juegosMenu">
         <a class="romandle-link" href="romandle.html">🎲 Jugar Romandle — adiviná al emperador</a>
         <a class="romandle-link" href="imperator.html">❓ Guess the Imperator — adiviná con preguntas</a>
         <a class="romandle-link" href="grid.html">🔳 Grid Imperial — completá la grilla 3×3</a>
         <a class="romandle-link" href="silueta.html">🗺️ Silueta Imperial — adiviná la provincia</a>
+        <a class="romandle-link" href="silueta-oculta.html">🕶️ Silueta Oculta — adiviná al emperador oculto</a>
+        <a class="romandle-link" href="secuencia.html">📜 Secuencia Imperial — ordená los hechos históricos</a>
+        <a class="romandle-link" href="orbita.html">🪐 Órbita Romana — adiviná al emperador con pistas</a>
+        <a class="romandle-link" href="legion.html">🦅 La Legión — adiviná la legión por su emblema</a>
+        <a class="romandle-link" href="mas-o-menos.html">📈 Más o Menos Años — racha de más o menos</a>
+        <a class="romandle-link" href="guerra.html">⚔️ La Guerra — adiviná la guerra romana</a>
       </div>
       <div class="title-row">
         <button class="top-btn spqr" id="spqrBtn">
@@ -601,6 +613,6 @@
 </div>
 <script src="js/datos.js?v=111"></script>
 <script src="js/mapas.js?v=103"></script>
-<script src="js/app.js?v=115"></script>
+<script src="js/app.js?v=116"></script>
 </body>
 </html>

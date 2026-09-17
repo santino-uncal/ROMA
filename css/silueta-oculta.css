@@ -1,0 +1,39 @@
+/* Silueta Oculta: adivinar al emperador por su retrato oculto en sombras */
+
+.oculta-box{ height: 320px; }
+.oculta-box img{
+  transition: filter 0.6s ease;
+}
+
+.oculta-map-choice{
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.oculta-map-btn{
+  border: 2px solid var(--bronce-dark);
+  border-radius: 6px;
+  background: #fbf6ec;
+  padding: 8px;
+  cursor: pointer;
+  width: 160px;
+  transition: background 0.2s, border-color 0.2s;
+}
+.oculta-map-btn img{
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+}
+.oculta-map-btn:hover{ background: var(--piedra); }
+.oculta-map-btn.correct{ border-color: #44603a; background: #e7efe1; }
+.oculta-map-btn.incorrect{ border-color: var(--purpura-dark); background: #f3e3e6; }
+.oculta-map-btn:disabled{ cursor: default; }
+
+@media (max-width: 480px){
+  .oculta-box{ height: 260px; }
+  .oculta-map-btn{ width: 130px; }
+}

@@ -444,6 +444,23 @@
   });
   document.getElementById('spqrBtn').addEventListener('click', ()=> setEra(lastSpqrEra));
 
+  // ----- Menú desplegable de Juegos -----
+  const juegosBtn = document.getElementById('juegosBtn');
+  const juegosMenu = document.getElementById('juegosMenu');
+  juegosBtn.addEventListener('click', (e)=>{
+    e.stopPropagation();
+    const isOpen = juegosMenu.classList.toggle('open');
+    juegosBtn.classList.toggle('open', isOpen);
+    juegosBtn.setAttribute('aria-expanded', String(isOpen));
+  });
+  document.addEventListener('click', (e)=>{
+    if(!juegosMenu.classList.contains('open')) return;
+    if(juegosMenu.contains(e.target) || juegosBtn.contains(e.target)) return;
+    juegosMenu.classList.remove('open');
+    juegosBtn.classList.remove('open');
+    juegosBtn.setAttribute('aria-expanded', 'false');
+  });
+
   // ----- Modal informativo de la cruz cristiana -----
   const cruzOverlay = document.getElementById('cruzModalOverlay');
   function openCruzModal(){ cruzOverlay.classList.add('open'); }

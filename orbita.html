@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Órbita Romana</title>
+<link rel="stylesheet" href="css/estilos.css?v=123">
+<link rel="stylesheet" href="css/romandle.css?v=1">
+<link rel="stylesheet" href="css/secuencia.css?v=1">
+<link rel="stylesheet" href="css/orbita.css?v=2">
+</head>
+<body>
+<div class="wrap romandle-wrap orbita-wrap">
+
+  <header class="romandle-header">
+    <a class="romandle-back" href="index.html">&larr; Volver a la línea de tiempo</a>
+    <h1 class="romandle-title">ÓRBITA ROMANA</h1>
+    <p class="romandle-subtitle">Una categoría y sus gobernantes orbitando alrededor. ¿Quién es cada uno?</p>
+    <p class="romandle-subtitle">
+      <a class="romandle-back" href="romandle.html">🎲 Romandle</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="imperator.html">❓ Guess the Imperator</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="grid.html">🔳 Grid Imperial</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="silueta.html">🗺️ Silueta Imperial</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="silueta-oculta.html">🕶️ Silueta Oculta</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="secuencia.html">📜 Secuencia Imperial</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="legion.html">🦅 La Legión</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="mas-o-menos.html">📈 Más o Menos Años</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="guerra.html">⚔️ La Guerra</a>
+    </p>
+  </header>
+
+  <div class="romandle-toolbar">
+    <span class="romandle-mode-label" id="orbitaModeLabel">Órbita del día</span>
+    <button class="romandle-btn secondary" id="orbitaRandomBtn" type="button">🎲 Jugar al azar</button>
+    <button class="romandle-btn secondary" id="orbitaHelpBtn" type="button" aria-haspopup="dialog">❓ Cómo se juega</button>
+  </div>
+
+  <p class="romandle-message" id="orbitaMessage" role="status" aria-live="polite"></p>
+
+  <div class="orbita-stage" id="orbitaStage">
+    <div class="orbita-center">
+      <img class="orbita-center-icon" src="assets/img/spqr-aguila.png" alt="">
+      <p class="orbita-center-label" id="orbitaCategoryLabel"></p>
+      <p class="orbita-center-progress" id="orbitaProgress"></p>
+    </div>
+  </div>
+
+  <form class="romandle-guess-row" id="orbitaForm" autocomplete="off">
+    <div class="romandle-input-wrap">
+      <input type="text" id="orbitaInput" class="romandle-input" placeholder="Escribí el nombre de un gobernante…" autocomplete="off" aria-label="Nombre del gobernante">
+      <div class="romandle-suggestions" id="orbitaSuggestions"></div>
+    </div>
+    <button class="romandle-btn" id="orbitaVerifyBtn" type="submit">Verificar</button>
+    <button class="romandle-btn secondary" id="orbitaGiveUpBtn" type="button">Rendirse</button>
+  </form>
+
+</div>
+
+<div class="modal-overlay" id="orbitaResultOverlay">
+  <div class="modal-box romandle-result-box" id="orbitaResultBox" role="dialog" aria-modal="true" aria-labelledby="orbitaResultTitle">
+    <button class="modal-close" id="orbitaResultClose" aria-label="Cerrar">✕</button>
+    <div id="orbitaResultContent"></div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="orbitaHelpOverlay">
+  <div class="modal-box" id="orbitaHelpBox" role="dialog" aria-modal="true" aria-labelledby="orbitaHelpTitle">
+    <button class="modal-close" id="orbitaHelpClose" aria-label="Cerrar">✕</button>
+    <h3 id="orbitaHelpTitle">Cómo se juega Órbita Romana</h3>
+    <div class="modal-body">
+      <p>En el centro aparece una <strong>categoría</strong> romana: una dinastía, o un año con varios gobernantes
+      rivales (como el año de los cuatro emperadores del 69 d.C.). Alrededor orbitan círculos, uno por cada
+      integrante de esa categoría, mostrando su período de reinado.</p>
+      <p>Tocá un círculo para elegirlo (o escribí directamente: por defecto apunta al primero sin resolver) y
+      escribí su nombre en el buscador. Si acertás, el círculo se pone verde y muestra su foto. No hay límite de
+      intentos por integrante.</p>
+      <p>Ganás cuando identificás a <strong>todos</strong> los integrantes de la categoría. "Rendirse" termina la
+      partida y revela a los que falten.</p>
+      <p>La órbita del día es la misma para todos y cambia a la medianoche. Con "Jugar al azar" podés practicar sin
+      límite.</p>
+    </div>
+  </div>
+</div>
+
+<script src="js/datos.js"></script>
+<script src="js/orbita.js"></script>
+</body>
+</html>

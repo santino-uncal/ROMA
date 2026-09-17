@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Secuencia Imperial</title>
+<link rel="stylesheet" href="css/estilos.css?v=123">
+<link rel="stylesheet" href="css/romandle.css?v=1">
+<link rel="stylesheet" href="css/secuencia.css?v=1">
+</head>
+<body>
+<div class="wrap romandle-wrap secuencia-wrap">
+
+  <header class="romandle-header">
+    <a class="romandle-back" href="index.html">&larr; Volver a la línea de tiempo</a>
+    <h1 class="romandle-title">SECUENCIA IMPERIAL</h1>
+    <p class="romandle-subtitle">Ordená los 7 hechos de la historia romana del más temprano al más tardío.</p>
+    <p class="romandle-subtitle">
+      <a class="romandle-back" href="romandle.html">🎲 Romandle</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="imperator.html">❓ Guess the Imperator</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="grid.html">🔳 Grid Imperial</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="silueta.html">🗺️ Silueta Imperial</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="silueta-oculta.html">🕶️ Silueta Oculta</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="orbita.html">🪐 Órbita Romana</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="legion.html">🦅 La Legión</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="mas-o-menos.html">📈 Más o Menos Años</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="guerra.html">⚔️ La Guerra</a>
+    </p>
+  </header>
+
+  <div class="romandle-toolbar">
+    <span class="romandle-mode-label" id="secuenciaModeLabel">Secuencia del día</span>
+    <button class="romandle-btn secondary" id="secuenciaRandomBtn" type="button">🎲 Jugar al azar</button>
+    <button class="romandle-btn secondary" id="secuenciaHintBtn" type="button">💡 Pista</button>
+    <button class="romandle-btn secondary" id="secuenciaHelpBtn" type="button" aria-haspopup="dialog">❓ Cómo se juega</button>
+  </div>
+
+  <p class="romandle-message" id="secuenciaMessage" role="status" aria-live="polite"></p>
+
+  <div class="silueta-attempts" id="secuenciaAttempts"></div>
+
+  <div class="secuencia-endpoint">⬆ MÁS TEMPRANO</div>
+  <ol class="secuencia-list" id="secuenciaList"></ol>
+  <div class="secuencia-endpoint">MÁS TARDÍO ⬇</div>
+
+  <div class="romandle-guess-row" style="justify-content:center;">
+    <button class="romandle-btn" id="secuenciaVerifyBtn" type="button">Verificar orden</button>
+  </div>
+
+</div>
+
+<div class="modal-overlay" id="secuenciaResultOverlay">
+  <div class="modal-box romandle-result-box" id="secuenciaResultBox" role="dialog" aria-modal="true" aria-labelledby="secuenciaResultTitle">
+    <button class="modal-close" id="secuenciaResultClose" aria-label="Cerrar">✕</button>
+    <div id="secuenciaResultContent"></div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="secuenciaHelpOverlay">
+  <div class="modal-box" id="secuenciaHelpBox" role="dialog" aria-modal="true" aria-labelledby="secuenciaHelpTitle">
+    <button class="modal-close" id="secuenciaHelpClose" aria-label="Cerrar">✕</button>
+    <h3 id="secuenciaHelpTitle">Cómo se juega Secuencia Imperial</h3>
+    <div class="modal-body">
+      <p>Aparecen <strong>7 hechos</strong> de la historia romana (de la fundación de Roma a la caída de
+      Constantinopla) en un orden al azar. Usá las flechas ▲▼ de cada fila para reordenarlos del más
+      <strong>temprano</strong> (arriba) al más <strong>tardío</strong> (abajo), y apretá "Verificar orden".</p>
+      <p>Cada fila se marca en verde si quedó en la posición correcta, o en rojo si no. Tenés <strong>6 intentos</strong>
+      de verificación para lograr las 7 en verde.</p>
+      <p>Si te trabás, "💡 Pista" revela un hecho que ya está bien ubicado y lo deja fijo (hasta 3 pistas por
+      partida).</p>
+      <p>La secuencia del día es la misma para todos y cambia a la medianoche. Con "Jugar al azar" podés practicar
+      sin límite.</p>
+    </div>
+  </div>
+</div>
+
+<script src="js/secuencia.js"></script>
+</body>
+</html>

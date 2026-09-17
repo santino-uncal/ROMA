@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Más o Menos Años</title>
+<link rel="stylesheet" href="css/estilos.css?v=123">
+<link rel="stylesheet" href="css/romandle.css?v=1">
+<link rel="stylesheet" href="css/silueta.css?v=1">
+<link rel="stylesheet" href="css/mas-o-menos.css?v=1">
+</head>
+<body>
+<div class="wrap romandle-wrap masomenos-wrap">
+
+  <header class="romandle-header">
+    <a class="romandle-back" href="index.html">&larr; Volver a la línea de tiempo</a>
+    <h1 class="romandle-title">MÁS O MENOS AÑOS</h1>
+    <p class="romandle-subtitle">¿El siguiente emperador reinó más o menos años que el anterior? Una racha, un error y se acabó.</p>
+    <p class="romandle-subtitle">
+      <a class="romandle-back" href="romandle.html">🎲 Romandle</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="imperator.html">❓ Guess the Imperator</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="grid.html">🔳 Grid Imperial</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="silueta.html">🗺️ Silueta Imperial</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="silueta-oculta.html">🕶️ Silueta Oculta</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="secuencia.html">📜 Secuencia Imperial</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="orbita.html">🪐 Órbita Romana</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="legion.html">🦅 La Legión</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="guerra.html">⚔️ La Guerra</a>
+    </p>
+  </header>
+
+  <div class="romandle-toolbar">
+    <span class="romandle-mode-label" id="momModeLabel">Racha del día</span>
+    <button class="romandle-btn secondary" id="momRandomBtn" type="button">🎲 Jugar al azar</button>
+    <button class="romandle-btn secondary" id="momHelpBtn" type="button" aria-haspopup="dialog">❓ Cómo se juega</button>
+  </div>
+
+  <p class="romandle-message" id="momMessage" role="status" aria-live="polite"></p>
+
+  <div class="mom-scoreboard">
+    <div class="mom-score">
+      <span class="mom-score-label">Racha</span>
+      <span class="mom-score-value" id="momScore">0</span>
+    </div>
+    <div class="mom-score">
+      <span class="mom-score-label">Récord</span>
+      <span class="mom-score-value" id="momBest">0</span>
+    </div>
+  </div>
+
+  <div class="mom-table">
+    <div class="mom-card" id="momRefCard">
+      <img class="mom-card-img" id="momRefImg" src="" alt="">
+      <p class="mom-card-name" id="momRefName"></p>
+      <p class="mom-card-years" id="momRefYears"></p>
+    </div>
+
+    <div class="mom-vs">VS</div>
+
+    <div class="mom-card" id="momChaCard">
+      <img class="mom-card-img" id="momChaImg" src="" alt="">
+      <p class="mom-card-name" id="momChaName"></p>
+      <p class="mom-card-years" id="momChaYears"></p>
+    </div>
+  </div>
+
+  <div class="mom-controls" id="momControls">
+    <button class="romandle-btn mom-guess-btn" id="momMoreBtn" type="button">🔼 Más años</button>
+    <button class="romandle-btn mom-guess-btn" id="momLessBtn" type="button">🔽 Menos años</button>
+  </div>
+
+</div>
+
+<div class="modal-overlay" id="momResultOverlay">
+  <div class="modal-box romandle-result-box" id="momResultBox" role="dialog" aria-modal="true" aria-labelledby="momResultTitle">
+    <button class="modal-close" id="momResultClose" aria-label="Cerrar">✕</button>
+    <div id="momResultContent"></div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="momHelpOverlay">
+  <div class="modal-box" id="momHelpBox" role="dialog" aria-modal="true" aria-labelledby="momHelpTitle">
+    <button class="modal-close" id="momHelpClose" aria-label="Cerrar">✕</button>
+    <h3 id="momHelpTitle">Cómo se juega Más o Menos Años</h3>
+    <div class="modal-body">
+      <p>Aparecen dos gobernantes romanos (emperadores del Imperio, de Occidente o de Bizancio). El de la
+      izquierda ya muestra cuántos años reinó. Tenés que adivinar si el de la derecha reinó
+      <strong>más</strong> o <strong>menos</strong> años que el primero.</p>
+      <p>Si acertás, ese gobernante pasa a la izquierda y aparece uno nuevo a la derecha: la racha sigue. Si
+      fallás, se termina la partida — y si empatan en la misma cantidad de años, el intento cuenta como acierto.</p>
+      <p>La racha del día usa la misma secuencia de gobernantes para todos, y cambia a la medianoche. Con "Jugar
+      al azar" podés practicar con una secuencia nueva cada vez. El récord se guarda en tu navegador.</p>
+    </div>
+  </div>
+</div>
+
+<script src="js/datos.js"></script>
+<script src="js/mas-o-menos.js"></script>
+</body>
+</html>

@@ -379,7 +379,7 @@
     card.innerHTML =
       '<strong>País actual:</strong> ' + secret.paisModerno + ' (capital ' + secret.capitalModerna + ')<br>' +
       '<strong>Capital romana:</strong> ' + secret.capitalRomana + '<br>' +
-      '<strong>Dato:</strong> ' + secret.dato;
+      '<strong>Dato curioso:</strong> ' + secret.dato;
     resultContent.appendChild(card);
 
     const actions = document.createElement('div');

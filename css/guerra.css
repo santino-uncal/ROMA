@@ -1,0 +1,73 @@
+/* La Guerra: adivinar la guerra romana por sus participantes */
+
+.guerra-wrap{ max-width: 640px; }
+
+.guerra-clue-box{
+  background: var(--pergamino2);
+  border: 1px solid var(--bronce);
+  border-radius: 6px;
+  padding: 14px 16px;
+  margin: 0 0 14px;
+  text-align: center;
+}
+.guerra-clue-label{
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--tinta-suave);
+  margin: 0 0 6px;
+}
+.guerra-clue-text{
+  font-size: 15px;
+  color: var(--tinta);
+  margin: 0;
+}
+
+.guerra-emperor-grid{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin: 0 0 14px;
+}
+.guerra-emperor-btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  width: 88px;
+  padding: 8px;
+  border: 2px solid var(--bronce);
+  border-radius: 6px;
+  background: #fbf6ec;
+  cursor: pointer;
+  font-family: Georgia, serif;
+  font-size: 11px;
+  color: var(--tinta);
+  text-align: center;
+}
+.guerra-emperor-btn img{
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--oro);
+}
+.guerra-emperor-btn:hover:not(:disabled){ background: var(--piedra); }
+.guerra-emperor-btn.selected{ border-color: var(--purpura-dark); background: var(--pergamino2); box-shadow: inset 0 0 0 2px var(--purpura-dark); }
+.guerra-emperor-btn.correct{ border-color: #44603a; background: #e7efe1; }
+.guerra-emperor-btn.incorrect{ border-color: var(--purpura-dark); background: #f3e3e6; }
+.guerra-emperor-btn.missed{ border-color: var(--oro); background: #fff6df; }
+.guerra-emperor-btn:disabled{ cursor: default; }
+
+.guerra-verify-row{
+  display: flex;
+  justify-content: center;
+  margin: 0 0 16px;
+}
+
+@media (max-width: 480px){
+  .guerra-emperor-btn{ width: 74px; font-size: 10px; }
+  .guerra-emperor-btn img{ width: 38px; height: 38px; }
+}

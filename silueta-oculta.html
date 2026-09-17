@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Silueta Oculta — adiviná al emperador</title>
+<link rel="stylesheet" href="css/estilos.css?v=123">
+<link rel="stylesheet" href="css/romandle.css?v=1">
+<link rel="stylesheet" href="css/silueta.css?v=1">
+<link rel="stylesheet" href="css/silueta-oculta.css?v=2">
+</head>
+<body>
+<div class="wrap romandle-wrap silueta-wrap oculta-wrap">
+
+  <header class="romandle-header">
+    <a class="romandle-back" href="index.html">&larr; Volver a la línea de tiempo</a>
+    <h1 class="romandle-title">SILUETA OCULTA</h1>
+    <p class="romandle-subtitle">Una silueta a oscuras se va revelando… ¿qué emperador es?</p>
+    <p class="romandle-subtitle">
+      <a class="romandle-back" href="romandle.html">🎲 Romandle</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="imperator.html">❓ Guess the Imperator</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="grid.html">🔳 Grid Imperial</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="silueta.html">🗺️ Silueta Imperial</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="secuencia.html">📜 Secuencia Imperial</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="orbita.html">🪐 Órbita Romana</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="legion.html">🦅 La Legión</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="mas-o-menos.html">📈 Más o Menos Años</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="guerra.html">⚔️ La Guerra</a>
+    </p>
+  </header>
+
+  <div class="romandle-toolbar">
+    <span class="romandle-mode-label" id="ocultaModeLabel">Emperador del día</span>
+    <button class="romandle-btn secondary" id="ocultaRandomBtn" type="button">🎲 Jugar al azar</button>
+    <button class="romandle-btn secondary" id="ocultaDifficultyBtn" type="button">🌫️ Modo difícil</button>
+    <button class="romandle-btn secondary" id="ocultaHelpBtn" type="button" aria-haspopup="dialog">❓ Cómo se juega</button>
+  </div>
+
+  <p class="romandle-message" id="ocultaMessage" role="status" aria-live="polite"></p>
+
+  <div class="silueta-attempts" id="ocultaAttempts"></div>
+
+  <div class="silueta-box oculta-box">
+    <img id="ocultaImg" src="" alt="Silueta oculta de un emperador romano">
+  </div>
+
+  <div class="silueta-hints" id="ocultaHints"></div>
+
+  <form class="romandle-guess-row" id="ocultaForm" autocomplete="off">
+    <div class="romandle-input-wrap">
+      <input type="text" id="ocultaInput" class="romandle-input" placeholder="Escribí el nombre de un emperador…" autocomplete="off" aria-label="Nombre del emperador">
+      <div class="romandle-suggestions" id="ocultaSuggestions"></div>
+    </div>
+    <button class="romandle-btn" id="ocultaSubmitBtn" type="submit">Adivinar</button>
+  </form>
+
+  <div id="ocultaQuestionZone"></div>
+
+</div>
+
+<div class="modal-overlay" id="ocultaResultOverlay">
+  <div class="modal-box romandle-result-box" id="ocultaResultBox" role="dialog" aria-modal="true" aria-labelledby="ocultaResultTitle">
+    <button class="modal-close" id="ocultaResultClose" aria-label="Cerrar">✕</button>
+    <div id="ocultaResultContent"></div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="ocultaHelpOverlay">
+  <div class="modal-box" id="ocultaHelpBox" role="dialog" aria-modal="true" aria-labelledby="ocultaHelpTitle">
+    <button class="modal-close" id="ocultaHelpClose" aria-label="Cerrar">✕</button>
+    <h3 id="ocultaHelpTitle">Cómo se juega Silueta Oculta</h3>
+    <div class="modal-body">
+      <p>Tenés que adivinar un <strong>emperador romano</strong> (del Imperio, de Occidente o de Bizancio) en
+      <strong>5 intentos</strong>, escribiendo su nombre en el buscador.</p>
+      <ul class="romandle-help-list">
+        <li><strong>Modo fácil:</strong> ves la silueta negra (aproximada) del retrato, recortada de su fondo.</li>
+        <li><strong>Modo difícil:</strong> ves el retrato real, pero totalmente a oscuras y desenfocado; con cada
+        intento fallido se va aclarando y enfocando un poco más.</li>
+      </ul>
+      <p>En los dos modos, con cada intento fallido también aparecen pistas: primero de qué era es (Imperio,
+      Occidente o Bizancio), y más adelante la inicial de su nombre.</p>
+      <p>Al resolver la silueta (la adivines o no), llegan tres preguntas de opción múltiple sobre ese emperador: en
+      qué período gobernó, cuántos años estuvo en el poder, y cuál de dos mapas corresponde a su territorio (cuando
+      hay un mapa disponible para ese reinado).</p>
+      <p>El emperador del día es el mismo para todos y cambia a la medianoche. Con "Jugar al azar" podés practicar sin
+      límite.</p>
+    </div>
+  </div>
+</div>
+
+<script src="js/datos.js"></script>
+<script src="js/silueta-oculta.js"></script>
+</body>
+</html>

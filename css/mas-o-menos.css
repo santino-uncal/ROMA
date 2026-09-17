@@ -1,0 +1,105 @@
+/* Más o Menos Años: racha de comparar cuántos años reinó cada gobernante */
+
+.masomenos-wrap{ max-width: 640px; }
+
+.mom-scoreboard{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 0 0 18px;
+}
+.mom-score{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.mom-score-label{
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--tinta-suave);
+}
+.mom-score-value{
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--purpura-dark);
+}
+
+.mom-table{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin: 0 0 20px;
+}
+.mom-card{
+  flex: 1 1 0;
+  max-width: 220px;
+  background: var(--pergamino2);
+  border: 1px solid var(--bronce);
+  border-radius: 8px;
+  padding: 14px;
+  text-align: center;
+  transition: background 0.2s, border-color 0.2s;
+}
+.mom-card.correct{ background: #e7efe1; border-color: #44603a; }
+.mom-card.incorrect{ background: #f3e3e6; border-color: var(--purpura-dark); }
+.mom-card-img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--oro);
+  margin: 0 auto 10px;
+  display: block;
+  background: #fbf6ec;
+}
+.mom-card-name{
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 14px;
+  color: var(--tinta);
+  margin: 0 0 4px;
+}
+.mom-card-years{
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--purpura-dark);
+  min-height: 24px;
+}
+.mom-card-years.hidden-years{
+  font-size: 22px;
+  color: var(--bronce-dark);
+}
+
+.mom-vs{
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 13px;
+  color: var(--tinta-suave);
+  flex: 0 0 auto;
+}
+
+.mom-controls{
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 0 10px;
+}
+.mom-guess-btn{
+  min-width: 150px;
+  font-size: 15px;
+  padding: 12px 20px;
+}
+.mom-guess-btn:disabled{ opacity: 0.5; cursor: default; }
+
+@media (max-width: 560px){
+  .mom-table{ gap: 8px; }
+  .mom-card{ padding: 10px; }
+  .mom-card-img{ width: 72px; height: 72px; }
+  .mom-card-name{ font-size: 12px; }
+  .mom-card-years{ font-size: 15px; }
+  .mom-guess-btn{ min-width: 130px; font-size: 13px; padding: 10px 14px; }
+}

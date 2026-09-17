@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Guerra</title>
+<link rel="stylesheet" href="css/estilos.css?v=123">
+<link rel="stylesheet" href="css/romandle.css?v=1">
+<link rel="stylesheet" href="css/silueta.css?v=1">
+<link rel="stylesheet" href="css/guerra.css?v=1">
+</head>
+<body>
+<div class="wrap romandle-wrap silueta-wrap guerra-wrap">
+
+  <header class="romandle-header">
+    <a class="romandle-back" href="index.html">&larr; Volver a la línea de tiempo</a>
+    <h1 class="romandle-title">LA GUERRA</h1>
+    <p class="romandle-subtitle">Una guerra romana según sus participantes. ¿Cuál es, quién gobernaba y cuánto duró?</p>
+    <p class="romandle-subtitle">
+      <a class="romandle-back" href="romandle.html">🎲 Romandle</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="imperator.html">❓ Guess the Imperator</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="grid.html">🔳 Grid Imperial</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="silueta.html">🗺️ Silueta Imperial</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="silueta-oculta.html">🕶️ Silueta Oculta</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="secuencia.html">📜 Secuencia Imperial</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="orbita.html">🪐 Órbita Romana</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="legion.html">🦅 La Legión</a>
+      &nbsp;·&nbsp;
+      <a class="romandle-back" href="mas-o-menos.html">📈 Más o Menos Años</a>
+    </p>
+  </header>
+
+  <div class="romandle-toolbar">
+    <span class="romandle-mode-label" id="guerraModeLabel">Guerra del día</span>
+    <button class="romandle-btn secondary" id="guerraRandomBtn" type="button">🎲 Jugar al azar</button>
+    <button class="romandle-btn secondary" id="guerraHintBtn" type="button">💡 Ayuda</button>
+    <button class="romandle-btn secondary" id="guerraHelpBtn" type="button" aria-haspopup="dialog">❓ Cómo se juega</button>
+  </div>
+
+  <p class="romandle-message" id="guerraMessage" role="status" aria-live="polite"></p>
+
+  <div class="silueta-attempts" id="guerraAttempts"></div>
+
+  <div class="guerra-clue-box">
+    <p class="guerra-clue-label">Participantes</p>
+    <p class="guerra-clue-text" id="guerraParticipantes"></p>
+  </div>
+
+  <div class="silueta-hints" id="guerraHints"></div>
+
+  <form class="romandle-guess-row" id="guerraForm" autocomplete="off">
+    <div class="romandle-input-wrap">
+      <input type="text" id="guerraInput" class="romandle-input" placeholder="Escribí el nombre de la guerra…" autocomplete="off" aria-label="Nombre de la guerra">
+    </div>
+    <button class="romandle-btn" id="guerraSubmitBtn" type="submit">Adivinar</button>
+  </form>
+
+  <div id="guerraQuestionZone"></div>
+
+</div>
+
+<div class="modal-overlay" id="guerraResultOverlay">
+  <div class="modal-box romandle-result-box" id="guerraResultBox" role="dialog" aria-modal="true" aria-labelledby="guerraResultTitle">
+    <button class="modal-close" id="guerraResultClose" aria-label="Cerrar">✕</button>
+    <div id="guerraResultContent"></div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="guerraHelpOverlay">
+  <div class="modal-box" id="guerraHelpBox" role="dialog" aria-modal="true" aria-labelledby="guerraHelpTitle">
+    <button class="modal-close" id="guerraHelpClose" aria-label="Cerrar">✕</button>
+    <h3 id="guerraHelpTitle">Cómo se juega La Guerra</h3>
+    <div class="modal-body">
+      <p>Aparecen los <strong>participantes</strong> de una guerra romana. Tenés <strong>5 intentos</strong> para
+      adivinar de qué guerra se trata, escribiéndolo vos mismo (no hay una lista de nombres para elegir). Si te
+      trabás, "💡 Ayuda" da una pista, hasta <strong>3 veces</strong> por partida.</p>
+      <p>Al resolverse (la adivines o no), se revela el nombre y llegan tres preguntas: qué emperador o
+      emperadores gobernaban durante la guerra (si hubo más de uno, hay que marcarlos <strong>todos</strong>), en
+      qué año empezó y en qué año terminó.</p>
+      <p>La guerra del día es la misma para todos y cambia a la medianoche. Con "Jugar al azar" podés practicar
+      sin límite.</p>
+    </div>
+  </div>
+</div>
+
+<script src="js/datos.js"></script>
+<script src="js/guerra.js"></script>
+</body>
+</html>

@@ -97,6 +97,7 @@
 }
 .grid-result-item strong{ color: var(--purpura-dark); }
 .grid-result-item span{ color: var(--tinta-suave); font-style: italic; }
+.grid-result-fact{ display: inline-block; margin-top: 4px; font-size: 10.5px; color: var(--tinta); font-style: normal !important; }
 
 @media (max-width: 700px){
   .grid-header, .grid-cell{ width: 92px; max-width: 92px; height: 100px; font-size: 10.5px; }
