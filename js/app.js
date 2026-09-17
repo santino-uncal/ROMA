@@ -431,6 +431,52 @@
       document.querySelector('#civilWarsBox summary').textContent = '⚔ Rebeliones y guerras civiles ' + cfg.phrase + ' (' + cfg.range + ')';
     }
     document.body.classList.toggle('byz-theme', era==='bizantino');
+    const paganBtn = document.getElementById('paganBtn');
+    const cruzBtn = document.getElementById('cruzBtn');
+    const adminBtn = document.getElementById('adminBtn');
+    const estandarteBtn = document.getElementById('estandarteBtn');
+    const economiaBtn = document.getElementById('economiaBtn');
+    const politicaBtn = document.getElementById('politicaBtn');
+    if(era==='bizantino'){
+      paganBtn.style.display = 'none';
+      cruzBtn.src = 'assets/img/cruz ortodoxa.png';
+      cruzBtn.alt = 'Cruz ortodoxa — tocar para ver la historia del cristianismo en Roma';
+      adminBtn.alt = 'Edificio de gobierno — tocar para ver la historia de la administración bizantina';
+      estandarteBtn.src = 'assets/img/Ejercito Bizantino.png';
+      estandarteBtn.alt = 'Estandarte del ejército bizantino — tocar para ver la historia del ejército de Bizancio';
+      economiaBtn.alt = 'Moneda y gráfico de crecimiento — tocar para ver la historia de la economía bizantina y sus rutas comerciales';
+      politicaBtn.alt = 'Oradores en atriles con banderas de facción — tocar para ver la historia de la política bizantina';
+      document.getElementById('estandarteModalTitle').textContent = '🦅 El ejército de Bizancio';
+    } else if(era==='occidente'){
+      paganBtn.style.display = '';
+      cruzBtn.src = 'assets/img/cruz.png';
+      cruzBtn.alt = 'Cruz cristiana — tocar para ver la historia del cristianismo en Roma';
+      adminBtn.alt = 'Edificio de gobierno — tocar para ver la historia de la administración del Imperio de Occidente';
+      estandarteBtn.src = 'assets/img/estandarte-occidente.jpg';
+      estandarteBtn.alt = 'Estandarte del Imperio Romano de Occidente — tocar para ver la historia del ejército de Occidente';
+      economiaBtn.alt = 'Moneda y gráfico de crecimiento — tocar para ver la historia de la economía del Imperio de Occidente';
+      politicaBtn.alt = 'Oradores en atriles con banderas de facción — tocar para ver la historia de la política del Imperio de Occidente';
+      document.getElementById('estandarteModalTitle').textContent = '🦅 El ejército de Occidente';
+    } else {
+      paganBtn.style.display = '';
+      cruzBtn.src = 'assets/img/cruz.png';
+      cruzBtn.alt = 'Cruz cristiana — tocar para ver la historia del cristianismo en Roma';
+      adminBtn.alt = 'Edificio de gobierno — tocar para ver la historia de la administración romana';
+      estandarteBtn.src = 'assets/img/Estandarte.png';
+      estandarteBtn.alt = 'Estandarte de la legión romana con el águila de Júpiter — tocar para ver la historia del águila legionaria';
+      economiaBtn.alt = 'Moneda y gráfico de crecimiento — tocar para ver la historia de la economía romana y sus rutas comerciales';
+      politicaBtn.alt = 'Oradores en atriles con banderas de facción — tocar para ver la historia de la política romana';
+      document.getElementById('estandarteModalTitle').textContent = '🦅 El águila de la legión';
+    }
+    document.querySelectorAll('.roman-only').forEach(el=>{
+      el.style.display = (era==='bizantino' || era==='occidente') ? 'none' : '';
+    });
+    document.querySelectorAll('.byz-only').forEach(el=>{
+      el.style.display = (era==='bizantino') ? '' : 'none';
+    });
+    document.querySelectorAll('.occ-only').forEach(el=>{
+      el.style.display = (era==='occidente') ? '' : 'none';
+    });
     renderRail();
     renderCard();
     setTimeout(()=>{
